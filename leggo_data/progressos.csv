@@ -1,0 +1,1095 @@
+casa,id_ext,fase_global,local,data_inicio,data_fim,local_casa,pulou
+camara,2190563,Pré-Construção,,NA,NA,camara,TRUE
+camara,2190563,Construção,Comissões,2019-02-19T16:17:00Z,2019-11-12T10:00:00Z,camara,FALSE
+camara,2190563,Construção,Plenário,NA,NA,camara,FALSE
+camara,2190563,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2190563,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2190563,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2190563,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2190563,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2190563,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2190563,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2190563,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2191516,Pré-Construção,,NA,NA,camara,TRUE
+camara,2191516,Construção,Comissões,2019-03-19T00:00:00Z,2019-10-22T17:13:00Z,camara,FALSE
+camara,2191516,Construção,Plenário,NA,NA,camara,FALSE
+camara,2191516,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2191516,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2191516,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2191516,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2191516,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2191516,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2191516,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2191516,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2190945,Pré-Construção,,NA,NA,camara,TRUE
+camara,2190945,Construção,Comissões,2019-02-20T16:17:00Z,2019-03-08T11:21:00Z,camara,FALSE
+camara,2190945,Construção,Plenário,NA,NA,camara,FALSE
+camara,2190945,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2190945,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2190945,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2190945,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2190945,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2190945,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2190945,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2190945,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2192045,Pré-Construção,,NA,NA,camara,TRUE
+camara,2192045,Construção,Comissões,2019-03-21T17:10:00Z,2019-12-12T10:36:00Z,camara,FALSE
+camara,2192045,Construção,Plenário,NA,NA,camara,FALSE
+camara,2192045,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2192045,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2192045,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2192045,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2192045,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2192045,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2192045,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2192045,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2192260,Pré-Construção,,NA,NA,camara,TRUE
+camara,2192260,Construção,Comissões,NA,NA,camara,TRUE
+camara,2192260,Construção,Plenário,2019-02-14T17:46:00Z,2019-06-05T09:00:00Z,camara,FALSE
+camara,2192260,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2192260,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2192260,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2192260,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2192260,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2192260,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2192260,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2192260,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2192507,Pré-Construção,,NA,NA,camara,TRUE
+camara,2192507,Construção,Comissões,NA,NA,camara,TRUE
+camara,2192507,Construção,Plenário,2019-02-20T15:53:00Z,2019-03-26T12:51:00Z,camara,FALSE
+camara,2192507,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2192507,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2192507,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2192507,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2192507,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2192507,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2192507,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2192507,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2193334,Pré-Construção,,NA,NA,camara,TRUE
+camara,2193334,Construção,Comissões,2019-04-02T00:00:00Z,2019-12-18T00:00:00Z,camara,FALSE
+camara,2193334,Construção,Plenário,NA,NA,camara,FALSE
+camara,2193334,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2193334,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2193334,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2193334,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2193334,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2193334,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2193334,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2193334,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2195320,Pré-Construção,,NA,NA,camara,TRUE
+camara,2195320,Construção,Comissões,2019-04-12T15:50:00Z,2019-10-24T12:35:00Z,camara,FALSE
+camara,2195320,Construção,Plenário,NA,NA,camara,FALSE
+camara,2195320,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2195320,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2195320,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2195320,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2195320,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2195320,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2195320,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2195320,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2195635,Pré-Construção,,NA,NA,camara,TRUE
+camara,2195635,Construção,Comissões,2019-04-12T17:33:00Z,2019-12-10T00:00:00Z,camara,FALSE
+camara,2195635,Construção,Plenário,2019-03-27T14:52:00Z,2019-12-10T00:00:00Z,camara,FALSE
+camara,2195635,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2195635,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2195635,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2195635,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2195635,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2195635,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2195635,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2195635,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2214203,Pré-Construção,,NA,NA,camara,TRUE
+camara,2214203,Construção,Comissões,2019-08-28T00:00:00Z,2019-12-06T00:00:00Z,camara,FALSE
+camara,2214203,Construção,Plenário,NA,NA,camara,FALSE
+camara,2214203,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2214203,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2214203,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2214203,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2214203,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2214203,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2214203,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2214203,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2219094,Pré-Construção,,NA,NA,camara,TRUE
+camara,2219094,Construção,Comissões,2019-10-04T16:20:00Z,2019-12-16T14:00:00Z,camara,FALSE
+camara,2219094,Construção,Plenário,NA,NA,camara,FALSE
+camara,2219094,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2219094,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2219094,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2219094,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2219094,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2219094,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2219094,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2219094,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2224224,Pré-Construção,,NA,NA,camara,TRUE
+camara,2224224,Construção,Comissões,2019-10-18T16:05:00Z,2019-11-21T00:00:00Z,camara,FALSE
+camara,2224224,Construção,Plenário,NA,NA,camara,FALSE
+camara,2224224,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2224224,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2224224,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2224224,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2224224,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2224224,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2224224,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2224224,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2224664,Pré-Construção,,NA,NA,camara,TRUE
+camara,2224664,Construção,Comissões,2019-10-18T16:05:00Z,2019-11-21T00:00:00Z,camara,FALSE
+camara,2224664,Construção,Plenário,NA,NA,camara,FALSE
+camara,2224664,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2224664,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2224664,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2224664,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2224664,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2224664,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2224664,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2224664,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2224581,Pré-Construção,,NA,NA,camara,TRUE
+camara,2224581,Construção,Comissões,2019-10-22T00:00:00Z,2019-12-03T00:00:00Z,camara,FALSE
+camara,2224581,Construção,Plenário,NA,NA,camara,FALSE
+camara,2224581,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2224581,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2224581,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2224581,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2224581,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2224581,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2224581,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2224581,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2226717,Pré-Construção,,NA,NA,camara,TRUE
+camara,2226717,Construção,Comissões,2019-11-06T16:49:00Z,2020-01-07T00:00:00Z,camara,FALSE
+camara,2226717,Construção,Plenário,NA,NA,camara,FALSE
+camara,2226717,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2226717,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2226717,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2226717,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2226717,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2226717,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2226717,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2226717,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2227140,Pré-Construção,,NA,NA,camara,TRUE
+camara,2227140,Construção,Comissões,2019-11-06T17:13:00Z,2020-02-18T16:04:00Z,camara,FALSE
+camara,2227140,Construção,Plenário,NA,NA,camara,FALSE
+camara,2227140,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2227140,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2227140,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2227140,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2227140,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2227140,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2227140,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2227140,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2227211,Pré-Construção,,NA,NA,camara,TRUE
+camara,2227211,Construção,Comissões,2019-11-06T00:00:00Z,2019-11-06T18:04:00Z,camara,FALSE
+camara,2227211,Construção,Plenário,NA,NA,camara,FALSE
+camara,2227211,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2227211,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2227211,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2227211,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2227211,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2227211,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2227211,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2227211,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2227505,Pré-Construção,,NA,NA,camara,TRUE
+camara,2227505,Construção,Comissões,2019-11-18T16:57:00Z,2019-11-18T16:58:00Z,camara,FALSE
+camara,2227505,Construção,Plenário,NA,NA,camara,FALSE
+camara,2227505,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2227505,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2227505,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2227505,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2227505,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2227505,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2227505,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2227505,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2228130,Pré-Construção,,NA,NA,camara,TRUE
+camara,2228130,Construção,Comissões,2019-11-27T00:00:00Z,2019-12-18T18:59:00Z,camara,FALSE
+camara,2228130,Construção,Plenário,NA,NA,camara,FALSE
+camara,2228130,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2228130,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2228130,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2228130,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2228130,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2228130,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2228130,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2228130,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2229725,Pré-Construção,,NA,NA,camara,TRUE
+camara,2229725,Construção,Comissões,2019-11-29T16:23:00Z,2020-01-07T00:00:00Z,camara,FALSE
+camara,2229725,Construção,Plenário,NA,NA,camara,FALSE
+camara,2229725,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2229725,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2229725,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2229725,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2229725,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2229725,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2229725,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2229725,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2229754,Pré-Construção,,NA,NA,camara,TRUE
+camara,2229754,Construção,Comissões,2019-12-03T00:00:00Z,2019-12-03T16:41:00Z,camara,FALSE
+camara,2229754,Construção,Plenário,NA,NA,camara,FALSE
+camara,2229754,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2229754,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2229754,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2229754,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2229754,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2229754,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2229754,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2229754,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2231711,Pré-Construção,,NA,NA,camara,FALSE
+camara,2231711,Construção,Comissões,NA,NA,camara,FALSE
+camara,2231711,Construção,Plenário,NA,NA,camara,FALSE
+camara,2231711,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2231711,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2231711,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2231711,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2231711,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2231711,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2231711,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2231711,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2231774,Pré-Construção,,NA,NA,camara,TRUE
+camara,2231774,Construção,Comissões,2019-12-11T00:00:00Z,2019-12-11T16:40:00Z,camara,FALSE
+camara,2231774,Construção,Plenário,NA,NA,camara,FALSE
+camara,2231774,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2231774,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2231774,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2231774,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2231774,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2231774,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2231774,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2231774,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2232027,Pré-Construção,,NA,NA,camara,TRUE
+camara,2232027,Construção,Comissões,2019-12-11T00:00:00Z,2019-12-11T11:58:00Z,camara,FALSE
+camara,2232027,Construção,Plenário,2019-12-11T11:58:00Z,2019-12-11T16:38:00Z,camara,FALSE
+camara,2232027,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2232027,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2232027,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2232027,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2232027,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2232027,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2232027,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2232027,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2231918,Pré-Construção,,NA,NA,camara,TRUE
+camara,2231918,Construção,Comissões,2019-12-17T00:00:00Z,2019-12-17T16:40:00Z,camara,FALSE
+camara,2231918,Construção,Plenário,NA,NA,camara,FALSE
+camara,2231918,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2231918,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2231918,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2231918,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2231918,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2231918,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2231918,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2231918,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2236765,Pré-Construção,,NA,NA,camara,TRUE
+camara,2236765,Construção,Comissões,NA,NA,camara,TRUE
+camara,2236765,Construção,Plenário,2020-02-06T00:00:00Z,2020-07-09T19:13:00Z,camara,FALSE
+camara,2236765,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2236765,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2236765,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2236765,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2236765,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2236765,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2236765,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2236765,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2237205,Pré-Construção,,NA,NA,camara,FALSE
+camara,2237205,Construção,Comissões,NA,NA,camara,FALSE
+camara,2237205,Construção,Plenário,NA,NA,camara,FALSE
+camara,2237205,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2237205,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2237205,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2237205,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2237205,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2237205,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2237205,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2237205,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2237358,Pré-Construção,,NA,NA,camara,FALSE
+camara,2237358,Construção,Comissões,NA,NA,camara,FALSE
+camara,2237358,Construção,Plenário,NA,NA,camara,FALSE
+camara,2237358,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2237358,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2237358,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2237358,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2237358,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2237358,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2237358,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2237358,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2237789,Pré-Construção,,NA,NA,camara,TRUE
+camara,2237789,Construção,Comissões,2020-03-05T09:34:00Z,NA,camara,FALSE
+camara,2237789,Construção,Plenário,NA,NA,camara,FALSE
+camara,2237789,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2237789,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2237789,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2237789,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2237789,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2237789,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2237789,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2237789,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2237825,Pré-Construção,,NA,NA,camara,FALSE
+camara,2237825,Construção,Comissões,NA,NA,camara,FALSE
+camara,2237825,Construção,Plenário,NA,NA,camara,FALSE
+camara,2237825,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2237825,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2237825,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2237825,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2237825,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2237825,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2237825,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2237825,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2238590,Pré-Construção,,NA,NA,camara,FALSE
+camara,2238590,Construção,Comissões,NA,NA,camara,FALSE
+camara,2238590,Construção,Plenário,NA,NA,camara,FALSE
+camara,2238590,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2238590,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2238590,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2238590,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2238590,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2238590,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2238590,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2238590,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2252113,Pré-Construção,,NA,NA,camara,FALSE
+camara,2252113,Construção,Comissões,NA,NA,camara,FALSE
+camara,2252113,Construção,Plenário,NA,NA,camara,FALSE
+camara,2252113,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2252113,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2252113,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2252113,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2252113,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2252113,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2252113,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2252113,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2259759,Pré-Construção,,NA,NA,camara,TRUE
+camara,2259759,Construção,Comissões,NA,NA,camara,TRUE
+camara,2259759,Construção,Plenário,2020-08-10T11:03:00Z,2020-08-13T00:00:00Z,camara,FALSE
+camara,2259759,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2259759,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2259759,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2259759,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2259759,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2259759,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2259759,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2259759,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2259826,Pré-Construção,,NA,NA,camara,FALSE
+camara,2259826,Construção,Comissões,NA,NA,camara,FALSE
+camara,2259826,Construção,Plenário,NA,NA,camara,FALSE
+camara,2259826,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2259826,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2259826,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2259826,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2259826,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2259826,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2259826,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2259826,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2263264,Pré-Construção,,NA,NA,camara,FALSE
+camara,2263264,Construção,Comissões,NA,NA,camara,FALSE
+camara,2263264,Construção,Plenário,NA,NA,camara,FALSE
+camara,2263264,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2263264,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2263264,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2263264,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2263264,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2263264,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2263264,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2263264,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2263379,Pré-Construção,,NA,NA,camara,FALSE
+camara,2263379,Construção,Comissões,NA,NA,camara,FALSE
+camara,2263379,Construção,Plenário,NA,NA,camara,FALSE
+camara,2263379,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2263379,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2263379,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2263379,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2263379,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2263379,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2263379,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2263379,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2263378,Pré-Construção,,NA,NA,camara,FALSE
+camara,2263378,Construção,Comissões,NA,NA,camara,FALSE
+camara,2263378,Construção,Plenário,NA,NA,camara,FALSE
+camara,2263378,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2263378,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2263378,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2263378,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2263378,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2263378,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2263378,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2263378,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2263447,Pré-Construção,,NA,NA,camara,FALSE
+camara,2263447,Construção,Comissões,NA,NA,camara,FALSE
+camara,2263447,Construção,Plenário,NA,NA,camara,FALSE
+camara,2263447,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2263447,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2263447,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2263447,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2263447,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2263447,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2263447,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2263447,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2263452,Pré-Construção,,NA,NA,camara,FALSE
+camara,2263452,Construção,Comissões,NA,NA,camara,FALSE
+camara,2263452,Construção,Plenário,NA,NA,camara,FALSE
+camara,2263452,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2263452,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2263452,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2263452,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2263452,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2263452,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2263452,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2263452,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2263448,Pré-Construção,,NA,NA,camara,FALSE
+camara,2263448,Construção,Comissões,NA,NA,camara,FALSE
+camara,2263448,Construção,Plenário,NA,NA,camara,FALSE
+camara,2263448,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2263448,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2263448,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2263448,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2263448,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2263448,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2263448,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2263448,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2263453,Pré-Construção,,NA,NA,camara,FALSE
+camara,2263453,Construção,Comissões,NA,NA,camara,FALSE
+camara,2263453,Construção,Plenário,NA,NA,camara,FALSE
+camara,2263453,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2263453,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2263453,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2263453,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2263453,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2263453,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2263453,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2263453,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2263461,Pré-Construção,,NA,NA,camara,FALSE
+camara,2263461,Construção,Comissões,NA,NA,camara,FALSE
+camara,2263461,Construção,Plenário,NA,NA,camara,FALSE
+camara,2263461,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2263461,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2263461,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2263461,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2263461,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2263461,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2263461,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2263461,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2263463,Pré-Construção,,NA,NA,camara,FALSE
+camara,2263463,Construção,Comissões,NA,NA,camara,FALSE
+camara,2263463,Construção,Plenário,NA,NA,camara,FALSE
+camara,2263463,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2263463,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2263463,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2263463,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2263463,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2263463,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2263463,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2263463,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264051,Pré-Construção,,NA,NA,camara,FALSE
+camara,2264051,Construção,Comissões,NA,NA,camara,FALSE
+camara,2264051,Construção,Plenário,NA,NA,camara,FALSE
+camara,2264051,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264051,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2264051,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2264051,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264051,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264051,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264051,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264051,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2263834,Pré-Construção,,NA,NA,camara,FALSE
+camara,2263834,Construção,Comissões,NA,NA,camara,FALSE
+camara,2263834,Construção,Plenário,NA,NA,camara,FALSE
+camara,2263834,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2263834,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2263834,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2263834,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2263834,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2263834,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2263834,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2263834,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2263835,Pré-Construção,,NA,NA,camara,FALSE
+camara,2263835,Construção,Comissões,NA,NA,camara,FALSE
+camara,2263835,Construção,Plenário,NA,NA,camara,FALSE
+camara,2263835,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2263835,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2263835,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2263835,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2263835,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2263835,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2263835,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2263835,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2263836,Pré-Construção,,NA,NA,camara,FALSE
+camara,2263836,Construção,Comissões,NA,NA,camara,FALSE
+camara,2263836,Construção,Plenário,NA,NA,camara,FALSE
+camara,2263836,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2263836,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2263836,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2263836,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2263836,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2263836,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2263836,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2263836,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2263833,Pré-Construção,,NA,NA,camara,FALSE
+camara,2263833,Construção,Comissões,NA,NA,camara,FALSE
+camara,2263833,Construção,Plenário,NA,NA,camara,FALSE
+camara,2263833,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2263833,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2263833,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2263833,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2263833,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2263833,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2263833,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2263833,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264144,Pré-Construção,,NA,NA,camara,TRUE
+camara,2264144,Construção,Comissões,NA,NA,camara,TRUE
+camara,2264144,Construção,Plenário,2020-10-07T16:27:00Z,2020-11-26T00:00:00Z,camara,FALSE
+camara,2264144,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264144,Revisão I,Comissões,NA,NA,senado,FALSE
+camara,2264144,Revisão I,Plenário,NA,NA,senado,FALSE
+camara,2264144,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264144,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264144,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264144,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264144,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264296,Pré-Construção,,NA,NA,camara,FALSE
+camara,2264296,Construção,Comissões,NA,NA,camara,FALSE
+camara,2264296,Construção,Plenário,NA,NA,camara,FALSE
+camara,2264296,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264296,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2264296,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2264296,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264296,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264296,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264296,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264296,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264300,Pré-Construção,,NA,NA,camara,FALSE
+camara,2264300,Construção,Comissões,NA,NA,camara,FALSE
+camara,2264300,Construção,Plenário,NA,NA,camara,FALSE
+camara,2264300,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264300,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2264300,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2264300,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264300,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264300,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264300,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264300,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264310,Pré-Construção,,NA,NA,camara,FALSE
+camara,2264310,Construção,Comissões,NA,NA,camara,FALSE
+camara,2264310,Construção,Plenário,NA,NA,camara,FALSE
+camara,2264310,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264310,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2264310,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2264310,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264310,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264310,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264310,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264310,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264343,Pré-Construção,,NA,NA,camara,FALSE
+camara,2264343,Construção,Comissões,NA,NA,camara,FALSE
+camara,2264343,Construção,Plenário,NA,NA,camara,FALSE
+camara,2264343,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264343,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2264343,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2264343,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264343,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264343,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264343,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264343,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264344,Pré-Construção,,NA,NA,camara,FALSE
+camara,2264344,Construção,Comissões,NA,NA,camara,FALSE
+camara,2264344,Construção,Plenário,NA,NA,camara,FALSE
+camara,2264344,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264344,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2264344,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2264344,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264344,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264344,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264344,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264344,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264342,Pré-Construção,,NA,NA,camara,FALSE
+camara,2264342,Construção,Comissões,NA,NA,camara,FALSE
+camara,2264342,Construção,Plenário,NA,NA,camara,FALSE
+camara,2264342,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264342,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2264342,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2264342,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264342,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264342,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264342,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264342,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264351,Pré-Construção,,NA,NA,camara,FALSE
+camara,2264351,Construção,Comissões,NA,NA,camara,FALSE
+camara,2264351,Construção,Plenário,NA,NA,camara,FALSE
+camara,2264351,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264351,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2264351,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2264351,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264351,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264351,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264351,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264351,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264348,Pré-Construção,,NA,NA,camara,FALSE
+camara,2264348,Construção,Comissões,NA,NA,camara,FALSE
+camara,2264348,Construção,Plenário,NA,NA,camara,FALSE
+camara,2264348,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264348,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2264348,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2264348,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264348,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264348,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264348,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264348,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264354,Pré-Construção,,NA,NA,camara,FALSE
+camara,2264354,Construção,Comissões,NA,NA,camara,FALSE
+camara,2264354,Construção,Plenário,NA,NA,camara,FALSE
+camara,2264354,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264354,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2264354,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2264354,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264354,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264354,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264354,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264354,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264501,Pré-Construção,,NA,NA,camara,FALSE
+camara,2264501,Construção,Comissões,NA,NA,camara,FALSE
+camara,2264501,Construção,Plenário,NA,NA,camara,FALSE
+camara,2264501,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264501,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2264501,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2264501,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264501,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264501,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264501,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264501,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264748,Pré-Construção,,NA,NA,camara,FALSE
+camara,2264748,Construção,Comissões,NA,NA,camara,FALSE
+camara,2264748,Construção,Plenário,NA,NA,camara,FALSE
+camara,2264748,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264748,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2264748,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2264748,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264748,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264748,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264748,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264748,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264650,Pré-Construção,,NA,NA,camara,FALSE
+camara,2264650,Construção,Comissões,NA,NA,camara,FALSE
+camara,2264650,Construção,Plenário,NA,NA,camara,FALSE
+camara,2264650,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264650,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2264650,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2264650,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264650,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264650,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264650,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264650,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264953,Pré-Construção,,NA,NA,camara,FALSE
+camara,2264953,Construção,Comissões,NA,NA,camara,FALSE
+camara,2264953,Construção,Plenário,NA,NA,camara,FALSE
+camara,2264953,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264953,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2264953,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2264953,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264953,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264953,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264953,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264953,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2264954,Pré-Construção,,NA,NA,camara,FALSE
+camara,2264954,Construção,Comissões,NA,NA,camara,FALSE
+camara,2264954,Construção,Plenário,NA,NA,camara,FALSE
+camara,2264954,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2264954,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2264954,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2264954,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2264954,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2264954,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2264954,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2264954,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2265216,Pré-Construção,,NA,NA,camara,FALSE
+camara,2265216,Construção,Comissões,NA,NA,camara,FALSE
+camara,2265216,Construção,Plenário,NA,NA,camara,FALSE
+camara,2265216,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2265216,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2265216,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2265216,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2265216,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2265216,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2265216,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2265216,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,140530,Pré-Construção,,NA,NA,senado,TRUE
+senado,140530,Construção,Comissões,2020-02-06T12:13:19Z,NA,senado,FALSE
+senado,140530,Construção,Plenário,NA,NA,senado,FALSE
+senado,140530,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,140530,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,140530,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,140530,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,140530,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,140530,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,140530,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,140530,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,135332,Pré-Construção,,NA,NA,senado,TRUE
+senado,135332,Construção,Comissões,2019-02-19T16:00:46Z,NA,senado,FALSE
+senado,135332,Construção,Plenário,NA,NA,senado,FALSE
+senado,135332,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,135332,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,135332,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,135332,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,135332,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,135332,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,135332,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,135332,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,135609,Pré-Construção,,NA,NA,senado,TRUE
+senado,135609,Construção,Comissões,2019-03-13T00:00:01Z,2019-08-14T15:46:10Z,senado,FALSE
+senado,135609,Construção,Plenário,2019-08-14T15:46:10Z,NA,senado,FALSE
+senado,135609,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,135609,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,135609,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,135609,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,135609,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,135609,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,135609,Promulgação/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,135609,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,135672,Pré-Construção,,NA,NA,senado,TRUE
+senado,135672,Construção,Comissões,2019-03-13T16:55:42Z,NA,senado,FALSE
+senado,135672,Construção,Plenário,NA,NA,senado,FALSE
+senado,135672,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,135672,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,135672,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,135672,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,135672,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,135672,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,135672,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,135672,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,135648,Pré-Construção,,NA,NA,senado,TRUE
+senado,135648,Construção,Comissões,2019-03-13T15:28:53Z,2019-11-20T00:00:01Z,senado,FALSE
+senado,135648,Construção,Plenário,NA,NA,senado,FALSE
+senado,135648,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,135648,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,135648,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,135648,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,135648,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,135648,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,135648,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,135648,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,135801,Pré-Construção,,NA,NA,senado,TRUE
+senado,135801,Construção,Comissões,2019-03-19T17:43:33Z,NA,senado,FALSE
+senado,135801,Construção,Plenário,NA,NA,senado,FALSE
+senado,135801,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,135801,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,135801,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,135801,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,135801,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,135801,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,135801,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,135801,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,135796,Pré-Construção,,NA,NA,senado,TRUE
+senado,135796,Construção,Comissões,2019-03-19T14:00:53Z,NA,senado,FALSE
+senado,135796,Construção,Plenário,NA,NA,senado,FALSE
+senado,135796,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,135796,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,135796,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,135796,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,135796,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,135796,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,135796,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,135796,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,135799,Pré-Construção,,NA,NA,senado,TRUE
+senado,135799,Construção,Comissões,2019-03-19T17:43:06Z,NA,senado,FALSE
+senado,135799,Construção,Plenário,NA,NA,senado,FALSE
+senado,135799,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,135799,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,135799,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,135799,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,135799,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,135799,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,135799,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,135799,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,135948,Pré-Construção,,NA,NA,senado,TRUE
+senado,135948,Construção,Comissões,2019-03-26T17:39:07Z,NA,senado,FALSE
+senado,135948,Construção,Plenário,NA,NA,senado,FALSE
+senado,135948,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,135948,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,135948,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,135948,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,135948,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,135948,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,135948,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,135948,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,136371,Pré-Construção,,NA,NA,senado,TRUE
+senado,136371,Construção,Comissões,2019-04-17T00:00:01Z,NA,senado,FALSE
+senado,136371,Construção,Plenário,NA,NA,senado,FALSE
+senado,136371,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,136371,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,136371,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,136371,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,136371,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,136371,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,136371,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,136371,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,139705,Pré-Construção,,NA,NA,senado,FALSE
+senado,139705,Construção,Comissões,NA,NA,senado,FALSE
+senado,139705,Construção,Plenário,NA,NA,senado,FALSE
+senado,139705,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,139705,Revisão I,Comissões,NA,NA,senado,FALSE
+senado,139705,Revisão I,Plenário,NA,NA,senado,FALSE
+senado,139705,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,139705,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,139705,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,139705,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,139705,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,137294,Pré-Construção,,NA,NA,senado,TRUE
+senado,137294,Construção,Comissões,2019-06-13T00:00:01Z,NA,senado,FALSE
+senado,137294,Construção,Plenário,NA,NA,senado,FALSE
+senado,137294,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,137294,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,137294,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,137294,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,137294,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,137294,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,137294,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,137294,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,137486,Pré-Construção,,NA,NA,senado,TRUE
+senado,137486,Construção,Comissões,2019-07-03T00:00:00Z,NA,senado,FALSE
+senado,137486,Construção,Plenário,NA,NA,senado,FALSE
+senado,137486,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,137486,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,137486,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,137486,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,137486,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,137486,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,137486,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,137486,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,138725,Pré-Construção,,NA,NA,senado,TRUE
+senado,138725,Construção,Comissões,2019-09-12T15:06:51Z,NA,senado,FALSE
+senado,138725,Construção,Plenário,2019-09-11T00:00:01Z,2020-12-07T22:36:49Z,senado,FALSE
+senado,138725,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,138725,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,138725,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,138725,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,138725,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,138725,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,138725,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,138725,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,138812,Pré-Construção,,NA,NA,senado,TRUE
+senado,138812,Construção,Comissões,2019-09-17T15:42:29Z,NA,senado,FALSE
+senado,138812,Construção,Plenário,NA,NA,senado,FALSE
+senado,138812,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,138812,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,138812,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,138812,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,138812,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,138812,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,138812,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,138812,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,139066,Pré-Construção,,NA,NA,senado,TRUE
+senado,139066,Construção,Comissões,2019-10-02T00:00:01Z,NA,senado,FALSE
+senado,139066,Construção,Plenário,NA,NA,senado,FALSE
+senado,139066,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,139066,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,139066,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,139066,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,139066,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,139066,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,139066,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,139066,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,139054,Pré-Construção,,NA,NA,senado,TRUE
+senado,139054,Construção,Comissões,2019-10-01T16:40:55Z,NA,senado,FALSE
+senado,139054,Construção,Plenário,NA,NA,senado,FALSE
+senado,139054,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,139054,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,139054,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,139054,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,139054,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,139054,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,139054,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,139054,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,139361,Pré-Construção,,NA,NA,senado,TRUE
+senado,139361,Construção,Comissões,2019-10-15T17:13:03Z,NA,senado,FALSE
+senado,139361,Construção,Plenário,NA,NA,senado,FALSE
+senado,139361,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,139361,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,139361,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,139361,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,139361,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,139361,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,139361,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,139361,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,139527,Pré-Construção,,NA,NA,senado,TRUE
+senado,139527,Construção,Comissões,2019-10-23T11:07:17Z,NA,senado,FALSE
+senado,139527,Construção,Plenário,NA,NA,senado,FALSE
+senado,139527,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,139527,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,139527,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,139527,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,139527,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,139527,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,139527,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,139527,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,139657,Pré-Construção,,NA,NA,senado,TRUE
+senado,139657,Construção,Comissões,2019-10-31T00:00:01Z,NA,senado,FALSE
+senado,139657,Construção,Plenário,NA,NA,senado,FALSE
+senado,139657,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,139657,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,139657,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,139657,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,139657,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,139657,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,139657,Promulgação/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,139657,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,139734,Pré-Construção,,NA,NA,senado,FALSE
+senado,139734,Construção,Comissões,NA,NA,senado,FALSE
+senado,139734,Construção,Plenário,NA,NA,senado,FALSE
+senado,139734,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,139734,Revisão I,Comissões,NA,NA,senado,FALSE
+senado,139734,Revisão I,Plenário,NA,NA,senado,FALSE
+senado,139734,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,139734,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,139734,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,139734,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,139734,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,139916,Pré-Construção,,NA,NA,senado,TRUE
+senado,139916,Construção,Comissões,2019-11-25T13:00:33Z,NA,senado,FALSE
+senado,139916,Construção,Plenário,NA,NA,senado,FALSE
+senado,139916,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,139916,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,139916,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,139916,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,139916,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,139916,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,139916,Promulgação/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,139916,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,139917,Pré-Construção,,NA,NA,senado,TRUE
+senado,139917,Construção,Comissões,2019-11-25T13:00:33Z,NA,senado,FALSE
+senado,139917,Construção,Plenário,NA,NA,senado,FALSE
+senado,139917,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,139917,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,139917,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,139917,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,139917,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,139917,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,139917,Promulgação/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,139917,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,140081,Pré-Construção,,NA,NA,senado,TRUE
+senado,140081,Construção,Comissões,2019-12-05T00:00:01Z,NA,senado,FALSE
+senado,140081,Construção,Plenário,NA,NA,senado,FALSE
+senado,140081,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,140081,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,140081,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,140081,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,140081,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,140081,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,140081,Promulgação/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,140081,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,140340,Pré-Construção,,NA,NA,senado,TRUE
+senado,140340,Construção,Comissões,2019-12-20T00:00:01Z,NA,senado,FALSE
+senado,140340,Construção,Plenário,NA,NA,senado,FALSE
+senado,140340,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,140340,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,140340,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,140340,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,140340,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,140340,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,140340,Promulgação/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,140340,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,140343,Pré-Construção,,NA,NA,senado,TRUE
+senado,140343,Construção,Comissões,2020-03-13T00:00:01Z,NA,senado,FALSE
+senado,140343,Construção,Plenário,NA,NA,senado,FALSE
+senado,140343,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,140343,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,140343,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,140343,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,140343,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,140343,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,140343,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,140343,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,143780,Pré-Construção,,NA,NA,senado,FALSE
+senado,143780,Construção,Comissões,NA,NA,senado,FALSE
+senado,143780,Construção,Plenário,NA,NA,senado,FALSE
+senado,143780,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,143780,Revisão I,Comissões,NA,NA,senado,FALSE
+senado,143780,Revisão I,Plenário,NA,NA,senado,FALSE
+senado,143780,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,143780,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,143780,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,143780,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,143780,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,141759,Pré-Construção,,NA,NA,senado,FALSE
+senado,141759,Construção,Comissões,NA,NA,senado,FALSE
+senado,141759,Construção,Plenário,NA,NA,senado,FALSE
+senado,141759,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,141759,Revisão I,Comissões,NA,NA,senado,FALSE
+senado,141759,Revisão I,Plenário,NA,NA,senado,FALSE
+senado,141759,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,141759,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,141759,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,141759,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,141759,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,141973,Pré-Construção,,NA,NA,senado,FALSE
+senado,141973,Construção,Comissões,NA,NA,senado,FALSE
+senado,141973,Construção,Plenário,NA,NA,senado,FALSE
+senado,141973,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,141973,Revisão I,Comissões,NA,NA,senado,FALSE
+senado,141973,Revisão I,Plenário,NA,NA,senado,FALSE
+senado,141973,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,141973,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,141973,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,141973,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,141973,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,143530,Pré-Construção,,NA,NA,senado,FALSE
+senado,143530,Construção,Comissões,NA,NA,senado,FALSE
+senado,143530,Construção,Plenário,NA,NA,senado,FALSE
+senado,143530,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,143530,Revisão I,Comissões,NA,NA,senado,FALSE
+senado,143530,Revisão I,Plenário,NA,NA,senado,FALSE
+senado,143530,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,143530,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,143530,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,143530,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,143530,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,145213,Pré-Construção,,NA,NA,senado,FALSE
+senado,145213,Construção,Comissões,NA,NA,senado,FALSE
+senado,145213,Construção,Plenário,NA,NA,senado,FALSE
+senado,145213,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,145213,Revisão I,Comissões,NA,NA,senado,FALSE
+senado,145213,Revisão I,Plenário,NA,NA,senado,FALSE
+senado,145213,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,145213,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,145213,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,145213,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,145213,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,145544,Pré-Construção,,NA,NA,senado,FALSE
+senado,145544,Construção,Comissões,NA,NA,senado,FALSE
+senado,145544,Construção,Plenário,NA,NA,senado,FALSE
+senado,145544,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,145544,Revisão I,Comissões,NA,NA,senado,FALSE
+senado,145544,Revisão I,Plenário,NA,NA,senado,FALSE
+senado,145544,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,145544,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,145544,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,145544,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,145544,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,145555,Pré-Construção,,NA,NA,senado,TRUE
+senado,145555,Construção,Comissões,NA,NA,senado,TRUE
+senado,145555,Construção,Plenário,2020-12-01T18:57:03Z,NA,senado,FALSE
+senado,145555,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,145555,Revisão I,Comissões,NA,NA,camara,FALSE
+senado,145555,Revisão I,Plenário,NA,NA,camara,FALSE
+senado,145555,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,145555,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,145555,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,145555,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,145555,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,145560,Pré-Construção,,NA,NA,senado,FALSE
+senado,145560,Construção,Comissões,NA,NA,senado,FALSE
+senado,145560,Construção,Plenário,NA,NA,senado,FALSE
+senado,145560,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,145560,Revisão I,Comissões,NA,NA,senado,FALSE
+senado,145560,Revisão I,Plenário,NA,NA,senado,FALSE
+senado,145560,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,145560,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,145560,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,145560,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,145560,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,145626,Pré-Construção,,NA,NA,senado,FALSE
+senado,145626,Construção,Comissões,NA,NA,senado,FALSE
+senado,145626,Construção,Plenário,NA,NA,senado,FALSE
+senado,145626,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,145626,Revisão I,Comissões,NA,NA,senado,FALSE
+senado,145626,Revisão I,Plenário,NA,NA,senado,FALSE
+senado,145626,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,145626,Revisão II,Comissões,NA,NA,senado,FALSE
+senado,145626,Revisão II,Plenário,NA,NA,senado,FALSE
+senado,145626,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,145626,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+senado,139448,Comissão Mista,,2019-10-21T07:11:05Z,2019-12-11T00:00:05Z,,NA
+senado,139448,Câmara dos Deputados,,2019-12-11T00:00:05Z,2020-03-30T00:00:01Z,,NA
+senado,139448,Senado Federal,,2020-03-30T00:00:01Z,NA,,NA
+senado,139448,Câmara dos Deputados - Revisão,,NA,NA,,NA
+senado,139448,Sanção Presidencial/Promulgação,,NA,NA,,NA
