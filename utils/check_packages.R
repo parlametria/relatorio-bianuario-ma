@@ -3,7 +3,7 @@
 #' realiza a instalação e o carrega
 .check_and_load_perfilparlamentar_package <- function() {
   if(!require(perfilparlamentar)){
-    devtools::install_github("parlametria/perfil-parlamentarR@modulo-parlamentares")
+    devtools::install_github("parlametria/perfil-parlamentarR")
   }
   suppressWarnings(suppressMessages(library(perfilparlamentar)))
 }
