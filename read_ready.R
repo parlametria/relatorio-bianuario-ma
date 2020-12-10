@@ -32,8 +32,9 @@ read_autorias_det = function() {
       em_exercicio = col_logical(),
       is_parlamentar = col_logical(),
       governismo = col_double(),
-      assinadas = col_double(),
-      autorias_ponderadas = col_double()
+      assinadas = col_integer(),
+      autorias_ponderadas = col_double(),
+      coautores = col_integer()
     )
   )
 }
