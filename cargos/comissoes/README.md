@@ -4,7 +4,7 @@ As tabelas de comissões possuem informações referentes a Comissões e a compo
 
 Para gerar esta tabela, siga as seguintes etapas:
 
-1. Execute o script que processa os dados de Comissões. Para isto o seguinte comando:
+1. Execute o script que processa os dados de Comissões. Para isto execute o seguinte comando:
 
 ```
 Rscript export_comissoes.R --o <composicao_composicoes_folderpath> 

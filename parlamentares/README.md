@@ -2,7 +2,7 @@
 
 Para gerar a tabela de parlamentares, siga as seguintes etapas:
 
-1. Execute o script que processa os dados dos parlamentares. Para isto **execute do mesmo diretório deste readme** o seguinte comando:
+1. Execute o script que processa os dados dos parlamentares. Para isto execute o seguinte comando:
 
 ```
 Rscript export_parlamentares.R --o <parlamentares_datapath> 
