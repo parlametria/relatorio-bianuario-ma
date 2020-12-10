@@ -28,10 +28,10 @@ opt = parse_args(opt_parser)
 
 saida <- opt$out
 
-message("Baixando dados de parlamentares...")
+message("Baixando dados de parlamentares")
 parlamentares <- fetch_parlamentares()
 
 message(paste0("Salvando o resultado em ", saida))
 write_csv(parlamentares, saida)
 
-message("Concluído!")
+message("Concluído")
