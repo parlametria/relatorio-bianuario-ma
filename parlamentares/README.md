@@ -10,7 +10,7 @@ Rscript export_parlamentares.R --o <parlamentares_datapath>
 
 Com o seguinte argumento:
 
-* `--o <parlamentares_datapath> `: Caminho para o arquivo onde o csv de parlamentares será salvo. O caminho default é "../../data/parlamentares/parlamentares.csv".
+* `--o <parlamentares_datapath> `: Caminho para o arquivo onde o csv de parlamentares será salvo. O caminho default é "../../data/raw/parlamentares/parlamentares.csv".
 
 Se preferir execute com os caminhos de saída default:
 
