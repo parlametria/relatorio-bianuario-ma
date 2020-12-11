@@ -29,8 +29,6 @@ read_autorias_det = function() {
     here::here("data/ready/autorias-detalhes.csv"),
     col_types = cols(
       .default = col_character(),
-      em_exercicio = col_logical(),
-      is_parlamentar = col_logical(),
       governismo = col_double(),
       assinadas = col_integer(),
       autorias_ponderadas = col_double(),
@@ -38,4 +36,3 @@ read_autorias_det = function() {
     )
   )
 }
-
