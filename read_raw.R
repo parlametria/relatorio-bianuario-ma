@@ -41,3 +41,22 @@ read_autorias_raw <- function() {
     )
   )
 }
+
+read_proposicoes_raw <- function(raw_data) {
+  read_csv(
+    here::here(raw_data),
+    col_types = cols(
+      .default = col_character(),
+      data_apresentacao = col_datetime(format = "")
+    )
+  ) %>%
+    filter(sigla_tipo == "PDL") %>%
+    filter(!duplicated(id_leggo)) %>%
+    select(id_leggo,
+           sigla_tipo,
+           numero,
+           ementa,
+           data_apresentacao,
+           casa_origem,
+           status)
+}

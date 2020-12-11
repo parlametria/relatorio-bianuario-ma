@@ -8,22 +8,7 @@ source(here::here("code/read_raw.R"))
 #'
 transform_proposicoes <-
   function(raw_data = "data/leggo_data/proposicoes.csv") {
-    proposicoes = read_csv(
-      here::here(raw_data),
-      col_types = cols(
-        .default = col_character(),
-        data_apresentacao = col_datetime(format = "")
-      )
-    ) %>%
-      filter(sigla_tipo == "PDL") %>%
-      filter(!duplicated(id_leggo)) %>%
-      select(id_leggo,
-             sigla_tipo,
-             numero,
-             ementa,
-             data_apresentacao,
-             casa_origem,
-             status)
+    proposicoes = read_proposicoes_raw(raw_data)
     
     out_props = "data/ready/proposicoes.csv"
     proposicoes %>%  # temos uma linha por casa da proposição
