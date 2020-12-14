@@ -1,0 +1,471 @@
+id_leggo,id_autor_parlametria,id_ext,casa,id_autor,nome_autor,partido,uf,tipo_autor,casa_autor,tipo_generico,sigla_local,peso_total_documentos,num_documentos,is_important,bancada,tipo_acao,governismo,peso_politico
+NA,1204352,2190563,camara,204352,Camilo Capiberibe,PSB,AP,Deputado,camara,Parecer,CMADS,1,1,TRUE,oposição,Outros,-2.0397873596633147,0.190394
+NA,1204530,2190563,camara,204530,Rodrigo Agostinho,PSB,SP,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-0.6602588199704122,0.371306
+NA,1178832,2190945,camara,178832,Leandre,PV,PR,Deputado,camara,Prop. Original / Apensada,CFT,1,1,TRUE,governo,Proposição,1.7472157191099456,0.434067
+NA,1204468,2191516,camara,204468,Joenia Wapichana,REDE,RR,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-1.5636470208392428,0.393445
+NA,1204468,2191516,camara,204468,Joenia Wapichana,REDE,RR,Deputado,camara,Requerimento,NAJUR(SGM),1,1,FALSE,oposição,Proposição,-1.5636470208392428,0.393445
+NA,1204544,2191516,camara,204544,Alexandre Frota,PSDB,SP,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição,1.9223966090740259,0
+NA,174052,2192045,camara,74052,Bosco Costa,PL,SE,Deputado,camara,Parecer,CAPADR,6,6,TRUE,governo,Outros,6.2446576510032585,0.125828
+NA,1204530,2192045,camara,204530,Rodrigo Agostinho,PSB,SP,Deputado,camara,Prop. Original / Apensada,CAPADR,1,1,TRUE,oposição,Proposição,-0.6602588199704122,0.371306
+NA,1160632,2192260,camara,160632,Zé Silva,SOLIDARIEDADE,MG,Deputado,camara,Requerimento,PLEN,1,1,TRUE,governo,Proposição,3.8459001922670453,0.146128
+NA,1178939,2192260,camara,178939,Clarissa Garotinho,PROS,RJ,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição,1.198070253409952,0.189546
+NA,1204479,2192260,camara,204479,Nicoletti,PSL,RR,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição,5.555835744136754,0
+NA,173586,2192260,camara,73586,Júlio Delgado,PSB,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-0.6969136532060869,0.149695
+NA,1160556,2192260,camara,160556,Padre João,PT,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-5.993871778935102,0.206952
+NA,1160632,2192260,camara,160632,Zé Silva,SOLIDARIEDADE,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,governo,Proposição,3.8459001922670453,0.146128
+NA,1204491,2192260,camara,204491,Gilberto Abramo,REPUBLICANOS,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,governo,Proposição,4.960826156086483,0.0695292
+NA,1204508,2192260,camara,204508,Igor Timo,PODE,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,governo,Proposição,3.35004562483968,0
+NA,1204515,2192260,camara,204515,André Janones,AVANTE,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,governo,Proposição,0.16649256187062633,0.0664701
+NA,1204518,2192260,camara,204518,Dr. Frederico,PATRIOTA,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,governo,Proposição,4.776341882807335,0
+NA,1204539,2192260,camara,204539,Hercílio Coelho Diniz,MDB,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,governo,Proposição,4.170716846728201,0.00151721
+NA,1204547,2192260,camara,204547,Léo Motta,PSL,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,governo,Proposição,5.524114562202847,0.320296
+NA,1204472,2192263,camara,204472,José Medeiros,PODE,MT,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,governo,Proposição,6.702244811224038,0.156385
+NA,174075,2192507,camara,74075,Elcione Barbalho,MDB,PA,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição,5.676960946844874,0.159046
+9511c12aa1c6f2247268a1f9f25c4359,1204503,2193076,camara,204503,Alexandre Padilha,PT,SP,Deputado,camara,Prop. Original / Apensada,CAPADR,1,1,TRUE,oposição,Proposição,-6.363329008817578,0.0759877
+NA,1121948,2193334,camara,121948,Adriano Do Baldy,PP,GO,Deputado,camara,Parecer,CDU,2,2,TRUE,governo,Outros,8.306237875616283,0.0675507
+NA,1204524,2193334,camara,204524,Pinheirinho,PP,MG,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição,7.205329176164309,0.0840034
+NA,1204538,2194820,camara,204538,Paulo Bengtson,PTB,PA,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição,4.434598430074143,0.106534
+NA,1204403,2195320,camara,204403,Marlon Santos,PDT,RS,Deputado,camara,Prop. Original / Apensada,CCJC,1,1,TRUE,oposição,Proposição,2.383659207016521,0.115925
+NA,1178933,2195635,camara,178933,Sergio Souza,MDB,PR,Deputado,camara,Parecer,PLEN,4,4,TRUE,governo,Outros,4.983428243503589,0.356023
+NA,1146307,2195635,camara,146307,Neri Geller,PP,MT,Deputado,camara,Emenda,CAPADR,1,1,TRUE,governo,Proposição,7.715121949359688,0.185136
+NA,1146307,2195635,camara,146307,Neri Geller,PP,MT,Deputado,camara,Parecer,CAPADR,1,1,TRUE,governo,Outros,7.715121949359688,0.185136
+NA,1160665,2195635,camara,160665,Augusto Coutinho,SOLIDARIEDADE,PE,Deputado,camara,Emenda,CREDN,1,1,TRUE,governo,Proposição,4.13710522544161,0.461692
+NA,1160665,2195635,camara,160665,Augusto Coutinho,SOLIDARIEDADE,PE,Deputado,camara,Parecer,CREDN,1,1,TRUE,governo,Outros,4.13710522544161,0.461692
+NA,1204439,2195635,camara,204439,Dr. Leonardo,SOLIDARIEDADE,MT,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição,3.4075139350562225,0.0974956
+NA,1204439,2195635,camara,204439,Dr. Leonardo,SOLIDARIEDADE,MT,Deputado,camara,Requerimento,PLEN,1,1,TRUE,governo,Proposição,3.4075139350562225,0.0974956
+6a38b246ad96596e6a94a33eba950454,1141470,2197956,camara,141470,José Guimarães,PT,CE,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-4.682513235690796,0.123442
+6a38b246ad96596e6a94a33eba950454,1178873,2197956,camara,178873,Helder Salomão,PT,ES,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-6.577583260650009,0.392528
+6a38b246ad96596e6a94a33eba950454,1178986,2197956,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-7.04428740843443,0.0759877
+6a38b246ad96596e6a94a33eba950454,1204352,2197956,camara,204352,Camilo Capiberibe,PSB,AP,Deputado,camara,Parecer,CMADS,1,1,TRUE,oposição,Outros,-2.0397873596633147,0.190394
+6a38b246ad96596e6a94a33eba950454,173531,2197956,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-8.758899045135427,0.466379
+6a38b246ad96596e6a94a33eba950454,174784,2197956,camara,74784,Luiza Erundina,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-2.5968772643222104,0.204613
+6a38b246ad96596e6a94a33eba950454,176874,2197956,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-6.618833899367319,0.186297
+6a38b246ad96596e6a94a33eba950454,1134812,2197956,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-6.475673383390708,0.182547
+6a38b246ad96596e6a94a33eba950454,1152605,2197956,camara,152605,Glauber Braga,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-10,0.18716
+6a38b246ad96596e6a94a33eba950454,1204407,2197956,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-6.945186197235214,0.137988
+6a38b246ad96596e6a94a33eba950454,1204464,2197956,camara,204464,Talíria Petrone,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-9.280882638012695,0.118824
+6a38b246ad96596e6a94a33eba950454,1204509,2197956,camara,204509,Áurea Carolina,PSOL,MG,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-8.703365880613536,0.067985
+2d4c562a3fdb14ef5b0fbd4e1718ab21,1178873,2197974,camara,178873,Helder Salomão,PT,ES,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-6.577583260650009,0.392528
+3f7eab720eb21413985b71742fa82228,173531,2198087,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-8.758899045135427,0.466379
+3f7eab720eb21413985b71742fa82228,174784,2198087,camara,74784,Luiza Erundina,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-2.5968772643222104,0.204613
+3f7eab720eb21413985b71742fa82228,176874,2198087,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-6.618833899367319,0.186297
+3f7eab720eb21413985b71742fa82228,1134812,2198087,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-6.475673383390708,0.182547
+3f7eab720eb21413985b71742fa82228,1152605,2198087,camara,152605,Glauber Braga,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-10,0.18716
+3f7eab720eb21413985b71742fa82228,1204407,2198087,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-6.945186197235214,0.137988
+3f7eab720eb21413985b71742fa82228,1204464,2198087,camara,204464,Talíria Petrone,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-9.280882638012695,0.118824
+3f7eab720eb21413985b71742fa82228,1204509,2198087,camara,204509,Áurea Carolina,PSOL,MG,Deputado,camara,Prop. Original / Apensada,CMADS,0.125,1,TRUE,oposição,Proposição,-8.703365880613536,0.067985
+234f33c2f5d2cd76d8dec24b3572a36d,1178986,2198142,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-7.04428740843443,0.0759877
+c7579353cc58eebc84297830213b2383,1141470,2198168,camara,141470,José Guimarães,PT,CE,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-4.682513235690796,0.123442
+3bc9b55d6083754826999a7e15ff5344,1204488,2198338,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,governo,Proposição,-0.43727079680068215,0.132213
+20aaae99e85511347544d52ca26928d6,1204495,2200572,camara,204495,Airton Faleiro,PT,PA,Deputado,camara,Prop. Original / Apensada,CCJC,2,2,TRUE,oposição,Proposição,-4.030542436796088,0.0812222
+20aaae99e85511347544d52ca26928d6,1160511,2200572,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Prop. Original / Apensada,CCJC,1,1,TRUE,oposição,Proposição,-2.319632427878327,0.444478
+20aaae99e85511347544d52ca26928d6,1204483,2200572,camara,204483,Vilson Da Fetaemg,PSB,MG,Deputado,camara,Prop. Original / Apensada,CCJC,1,1,TRUE,oposição,Proposição,-1.9297076206999346,0.047908
+4c8eea5dbb0232a3b28c1cfc4464ffc5,1204495,2202983,camara,204495,Airton Faleiro,PT,PA,Deputado,camara,Prop. Original / Apensada,CCJC,1,1,TRUE,oposição,Proposição,-4.030542436796088,0.0812222
+ca0402c3cf999f747dfafae362de9141,1204495,2203903,camara,204495,Airton Faleiro,PT,PA,Deputado,camara,Prop. Original / Apensada,CCJC,1,1,TRUE,oposição,Proposição,-4.030542436796088,0.0812222
+728e3259f5fc67358b5af336cf70c81e,1160655,2204041,camara,160655,Ricardo Izar,PP,SP,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,governo,Proposição,3.14542802990867,0.110637
+1936af28823a0817e771380dfacce78d,1160575,2204564,camara,160575,Erika Kokay,PT,DF,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-4.8796638271854516,0.204777
+787b90cdbc371525728eb762d5eef6b4,1160511,2205373,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-2.319632427878327,0.444478
+502981994eea39cc5219deed51de3b53,1204468,2205388,camara,204468,Joenia Wapichana,REDE,RR,Deputado,camara,Parecer,CMADS,3,3,TRUE,oposição,Outros,-1.5636470208392428,0.393445
+502981994eea39cc5219deed51de3b53,173531,2205388,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-8.758899045135427,0.466379
+502981994eea39cc5219deed51de3b53,174848,2205388,camara,74848,Jandira Feghali,PCdoB,RJ,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-1.574687625853926,0.547176
+502981994eea39cc5219deed51de3b53,1141470,2205388,camara,141470,José Guimarães,PT,CE,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-4.682513235690796,0.123442
+502981994eea39cc5219deed51de3b53,1160511,2205388,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-2.319632427878327,0.444478
+502981994eea39cc5219deed51de3b53,1204488,2205388,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,governo,Proposição,-0.43727079680068215,0.132213
+502981994eea39cc5219deed51de3b53,1204517,2205388,camara,204517,Zé Vitor,PL,MG,Deputado,camara,Voto em Separado,CMADS,1,1,TRUE,governo,Recurso,4.418477544709386,0
+502981994eea39cc5219deed51de3b53,1204530,2205388,camara,204530,Rodrigo Agostinho,PSB,SP,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-0.6602588199704122,0.371306
+502981994eea39cc5219deed51de3b53,174156,2205388,camara,74156,Leonardo Monteiro,PT,MG,Deputado,camara,Prop. Original / Apensada,CMADS,0.3333333333333333,1,TRUE,oposição,Proposição,-3.2071324900801743,0.41458
+502981994eea39cc5219deed51de3b53,174400,2205388,camara,74400,Paulo Pimenta,PT,RS,Deputado,camara,Prop. Original / Apensada,CMADS,0.3333333333333333,1,TRUE,oposição,Proposição,-5.4065349040440065,0.414737
+502981994eea39cc5219deed51de3b53,1178986,2205388,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,CMADS,0.3333333333333333,1,TRUE,oposição,Proposição,-7.04428740843443,0.0759877
+d86aa2eb6e79f844c0e3b9719c75a062,1204488,2205479,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,governo,Proposição,-0.43727079680068215,0.132213
+NA,1141508,2205527,camara,141508,Mauro Nazif,PSB,RO,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-1.1866029558478477,0.125984
+NA,1141508,2205527,camara,141508,Mauro Nazif,PSB,RO,Deputado,camara,Requerimento,CCP,1,1,FALSE,oposição,Proposição,-1.1866029558478477,0.125984
+b04a0b2cba942b72902e03a7c1ff457c,1204530,2205541,camara,204530,Rodrigo Agostinho,PSB,SP,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-0.6602588199704122,0.371306
+22aa18f33a3fff84340a32a1ad07b221,174848,2205754,camara,74848,Jandira Feghali,PCdoB,RJ,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-1.574687625853926,0.547176
+558afde1d19415eca8b1cdae6e641693,174156,2205833,camara,74156,Leonardo Monteiro,PT,MG,Deputado,camara,Prop. Original / Apensada,CMADS,0.3333333333333333,1,TRUE,oposição,Proposição,-3.2071324900801743,0.41458
+558afde1d19415eca8b1cdae6e641693,174400,2205833,camara,74400,Paulo Pimenta,PT,RS,Deputado,camara,Prop. Original / Apensada,CMADS,0.3333333333333333,1,TRUE,oposição,Proposição,-5.4065349040440065,0.414737
+558afde1d19415eca8b1cdae6e641693,1178986,2205833,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,CMADS,0.3333333333333333,1,TRUE,oposição,Proposição,-7.04428740843443,0.0759877
+1a1991f77234dbae849873b31df0919d,1141470,2206105,camara,141470,José Guimarães,PT,CE,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-4.682513235690796,0.123442
+NA,1204572,2214203,camara,204572,Capitão Alberto Neto,REPUBLICANOS,AM,Deputado,camara,Parecer,PLEN,2,2,TRUE,governo,Outros,5.209659962931161,0
+NA,174356,2214203,camara,74356,Silas Câmara,REPUBLICANOS,AM,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição,4.2712500775885935,0.365028
+NA,1204360,2214203,camara,204360,Silvia Cristina,PDT,RO,Deputado,camara,Parecer,CAPADR,1,1,TRUE,oposição,Outros,0.389882290490986,0.0702348
+NA,1141470,2218177,camara,141470,José Guimarães,PT,CE,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,-4.682513235690796,0.123442
+NA,1141470,2218177,camara,141470,José Guimarães,PT,CE,Deputado,camara,Requerimento,CCP,1,1,FALSE,oposição,Proposição,-4.682513235690796,0.123442
+NA,1160535,2218243,camara,160535,Marcon,PT,RS,Deputado,camara,Prop. Original / Apensada,CAPADR,1,1,TRUE,oposição,Proposição,-4.260818134154097,0.136621
+NA,1160535,2218244,camara,160535,Marcon,PT,RS,Deputado,camara,Prop. Original / Apensada,CAPADR,1,1,TRUE,oposição,Proposição,-4.260818134154097,0.136621
+NA,1141523,2219094,camara,141523,Raul Henry,MDB,PE,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,governo,Proposição,4.006824879000899,0.0943247
+NA,1204468,2219094,camara,204468,Joenia Wapichana,REDE,RR,Deputado,camara,Parecer,CMADS,1,1,TRUE,oposição,Outros,-1.5636470208392428,0.393445
+9ca5de5742dc7d9b0a3a2642ab18ee6e,1160556,2219656,camara,160556,Padre João,PT,MG,Deputado,camara,Prop. Original / Apensada,CAPADR,1,1,TRUE,oposição,Proposição,-5.993871778935102,0.206952
+9ca5de5742dc7d9b0a3a2642ab18ee6e,1204395,2219656,camara,204395,Pedro Lupion,DEM,PR,Deputado,camara,Parecer,CAPADR,1,1,TRUE,governo,Outros,6.526836350298357,0.0875872
+NA,1109429,2220973,camara,109429,Benes Leocádio,REPUBLICANOS,RN,Deputado,camara,Prop. Original / Apensada,CCJC,1,1,TRUE,governo,Proposição,4.871357872228785,0.135582
+NA,1204463,2220973,camara,204463,Wladimir Garotinho,PSD,RJ,Deputado,camara,Parecer,CME,1,1,TRUE,governo,Outros,3.2044771653133974,0
+d6f2efe0b9a93f4f74332a982a090e09,173531,2221765,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-8.758899045135427,0.466379
+d6f2efe0b9a93f4f74332a982a090e09,1204393,2221765,camara,204393,Frei Anastacio Ribeiro,PT,PB,Deputado,camara,Parecer,CMADS,1,1,TRUE,oposição,Outros,-4.390957955735883,0.101086
+NA,1204566,2224224,camara,204566,Marreca Filho,PATRIOTA,MA,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,governo,Proposição,4.189078414746314,0
+NA,1204530,2224581,camara,204530,Rodrigo Agostinho,PSB,SP,Deputado,camara,Prop. Original / Apensada,CDEICS,0.5,1,TRUE,oposição,Proposição,-0.6602588199704122,0.371306
+NA,1204543,2224581,camara,204543,Luiz Flávio Gomes,PSB,SP,Deputado,camara,Prop. Original / Apensada,CDEICS,0.5,1,TRUE,oposição,Proposição,-0.6424047927317389,0
+NA,1204468,2224664,camara,204468,Joenia Wapichana,REDE,RR,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-1.5636470208392428,0.393445
+NA,1204573,2226717,camara,204573,Otto Alencar Filho,PSD,BA,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,governo,Proposição,2.3142807007366013,0.0613553
+NA,172442,2227140,camara,72442,Felipe Carreras,PSB,PE,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,0.716365571124463,0.105811
+NA,1141470,2227140,camara,141470,José Guimarães,PT,CE,Deputado,camara,Prop. Original / Apensada,CME,1,1,TRUE,oposição,Proposição,-4.682513235690796,0.123442
+NA,1178970,2227140,camara,178970,João Daniel,PT,SE,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,-4.6726245652190945,0.0891897
+NA,1178986,2227211,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,CINDRA,1,1,TRUE,oposição,Proposição,-7.04428740843443,0.0759877
+NA,1204572,2227505,camara,204572,Capitão Alberto Neto,REPUBLICANOS,AM,Deputado,camara,Prop. Original / Apensada,CINDRA,1,1,TRUE,governo,Proposição,5.209659962931161,0
+NA,1178908,2228130,camara,178908,Delegado Éder Mauro,PSD,PA,Deputado,camara,Prop. Original / Apensada,CME,1,1,TRUE,governo,Proposição,6.664844431197842,0.0690726
+a8171713efe896f451c6f2c8729d2683,1134812,2228776,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,-6.475673383390708,0.182547
+a8171713efe896f451c6f2c8729d2683,1160511,2228776,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Prop. Original / Apensada,CAPADR,1,1,TRUE,oposição,Proposição,-2.319632427878327,0.444478
+a8171713efe896f451c6f2c8729d2683,1178986,2228776,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+a8171713efe896f451c6f2c8729d2683,1204383,2228776,camara,204383,Professor Israel Batista,PV,DF,Deputado,camara,Prop. Original / Apensada,MESA,0.6666666666666666,2,FALSE,governo,Proposição,-0.4877330730596583,0.116009
+a8171713efe896f451c6f2c8729d2683,1204383,2228776,camara,204383,Professor Israel Batista,PV,DF,Deputado,camara,Requerimento,MESA,0.6666666666666666,2,FALSE,governo,Proposição,-0.4877330730596583,0.116009
+a8171713efe896f451c6f2c8729d2683,1204488,2228776,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,MESA,0.5,1,FALSE,governo,Proposição,-0.43727079680068215,0.132213
+a8171713efe896f451c6f2c8729d2683,1204488,2228776,camara,204488,Célio Studart,PV,CE,Deputado,camara,Requerimento,MESA,0.5,1,FALSE,governo,Proposição,-0.43727079680068215,0.132213
+a8171713efe896f451c6f2c8729d2683,1141488,2228776,camara,141488,Paulo Teixeira,PT,SP,Deputado,camara,Prop. Original / Apensada,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-6.078977424139842,0.145517
+a8171713efe896f451c6f2c8729d2683,1141488,2228776,camara,141488,Paulo Teixeira,PT,SP,Deputado,camara,Requerimento,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-6.078977424139842,0.145517
+a8171713efe896f451c6f2c8729d2683,1157130,2228776,camara,157130,Túlio Gadêlha,PDT,PE,Deputado,camara,Prop. Original / Apensada,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-1.7347428588596117,0.0682329
+a8171713efe896f451c6f2c8729d2683,1157130,2228776,camara,157130,Túlio Gadêlha,PDT,PE,Deputado,camara,Requerimento,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-1.7347428588596117,0.0682329
+a8171713efe896f451c6f2c8729d2683,1178986,2228776,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+a8171713efe896f451c6f2c8729d2683,1178986,2228776,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Requerimento,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+a8171713efe896f451c6f2c8729d2683,1204370,2228776,camara,204370,Célio Moura,PT,TO,Deputado,camara,Prop. Original / Apensada,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-3.874477464223572,0.0645268
+a8171713efe896f451c6f2c8729d2683,1204370,2228776,camara,204370,Célio Moura,PT,TO,Deputado,camara,Requerimento,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-3.874477464223572,0.0645268
+a8171713efe896f451c6f2c8729d2683,1204480,2228776,camara,204480,Rogério Correia,PT,MG,Deputado,camara,Prop. Original / Apensada,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-8.551519378973175,0.107861
+a8171713efe896f451c6f2c8729d2683,1204480,2228776,camara,204480,Rogério Correia,PT,MG,Deputado,camara,Requerimento,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-8.551519378973175,0.107861
+a8171713efe896f451c6f2c8729d2683,173943,2228776,camara,73943,Perpétua Almeida,PCdoB,AC,Deputado,camara,Requerimento,COAPP(SGM),0.125,1,FALSE,oposição,Proposição,-1.5449122492133949,0.172894
+a8171713efe896f451c6f2c8729d2683,174439,2228776,camara,74439,Wolney Queiroz,PDT,PE,Deputado,camara,Requerimento,COAPP(SGM),0.125,1,FALSE,oposição,Proposição,-1.1459387203211886,0.183231
+a8171713efe896f451c6f2c8729d2683,1132504,2228776,camara,132504,Enio Verri,PT,PR,Deputado,camara,Requerimento,COAPP(SGM),0.125,1,FALSE,oposição,Proposição,-5.737492048680034,0.105363
+a8171713efe896f451c6f2c8729d2683,1160511,2228776,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Requerimento,COAPP(SGM),0.125,1,FALSE,oposição,Proposição,-2.319632427878327,0.444478
+a8171713efe896f451c6f2c8729d2683,1160541,2228776,camara,160541,Arthur Lira,PP,AL,Deputado,camara,Requerimento,COAPP(SGM),0.125,1,FALSE,governo,Proposição,6.457892034422603,0.41205
+a8171713efe896f451c6f2c8729d2683,1160575,2228776,camara,160575,Erika Kokay,PT,DF,Deputado,camara,Requerimento,COAPP(SGM),0.125,1,FALSE,oposição,Proposição,-4.8796638271854516,0.204777
+a8171713efe896f451c6f2c8729d2683,1178857,2228776,camara,178857,Jorge Solla,PT,BA,Deputado,camara,Requerimento,COAPP(SGM),0.125,1,FALSE,oposição,Proposição,-5.766272060665814,0.0650662
+a8171713efe896f451c6f2c8729d2683,1204535,2228776,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Requerimento,COAPP(SGM),0.125,1,FALSE,oposição,Proposição,-5.2750668607101865,0.0888473
+d4faeba0011faa69ab56039b36ee16fa,1178986,2228840,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+150d97a9d33b8b7eac9796179c325721,1134812,2229137,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,-6.475673383390708,0.182547
+NA,1160531,2229142,camara,160531,Jhonatan De Jesus,REPUBLICANOS,RR,Deputado,camara,Requerimento,PLEN,1,1,TRUE,governo,Proposição,5.4000426958110115,0.312882
+NA,1204495,2229142,camara,204495,Airton Faleiro,PT,PA,Deputado,camara,Emenda,PLEN,1,1,TRUE,oposição,Proposição,-4.030542436796088,0.0812222
+NA,1204556,2229142,camara,204556,Marcelo Ramos,PL,AM,Deputado,camara,Parecer,PLEN,1,1,TRUE,governo,Outros,6.592294124359178,0.0885212
+4cbe7d4e6fb481207dd9529dde0ae6f8,1204383,2229475,camara,204383,Professor Israel Batista,PV,DF,Deputado,camara,Prop. Original / Apensada,MESA,0.5,1,FALSE,governo,Proposição,-0.4877330730596583,0.116009
+4cbe7d4e6fb481207dd9529dde0ae6f8,1204383,2229475,camara,204383,Professor Israel Batista,PV,DF,Deputado,camara,Requerimento,MESA,0.5,1,FALSE,governo,Proposição,-0.4877330730596583,0.116009
+4cbe7d4e6fb481207dd9529dde0ae6f8,1204488,2229475,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,MESA,0.5,1,FALSE,governo,Proposição,-0.43727079680068215,0.132213
+4cbe7d4e6fb481207dd9529dde0ae6f8,1204488,2229475,camara,204488,Célio Studart,PV,CE,Deputado,camara,Requerimento,MESA,0.5,1,FALSE,governo,Proposição,-0.43727079680068215,0.132213
+NA,1204471,2229754,camara,204471,Mara Rocha,PSDB,AC,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição,2.7854832260037448,0.0450553
+617bfc397871ddac7a06400c51e43b50,1160511,2230192,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Prop. Original / Apensada,CAPADR,1,1,TRUE,oposição,Proposição,-2.319632427878327,0.444478
+4fc4df4b9dfd1736231dea9a6f35acf7,1204483,2230633,camara,204483,Vilson Da Fetaemg,PSB,MG,Deputado,camara,Prop. Original / Apensada,CCJC,1,1,TRUE,oposição,Proposição,-1.9297076206999346,0.047908
+NA,1204567,2231622,camara,204567,Raimundo Costa,PL,BA,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição,5.182029256797902,0.0521469
+ea2f2a742e6a30b9ef3476eb883cee96,1204495,2231711,camara,204495,Airton Faleiro,PT,PA,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,-4.030542436796088,0.0812222
+546a5b42da946d846c760f4c12de5316,1141470,2231771,camara,141470,José Guimarães,PT,CE,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-4.682513235690796,0.123442
+546a5b42da946d846c760f4c12de5316,1204561,2231771,camara,204561,Bira Do Pindaré,PSB,MA,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,-2.3571877716382303,0.0937114
+546a5b42da946d846c760f4c12de5316,173531,2231771,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-8.758899045135427,0.466379
+546a5b42da946d846c760f4c12de5316,174784,2231771,camara,74784,Luiza Erundina,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-2.5968772643222104,0.204613
+546a5b42da946d846c760f4c12de5316,176874,2231771,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-6.618833899367319,0.186297
+546a5b42da946d846c760f4c12de5316,1134812,2231771,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-6.475673383390708,0.182547
+546a5b42da946d846c760f4c12de5316,1152605,2231771,camara,152605,Glauber Braga,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-10,0.18716
+546a5b42da946d846c760f4c12de5316,1204407,2231771,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-6.945186197235214,0.137988
+546a5b42da946d846c760f4c12de5316,1204464,2231771,camara,204464,Talíria Petrone,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-9.280882638012695,0.118824
+546a5b42da946d846c760f4c12de5316,1204509,2231771,camara,204509,Áurea Carolina,PSOL,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-8.703365880613536,0.067985
+546a5b42da946d846c760f4c12de5316,1204535,2231771,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-5.2750668607101865,0.0888473
+546a5b42da946d846c760f4c12de5316,1205548,2231771,camara,205548,David Miranda,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-5.245995552196576,0.0785702
+NA,1204500,2231774,camara,204500,Eduardo Costa,PTB,PA,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição,3.968555999628663,0.101871
+NA,1178984,2232027,camara,178984,Miguel Haddad,PSDB,SP,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição,3.7690757001197444,0.205513
+d981938d42422df64b07ed0652cee63a,173531,2233449,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-8.758899045135427,0.466379
+d981938d42422df64b07ed0652cee63a,174784,2233449,camara,74784,Luiza Erundina,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-2.5968772643222104,0.204613
+d981938d42422df64b07ed0652cee63a,176874,2233449,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-6.618833899367319,0.186297
+d981938d42422df64b07ed0652cee63a,1134812,2233449,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-6.475673383390708,0.182547
+d981938d42422df64b07ed0652cee63a,1152605,2233449,camara,152605,Glauber Braga,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-10,0.18716
+d981938d42422df64b07ed0652cee63a,1204407,2233449,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-6.945186197235214,0.137988
+d981938d42422df64b07ed0652cee63a,1204464,2233449,camara,204464,Talíria Petrone,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-9.280882638012695,0.118824
+d981938d42422df64b07ed0652cee63a,1204509,2233449,camara,204509,Áurea Carolina,PSOL,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-8.703365880613536,0.067985
+d981938d42422df64b07ed0652cee63a,1204535,2233449,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-5.2750668607101865,0.0888473
+d981938d42422df64b07ed0652cee63a,1205548,2233449,camara,205548,David Miranda,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-5.245995552196576,0.0785702
+2fc709eaeb4ca650831bcc8406990582,1204561,2234294,camara,204561,Bira Do Pindaré,PSB,MA,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,-2.3571877716382303,0.0937114
+28a9ff8ecab1eed465c1d2355925ece4,174848,2236761,camara,74848,Jandira Feghali,PCdoB,RJ,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-1.574687625853926,0.547176
+28a9ff8ecab1eed465c1d2355925ece4,1204407,2236761,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-6.945186197235214,0.137988
+28a9ff8ecab1eed465c1d2355925ece4,1204488,2236761,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,governo,Proposição,-0.43727079680068215,0.132213
+28a9ff8ecab1eed465c1d2355925ece4,1204530,2236761,camara,204530,Rodrigo Agostinho,PSB,SP,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-0.6602588199704122,0.371306
+28a9ff8ecab1eed465c1d2355925ece4,1204534,2236761,camara,204534,Tabata Amaral,PDT,SP,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,0.13268069538656846,0.0445929
+NA,1204427,2236765,camara,204427,Fernando Rodolfo,PL,PE,Deputado,camara,Requerimento,PLEN,1,1,TRUE,governo,Proposição,3.652887983024801,0.0834351
+04c04c3ee0b61e9f7a4564025c3f0b85,1204530,2236840,camara,204530,Rodrigo Agostinho,PSB,SP,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-0.6602588199704122,0.371306
+7e43c009872e194c5b1221e32cc4aa20,1204534,2236893,camara,204534,Tabata Amaral,PDT,SP,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,0.13268069538656846,0.0445929
+96ebf5c6575064cc6476badcff1bc70b,174158,2236896,camara,74158,Mário Heringer,PDT,MG,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-0.49073319721661335,0.519252
+96ebf5c6575064cc6476badcff1bc70b,1178986,2236896,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-7.04428740843443,0.0759877
+96ebf5c6575064cc6476badcff1bc70b,1204488,2236896,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,governo,Proposição,-0.43727079680068215,0.132213
+96ebf5c6575064cc6476badcff1bc70b,1204530,2236896,camara,204530,Rodrigo Agostinho,PSB,SP,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-0.6602588199704122,0.371306
+7c60c15853aef3104b97293007c5d07e,1204407,2236932,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-6.945186197235214,0.137988
+01ea98edfa16ee97ada6ca6056a75f0a,1204488,2236958,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,governo,Proposição,-0.43727079680068215,0.132213
+d483992b49eecf0734b983ede7367cf5,1204488,2236959,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,governo,Proposição,-0.43727079680068215,0.132213
+e2e1e3b8a1599732f86dacbf1ab4226c,174848,2237177,camara,74848,Jandira Feghali,PCdoB,RJ,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-1.574687625853926,0.547176
+70ba0f482c74bc05d63770b56832a2d6,174158,2237192,camara,74158,Mário Heringer,PDT,MG,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-0.49073319721661335,0.519252
+a4a3f5be1fb8872820020a9167fe20a1,1141470,2237205,camara,141470,José Guimarães,PT,CE,Deputado,camara,Prop. Original / Apensada,CINDRA,1,1,TRUE,oposição,Proposição,-4.682513235690796,0.123442
+a4a3f5be1fb8872820020a9167fe20a1,1204488,2237205,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,CINDRA,1,1,TRUE,governo,Proposição,-0.43727079680068215,0.132213
+a4a3f5be1fb8872820020a9167fe20a1,1204495,2237205,camara,204495,Airton Faleiro,PT,PA,Deputado,camara,Prop. Original / Apensada,CINDRA,0.5,1,TRUE,oposição,Proposição,-4.030542436796088,0.0812222
+a4a3f5be1fb8872820020a9167fe20a1,1204555,2237205,camara,204555,José Ricardo,PT,AM,Deputado,camara,Prop. Original / Apensada,CINDRA,0.5,1,TRUE,oposição,Proposição,-5.055618652625956,0.102001
+69ce86e60371e2a75e38223f04517519,1204495,2237358,camara,204495,Airton Faleiro,PT,PA,Deputado,camara,Prop. Original / Apensada,CINDRA,0.5,1,TRUE,oposição,Proposição,-4.030542436796088,0.0812222
+69ce86e60371e2a75e38223f04517519,1204555,2237358,camara,204555,José Ricardo,PT,AM,Deputado,camara,Prop. Original / Apensada,CINDRA,0.5,1,TRUE,oposição,Proposição,-5.055618652625956,0.102001
+a6f79d5a7f40a92a8dfcb36ac32b8937,1204488,2237764,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,CFT,1,1,TRUE,governo,Proposição,-0.43727079680068215,0.132213
+c85f1dfeeebb0ebb62ab7f1650d3250a,1178986,2237766,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,CMADS,1,1,TRUE,oposição,Proposição,-7.04428740843443,0.0759877
+NA,1204499,2237789,camara,204499,Cássio Andrade,PSB,PA,Deputado,camara,Prop. Original / Apensada,CINDRA,1,1,TRUE,oposição,Proposição,0.16776191500351523,0.13684
+ca11450eb2f242734de96fc04388dac1,1141470,2237825,camara,141470,José Guimarães,PT,CE,Deputado,camara,Prop. Original / Apensada,CINDRA,1,1,TRUE,oposição,Proposição,-4.682513235690796,0.123442
+3d9ecda7fc40bfcde242f04dcea20568,1178873,2238163,camara,178873,Helder Salomão,PT,ES,Deputado,camara,Prop. Original / Apensada,CAPADR,1,1,TRUE,oposição,Proposição,-6.577583260650009,0.392528
+3d9ecda7fc40bfcde242f04dcea20568,1204407,2238163,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Prop. Original / Apensada,CAPADR,1,1,TRUE,oposição,Proposição,-6.945186197235214,0.137988
+48cca1329977c5db416a1dc116da638a,1178873,2238417,camara,178873,Helder Salomão,PT,ES,Deputado,camara,Prop. Original / Apensada,CAPADR,1,1,TRUE,oposição,Proposição,-6.577583260650009,0.392528
+NA,1204572,2238590,camara,204572,Capitão Alberto Neto,REPUBLICANOS,AM,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,5.209659962931161,0
+a7d63882b21f262c4aefdca4c9298b20,172442,2238675,camara,72442,Felipe Carreras,PSB,PE,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,0.716365571124463,0.105811
+287f4852b0ce051c6783429ed4060dd8,1204495,2241699,camara,204495,Airton Faleiro,PT,PA,Deputado,camara,Prop. Original / Apensada,MESA,0.5,1,FALSE,oposição,Proposição,-4.030542436796088,0.0812222
+287f4852b0ce051c6783429ed4060dd8,1204555,2241699,camara,204555,José Ricardo,PT,AM,Deputado,camara,Prop. Original / Apensada,MESA,0.5,1,FALSE,oposição,Proposição,-5.055618652625956,0.102001
+b663e98d91ebbd27f109830aefc9ac41,174160,2249957,camara,74160,Patrus Ananias,PT,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.5,1,FALSE,oposição,Proposição,-4.92974346526362,0.105135
+b663e98d91ebbd27f109830aefc9ac41,1178986,2249957,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.5,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+274a7798ff43d2699b1b9c5d3b34ee9d,1160511,2250646,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-2.319632427878327,0.444478
+e78aab05a10d710886691c8ff19f81e4,1204555,2250702,camara,204555,José Ricardo,PT,AM,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-5.055618652625956,0.102001
+529c280eae5cf7593df4bb05f40ca70d,1198197,2252052,camara,198197,Greyce Elias,AVANTE,MG,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição,4.363861072097388,NA
+c3d2c81ea769ce4bdb8486ede6fdb663,1160511,2252113,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,-2.319632427878327,0.444478
+c3d2c81ea769ce4bdb8486ede6fdb663,1204534,2252113,camara,204534,Tabata Amaral,PDT,SP,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,0.13268069538656846,0.0445929
+3c18b2407ec13aa8c0ff4290506b5822,1160511,2252159,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,-2.319632427878327,0.444478
+9c4bb6cced1e36a645164df0f3b6b1f2,1204468,2252619,camara,204468,Joenia Wapichana,REDE,RR,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,-1.5636470208392428,0.393445
+9c4bb6cced1e36a645164df0f3b6b1f2,1132504,2252619,camara,132504,Enio Verri,PT,PR,Deputado,camara,Prop. Original / Apensada,CCP,0.3333333333333333,1,FALSE,oposição,Proposição,-5.737492048680034,0.105363
+9c4bb6cced1e36a645164df0f3b6b1f2,1178970,2252619,camara,178970,João Daniel,PT,SE,Deputado,camara,Prop. Original / Apensada,CCP,0.3333333333333333,1,FALSE,oposição,Proposição,-4.6726245652190945,0.0891897
+9c4bb6cced1e36a645164df0f3b6b1f2,1178986,2252619,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.3333333333333333,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+9c4bb6cced1e36a645164df0f3b6b1f2,173531,2252619,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-8.758899045135427,0.466379
+9c4bb6cced1e36a645164df0f3b6b1f2,174784,2252619,camara,74784,Luiza Erundina,PSOL,SP,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-2.5968772643222104,0.204613
+9c4bb6cced1e36a645164df0f3b6b1f2,176874,2252619,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-6.618833899367319,0.186297
+9c4bb6cced1e36a645164df0f3b6b1f2,1134812,2252619,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-6.475673383390708,0.182547
+9c4bb6cced1e36a645164df0f3b6b1f2,1152605,2252619,camara,152605,Glauber Braga,PSOL,RJ,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-10,0.18716
+9c4bb6cced1e36a645164df0f3b6b1f2,1204407,2252619,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-6.945186197235214,0.137988
+9c4bb6cced1e36a645164df0f3b6b1f2,1204509,2252619,camara,204509,Áurea Carolina,PSOL,MG,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-8.703365880613536,0.067985
+9c4bb6cced1e36a645164df0f3b6b1f2,1204535,2252619,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-5.2750668607101865,0.0888473
+9c4bb6cced1e36a645164df0f3b6b1f2,1205548,2252619,camara,205548,David Miranda,PSOL,RJ,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-5.245995552196576,0.0785702
+9c4bb6cced1e36a645164df0f3b6b1f2,173531,2252619,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-8.758899045135427,0.466379
+9c4bb6cced1e36a645164df0f3b6b1f2,174784,2252619,camara,74784,Luiza Erundina,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-2.5968772643222104,0.204613
+9c4bb6cced1e36a645164df0f3b6b1f2,176874,2252619,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-6.618833899367319,0.186297
+9c4bb6cced1e36a645164df0f3b6b1f2,1134812,2252619,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-6.475673383390708,0.182547
+9c4bb6cced1e36a645164df0f3b6b1f2,1152605,2252619,camara,152605,Glauber Braga,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-10,0.18716
+9c4bb6cced1e36a645164df0f3b6b1f2,1204407,2252619,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-6.945186197235214,0.137988
+9c4bb6cced1e36a645164df0f3b6b1f2,1204464,2252619,camara,204464,Talíria Petrone,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-9.280882638012695,0.118824
+9c4bb6cced1e36a645164df0f3b6b1f2,1204509,2252619,camara,204509,Áurea Carolina,PSOL,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-8.703365880613536,0.067985
+9c4bb6cced1e36a645164df0f3b6b1f2,1204535,2252619,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-5.2750668607101865,0.0888473
+9c4bb6cced1e36a645164df0f3b6b1f2,1205548,2252619,camara,205548,David Miranda,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-5.245995552196576,0.0785702
+356d73e720dbbf019086505f783b6769,173531,2252799,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-8.758899045135427,0.466379
+356d73e720dbbf019086505f783b6769,174784,2252799,camara,74784,Luiza Erundina,PSOL,SP,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-2.5968772643222104,0.204613
+356d73e720dbbf019086505f783b6769,176874,2252799,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-6.618833899367319,0.186297
+356d73e720dbbf019086505f783b6769,1134812,2252799,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-6.475673383390708,0.182547
+356d73e720dbbf019086505f783b6769,1152605,2252799,camara,152605,Glauber Braga,PSOL,RJ,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-10,0.18716
+356d73e720dbbf019086505f783b6769,1204407,2252799,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-6.945186197235214,0.137988
+356d73e720dbbf019086505f783b6769,1204509,2252799,camara,204509,Áurea Carolina,PSOL,MG,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-8.703365880613536,0.067985
+356d73e720dbbf019086505f783b6769,1204535,2252799,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-5.2750668607101865,0.0888473
+356d73e720dbbf019086505f783b6769,1205548,2252799,camara,205548,David Miranda,PSOL,RJ,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-5.245995552196576,0.0785702
+356d73e720dbbf019086505f783b6769,173531,2252799,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-8.758899045135427,0.466379
+356d73e720dbbf019086505f783b6769,174784,2252799,camara,74784,Luiza Erundina,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-2.5968772643222104,0.204613
+356d73e720dbbf019086505f783b6769,176874,2252799,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-6.618833899367319,0.186297
+356d73e720dbbf019086505f783b6769,1134812,2252799,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-6.475673383390708,0.182547
+356d73e720dbbf019086505f783b6769,1152605,2252799,camara,152605,Glauber Braga,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-10,0.18716
+356d73e720dbbf019086505f783b6769,1204407,2252799,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-6.945186197235214,0.137988
+356d73e720dbbf019086505f783b6769,1204464,2252799,camara,204464,Talíria Petrone,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-9.280882638012695,0.118824
+356d73e720dbbf019086505f783b6769,1204509,2252799,camara,204509,Áurea Carolina,PSOL,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-8.703365880613536,0.067985
+356d73e720dbbf019086505f783b6769,1204535,2252799,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-5.2750668607101865,0.0888473
+356d73e720dbbf019086505f783b6769,1205548,2252799,camara,205548,David Miranda,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1,1,FALSE,oposição,Proposição,-5.245995552196576,0.0785702
+330f394d2388250c763c3ab946fb4daf,1132504,2252883,camara,132504,Enio Verri,PT,PR,Deputado,camara,Prop. Original / Apensada,CCP,0.3333333333333333,1,FALSE,oposição,Proposição,-5.737492048680034,0.105363
+330f394d2388250c763c3ab946fb4daf,1178970,2252883,camara,178970,João Daniel,PT,SE,Deputado,camara,Prop. Original / Apensada,CCP,0.3333333333333333,1,FALSE,oposição,Proposição,-4.6726245652190945,0.0891897
+330f394d2388250c763c3ab946fb4daf,1178986,2252883,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.3333333333333333,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+d51394bb3a19ddf90e0a97d5505dce33,1204468,2253313,camara,204468,Joenia Wapichana,REDE,RR,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição,-1.5636470208392428,0.393445
+a175c8bda7e2631cc1e9736d566c123a,174160,2254012,camara,74160,Patrus Ananias,PT,MG,Deputado,camara,Prop. Original / Apensada,MESA,0.14285714285714285,1,FALSE,oposição,Proposição,-4.92974346526362,0.105135
+a175c8bda7e2631cc1e9736d566c123a,1160535,2254012,camara,160535,Marcon,PT,RS,Deputado,camara,Prop. Original / Apensada,MESA,0.14285714285714285,1,FALSE,oposição,Proposição,-4.260818134154097,0.136621
+a175c8bda7e2631cc1e9736d566c123a,1160610,2254012,camara,160610,Valmir Assunção,PT,BA,Deputado,camara,Prop. Original / Apensada,MESA,0.14285714285714285,1,FALSE,oposição,Proposição,-5.930164003005965,0.102927
+a175c8bda7e2631cc1e9736d566c123a,1178970,2254012,camara,178970,João Daniel,PT,SE,Deputado,camara,Prop. Original / Apensada,MESA,0.14285714285714285,1,FALSE,oposição,Proposição,-4.6726245652190945,0.0891897
+a175c8bda7e2631cc1e9736d566c123a,1178986,2254012,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,MESA,0.14285714285714285,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+a175c8bda7e2631cc1e9736d566c123a,1204370,2254012,camara,204370,Célio Moura,PT,TO,Deputado,camara,Prop. Original / Apensada,MESA,0.14285714285714285,1,FALSE,oposição,Proposição,-3.874477464223572,0.0645268
+a175c8bda7e2631cc1e9736d566c123a,1204467,2254012,camara,204467,Professora Rosa Neide,PT,MT,Deputado,camara,Prop. Original / Apensada,MESA,0.14285714285714285,1,FALSE,oposição,Proposição,-5.281433300931113,0.0525915
+0a6b435a3120d1427dcf1660980e8bc4,174160,2254013,camara,74160,Patrus Ananias,PT,MG,Deputado,camara,Prop. Original / Apensada,MESA,0.5,1,FALSE,oposição,Proposição,-4.92974346526362,0.105135
+0a6b435a3120d1427dcf1660980e8bc4,1178986,2254013,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,MESA,0.5,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+NA,1162332,2256399,camara,162332,Luiz Nishimori,PL,PR,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição,6.0698975916550495,0.150603
+NA,1141391,2256399,camara,141391,Arnaldo Jardim,CIDADANIA,SP,Deputado,camara,Requerimento,COAPP(SGM),0.2,1,FALSE,governo,Proposição,2.7108544801771917,0.229201
+NA,1141422,2256399,camara,141422,Efraim Filho,DEM,PB,Deputado,camara,Requerimento,COAPP(SGM),0.2,1,FALSE,governo,Proposição,4.860196201490627,0.121449
+NA,1160541,2256399,camara,160541,Arthur Lira,PP,AL,Deputado,camara,Requerimento,COAPP(SGM),0.2,1,FALSE,governo,Proposição,6.457892034422603,0.41205
+NA,1204395,2256399,camara,204395,Pedro Lupion,DEM,PR,Deputado,camara,Requerimento,COAPP(SGM),0.2,1,FALSE,governo,Proposição,6.526836350298357,0.0875872
+NA,1204398,2256399,camara,204398,Felipe Francischini,PSL,PR,Deputado,camara,Requerimento,COAPP(SGM),0.2,1,FALSE,governo,Proposição,5.963573016115596,0.295499
+6451fa03d28215f7c2f0022958ce052a,1141470,2259427,camara,141470,José Guimarães,PT,CE,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-4.682513235690796,0.123442
+529f5b79017039276e19442b56fb302d,1141470,2259673,camara,141470,José Guimarães,PT,CE,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-4.682513235690796,0.123442
+91221c629c992a78527e99ad35f6f06b,1204415,2259680,camara,204415,Nereu Crispim,PSL,RS,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,5.050990058390266,0
+01c3291306586541b3164eaede8d2af1,174160,2259684,camara,74160,Patrus Ananias,PT,MG,Deputado,camara,Prop. Original / Apensada,MESA,0.125,1,FALSE,oposição,Proposição,-4.92974346526362,0.105135
+01c3291306586541b3164eaede8d2af1,1160535,2259684,camara,160535,Marcon,PT,RS,Deputado,camara,Prop. Original / Apensada,MESA,0.125,1,FALSE,oposição,Proposição,-4.260818134154097,0.136621
+01c3291306586541b3164eaede8d2af1,1160610,2259684,camara,160610,Valmir Assunção,PT,BA,Deputado,camara,Prop. Original / Apensada,MESA,0.125,1,FALSE,oposição,Proposição,-5.930164003005965,0.102927
+01c3291306586541b3164eaede8d2af1,1178970,2259684,camara,178970,João Daniel,PT,SE,Deputado,camara,Prop. Original / Apensada,MESA,0.125,1,FALSE,oposição,Proposição,-4.6726245652190945,0.0891897
+01c3291306586541b3164eaede8d2af1,1178986,2259684,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,MESA,0.125,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+01c3291306586541b3164eaede8d2af1,1204370,2259684,camara,204370,Célio Moura,PT,TO,Deputado,camara,Prop. Original / Apensada,MESA,0.125,1,FALSE,oposição,Proposição,-3.874477464223572,0.0645268
+01c3291306586541b3164eaede8d2af1,1204393,2259684,camara,204393,Frei Anastacio Ribeiro,PT,PB,Deputado,camara,Prop. Original / Apensada,MESA,0.125,1,FALSE,oposição,Proposição,-4.390957955735883,0.101086
+01c3291306586541b3164eaede8d2af1,1204495,2259684,camara,204495,Airton Faleiro,PT,PA,Deputado,camara,Prop. Original / Apensada,MESA,0.125,1,FALSE,oposição,Proposição,-4.030542436796088,0.0812222
+NA,1164359,2259759,camara,164359,Delegado Waldir,PSL,GO,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,3.5537144786914574,0.441378
+e00ef975d50210be7ff9805603aeb41d,1141470,2259770,camara,141470,José Guimarães,PT,CE,Deputado,camara,Requerimento,MESA,1,2,FALSE,oposição,Proposição,-4.682513235690796,0.123442
+e00ef975d50210be7ff9805603aeb41d,1204383,2259770,camara,204383,Professor Israel Batista,PV,DF,Deputado,camara,Requerimento,MESA,1,2,FALSE,governo,Proposição,-0.4877330730596583,0.116009
+e00ef975d50210be7ff9805603aeb41d,1204383,2259770,camara,204383,Professor Israel Batista,PV,DF,Deputado,camara,Prop. Original / Apensada,CCP,0.8333333333333333,2,FALSE,governo,Proposição,-0.4877330730596583,0.116009
+e00ef975d50210be7ff9805603aeb41d,1160575,2259770,camara,160575,Erika Kokay,PT,DF,Deputado,camara,Requerimento,MESA,0.5,1,FALSE,oposição,Proposição,-4.8796638271854516,0.204777
+e00ef975d50210be7ff9805603aeb41d,1178832,2259770,camara,178832,Leandre,PV,PR,Deputado,camara,Prop. Original / Apensada,CCP,0.5,1,FALSE,governo,Proposição,1.7472157191099456,0.434067
+e00ef975d50210be7ff9805603aeb41d,1178832,2259770,camara,178832,Leandre,PV,PR,Deputado,camara,Requerimento,MESA,0.5,1,FALSE,governo,Proposição,1.7472157191099456,0.434067
+e00ef975d50210be7ff9805603aeb41d,1141470,2259770,camara,141470,José Guimarães,PT,CE,Deputado,camara,Prop. Original / Apensada,CCP,0.3333333333333333,1,FALSE,oposição,Proposição,-4.682513235690796,0.123442
+e00ef975d50210be7ff9805603aeb41d,1160575,2259770,camara,160575,Erika Kokay,PT,DF,Deputado,camara,Prop. Original / Apensada,CCP,0.3333333333333333,1,FALSE,oposição,Proposição,-4.8796638271854516,0.204777
+e00ef975d50210be7ff9805603aeb41d,173531,2259770,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-8.758899045135427,0.466379
+e00ef975d50210be7ff9805603aeb41d,174784,2259770,camara,74784,Luiza Erundina,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-2.5968772643222104,0.204613
+e00ef975d50210be7ff9805603aeb41d,176874,2259770,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-6.618833899367319,0.186297
+e00ef975d50210be7ff9805603aeb41d,1134812,2259770,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-6.475673383390708,0.182547
+e00ef975d50210be7ff9805603aeb41d,1152605,2259770,camara,152605,Glauber Braga,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-10,0.18716
+e00ef975d50210be7ff9805603aeb41d,1204407,2259770,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-6.945186197235214,0.137988
+e00ef975d50210be7ff9805603aeb41d,1204509,2259770,camara,204509,Áurea Carolina,PSOL,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-8.703365880613536,0.067985
+e00ef975d50210be7ff9805603aeb41d,1204535,2259770,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-5.2750668607101865,0.0888473
+e00ef975d50210be7ff9805603aeb41d,1205548,2259770,camara,205548,David Miranda,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-5.245995552196576,0.0785702
+4624637b5449a680e9be8323d3cbb893,1178832,2259776,camara,178832,Leandre,PV,PR,Deputado,camara,Prop. Original / Apensada,CCP,0.5,1,FALSE,governo,Proposição,1.7472157191099456,0.434067
+4624637b5449a680e9be8323d3cbb893,1178832,2259776,camara,178832,Leandre,PV,PR,Deputado,camara,Requerimento,MESA,0.5,1,FALSE,governo,Proposição,1.7472157191099456,0.434067
+4624637b5449a680e9be8323d3cbb893,1204383,2259776,camara,204383,Professor Israel Batista,PV,DF,Deputado,camara,Prop. Original / Apensada,CCP,0.5,1,FALSE,governo,Proposição,-0.4877330730596583,0.116009
+4624637b5449a680e9be8323d3cbb893,1204383,2259776,camara,204383,Professor Israel Batista,PV,DF,Deputado,camara,Requerimento,MESA,0.5,1,FALSE,governo,Proposição,-0.4877330730596583,0.116009
+ba0b849ce32b284a0a66635f6e9000c4,1160511,2259826,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-2.319632427878327,0.444478
+690d61f97d075c34fcd0101f0a2a2de0,173531,2260412,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-8.758899045135427,0.466379
+690d61f97d075c34fcd0101f0a2a2de0,174784,2260412,camara,74784,Luiza Erundina,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-2.5968772643222104,0.204613
+690d61f97d075c34fcd0101f0a2a2de0,176874,2260412,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-6.618833899367319,0.186297
+690d61f97d075c34fcd0101f0a2a2de0,1134812,2260412,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-6.475673383390708,0.182547
+690d61f97d075c34fcd0101f0a2a2de0,1152605,2260412,camara,152605,Glauber Braga,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-10,0.18716
+690d61f97d075c34fcd0101f0a2a2de0,1204407,2260412,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-6.945186197235214,0.137988
+690d61f97d075c34fcd0101f0a2a2de0,1204509,2260412,camara,204509,Áurea Carolina,PSOL,MG,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-8.703365880613536,0.067985
+690d61f97d075c34fcd0101f0a2a2de0,1204535,2260412,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-5.2750668607101865,0.0888473
+690d61f97d075c34fcd0101f0a2a2de0,1205548,2260412,camara,205548,David Miranda,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição,-5.245995552196576,0.0785702
+d58c2aab8a7e082e0119b98a41325fdb,174161,2260511,camara,74161,Reginaldo Lopes,PT,MG,Deputado,camara,Prop. Original / Apensada,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-2.677037035331984,0.123393
+d58c2aab8a7e082e0119b98a41325fdb,174398,2260511,camara,74398,Maria Do Rosário,PT,RS,Deputado,camara,Prop. Original / Apensada,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-8.037082522140151,0.221891
+d58c2aab8a7e082e0119b98a41325fdb,1160575,2260511,camara,160575,Erika Kokay,PT,DF,Deputado,camara,Prop. Original / Apensada,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-4.8796638271854516,0.204777
+d58c2aab8a7e082e0119b98a41325fdb,1178857,2260511,camara,178857,Jorge Solla,PT,BA,Deputado,camara,Prop. Original / Apensada,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-5.766272060665814,0.0650662
+d58c2aab8a7e082e0119b98a41325fdb,1178986,2260511,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+d58c2aab8a7e082e0119b98a41325fdb,1204426,2260511,camara,204426,Carlos Veras,PT,PE,Deputado,camara,Prop. Original / Apensada,MESA,0.16666666666666666,1,FALSE,oposição,Proposição,-6.6381561454170885,0.0353039
+aeb768986dc22309b70e545e159f21a1,1160655,2261195,camara,160655,Ricardo Izar,PP,SP,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição,3.14542802990867,0.110637
+beb2f62ea67cd377a8f4cdb343d5377c,1160511,2262788,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-2.319632427878327,0.444478
+NA,1160604,2263264,camara,160604,Pedro Uczai,PT,SC,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-5.482416814357045,0.120736
+eeb1b31085f6cb74ccf98f08691864e5,1178986,2263378,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+NA,1204391,2263379,camara,204391,José Nelto,PODE,GO,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,3.0822943560457823,0.445773
+NA,1160632,2263447,camara,160632,Zé Silva,SOLIDARIEDADE,MG,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,3.8459001922670453,0.146128
+95a3ca957f9109c578c17f6a23a471e1,173943,2263448,camara,73943,Perpétua Almeida,PCdoB,AC,Deputado,camara,Requerimento,COAPP(SGM),0.1,1,FALSE,oposição,Proposição,-1.5449122492133949,0.172894
+95a3ca957f9109c578c17f6a23a471e1,174439,2263448,camara,74439,Wolney Queiroz,PDT,PE,Deputado,camara,Requerimento,COAPP(SGM),0.1,1,FALSE,oposição,Proposição,-1.1459387203211886,0.183231
+95a3ca957f9109c578c17f6a23a471e1,1132504,2263448,camara,132504,Enio Verri,PT,PR,Deputado,camara,Requerimento,COAPP(SGM),0.1,1,FALSE,oposição,Proposição,-5.737492048680034,0.105363
+95a3ca957f9109c578c17f6a23a471e1,1160511,2263448,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Requerimento,COAPP(SGM),0.1,1,FALSE,oposição,Proposição,-2.319632427878327,0.444478
+95a3ca957f9109c578c17f6a23a471e1,1160535,2263448,camara,160535,Marcon,PT,RS,Deputado,camara,Requerimento,COAPP(SGM),0.1,1,FALSE,oposição,Proposição,-4.260818134154097,0.136621
+95a3ca957f9109c578c17f6a23a471e1,1160541,2263448,camara,160541,Arthur Lira,PP,AL,Deputado,camara,Requerimento,COAPP(SGM),0.1,1,FALSE,governo,Proposição,6.457892034422603,0.41205
+95a3ca957f9109c578c17f6a23a471e1,1160575,2263448,camara,160575,Erika Kokay,PT,DF,Deputado,camara,Requerimento,COAPP(SGM),0.1,1,FALSE,oposição,Proposição,-4.8796638271854516,0.204777
+95a3ca957f9109c578c17f6a23a471e1,1178986,2263448,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Requerimento,COAPP(SGM),0.1,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+95a3ca957f9109c578c17f6a23a471e1,1204535,2263448,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Requerimento,COAPP(SGM),0.1,1,FALSE,oposição,Proposição,-5.2750668607101865,0.0888473
+95a3ca957f9109c578c17f6a23a471e1,1209189,2263448,camara,209189,Joseildo Ramos,PT,BA,Deputado,camara,Requerimento,COAPP(SGM),0.1,1,FALSE,oposição,Proposição,-5.523206699725306,0.106264
+NA,1133439,2263452,camara,133439,André Figueiredo,PDT,CE,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-1.083594880064748,0.428693
+6d4bd96c8a8dffe066718503d82ec4a0,174848,2263453,camara,74848,Jandira Feghali,PCdoB,RJ,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-1.574687625853926,0.547176
+6d4bd96c8a8dffe066718503d82ec4a0,176874,2263453,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-6.618833899367319,0.186297
+6d4bd96c8a8dffe066718503d82ec4a0,1132504,2263453,camara,132504,Enio Verri,PT,PR,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-5.737492048680034,0.105363
+6d4bd96c8a8dffe066718503d82ec4a0,1141470,2263453,camara,141470,José Guimarães,PT,CE,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-4.682513235690796,0.123442
+6d4bd96c8a8dffe066718503d82ec4a0,1141488,2263453,camara,141488,Paulo Teixeira,PT,SP,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-6.078977424139842,0.145517
+6d4bd96c8a8dffe066718503d82ec4a0,1157130,2263453,camara,157130,Túlio Gadêlha,PDT,PE,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-1.7347428588596117,0.0682329
+6d4bd96c8a8dffe066718503d82ec4a0,1160508,2263453,camara,160508,Afonso Florence,PT,BA,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-6.62710699775109,0.0855445
+6d4bd96c8a8dffe066718503d82ec4a0,1204426,2263453,camara,204426,Carlos Veras,PT,PE,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-6.6381561454170885,0.0353039
+6d4bd96c8a8dffe066718503d82ec4a0,1204429,2263453,camara,204429,João H. Campos,PSB,PE,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-1.8925427111262003,0.0805207
+f9ac0741cab86990c55e18dc7e39b779,174848,2263461,camara,74848,Jandira Feghali,PCdoB,RJ,Deputado,camara,Requerimento,MESA,1,2,FALSE,oposição,Proposição,-1.574687625853926,0.547176
+f9ac0741cab86990c55e18dc7e39b779,173943,2263461,camara,73943,Perpétua Almeida,PCdoB,AC,Deputado,camara,Requerimento,MESA,0.5,1,FALSE,oposição,Proposição,-1.5449122492133949,0.172894
+f9ac0741cab86990c55e18dc7e39b779,174057,2263461,camara,74057,Alice Portugal,PCdoB,BA,Deputado,camara,Requerimento,MESA,0.5,1,FALSE,oposição,Proposição,-2.2782736319933132,0.288455
+f9ac0741cab86990c55e18dc7e39b779,173943,2263461,camara,73943,Perpétua Almeida,PCdoB,AC,Deputado,camara,Prop. Original / Apensada,MESA,0.3333333333333333,1,FALSE,oposição,Proposição,-1.5449122492133949,0.172894
+f9ac0741cab86990c55e18dc7e39b779,174057,2263461,camara,74057,Alice Portugal,PCdoB,BA,Deputado,camara,Prop. Original / Apensada,MESA,0.3333333333333333,1,FALSE,oposição,Proposição,-2.2782736319933132,0.288455
+f9ac0741cab86990c55e18dc7e39b779,174848,2263461,camara,74848,Jandira Feghali,PCdoB,RJ,Deputado,camara,Prop. Original / Apensada,MESA,0.3333333333333333,1,FALSE,oposição,Proposição,-1.574687625853926,0.547176
+ac53697f4326dbc437b7e5047c3f666b,173531,2263463,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-8.758899045135427,0.466379
+ac53697f4326dbc437b7e5047c3f666b,173531,2263463,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Requerimento,PLEN,0.1111111111111111,1,TRUE,oposição,Proposição,-8.758899045135427,0.466379
+ac53697f4326dbc437b7e5047c3f666b,174784,2263463,camara,74784,Luiza Erundina,PSOL,SP,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-2.5968772643222104,0.204613
+ac53697f4326dbc437b7e5047c3f666b,174784,2263463,camara,74784,Luiza Erundina,PSOL,SP,Deputado,camara,Requerimento,PLEN,0.1111111111111111,1,TRUE,oposição,Proposição,-2.5968772643222104,0.204613
+ac53697f4326dbc437b7e5047c3f666b,176874,2263463,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-6.618833899367319,0.186297
+ac53697f4326dbc437b7e5047c3f666b,176874,2263463,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Requerimento,PLEN,0.1111111111111111,1,TRUE,oposição,Proposição,-6.618833899367319,0.186297
+ac53697f4326dbc437b7e5047c3f666b,1134812,2263463,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-6.475673383390708,0.182547
+ac53697f4326dbc437b7e5047c3f666b,1134812,2263463,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Requerimento,PLEN,0.1111111111111111,1,TRUE,oposição,Proposição,-6.475673383390708,0.182547
+ac53697f4326dbc437b7e5047c3f666b,1152605,2263463,camara,152605,Glauber Braga,PSOL,RJ,Deputado,camara,Requerimento,PLEN,0.1111111111111111,1,TRUE,oposição,Proposição,-10,0.18716
+ac53697f4326dbc437b7e5047c3f666b,1204407,2263463,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-6.945186197235214,0.137988
+ac53697f4326dbc437b7e5047c3f666b,1204407,2263463,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Requerimento,PLEN,0.1111111111111111,1,TRUE,oposição,Proposição,-6.945186197235214,0.137988
+ac53697f4326dbc437b7e5047c3f666b,1204464,2263463,camara,204464,Talíria Petrone,PSOL,RJ,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-9.280882638012695,0.118824
+ac53697f4326dbc437b7e5047c3f666b,1204464,2263463,camara,204464,Talíria Petrone,PSOL,RJ,Deputado,camara,Requerimento,PLEN,0.1111111111111111,1,TRUE,oposição,Proposição,-9.280882638012695,0.118824
+ac53697f4326dbc437b7e5047c3f666b,1204509,2263463,camara,204509,Áurea Carolina,PSOL,MG,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-8.703365880613536,0.067985
+ac53697f4326dbc437b7e5047c3f666b,1204535,2263463,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-5.2750668607101865,0.0888473
+ac53697f4326dbc437b7e5047c3f666b,1204535,2263463,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Requerimento,PLEN,0.1111111111111111,1,TRUE,oposição,Proposição,-5.2750668607101865,0.0888473
+ac53697f4326dbc437b7e5047c3f666b,1205548,2263463,camara,205548,David Miranda,PSOL,RJ,Deputado,camara,Requerimento,MESA,0.1111111111111111,1,FALSE,oposição,Proposição,-5.245995552196576,0.0785702
+ac53697f4326dbc437b7e5047c3f666b,1205548,2263463,camara,205548,David Miranda,PSOL,RJ,Deputado,camara,Requerimento,PLEN,0.1111111111111111,1,TRUE,oposição,Proposição,-5.245995552196576,0.0785702
+ac53697f4326dbc437b7e5047c3f666b,173531,2263463,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-8.758899045135427,0.466379
+ac53697f4326dbc437b7e5047c3f666b,174784,2263463,camara,74784,Luiza Erundina,PSOL,SP,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-2.5968772643222104,0.204613
+ac53697f4326dbc437b7e5047c3f666b,176874,2263463,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-6.618833899367319,0.186297
+ac53697f4326dbc437b7e5047c3f666b,1134812,2263463,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-6.475673383390708,0.182547
+ac53697f4326dbc437b7e5047c3f666b,1152605,2263463,camara,152605,Glauber Braga,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-10,0.18716
+ac53697f4326dbc437b7e5047c3f666b,1204407,2263463,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-6.945186197235214,0.137988
+ac53697f4326dbc437b7e5047c3f666b,1204464,2263463,camara,204464,Talíria Petrone,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-9.280882638012695,0.118824
+ac53697f4326dbc437b7e5047c3f666b,1204509,2263463,camara,204509,Áurea Carolina,PSOL,MG,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-8.703365880613536,0.067985
+ac53697f4326dbc437b7e5047c3f666b,1204535,2263463,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-5.2750668607101865,0.0888473
+ac53697f4326dbc437b7e5047c3f666b,1205548,2263463,camara,205548,David Miranda,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-5.245995552196576,0.0785702
+2c17f65918903db5527e3438f65218f2,1141470,2263588,camara,141470,José Guimarães,PT,CE,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-4.682513235690796,0.123442
+9739dc68f513d3b8a87475f959f2346d,1204383,2263589,camara,204383,Professor Israel Batista,PV,DF,Deputado,camara,Prop. Original / Apensada,MESA,0.3333333333333333,1,FALSE,governo,Proposição,-0.4877330730596583,0.116009
+9739dc68f513d3b8a87475f959f2346d,1204467,2263589,camara,204467,Professora Rosa Neide,PT,MT,Deputado,camara,Prop. Original / Apensada,MESA,0.3333333333333333,1,FALSE,oposição,Proposição,-5.281433300931113,0.0525915
+9739dc68f513d3b8a87475f959f2346d,1204488,2263589,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,MESA,0.3333333333333333,1,FALSE,governo,Proposição,-0.43727079680068215,0.132213
+f02ad43ae0a52cbb1ee67d53495d6ca9,1178986,2263619,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+b6f8ea6fded600805318c386a51d2c72,1204468,2263650,camara,204468,Joenia Wapichana,REDE,RR,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-1.5636470208392428,0.393445
+f384236c5aaab0662af3fa08076c3069,1133439,2263735,camara,133439,André Figueiredo,PDT,CE,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-1.083594880064748,0.428693
+NA,1204544,2263833,camara,204544,Alexandre Frota,PSDB,SP,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,1.9223966090740259,0
+NA,190842,2263834,camara,90842,Santini,PTB,RS,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,4.063527339404079,0.11023
+NA,190842,2263835,camara,90842,Santini,PTB,RS,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,4.063527339404079,0.11023
+NA,190842,2263836,camara,90842,Santini,PTB,RS,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,4.063527339404079,0.11023
+NA,172442,2264051,camara,72442,Felipe Carreras,PSB,PE,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,0.716365571124463,0.105811
+c24b8b200550424de77ad6c4ee695544,1160511,2264071,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-2.319632427878327,0.444478
+NA,174439,2264144,camara,74439,Wolney Queiroz,PDT,PE,Deputado,camara,Requerimento,COAPP(SGM),0.16666666666666666,1,FALSE,oposição,Proposição,-1.1459387203211886,0.183231
+NA,1132504,2264144,camara,132504,Enio Verri,PT,PR,Deputado,camara,Requerimento,COAPP(SGM),0.16666666666666666,1,FALSE,oposição,Proposição,-5.737492048680034,0.105363
+NA,1160511,2264144,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Requerimento,COAPP(SGM),0.16666666666666666,1,FALSE,oposição,Proposição,-2.319632427878327,0.444478
+NA,1160531,2264144,camara,160531,Jhonatan De Jesus,REPUBLICANOS,RR,Deputado,camara,Requerimento,COAPP(SGM),0.16666666666666666,1,FALSE,governo,Proposição,5.4000426958110115,0.312882
+NA,1160541,2264144,camara,160541,Arthur Lira,PP,AL,Deputado,camara,Requerimento,COAPP(SGM),0.16666666666666666,1,FALSE,governo,Proposição,6.457892034422603,0.41205
+NA,1204467,2264144,camara,204467,Professora Rosa Neide,PT,MT,Deputado,camara,Requerimento,COAPP(SGM),0.16666666666666666,1,FALSE,oposição,Proposição,-5.281433300931113,0.0525915
+ca3d840ebbc9882368ab514b5ca402b9,174160,2264202,camara,74160,Patrus Ananias,PT,MG,Deputado,camara,Prop. Original / Apensada,PLEN,0.125,1,TRUE,oposição,Proposição,-4.92974346526362,0.105135
+ca3d840ebbc9882368ab514b5ca402b9,174160,2264202,camara,74160,Patrus Ananias,PT,MG,Deputado,camara,Requerimento,NAJUR(SGM),0.125,1,FALSE,oposição,Proposição,-4.92974346526362,0.105135
+ca3d840ebbc9882368ab514b5ca402b9,1160535,2264202,camara,160535,Marcon,PT,RS,Deputado,camara,Prop. Original / Apensada,PLEN,0.125,1,TRUE,oposição,Proposição,-4.260818134154097,0.136621
+ca3d840ebbc9882368ab514b5ca402b9,1160535,2264202,camara,160535,Marcon,PT,RS,Deputado,camara,Requerimento,NAJUR(SGM),0.125,1,FALSE,oposição,Proposição,-4.260818134154097,0.136621
+ca3d840ebbc9882368ab514b5ca402b9,1160556,2264202,camara,160556,Padre João,PT,MG,Deputado,camara,Prop. Original / Apensada,PLEN,0.125,1,TRUE,oposição,Proposição,-5.993871778935102,0.206952
+ca3d840ebbc9882368ab514b5ca402b9,1160556,2264202,camara,160556,Padre João,PT,MG,Deputado,camara,Requerimento,NAJUR(SGM),0.125,1,FALSE,oposição,Proposição,-5.993871778935102,0.206952
+ca3d840ebbc9882368ab514b5ca402b9,1160610,2264202,camara,160610,Valmir Assunção,PT,BA,Deputado,camara,Prop. Original / Apensada,PLEN,0.125,1,TRUE,oposição,Proposição,-5.930164003005965,0.102927
+ca3d840ebbc9882368ab514b5ca402b9,1160610,2264202,camara,160610,Valmir Assunção,PT,BA,Deputado,camara,Requerimento,NAJUR(SGM),0.125,1,FALSE,oposição,Proposição,-5.930164003005965,0.102927
+ca3d840ebbc9882368ab514b5ca402b9,1178970,2264202,camara,178970,João Daniel,PT,SE,Deputado,camara,Prop. Original / Apensada,PLEN,0.125,1,TRUE,oposição,Proposição,-4.6726245652190945,0.0891897
+ca3d840ebbc9882368ab514b5ca402b9,1178970,2264202,camara,178970,João Daniel,PT,SE,Deputado,camara,Requerimento,NAJUR(SGM),0.125,1,FALSE,oposição,Proposição,-4.6726245652190945,0.0891897
+ca3d840ebbc9882368ab514b5ca402b9,1178986,2264202,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,PLEN,0.125,1,TRUE,oposição,Proposição,-7.04428740843443,0.0759877
+ca3d840ebbc9882368ab514b5ca402b9,1178986,2264202,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Requerimento,NAJUR(SGM),0.125,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+ca3d840ebbc9882368ab514b5ca402b9,1204370,2264202,camara,204370,Célio Moura,PT,TO,Deputado,camara,Prop. Original / Apensada,PLEN,0.125,1,TRUE,oposição,Proposição,-3.874477464223572,0.0645268
+ca3d840ebbc9882368ab514b5ca402b9,1204370,2264202,camara,204370,Célio Moura,PT,TO,Deputado,camara,Requerimento,NAJUR(SGM),0.125,1,FALSE,oposição,Proposição,-3.874477464223572,0.0645268
+ca3d840ebbc9882368ab514b5ca402b9,1204393,2264202,camara,204393,Frei Anastacio Ribeiro,PT,PB,Deputado,camara,Requerimento,NAJUR(SGM),0.125,1,FALSE,oposição,Proposição,-4.390957955735883,0.101086
+ca3d840ebbc9882368ab514b5ca402b9,1204426,2264202,camara,204426,Carlos Veras,PT,PE,Deputado,camara,Prop. Original / Apensada,PLEN,0.125,1,TRUE,oposição,Proposição,-6.6381561454170885,0.0353039
+66723029bbd75a962c71ca8ee7730fe9,173531,2264242,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-8.758899045135427,0.466379
+66723029bbd75a962c71ca8ee7730fe9,174784,2264242,camara,74784,Luiza Erundina,PSOL,SP,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-2.5968772643222104,0.204613
+66723029bbd75a962c71ca8ee7730fe9,176874,2264242,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-6.618833899367319,0.186297
+66723029bbd75a962c71ca8ee7730fe9,1134812,2264242,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-6.475673383390708,0.182547
+66723029bbd75a962c71ca8ee7730fe9,1152605,2264242,camara,152605,Glauber Braga,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-10,0.18716
+66723029bbd75a962c71ca8ee7730fe9,1204407,2264242,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-6.945186197235214,0.137988
+66723029bbd75a962c71ca8ee7730fe9,1204464,2264242,camara,204464,Talíria Petrone,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-9.280882638012695,0.118824
+66723029bbd75a962c71ca8ee7730fe9,1204509,2264242,camara,204509,Áurea Carolina,PSOL,MG,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-8.703365880613536,0.067985
+66723029bbd75a962c71ca8ee7730fe9,1204535,2264242,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-5.2750668607101865,0.0888473
+66723029bbd75a962c71ca8ee7730fe9,1205548,2264242,camara,205548,David Miranda,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,MESA,0.1,1,FALSE,oposição,Proposição,-5.245995552196576,0.0785702
+NA,1204488,2264296,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,SEPRO,1,1,FALSE,governo,Proposição,-0.43727079680068215,0.132213
+NA,1204488,2264300,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,-0.43727079680068215,0.132213
+NA,1204570,2264310,camara,204570,Gildenemyr,PL,MA,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,5.6370803627192085,0
+NA,1204488,2264342,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,-0.43727079680068215,0.132213
+NA,1204488,2264343,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,-0.43727079680068215,0.132213
+NA,1204488,2264344,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,-0.43727079680068215,0.132213
+NA,1204480,2264348,camara,204480,Rogério Correia,PT,MG,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),1,1,FALSE,oposição,Proposição,-8.551519378973175,0.107861
+NA,1204383,2264351,camara,204383,Professor Israel Batista,PV,DF,Deputado,camara,Prop. Original / Apensada,MESA,0.3333333333333333,1,FALSE,governo,Proposição,-0.4877330730596583,0.116009
+NA,1204488,2264351,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,MESA,0.3333333333333333,1,FALSE,governo,Proposição,-0.43727079680068215,0.132213
+NA,1204537,2264351,camara,204537,Enrico Misasi,PV,SP,Deputado,camara,Prop. Original / Apensada,MESA,0.3333333333333333,1,FALSE,governo,Proposição,2.3148839507705183,0.045797
+444df3df507f78ab1e222d379afb484f,1204383,2264352,camara,204383,Professor Israel Batista,PV,DF,Deputado,camara,Prop. Original / Apensada,MESA,0.5,1,FALSE,governo,Proposição,-0.4877330730596583,0.116009
+444df3df507f78ab1e222d379afb484f,1204488,2264352,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,MESA,0.5,1,FALSE,governo,Proposição,-0.43727079680068215,0.132213
+NA,1204480,2264354,camara,204480,Rogério Correia,PT,MG,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),1,1,FALSE,oposição,Proposição,-8.551519378973175,0.107861
+NA,1204453,2264501,camara,204453,Natália Bonavides,PT,RN,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-9.060937563996095,0.0502427
+NA,1204572,2264650,camara,204572,Capitão Alberto Neto,REPUBLICANOS,AM,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,5.209659962931161,0
+NA,1204488,2264748,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,-0.43727079680068215,0.132213
+NA,1178986,2264953,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+NA,1178986,2264954,camara,178986,Nilto Tatto,PT,SP,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,oposição,Proposição,-7.04428740843443,0.0759877
+NA,1204449,2265216,camara,204449,Nelson Barbudo,PSL,MT,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição,8.333393683068692,0.0252249
+76f22462d789f1efdef980b4161602a7,174158,2265572,camara,74158,Mário Heringer,PDT,MG,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),1,1,FALSE,oposição,Proposição,-0.49073319721661335,0.519252
+8cbc918af52f861ce4860405e0cbbb54,1204488,2265667,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),1,1,FALSE,governo,Proposição,-0.43727079680068215,0.132213
+f5c69f40da5fbc0034542cd58d106732,1160511,2266103,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),1,1,FALSE,oposição,Proposição,-2.319632427878327,0.444478
+de9fccd50224c440863cba4f5acb4e6e,1178970,2266108,camara,178970,João Daniel,PT,SE,Deputado,camara,Prop. Original / Apensada,PLEN,1,1,TRUE,oposição,Proposição,-4.6726245652190945,0.0891897
+de1feaba6ef76577fb80a7cbc7aa452f,1204530,2266284,camara,204530,Rodrigo Agostinho,PSB,SP,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),1,1,FALSE,oposição,Proposição,-0.6602588199704122,0.371306
+40f6bd930b777bfe979231fc48dded07,173531,2266316,camara,73531,Ivan Valente,PSOL,SP,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),0.1,1,FALSE,oposição,Proposição,-8.758899045135427,0.466379
+40f6bd930b777bfe979231fc48dded07,174784,2266316,camara,74784,Luiza Erundina,PSOL,SP,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),0.1,1,FALSE,oposição,Proposição,-2.5968772643222104,0.204613
+40f6bd930b777bfe979231fc48dded07,176874,2266316,camara,76874,Marcelo Freixo,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),0.1,1,FALSE,oposição,Proposição,-6.618833899367319,0.186297
+40f6bd930b777bfe979231fc48dded07,1134812,2266316,camara,134812,Edmilson Rodrigues,PSOL,PA,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),0.1,1,FALSE,oposição,Proposição,-6.475673383390708,0.182547
+40f6bd930b777bfe979231fc48dded07,1152605,2266316,camara,152605,Glauber Braga,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),0.1,1,FALSE,oposição,Proposição,-10,0.18716
+40f6bd930b777bfe979231fc48dded07,1204407,2266316,camara,204407,Fernanda Melchionna,PSOL,RS,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),0.1,1,FALSE,oposição,Proposição,-6.945186197235214,0.137988
+40f6bd930b777bfe979231fc48dded07,1204464,2266316,camara,204464,Talíria Petrone,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),0.1,1,FALSE,oposição,Proposição,-9.280882638012695,0.118824
+40f6bd930b777bfe979231fc48dded07,1204509,2266316,camara,204509,Áurea Carolina,PSOL,MG,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),0.1,1,FALSE,oposição,Proposição,-8.703365880613536,0.067985
+40f6bd930b777bfe979231fc48dded07,1204535,2266316,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),0.1,1,FALSE,oposição,Proposição,-5.2750668607101865,0.0888473
+40f6bd930b777bfe979231fc48dded07,1205548,2266316,camara,205548,David Miranda,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),0.1,1,FALSE,oposição,Proposição,-5.245995552196576,0.0785702
+9c581eea6c5862113234baa0372bc44c,25376,145213,senado,5376,Mara Gabrilli,PSDB,SP,senador,senado,Requerimento,Plenário,1,1,TRUE,governo,Proposição,-2.219548930868225,0.0964358
+9c581eea6c5862113234baa0372bc44c,25376,145213,senado,5376,Mara Gabrilli,PSDB,SP,senador,senado,Prop. Original / Apensada,Plenário,0.5,1,TRUE,governo,Proposição,-2.219548930868225,0.0964358
+9c581eea6c5862113234baa0372bc44c,25953,145213,senado,5953,Fabiano Contarato,REDE,ES,senador,senado,Prop. Original / Apensada,Plenário,0.5,1,TRUE,oposição,Proposição,-6.475067277189618,0.350629
