@@ -11,11 +11,10 @@ library(here)
 #' transform_input_proposicoes()
 transform_input_proposicoes <-
   function(planilha_path = here::here("data/input/PDLs Ambientais 2019 e 2020 - Filtro Bruno Carazza.xlsx")) {
-    proposicoes_selecao <- read_excel(planilha_path, sheet = "Revisão Carol")
-
-
+    proposicoes_selecao <- read_excel(planilha_path, 
+                                      sheet = "Revisão Carol")
     urls <- proposicoes_selecao %>%
-      filter(str_detect(`Dentro do escopo do relatório?`, "Sim")) %>% 
+      filter(str_detect(`Dentro do escopo do relatório?`, "Sim")) %>%
       select(
         proposicao = `Proposições`,
         url = Link,
@@ -57,7 +56,7 @@ transform_input_proposicoes <-
         tipo_agenda = "",
         explicacao_projeto = ""
       ) %>%
-      mutate_at(.funs = list( ~ replace_na(., "")),
+      mutate_at(.funs = list(~ replace_na(., "")),
                 .vars = vars(id_camara, id_senado)) %>%
       select(
         proposicao,
@@ -69,8 +68,8 @@ transform_input_proposicoes <-
         advocacy_link,
         keywords,
         tipo_agenda,
-        explicacao_projeto, 
-        situacao, 
+        explicacao_projeto,
+        situacao,
         norma_atacada
       )
     

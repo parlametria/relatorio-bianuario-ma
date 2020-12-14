@@ -37,3 +37,17 @@ read_autorias_det = function() {
     )
   )
 }
+
+read_atuacao <- function() {
+  read_csv(
+    here::here("data/ready/atuacao.csv"),
+    col_types = cols(
+      .default = col_character(),
+      peso_total_documentos = col_double(),
+      num_documentos = col_double(),
+      governismo = col_double(), 
+      peso_politico = col_double(),
+      is_important = col_logical()
+    )
+  )
+}

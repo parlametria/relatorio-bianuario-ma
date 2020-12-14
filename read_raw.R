@@ -1,5 +1,6 @@
 
 
+
 #' Lê dados raw de detalhes dos parlamentares
 #'
 read_parlamentares_raw <- function() {
@@ -69,5 +70,17 @@ read_proposicoes_input_raw <- function() {
   read_csv(
     here::here("data/raw/proposicoes_input.csv"),
     col_types = cols(.default = col_character())
+  )
+}
+
+read_atuacao_raw <- function() {
+  read_csv(
+    here::here("data/leggo_data/atuacao.csv"),
+    col_types = cols(
+      .default = col_character(),
+      peso_total_documentos = col_double(),
+      num_documentos = col_double(),
+      is_important = col_logical()
+    )
   )
 }

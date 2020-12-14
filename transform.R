@@ -21,7 +21,7 @@ transform_proposicoes <-
       write_csv(here::here(out_props))
     message("Dados das proposições consideradas salvo em ", out_props)
     
-    proposicoes
+    proposicoes_tudo
   }
 
 #' Transforma autorias das proposições acompanhadas para ready.
@@ -31,20 +31,12 @@ transform_proposicoes <-
 #'
 transform_autorias <- function(proposicoes) {
   # Ler
-  parlamentares_raw = read_parlamentares_raw()
   autores_leggo_raw = read_autorias_raw()
-  governismo = read_governismo_raw()
-  peso = read_peso_raw()
+  parlamentares = parlamentares_data()  
   
   # Cruzar
   autores_leggo = autores_leggo_raw %>%
     inner_join(proposicoes, by = "id_leggo")
-  
-  parlamentares = parlamentares_raw %>%
-    left_join(governismo,
-              by = c("id_entidade" = "id_parlamentar")) %>% 
-    left_join(peso, 
-              by = c("id_entidade_parlametria" = "id_parlamentar_parlametria"))
   
   autorias = autores_leggo %>%
     left_join(parlamentares,
@@ -72,6 +64,17 @@ transform_autorias <- function(proposicoes) {
   message("Resumo de autorias em ", out_resumo)
 }
 
+parlamentares_data <- function(){
+  parlamentares_raw = read_parlamentares_raw()
+  governismo = read_governismo_raw()
+  peso = read_peso_raw()
+  
+  parlamentares_raw %>%
+    left_join(governismo,
+              by = c("id_entidade" = "id_parlamentar")) %>% 
+    left_join(peso, 
+              by = c("id_entidade_parlametria" = "id_parlamentar_parlametria"))
+}
 
 detalha_autorias = function(data) {
   data %>%
@@ -107,5 +110,28 @@ resume_autorias = function(data) {
     )
 }
 
-props = transform_proposicoes()
-transform_autorias(props)
+transform_atuacao <- function(){
+  atuacao = read_atuacao_raw()
+  parlamentares = parlamentares_data() %>% 
+    select(id_entidade_parlametria, governismo, peso_politico)
+  
+  atuacao %>%
+    left_join(parlamentares,
+              by = c("id_autor_parlametria" = "id_entidade_parlametria")) %>% 
+    write_csv(here::here("data/ready/atuacao.csv"))
+}
+
+
+#' Main do script para uso em CLI.
+#' Para uso interativo, chame main() no console
+#'
+main <- function(argv = NULL) {
+  props = transform_proposicoes()
+  transform_autorias(props)
+  transform_atuacao()
+}
+
+if (!interactive()) {
+  argv <- commandArgs(TRUE) 
+  main(argv)
+}
