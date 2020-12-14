@@ -1,0 +1,3 @@
+id_leggo,id_principal,casa,id_autor.x,id_autor.y,peso_arestas,num_coautorias,nome.x,partido.x,uf.x,casa_autor.x,bancada.x,nome.y,partido.y,uf.y,casa_autor.y,bancada.y
+9c581eea6c5862113234baa0372bc44c,145213,senado,5376,5376,1,1,Sen. Mara Gabrilli,PSDB,SP,senado,governo,Sen. Mara Gabrilli,PSDB,SP,senado,governo
+9c581eea6c5862113234baa0372bc44c,145213,senado,5376,5953,0.5,1,Sen. Mara Gabrilli,PSDB,SP,senado,governo,Sen. Fabiano Contarato,REDE,ES,senado,oposição

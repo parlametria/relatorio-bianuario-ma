@@ -1,0 +1,4 @@
+id_principal,casa,id_documento,descricao_tipo_documento,tipo_documento_ext,id_autor,data,url_inteiro_teor,id_leggo,peso_autor_documento,casa_autor,nome_eleitoral,autores
+145213,senado,8901489,PDL 452/2020,Projeto de Decreto Legislativo,5953,2020-10-21,http://legis.senado.leg.br/sdleg-getter/documento?dm=8901489,9c581eea6c5862113234baa0372bc44c,0.5,senado,Sen. Fabiano Contarato (REDE/ES),Sen. Fabiano Contarato (REDE/ES)
+145213,senado,8901489,PDL 452/2020,Projeto de Decreto Legislativo,5376,2020-10-21,http://legis.senado.leg.br/sdleg-getter/documento?dm=8901489,9c581eea6c5862113234baa0372bc44c,0.5,senado,Sen. Mara Gabrilli (PSDB/SP),Sen. Mara Gabrilli (PSDB/SP)
+145213,senado,8901521,RQS 2545/2020,Requerimento,5376,2020-10-21,http://legis.senado.leg.br/sdleg-getter/documento?dm=8901521,9c581eea6c5862113234baa0372bc44c,1,senado,Sen. Mara Gabrilli (PSDB/SP),Sen. Mara Gabrilli (PSDB/SP)
