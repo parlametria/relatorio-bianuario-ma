@@ -14,7 +14,7 @@ message("LEIA O README deste diretório")
 message("Use --help para mais informações\n")
 
 option_list = list(
-  make_option(c("-o", "--out"), type="character", default=here::here("data/comissoes/"), 
+  make_option(c("-o", "--out"), type="character", default=here::here("data/raw/comissoes/"), 
               help="nome do arquivo de saída [default= %default]", metavar="character")
 ) 
 

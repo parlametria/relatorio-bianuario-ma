@@ -1,7 +1,7 @@
 library(tidyverse)
 library(here)
 
-source(here::here("code/parlamentares/fetcher_parlamentares.R"))
+source(here::here("code/peso-politico/fetcher_peso_politico.R"))
 
 if (!require(optparse)) {
   install.packages("optparse")
@@ -17,7 +17,7 @@ option_list = list(
   make_option(
     c("-o", "--out"),
     type = "character",
-    default = here::here("data/raw/parlamentares/parlamentares.csv"),
+    default = here::here("data/raw/peso_politico/peso_politico.csv"),
     help = "nome do arquivo de saída [default= %default]",
     metavar = "character"
   )
@@ -28,10 +28,10 @@ opt = parse_args(opt_parser)
 
 saida <- opt$out
 
-message("Baixando dados de parlamentares")
-parlamentares <- fetch_parlamentares()
+message("Baixando peso político dos parlamentares")
+pesos <- fetch_peso_politico()
 
 message(paste0("Salvando o resultado em ", saida))
-write_csv(parlamentares, saida)
+write_csv(pesos, saida)
 
 message("Concluído")
