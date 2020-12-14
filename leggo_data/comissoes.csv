@@ -16,7 +16,7 @@ TITULAR,204552,Eduardo Braide,PODE,MA,Titular,CEENERGI,camara,https://www.camara
 SUPLENTE,204500,Eduardo Costa,PTB,PA,Suplente,CEENERGI,camara,https://www.camara.leg.br/internet/deputado/bandep/204500.jpg
 TITULAR,141421,Eduardo da Fonte,PP,PE,Titular,CEENERGI,camara,https://www.camara.leg.br/internet/deputado/bandep/141421.jpg
 SUPLENTE,204389,Elias Vaz,PSB,GO,Suplente,CEENERGI,camara,https://www.camara.leg.br/internet/deputado/bandep/204389.jpg
-TITULAR,207309,Enéias Reis,PSL,MG,Titular,CEENERGI,camara,https://www.camara.leg.br/internet/deputado/bandep/207309.jpg
+TITULAR,207309,Enéias Reis,,,Titular,CEENERGI,camara,https://www.camara.leg.br/internet/deputado/bandep/207309.jpg
 TITULAR,204477,Felício Laterça,PSL,RJ,Titular,CEENERGI,camara,https://www.camara.leg.br/internet/deputado/bandep/204477.jpg
 TITULAR,204398,Felipe Francischini,PSL,PR,Titular,CEENERGI,camara,https://www.camara.leg.br/internet/deputado/bandep/204398.jpg
 SUPLENTE,204392,Francisco Jr.,PSD,GO,Suplente,CEENERGI,camara,https://www.camara.leg.br/internet/deputado/bandep/204392.jpg
@@ -249,7 +249,7 @@ TITULAR,178977,Eduardo Cury,PSDB,SP,Titular,PEC04519,camara,https://www.camara.l
 TITULAR,141422,Efraim Filho,DEM,PB,Titular,PEC04519,camara,https://www.camara.leg.br/internet/deputado/bandep/141422.jpg
 SUPLENTE,204364,Eli Borges,SOLIDARI,TO,Suplente,PEC04519,camara,https://www.camara.leg.br/internet/deputado/bandep/204364.jpg
 TITULAR,204389,Elias Vaz,PSB,GO,Titular,PEC04519,camara,https://www.camara.leg.br/internet/deputado/bandep/204389.jpg
-SUPLENTE,207309,Enéias Reis,PSL,MG,Suplente,PEC04519,camara,https://www.camara.leg.br/internet/deputado/bandep/207309.jpg
+SUPLENTE,207309,Enéias Reis,,,Suplente,PEC04519,camara,https://www.camara.leg.br/internet/deputado/bandep/207309.jpg
 TITULAR,204537,Enrico Misasi,PV,SP,Titular,PEC04519,camara,https://www.camara.leg.br/internet/deputado/bandep/204537.jpg
 SUPLENTE,204371,Felipe Rigoni,PSB,ES,Suplente,PEC04519,camara,https://www.camara.leg.br/internet/deputado/bandep/204371.jpg
 SUPLENTE,204407,Fernanda Melchionna,PSOL,RS,Suplente,PEC04519,camara,https://www.camara.leg.br/internet/deputado/bandep/204407.jpg
@@ -381,7 +381,7 @@ TITULAR,178928,Christiane de Souza Yared,PL,PR,Titular,PEC39717,camara,https://w
 TITULAR,204376,Coronel Armando,PSL,SC,Titular,PEC39717,camara,https://www.camara.leg.br/internet/deputado/bandep/204376.jpg
 TITULAR,74060,Daniel Almeida,PCdoB,BA,Titular,PEC39717,camara,https://www.camara.leg.br/internet/deputado/bandep/74060.jpg
 TITULAR,204459,Daniela do Waguinho,MDB,RJ,Titular,PEC39717,camara,https://www.camara.leg.br/internet/deputado/bandep/204459.jpg
-TITULAR,143632,Domingos Neto,,,Titular,PEC39717,camara,https://www.camara.leg.br/internet/deputado/bandep/143632.jpg
+TITULAR,143632,Domingos Neto,PSD,CE,Titular,PEC39717,camara,https://www.camara.leg.br/internet/deputado/bandep/143632.jpg
 TITULAR,178994,Dulce Miranda,MDB,TO,Titular,PEC39717,camara,https://www.camara.leg.br/internet/deputado/bandep/178994.jpg
 TITULAR,134812,Edmilson Rodrigues,PSOL,PA,Titular,PEC39717,camara,https://www.camara.leg.br/internet/deputado/bandep/134812.jpg
 PRIMEIRO VICE-PRESIDENTE,204364,Eli Borges,SOLIDARI,TO,Titular,PEC39717,camara,https://www.camara.leg.br/internet/deputado/bandep/204364.jpg
@@ -521,7 +521,7 @@ TITULAR,204552,Eduardo Braide,PODE,MA,Titular,PL351515,camara,https://www.camara
 TITULAR,160532,Eli Corrêa Filho,DEM,SP,Titular,PL351515,camara,https://www.camara.leg.br/internet/deputado/bandep/160532.jpg
 TITULAR,204389,Elias Vaz,PSB,GO,Titular,PL351515,camara,https://www.camara.leg.br/internet/deputado/bandep/204389.jpg
 SUPLENTE,198783,Emanuel Pinheiro Neto,PTB,MT,Suplente,PL351515,camara,https://www.camara.leg.br/internet/deputado/bandep/198783.jpg
-TITULAR,207309,Enéias Reis,PSL,MG,Titular,PL351515,camara,https://www.camara.leg.br/internet/deputado/bandep/207309.jpg
+TITULAR,207309,Enéias Reis,,,Titular,PL351515,camara,https://www.camara.leg.br/internet/deputado/bandep/207309.jpg
 TITULAR,160587,Fábio Trad,PSD,MS,Titular,PL351515,camara,https://www.camara.leg.br/internet/deputado/bandep/160587.jpg
 TITULAR,160598,Flávia Morais,PDT,GO,Titular,PL351515,camara,https://www.camara.leg.br/internet/deputado/bandep/160598.jpg
 NA,204510,Franco Cartafina,PP,MG,Titular,PL351515,camara,https://www.camara.leg.br/internet/deputado/bandep/204510.jpg
@@ -578,7 +578,7 @@ TITULAR,204552,Eduardo Braide,PODE,MA,Titular,PL488112,camara,https://www.camara
 TITULAR,178977,Eduardo Cury,PSDB,SP,Titular,PL488112,camara,https://www.camara.leg.br/internet/deputado/bandep/178977.jpg
 TITULAR,160532,Eli Corrêa Filho,DEM,SP,Titular,PL488112,camara,https://www.camara.leg.br/internet/deputado/bandep/160532.jpg
 SUPLENTE,204389,Elias Vaz,PSB,GO,Suplente,PL488112,camara,https://www.camara.leg.br/internet/deputado/bandep/204389.jpg
-TITULAR,207309,Enéias Reis,PSL,MG,Titular,PL488112,camara,https://www.camara.leg.br/internet/deputado/bandep/207309.jpg
+TITULAR,207309,Enéias Reis,,,Titular,PL488112,camara,https://www.camara.leg.br/internet/deputado/bandep/207309.jpg
 SUPLENTE,68720,Fábio Henrique,PDT,SE,Suplente,PL488112,camara,https://www.camara.leg.br/internet/deputado/bandep/68720.jpg
 TITULAR,141427,Fábio Ramalho,MDB,MG,Titular,PL488112,camara,https://www.camara.leg.br/internet/deputado/bandep/141427.jpg
 SUPLENTE,191923,Flávio Nogueira,PDT,PI,Suplente,PL488112,camara,https://www.camara.leg.br/internet/deputado/bandep/191923.jpg

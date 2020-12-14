@@ -663,6 +663,7 @@ id_autor,id_documento,id_principal,nome,tipo_autor,uri_autor,casa,partido,uf,cod
 204480,2198495,2197956,Rogério Correia,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204480,camara,PT,MG,10000
 204483,2252619,2252619,Vilson Da Fetaemg,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204483,camara,PSB,MG,10000
 204483,2230633,2230633,Vilson Da Fetaemg,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204483,camara,PSB,MG,10000
+204483,2230633,2200572,Vilson Da Fetaemg,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204483,camara,PSB,MG,10000
 204483,2254555,2252619,Vilson Da Fetaemg,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204483,camara,PSB,MG,10000
 204483,2263777,2263777,Vilson Da Fetaemg,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204483,camara,PSB,MG,10000
 204488,2263767,2228776,Célio Studart,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204488,camara,PV,CE,10000
@@ -686,6 +687,7 @@ id_autor,id_documento,id_principal,nome,tipo_autor,uri_autor,casa,partido,uf,cod
 204495,2259684,2259684,Airton Faleiro,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204495,camara,PT,PA,10000
 204495,2198495,2197956,Airton Faleiro,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204495,camara,PT,PA,10000
 204495,2203903,2203903,Airton Faleiro,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204495,camara,PT,PA,10000
+204495,2203903,2200572,Airton Faleiro,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204495,camara,PT,PA,10000
 204495,2261297,2229142,Airton Faleiro,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204495,camara,PT,PA,10000
 204495,2265025,2265025,Airton Faleiro,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204495,camara,PT,PA,10000
 204495,2241699,2241699,Airton Faleiro,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204495,camara,PT,PA,10000
@@ -871,3 +873,6 @@ id_autor,id_documento,id_principal,nome,tipo_autor,uri_autor,casa,partido,uf,cod
 76874,2257689,2252619,Marcelo Freixo,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/76874,camara,PSOL,RJ,10000
 76874,2257689,2252799,Marcelo Freixo,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/76874,camara,PSOL,RJ,10000
 76874,2263777,2263777,Marcelo Freixo,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/76874,camara,PSOL,RJ,10000
+160511,2200572,2200572,Alessandro Molon,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/160511,camara,PSB,RJ,10000
+204495,2202983,2200572,Airton Faleiro,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204495,camara,PT,PA,10000
+204495,2202983,2202983,Airton Faleiro,Deputado,https://dadosabertos.camara.leg.br/api/v2/deputados/204495,camara,PT,PA,10000
