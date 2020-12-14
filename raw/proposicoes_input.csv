@@ -1,106 +1,109 @@
-proposicao,id_camara,id_senado,apelido,tema,prioridade,advocacy_link,keywords,tipo_agenda,explicacao_projeto
-PDL 36/2019,2192263,,,Meio Ambiente,,,,,
-PDL 43/2019,2193076,,,Agropecuária,,,,,
-PDL 71/2019,2194820,,,Indígenas,,,,,
-PDL 114/2019,2197956,,,Meio Ambiente,,,,,
-PDL 130/2019,2198142,,,Meio Ambiente,,,,,
-PDL 133/2019,2198168,,,Meio Ambiente,,,,,
-PDL 124/2019,2198087,,,Meio Ambiente,,,,,
-PDL 117/2019,2197974,,,Meio Ambiente,,,,,
-PDL 137/2019,2198338,,,Meio Ambiente,,,,,
-PDL 281/2019,2203903,,,Meio Ambiente,,,,,
-PDL 348/2019,2204041,,,Meio Ambiente,,,,,
-PDL 294/2019,2204564,,,Meio Ambiente,,,,,
-PDL 344/2019,2205527,,,Indígenas,,,,,
-PDL 345/2019,2205541,,,Meio Ambiente,,,,,
-PDL 341/2019,2205479,,,Meio Ambiente,,,,,
-PDL 342/2019,2205373,,,Meio Ambiente,,,,,
-PDL 340/2019,2205388,,,Meio Ambiente,,,,,
-PDL 362/2019,2205833,,,Meio Ambiente,,,,,
-PDL 353/2019,2205754,,,Meio Ambiente,,,,,
-PDL 378/2019,2206105,,,Meio Ambiente,,,,,
-PDL 596/2019,2218177,,,Meio Ambiente,,,,,
-PDL 597/2019,2218243,,,Agropecuária,,,,,
-PDL 598/2019,2218244,,,Agropecuária,,,,,
-PDL 616/2019,2219656,,,Agropecuária,,,,,
-PDL 636/2019,2220973,,,Meio Ambiente,,,,,
-PDL 641/2019,2221765,,,Meio Ambiente,,,,,
-PDL 686/2019,2228840,,,Agropecuária,,,,,
-PDL 684/2019,2228776,,,Agropecuária,,,,,
-PDL 691/2019,2229137,,,Agropecuária,,,,,
-PDL 28/2019,2229142,,,Indígenas,,,,,
-PDL 695/2019,2229475,,,Agropecuária,,,,,
-PDL 707/2019,2230192,,,Agropecuária,,,,,
-PDL 710/2019,2230633,,,Meio Ambiente,,,,,
-PDL 719/2019,2231711,,,Amazônia,,,,,
-PDL 721/2019,2231771,,,Meio Ambiente,,,,,
-PDL 718/2019,2231622,,,Meio Ambiente,,,,,
-PDL 744/2019,2233449,,,Meio Ambiente,,,,,
-PDL 760/2019,2234294,,,Meio Ambiente,,,,,
-PDL 32/2020,2236840,,,Meio Ambiente,,,,,
-PDL 28/2020,2236761,,,Meio Ambiente,,,,,
-PDL 33/2020,2236893,,,Meio Ambiente,,,,,
-PDL 41/2020,2236958,,,Meio Ambiente,,,,,
-PDL 39/2020,2236932,,,Meio Ambiente,,,,,
-PDL 42/2020,2236959,,,Meio Ambiente,,,,,
-PDL 34/2020,2236896,,,Meio Ambiente,,,,,
-PDL 44/2020,2237177,,,Meio Ambiente,,,,,
-PDL 48/2020,2237205,,,Amazônia,,,,,
-PDL 46/2020,2237192,,,Meio Ambiente,,,,,
-PDL 51/2020,2237358,,,Meio Ambiente,,,,,
-PDL 57/2020,2237764,,,Agropecuária,,,,,
-PDL 58/2020,2237766,,,Meio Ambiente,,,,,
-PDL 61/2020,2237825,,,Amazônia,,,,,
-PDL 65/2020,2238163,,,Agropecuária,,,,,
-PDL 71/2020,2238417,,,Agropecuária,,,,,
-PDL 81/2020,2238675,,,Meio Ambiente,,,,,
-PDL 92/2020,2241699,,,Indígenas,,,,,
-PDL 155/2020,2249957,,,Meio Ambiente,,,,,
-PDL 166/2020,2250646,,,Indígenas,,,,,
-PDL 171/2020,2250702,,,Indígenas,,,,,
-PDL 206/2020,2252113,,,Indígenas,,,,,
-PDL 202/2020,2252052,,,Mineração,,,,,
-PDL 208/2020,2252159,,,Indígenas,,,,,
-PDL 225/2020,2252799,,,Meio Ambiente,,,,,
-PDL 220/2020,2252619,,,Meio Ambiente,,,,,
-PDL 228/2020,2252883,,,Meio Ambiente,,,,,
-PDL 235/2020,2253313,,,Meio Ambiente,,,,,
-PDL 248/2020,2254013,,,Meio Ambiente,,,,,
-PDL 247/2020,2254012,,,Indígenas,,,,,
-PDL 310/2020,2256399,,,Agropecuária,,,,,
-PDL 356/2020,2259427,,,Meio Ambiente,,,,,
-PDL 359/2020,2259673,,,Meio Ambiente,,,,,
-PDL 360/2020,2259680,,,Meio Ambiente,,,,,
-PDL 361/2020,2259684,,,Mineração,,,,,
-PDL 364/2020,2259776,,,Meio Ambiente,,,,,
-PDL 363/2020,2259770,,,Meio Ambiente,,,,,
-PDL 366/2020,2259826,,,Meio Ambiente,,,,,
-PDL 369/2020,2260412,,,Meio Ambiente,,,,,
-PDL 370/2020,2260423,,,Meio Ambiente,,,,,
-PDL 373/2020,2260511,,,Meio Ambiente,,,,,
-PDL 382/2020,2261195,,,Mineração,,,,,
-PDL 391/2020,2262079,,,Agropecuária,,,,,
-PDL 398/2020,2262788,,,Mineração,,,,,
-PDL 408/2020,2263378,,,Mineração,,,,,
-PDL 417/2020,2263463,,,Meio Ambiente,,,,,
-PDL 414/2020,2263448,,,Meio Ambiente,,,,,
-PDL 415/2020,2263453,,,Meio Ambiente,,,,,
-PDL 416/2020,2263461,,,Meio Ambiente,,,,,
-PDL 419/2020,2263588,,,Mineração,,,,,
-PDL 420/2020,2263589,,,Meio Ambiente,,,,,
-PDL 421/2020,2263619,,,Meio Ambiente,,,,,
-PDL 423/2020,2263650,,,Mineração,,,,,
-PDL 432/2020,2263735,,,Meio Ambiente,,,,,
-PDL 439/2020,2263777,,,Meio Ambiente,,,,,
-PDL 443/2020,2264071,,,Agropecuária,,,,,
-PDL 444/2020,2264202,,,Agropecuária,,,,,
-PDL 446/2020,2264242,,,Agropecuária,,,,,
-PDL 450/2020,2264352,,,Agropecuária,,,,,
-PDL 474/2020,2265025,,,Outros,,,,,
-PDL 488/2020,2265572,,,Agropecuária,,,,,
-PDL 493/2020,2265667,,,Agropecuária,,,,,
-PDL 519/2020,2266103,,,Agropecuária,,,,,
-PDL 520/2020,2266108,,,Meio Ambiente,,,,,
-PDL 528/2020,2266316,,,Meio Ambiente,,,,,
-PDL 526/2020,2266284,,,Meio Ambiente,,,,,
-PDL 452/2020,,145213,,Meio Ambiente,,,,,
+proposicao,id_camara,id_senado,apelido,tema,prioridade,advocacy_link,keywords,tipo_agenda,explicacao_projeto,situacao,norma_atacada
+PDL 36/2019,2192263,,,Meio Ambiente,,,,,,Aguardando Parecer,"Decreto nº 6.514, de 22 de julho de 2008 e Instrução Normativa ibama nº 3, de 23 de janeiro de 2018"
+PDL 43/2019,2193076,,,Agropecuária,,,,,,Aguardando Parecer,"Atos do Ministério da agricultura, Pecuária e Abastecimento (MAPA) expedidos em 2019, que concedem registros para novos produtos elaborados com agrotóxicos."
+PDL 71/2019,2194820,,,Indígenas,,,,,,Tramitando em Conjunto,"Decreto do Presidente da República, de 19 de abril de 2007, sem número, que homologa a demarcação administrativa da Terra indígena Apyterewa, localizada no Município de São Félix do Xingu, no Estado do Pará."
+PDL 114/2019,2197956,,,Meio Ambiente,,,,,,Pronta para Pauta,"Decreto nº 9.760, de 11 de abril de 2019"
+PDL 130/2019,2198142,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 9.760, de 11 de abril de 2019"
+PDL 133/2019,2198168,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 9.760, de 11 de abril de 2019"
+PDL 124/2019,2198087,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 9.760, de 11 de abril de 2019"
+PDL 117/2019,2197974,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 9.760, de 11 de abril de 2019"
+PDL 137/2019,2198338,,,Meio Ambiente,,,,,,Aguardando Parecer,"Instrução Normativa nº 12, de 25 de março de 2019, do Ministério do Meio ambiente/Instituto Brasileiro do Meio ambiente e dos Recursos Naturais Renováveis"
+PDL 281/2019,2203903,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto n° 9.784, de 07 de maio de 2019"
+PDL 348/2019,2204041,,,Meio Ambiente,,,,,,Aguardando Parecer,"Instrução Normativa nº 12, de 25 de março de 2019, do ibama."
+PDL 294/2019,2204564,,,Meio Ambiente,,,,,,Aguardando Parecer,"Portaria ibama n° 1.135, de 3 de abril de 2019"
+PDL 344/2019,2205527,,,Indígenas,,,,,,Retirado pelo Autor,"Decreto nº 275, de 27 de outubro de 1991"
+PDL 345/2019,2205541,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 9.806, de 28 de maio de 2019"
+PDL 341/2019,2205479,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 9.806, de 28 de maio de 2019"
+PDL 342/2019,2205373,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 9.806, de 28 de maio de 2019"
+PDL 340/2019,2205388,,,Meio Ambiente,,,,,,Pronta para Pauta,"Decreto nº 9.806, de 28 de maio de 2019"
+PDL 362/2019,2205833,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 9.806, de 28 de maio de 2019"
+PDL 353/2019,2205754,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 9.806, de 28 de maio de 2019"
+PDL 378/2019,2206105,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 9.806, de 28 de maio de 2019"
+PDL 596/2019,2218177,,,Meio Ambiente,,,,,,NA,"
+Decreto nº 9.760, de 11 de abril de 2019"
+PDL 597/2019,2218243,,,Agropecuária,,,,,,Aguardando Parecer,"Instrução Normativa n° 76, de 30 de novembro de 2018, do Ministério da agricultura, Pecuária e Abastecimento."
+PDL 598/2019,2218244,,,Agropecuária,,,,,,Aguardando Parecer,"Instrução Normativa n° 77, de 30 de novembro de 2018, emitida pelo Ministério da agricultura, Pecuária e Abastecimento.
+"
+PDL 616/2019,2219656,,,Agropecuária,,,,,,Pronta para Pauta,"Ato nº 58, de 27 de agosto de 2019, do Ministério da agricultura, Pecuária e Abastecimento"
+PDL 636/2019,2220973,,,Meio Ambiente,,,,,,Aguardando Parecer,"Resolução Normativa nº 414, de 9 de setembro de 2010"
+PDL 641/2019,2221765,,,Meio Ambiente,,,,,,Pronta para Pauta,"Portaria nº 3.326, de 12 de setembro de 2019"
+PDL 686/2019,2228840,,,Agropecuária,,,,,,Tramitando em Conjunto,"Decreto nº 10.084, de 05 de novembro de 2019"
+PDL 684/2019,2228776,,,Agropecuária,,,,,,Aguardando Parecer,"Decreto º 10.084, DE 5 DE NOVEMBRO DE 2019"
+PDL 691/2019,2229137,,,Agropecuária,,,,,,Tramitando em Conjunto,"Decreto nº 10.084, de 05 de novembro de 2019"
+PDL 28/2019,2229142,,,Indígenas,,,,,,Aguardando Análise de Parecer,Exclui da Área indígena São Marcos a área urbana da sede do Município de Pacaraima (RR).
+PDL 695/2019,2229475,,,Agropecuária,,,,,,Tramitando em Conjunto,"Decreto nº 10.084, de 05 de novembro de 2019"
+PDL 707/2019,2230192,,,Agropecuária,,,,,,Tramitando em Conjunto,"Decreto nº 10.084, de 05 de novembro de 2019"
+PDL 710/2019,2230633,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 9.784, de 07 de maio de 2019, art. 1º, XXXIX"
+PDL 719/2019,2231711,,,Amazônia,,,,,,Aguardando Designação de Relator,"Decreto n° 10.140, de 28 de novembro de 2019"
+PDL 721/2019,2231771,,,Meio Ambiente,,,,,,Aguardando Designação de Relator,"Decreto nº 10.147, de 02 de dezembro de 2019"
+PDL 718/2019,2231622,,,Meio Ambiente,,,,,,Aguardando Designação de Relator,"Portaria Interministerial Mdic - MMA nº 79, de 29 de dezembro de 2017"
+PDL 744/2019,2233449,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 10.147, de 02 de dezembro de 2019"
+PDL 760/2019,2234294,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 10.147, de 02 de dezembro de 2019"
+PDL 32/2020,2236840,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto n.º 10.224, de 5 de fevereiro de 2020"
+PDL 28/2020,2236761,,,Meio Ambiente,,,,,,Aguardando Designação de Relator,"Decreto nº 10.224, de 05 de fevereiro de 2020"
+PDL 33/2020,2236893,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 10.224, de 05 de fevereiro de 2020"
+PDL 41/2020,2236958,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 10.224, de 5 de fevereiro de 2020"
+PDL 39/2020,2236932,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 10.224, de 5 de fevereiro de 2020"
+PDL 42/2020,2236959,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Portaria nº 91, de 4 de fevereiro de 2020, que dispõe sobre procedimentos para a realização da atividade de pesca esportiva em unidades de conservação federais administradas pelo ICMBio."
+PDL 34/2020,2236896,,,Meio Ambiente,,,,,,Aguardando Designação de Relator,"Portaria nº 91, de 4 de fevereiro de 2020, que dispõe sobre procedimentos para a realização da atividade de pesca esportiva em unidades de conservação federais administradas pelo ICMBio."
+PDL 44/2020,2237177,,,Meio Ambiente,,,,,,Aguardando Designação de Relator,"Decreto nº 10.235, de 2020"
+PDL 48/2020,2237205,,,Amazônia,,,,,,Aguardando Designação de Relator,"Decreto nº 10.239, de 12 de fevereiro de 2020"
+PDL 46/2020,2237192,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Portaria nº 91, de 4 de fevereiro de 2020, do Instituto chico mendes de Conservação da Biodiversidade (ICMBio)"
+PDL 51/2020,2237358,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto nº 10.239, de 11 de fevereiro de 2020"
+PDL 57/2020,2237764,,,Agropecuária,,,,,,Aguardando Designação de Relator,"Convênio nº 100/1997 - CONFAZ, que dispõe sobre o desconto de 60% do ICMS para agrotóxicos."
+PDL 58/2020,2237766,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Portaria ICMBio nº 91, de 2020"
+PDL 61/2020,2237825,,,Amazônia,,,,,,Tramitando em Conjunto,"Decreto nº 10.239, de 11 de fevereiro de 2020"
+PDL 65/2020,2238163,,,Agropecuária,,,,,,Aguardando Designação de Relator,"Portaria nº 43, de 21 de Fevereiro de 2020, da Secretaria de Defesa agropecuária."
+PDL 71/2020,2238417,,,Agropecuária,,,,,,Tramitando em Conjunto,"Portaria nº 43, de 21 de Fevereiro de 2020, da Secretaria de Defesa agropecuária."
+PDL 81/2020,2238675,,,Meio Ambiente,,,,,,NA,"Instrução Normativa nº 17, de 21 de junho de 2019 do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (ibama)"
+PDL 92/2020,2241699,,,Indígenas,,,,,,Aguardando Autorização Devolução,Portaria nº 419/PRES/FUNAI de 17 de Março de 2020
+PDL 155/2020,2249957,,,Meio Ambiente,,,,,,Aguardando Chancela e Publicação do Despacho,"Despacho no 4.410/2020, do Ministro do Meio Ambiente"
+PDL 166/2020,2250646,,,Indígenas,,,,,,Aguardando Autorização Devolução,"Instrução Normativa n° 9, de 16 de abril de 2020, da Fundação Nacional do Índio - FUNAI"
+PDL 171/2020,2250702,,,Indígenas,,,,,,Aguardando Autorização Devolução,"Instrução Normativa n° 9, de 16 de abril de 2020, da Fundação Nacional do Índio - FUNAI"
+PDL 206/2020,2252113,,,Indígenas,,,,,,Aguardando Autorização do Despacho,"Decreto nº 10.341, de 06 de maio de 2020, art. 4º, parágrafo único"
+PDL 202/2020,2252052,,,Mineração,,,,,,Aguardando Autorização do Despacho,"Portaria nº 294, de 30 de abril de 2020, da Agência Nacional de Mineração"
+PDL 208/2020,2252159,,,Indígenas,,,,,,Tramitando em Conjunto,Decreto nº 10.341
+PDL 225/2020,2252799,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto no 10.347, de 13 de maio de 2020"
+PDL 220/2020,2252619,,,Meio Ambiente,,,,,,Aguardando Autorização do Despacho,"Decreto no 10.347, de 13 de maio de 2020"
+PDL 228/2020,2252883,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto no 10.347, de 13 de maio de 2020"
+PDL 235/2020,2253313,,,Meio Ambiente,,,,,,Tramitando em Conjunto,"Decreto no 10.347, de 13 de maio de 2020"
+PDL 248/2020,2254013,,,Meio Ambiente,,,,,,Aguardando Autorização Devolução,"Despacho no 4.410/2020, do Ministro do Meio Ambiente"
+PDL 247/2020,2254012,,,Indígenas,,,,,,Aguardando Autorização Devolução,"Instrução Normativa n° 9, de 16 de abril de 2020, da Fundação Nacional do Índio - FUNAI"
+PDL 310/2020,2256399,,,Agropecuária,,,,,,Aguardando Autorização do Despacho,"Resolução - RDC nº 177, de 21 de setembro de 2017, da Agência Nacional de Vigilância Sanitária - ANVISA."
+PDL 356/2020,2259427,,,Meio Ambiente,,,,,,Aguardando Autorização Devolução,"Portaria nº 341, de 30 de julho de 2020, do Ministro de Estado do Meio ambiente"
+PDL 359/2020,2259673,,,Meio Ambiente,,,,,,Aguardando Autorização Devolução,"Decreto nº 10.142, de 28 de novembro de 2019"
+PDL 360/2020,2259680,,,Meio Ambiente,,,,,,Aguardando Autorização Devolução,"Portaria 341, de 30 de julho de 2020 – do Ministério do Meio ambiente"
+PDL 361/2020,2259684,,,Mineração,,,,,,Aguardando Autorização Devolução,"Resolução CPPI nº 126, de 10 de junho de 2020, Publicado no Diário Oficial da União em 04/08/2020 que “Opina pela criação e qualificação da Política de Apoio ao Licenciamento Ambiental de Projetos de Investimentos para a Produção de Minerais Estratégicos - ""Pró-Minerais Estratégicos"", no âmbito do Programa de Parcerias de Investimentos - PPI.”"
+PDL 364/2020,2259776,,,Meio Ambiente,,,,,,Aguardando Apensação,"Decreto nº 10.447, de 07 de agosto de 2020"
+PDL 363/2020,2259770,,,Meio Ambiente,,,,,,Aguardando Encaminhamento,"Decreto nº 10.447, de 07 de agosto de 2020"
+PDL 366/2020,2259826,,,Meio Ambiente,,,,,,Aguardando Autorização Devolução,Decreto nº 10.451/2020
+PDL 369/2020,2260412,,,Meio Ambiente,,,,,,Aguardando Apensação,"Decreto nº 10.447, de 07 de agosto de 2020"
+PDL 370/2020,2260423,,,Meio Ambiente,,,,,,Aguardando Despacho do Presidente da Câmara dos Deputados,"RESOLUÇÃO Nº 494, DE 11 DE AGOSTO DE 2020 - Estabelece, em caráter excepcional e temporário, nos casos de licenciamento ambiental, a possibilidade de realização de audiência pública de forma remota, por meio da Rede Mundial de Computadores, durante o período da pandemia do Novo Coronavírus (COVID-19)."
+PDL 373/2020,2260511,,,Meio Ambiente,,,,,,Aguardando Autorização Devolução,"Portaria nº 308, de 13 de julho de 2020, do Ministro de Meio ambiente"
+PDL 382/2020,2261195,,,Mineração,,,,,,Aguardando Encaminhamento,"Resolução N0. 24 de 03 de fevereiro de 2020 da Agência Nacional de Mineração, que Regulamenta o procedimento de disponibilidade de que tratam os artigos 26, 32 e 65, § 1º do Decreto-Lei nº 227, de 28 de fevereiro de 1967, e o art. 2º, inciso VII, da Lei nº 13.575, de 26 de dezembro de 2017 e do art. 46 do Decreto nº 9.406 de 12 de junho de 2018."
+PDL 391/2020,2262079,,,Agropecuária,,,,,,Aguardando Despacho do Presidente da Câmara dos Deputados,"Portaria nº 493, de 1º de setembro de 2020, “Autoriza o emprego da Força Nacional de Segurança Pública - FNSP, em apoio ao Ministério da agricultura, Pecuária e Abastecimento, nos Municípios de Prado e Mucuri, no Estado da Bahia”."
+PDL 398/2020,2262788,,,Mineração,,,,,,Aguardando Autorização Devolução,"Resolução nº 126, de 10 de junho de 2020, do Conselho do Programa de Parcerias de Investimentos (CPPI), que trata da criação da Política de Apoio ao Licenciamento Ambiental de Projetos de Investimentos para a Produção de Minerais Estratégicos - ""Pró-Minerais Estratégicos"".
+"
+PDL 408/2020,2263378,,,Mineração,,,,,,Aguardando Autorização do Despacho,"Resolução nº 46, de 8 de setembro de 2020, da Agência Nacional de Mineração."
+PDL 417/2020,2263463,,,Meio Ambiente,,,,,,Aguardando Autorização do Despacho,"Decisões da Reunião Ordinária n° 135 do Conselho Nacional do Meio Ambiente (conama), que alterou a Resolução conama n.º 264/1999, e revogou as Resoluções conama n.ºs 284/2001, 302/2002 e 303/2002."
+PDL 414/2020,2263448,,,Meio Ambiente,,,,,,Aguardando Autorização do Despacho,"Resolução conama, do Conselho Nacional do Meio Ambiente, que revoga as Resoluções conama 284/2001, 302/2002 e 303/2002."
+PDL 415/2020,2263453,,,Meio Ambiente,,,,,,Aguardando Autorização do Despacho,"Resolução conama, do Conselho Nacional do Meio Ambiente, que revoga as Resoluções conama 284/2001, 302/2002 e 303/2002."
+PDL 416/2020,2263461,,,Meio Ambiente,,,,,,Aguardando Autorização do Despacho,"Resolução nº 500 do Conselho Nacional do Meio Ambiente – conama, que revoga as Resoluções conama 284/2001, 302/2002 e 303/2002."
+PDL 419/2020,2263588,,,Mineração,,,,,,Aguardando Autorização Devolução,"Portaria nº 354 de 28 de setembro de 2020, que aprova o Programa Mineração e Desenvolvimento - PMD e Designa a Secretaria de Geologia, Mineração e Transformação Mineral - SGM/MME como coordenadora da observância no cumprimento e no acompanhamento do Programa Mineração e Desenvolvimento - PMD."
+PDL 420/2020,2263589,,,Meio Ambiente,,,,,,Aguardando Autorização do Despacho,"Resolução 500 de 29 de setembro de 2020, do Conselho Nacional do Meio Ambiente - conama"
+PDL 421/2020,2263619,,,Meio Ambiente,,,,,,Aguardando Autorização do Despacho,"Resolução conama, do Conselho Nacional do Meio Ambiente, que revoga as Resoluções conama 302/2002 ,303/2002 ,284/2001 e 264/1999."
+PDL 423/2020,2263650,,,Mineração,,,,,,Aguardando Autorização Devolução,"Portaria no 354, de 29 de setembro de 2020 do Ministério de Minas e Energia, item ""B, do Plano 3.4"""
+PDL 432/2020,2263735,,,Meio Ambiente,,,,,,Aguardando Despacho do Presidente da Câmara dos Deputados,"Portaria nº 524, de 1º de outubro de 2020, que institui, no âmbito do Ministério do Meio Ambiente e entidades vinculadas, grupo de trabalho para análise de sinergias e ganhos de eficiência em caso de fusão entre o Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - ibama e o Instituto Chico Mendes de Conservação da Biodiversidade - Instituto Chico Mendes."
+PDL 439/2020,2263777,,,Meio Ambiente,,,,,,Aguardando Despacho do Presidente da Câmara dos Deputados,"Decisões da Reunião Ordinária n° 135 do Conselho Nacional do Meio Ambiente (conama), que alterou a Resolução conama n.º 264/1999, e revogou as Resoluções conama n.ºs 284/2001, 302/2002 e 303/2002."
+PDL 443/2020,2264071,,,Agropecuária,,,,,,Aguardando Despacho do Presidente da Câmara dos Deputados,"Resolução da Diretoria Colegiada da Agência Nacional de Vigilância Sanitária (ANVISA) que permite o uso dos estoques remanescentes em posse dos agricultores brasileiros de produtos à base de Paraquat, para a safra 2020-2021."
+PDL 444/2020,2264202,,,Agropecuária,,,,,,Aguardando Despacho do Presidente da Câmara dos Deputados,"Resolução da Diretoria Colegiada RDC -177, de 2017 que permite o uso dos estoques do agrotóxico Paraquate até 31 de agosto de 2021."
+PDL 446/2020,2264242,,,Agropecuária,,,,,,Aguardando Despacho do Presidente da Câmara dos Deputados,Resolução da Diretoria Colegiada da Agência Nacional de Vigilância Sanitária (ANVISA) em relação à permissão de uso dos estoques remanescentes de produtos à base de Paraquate para a safra 2020-2021.
+PDL 450/2020,2264352,,,Agropecuária,,,,,,Aguardando Despacho do Presidente da Câmara dos Deputados,"Resolução nº 428 de 07 de outubro de 2020, da Agência Nacional de Vigilância Sanitária (ANVISA), que permite a utilização de estoque remanescente do agrotóxico paraquate."
+PDL 474/2020,2265025,,,Outros,,,,,,Aguardando Despacho do Presidente da Câmara dos Deputados,"Portaria nº 263, de 29 de outubro de 2020 que “Suspende Licenças de Pescadores Profissionais inscritos no Registro Geral da Atividade Pesqueira, com base no artigo 16, inciso IV, da Instrução Normativa MPA nº 6, de 29 de junho de 2012”."
+PDL 488/2020,2265572,,,Agropecuária,,,,,,Aguardando Despacho do Presidente da Câmara dos Deputados,"Resolução da Diretoria Colegiada - RDC nº 428, de 7 de outubro de 2020, da Agência Nacional de Vigilância Sanitária – ANIVSA, que “Altera a Resolução de Diretoria Colegiada - RDC nº 177, de 21 de setembro de 2017, que dispõe sobre a proibição do ingrediente ativo Paraquate em produtos agrotóxicos no país e sobre as medidas transitórias de mitigação de riscos, para tratar da utilização dos estoques em posse dos agricultores brasileiros de produtos à base do ingrediente ativo Paraquate para o manejo dos cultivos na safra agrícola de 2020/2021”."
+PDL 493/2020,2265667,,,Agropecuária,,,,,,Aguardando Despacho do Presidente da Câmara dos Deputados,"Ato nº 65, de 23 de novembro de 2020, Departamento de Sanidade Vegetal e Insumos Agrícolas da Secretaria de Defesa agropecuária."
+PDL 519/2020,2266103,,,Agropecuária,,,,,,Aguardando Despacho do Presidente da Câmara dos Deputados,"Portaria Conjunta nº 1, da Secretaria Especial de Assuntos Fundiários do Ministério da agricultura, Pecuária e Abastecimento e do Instituto Nacional de Colonização e Reforma Agrária (INCRA), de 2 de dezembro de 2020"
+PDL 520/2020,2266108,,,Meio Ambiente,,,,,,Aguardando Despacho do Presidente da Câmara dos Deputados,"Portaria Conjunta nº 1, da Secretaria Especial de Assuntos Fundiários do Ministério da agricultura, Pecuária e Abastecimento e do Instituto Nacional de Colonização e Reforma Agrária (INCRA), de 2 de dezembro de 2020"
+PDL 528/2020,2266316,,,Meio Ambiente,,,,,,Aguardando Despacho do Presidente da Câmara dos Deputados,"Portaria Conjunta nº 1, da Secretaria Especial de Assuntos Fundiários do Ministério da agricultura, Pecuária e Abastecimento e do Instituto Nacional de Colonização e Reforma Agrária (INCRA), de 2 de dezembro de 2020"
+PDL 526/2020,2266284,,,Meio Ambiente,,,,,,Aguardando Despacho do Presidente da Câmara dos Deputados,"Portaria Conjunta nº 1, da Secretaria Especial de Assuntos Fundiários do Ministério da agricultura, Pecuária e Abastecimento e do Instituto Nacional de Colonização e Reforma Agrária (INCRA), de 2 de dezembro de 2020"
+PDL 452/2020,,145213,,Meio Ambiente,,,,,,NA,"Resolução nº 499, de 6 de outubro, e da Resolução nº 500, de 21 de outubro, ambas de 2020, do Conselho Nacional do Meio Ambiente – CONAMA."
