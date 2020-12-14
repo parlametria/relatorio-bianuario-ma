@@ -19,6 +19,7 @@ read_autorias_res = function() {
       is_parlamentar = col_logical(),
       governismo = col_double(),
       assinadas = col_double(),
+      peso_politico = col_double(),
       autorias_ponderadas = col_double()
     )
   )
