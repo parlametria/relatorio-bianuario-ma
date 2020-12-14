@@ -9,48 +9,78 @@ library(here)
 #' @return Dataframe com o formato do csv de entrada para o processamento do Parlametria
 #' @examples
 #' transform_input_proposicoes()
-transform_input_proposicoes <- function(planilha_path = here::here("data/input/PDLs Ambientais 2019 e 2020 - Filtro Bruno Carazza.xlsx")) {
-  proposicoes_selecao <- read_excel(planilha_path)
-  
-  urls <- proposicoes_selecao %>%
-    select(proposicao = `Proposições`, url = Link, tema = `Classificação Bruno`) %>%
-    mutate(dominio = domain(url)) %>%
-    mutate(origem = case_when(
-      (dominio == "www.camara.leg.br" | dominio == "www.camara.gov.br") ~ "camara",
-      dominio == "www.congressonacional.leg.br" ~ "congresso",
-      dominio ==  "www25.senado.leg.br" ~ "senado",
-      TRUE ~ NA_character_
-    )) %>%
-    rowwise() %>%
-    mutate(id_prop = .extract_id(url, origem)) %>%
-    mutate(casa = if_else(origem == 'congresso', 'senado', origem))
-  
-  proposicoes_camara <- urls %>%
-    filter(casa == "camara") %>%
-    select(proposicao, tema, url, id_camara = id_prop)
-  
-  proposicoes_senado <- urls %>%
-    filter(casa == "senado") %>%
-    select(proposicao, tema, url, id_senado = id_prop)
-  
-  proposicoes <- proposicoes_camara %>%
-    bind_rows(proposicoes_senado) %>%
-    mutate(apelido = "", prioridade = "", advocacy_link = "", keywords = "",
-           tipo_agenda = "", explicacao_projeto = "") %>% 
-    mutate_at(.funs = list(~ replace_na(., "")),
-              .vars = vars(id_camara, id_senado)) %>%
-    select(proposicao, id_camara, id_senado, apelido, tema, prioridade, advocacy_link, 
-           keywords, tipo_agenda, explicacao_projeto)
-  
-  # Salvar
-  out_proposicoes = "data/raw/proposicoes_input.csv"
-  
-  proposicoes %>%
-    write_csv(here::here(out_proposicoes))
-  message("Proposições processadas em ", out_proposicoes)
-  
-  return(proposicoes)
-}
+transform_input_proposicoes <-
+  function(planilha_path = here::here("data/input/PDLs Ambientais 2019 e 2020 - Filtro Bruno Carazza.xlsx")) {
+    proposicoes_selecao <- read_excel(planilha_path)
+    
+    urls <- proposicoes_selecao %>%
+      select(
+        proposicao = `Proposições`,
+        url = Link,
+        tema = `Classificação Bruno`,
+        situacao = `Situação`,
+        norma_atacada = `Norma Atacada`
+      ) %>%
+      mutate(dominio = domain(url)) %>%
+      mutate(
+        origem = case_when(
+          (
+            dominio == "www.camara.leg.br" |
+              dominio == "www.camara.gov.br"
+          ) ~ "camara",
+          dominio == "www.congressonacional.leg.br" ~ "congresso",
+          dominio ==  "www25.senado.leg.br" ~ "senado",
+          TRUE ~ NA_character_
+        )
+      ) %>%
+      rowwise() %>%
+      mutate(id_prop = .extract_id(url, origem)) %>%
+      mutate(casa = if_else(origem == 'congresso', 'senado', origem))
+    
+    proposicoes_camara <- urls %>%
+      filter(casa == "camara") %>%
+      select(proposicao, tema, url, situacao, norma_atacada, id_camara = id_prop)
+    
+    proposicoes_senado <- urls %>%
+      filter(casa == "senado") %>%
+      select(proposicao, tema, url, situacao, norma_atacada, id_senado = id_prop)
+    
+    proposicoes <- proposicoes_camara %>%
+      bind_rows(proposicoes_senado) %>%
+      mutate(
+        apelido = "",
+        prioridade = "",
+        advocacy_link = "",
+        keywords = "",
+        tipo_agenda = "",
+        explicacao_projeto = ""
+      ) %>%
+      mutate_at(.funs = list( ~ replace_na(., "")),
+                .vars = vars(id_camara, id_senado)) %>%
+      select(
+        proposicao,
+        id_camara,
+        id_senado,
+        apelido,
+        tema,
+        prioridade,
+        advocacy_link,
+        keywords,
+        tipo_agenda,
+        explicacao_projeto, 
+        situacao, 
+        norma_atacada
+      )
+    
+    # Salvar
+    out_proposicoes = "data/raw/proposicoes_input.csv"
+    
+    proposicoes %>%
+      write_csv(here::here(out_proposicoes))
+    message("Proposições processadas em ", out_proposicoes)
+    
+    return(proposicoes)
+  }
 
 #' @title Extrai ids das proposições através da URL
 #' @description Extrai ids das proposições através da URL para a página da proposição na respectiva casa

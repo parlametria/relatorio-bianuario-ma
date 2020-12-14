@@ -8,10 +8,16 @@ source(here::here("code/read_raw.R"))
 #'
 transform_proposicoes <-
   function(raw_data = "data/leggo_data/proposicoes.csv") {
-    proposicoes = read_proposicoes_raw(raw_data)
+    proposicoes_leggo = read_proposicoes_raw(raw_data)
+    proposicoes_input = read_proposicoes_input_raw() %>% 
+      select(proposicao, tema, situacao, norma_atacada)
+    
+    proposicoes_tudo = proposicoes_leggo %>% 
+      mutate(nome_proposicao = str_glue("{sigla_tipo} {numero}/{lubridate::year(data_apresentacao)}")) %>% 
+      left_join(proposicoes_input, by = c("nome_proposicao" = "proposicao"))
     
     out_props = "data/ready/proposicoes.csv"
-    proposicoes %>%  # temos uma linha por casa da proposição
+    proposicoes_tudo %>%  # temos uma linha por casa da proposição
       write_csv(here::here(out_props))
     message("Dados das proposições consideradas salvo em ", out_props)
     
@@ -28,6 +34,7 @@ transform_autorias <- function(proposicoes) {
   parlamentares_raw = read_parlamentares_raw()
   autores_leggo_raw = read_autorias_raw()
   governismo = read_governismo_raw()
+  peso = read_peso_raw()
   
   # Cruzar
   autores_leggo = autores_leggo_raw %>%
@@ -35,7 +42,9 @@ transform_autorias <- function(proposicoes) {
   
   parlamentares = parlamentares_raw %>%
     left_join(governismo,
-              by = c("id_entidade" = "id_parlamentar"))
+              by = c("id_entidade" = "id_parlamentar")) %>% 
+    left_join(peso, 
+              by = c("id_entidade_parlametria" = "id_parlamentar_parlametria"))
   
   autorias = autores_leggo %>%
     left_join(parlamentares,
