@@ -10,9 +10,10 @@ library(here)
 #' @examples
 #' transform_input_proposicoes()
 transform_input_proposicoes <- function(planilha_path = here::here("data/input/PDLs Ambientais 2019 e 2020 - Filtro Bruno Carazza.xlsx")) {
-  proposicoes_selecao <- read_excel(planilha_path)
+  proposicoes_selecao <- read_excel(planilha_path, sheet = "Revisão Carol")
   
   urls <- proposicoes_selecao %>%
+    filter(str_detect(`Dentro do escopo do relatório?`, "Sim")) %>% 
     select(proposicao = `Proposições`, url = Link, tema = `Classificação Bruno`) %>%
     mutate(dominio = domain(url)) %>%
     mutate(origem = case_when(
