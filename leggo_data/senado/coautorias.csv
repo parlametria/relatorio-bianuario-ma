@@ -1,3 +1,104 @@
 id_leggo,id_principal,casa,id_autor.x,id_autor.y,peso_arestas,num_coautorias,nome.x,partido.x,uf.x,casa_autor.x,bancada.x,nome.y,partido.y,uf.y,casa_autor.y,bancada.y
+0ced1482a161e821a6e7676795d76da0,141878,senado,374,374,1,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Paulo Rocha,PT,PA,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,374,5008,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Humberto Costa,PT,PE,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,374,5352,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,374,5627,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,374,5783,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+0ced1482a161e821a6e7676795d76da0,141878,senado,374,581,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Jaques Wagner,PT,BA,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,374,825,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Paulo Paim,PT,RS,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,5008,5352,0.14285714285714285,1,Sen. Humberto Costa,PT,PE,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,5008,5627,0.14285714285714285,1,Sen. Humberto Costa,PT,PE,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,5008,5783,0.14285714285714285,1,Sen. Humberto Costa,PT,PE,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+0ced1482a161e821a6e7676795d76da0,141878,senado,5352,5352,1,1,Sen. Rogério Carvalho,PT,SE,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,5352,5627,0.14285714285714285,1,Sen. Rogério Carvalho,PT,SE,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,5352,5783,0.14285714285714285,1,Sen. Rogério Carvalho,PT,SE,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+0ced1482a161e821a6e7676795d76da0,141878,senado,5627,5627,1,1,Sen. Jean Paul Prates,PT,RN,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,5627,5783,0.14285714285714285,1,Sen. Jean Paul Prates,PT,RN,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+0ced1482a161e821a6e7676795d76da0,141878,senado,5783,5783,1,1,Sen. Zenaide Maia,PROS,RN,senado,governo,Sen. Zenaide Maia,PROS,RN,senado,governo
+0ced1482a161e821a6e7676795d76da0,141878,senado,581,5008,0.14285714285714285,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Humberto Costa,PT,PE,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,581,5352,0.14285714285714285,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,581,5627,0.14285714285714285,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,581,5783,0.14285714285714285,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+0ced1482a161e821a6e7676795d76da0,141878,senado,581,581,1,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Jaques Wagner,PT,BA,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,581,825,0.14285714285714285,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Paulo Paim,PT,RS,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,825,5008,0.14285714285714285,1,Sen. Paulo Paim,PT,RS,senado,oposição,Sen. Humberto Costa,PT,PE,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,825,5352,0.14285714285714285,1,Sen. Paulo Paim,PT,RS,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,825,5627,0.14285714285714285,1,Sen. Paulo Paim,PT,RS,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+0ced1482a161e821a6e7676795d76da0,141878,senado,825,5783,0.14285714285714285,1,Sen. Paulo Paim,PT,RS,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+2d8e49e60313f657cf1870f22524cb41,136417,senado,5953,5953,1,1,Sen. Fabiano Contarato,REDE,ES,senado,oposição,Sen. Fabiano Contarato,REDE,ES,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,374,5008,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Humberto Costa,PT,PE,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,374,5352,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,374,5627,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,374,5783,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,374,581,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Jaques Wagner,PT,BA,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,374,825,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Paulo Paim,PT,RS,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,5008,5352,0.14285714285714285,1,Sen. Humberto Costa,PT,PE,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,5008,5627,0.14285714285714285,1,Sen. Humberto Costa,PT,PE,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,5008,5783,0.14285714285714285,1,Sen. Humberto Costa,PT,PE,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,5352,5627,0.14285714285714285,1,Sen. Rogério Carvalho,PT,SE,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,5352,5783,0.14285714285714285,1,Sen. Rogério Carvalho,PT,SE,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,5627,5783,0.14285714285714285,1,Sen. Jean Paul Prates,PT,RN,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,581,5008,0.14285714285714285,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Humberto Costa,PT,PE,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,581,5352,0.14285714285714285,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,581,5627,0.14285714285714285,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,581,5783,0.14285714285714285,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,581,825,0.14285714285714285,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Paulo Paim,PT,RS,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,825,5008,0.14285714285714285,1,Sen. Paulo Paim,PT,RS,senado,oposição,Sen. Humberto Costa,PT,PE,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,825,5352,0.14285714285714285,1,Sen. Paulo Paim,PT,RS,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,825,5627,0.14285714285714285,1,Sen. Paulo Paim,PT,RS,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+40b6e1bf9af39379d5677d7f3486c063,140619,senado,825,5783,0.14285714285714285,1,Sen. Paulo Paim,PT,RS,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+4de57fe01be4f0b7bba53214170a741e,141084,senado,374,5008,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Humberto Costa,PT,PE,senado,oposição
+4de57fe01be4f0b7bba53214170a741e,141084,senado,374,5352,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+4de57fe01be4f0b7bba53214170a741e,141084,senado,374,5627,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+4de57fe01be4f0b7bba53214170a741e,141084,senado,374,5783,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+4de57fe01be4f0b7bba53214170a741e,141084,senado,374,581,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Jaques Wagner,PT,BA,senado,oposição
+4de57fe01be4f0b7bba53214170a741e,141084,senado,374,825,0.14285714285714285,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Paulo Paim,PT,RS,senado,oposição
+4de57fe01be4f0b7bba53214170a741e,141084,senado,5008,5352,0.14285714285714285,1,Sen. Humberto Costa,PT,PE,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+4de57fe01be4f0b7bba53214170a741e,141084,senado,5008,5627,0.14285714285714285,1,Sen. Humberto Costa,PT,PE,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+4de57fe01be4f0b7bba53214170a741e,141084,senado,5008,5783,0.14285714285714285,1,Sen. Humberto Costa,PT,PE,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+4de57fe01be4f0b7bba53214170a741e,141084,senado,5352,5627,0.14285714285714285,1,Sen. Rogério Carvalho,PT,SE,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+4de57fe01be4f0b7bba53214170a741e,141084,senado,5352,5783,0.14285714285714285,1,Sen. Rogério Carvalho,PT,SE,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+4de57fe01be4f0b7bba53214170a741e,141084,senado,5627,5783,0.14285714285714285,1,Sen. Jean Paul Prates,PT,RN,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+4de57fe01be4f0b7bba53214170a741e,141084,senado,581,5008,0.14285714285714285,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Humberto Costa,PT,PE,senado,oposição
+4de57fe01be4f0b7bba53214170a741e,141084,senado,581,5352,0.14285714285714285,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+4de57fe01be4f0b7bba53214170a741e,141084,senado,581,5627,0.14285714285714285,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+4de57fe01be4f0b7bba53214170a741e,141084,senado,581,5783,0.14285714285714285,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+4de57fe01be4f0b7bba53214170a741e,141084,senado,581,825,0.14285714285714285,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Paulo Paim,PT,RS,senado,oposição
+4de57fe01be4f0b7bba53214170a741e,141084,senado,825,5008,0.14285714285714285,1,Sen. Paulo Paim,PT,RS,senado,oposição,Sen. Humberto Costa,PT,PE,senado,oposição
+4de57fe01be4f0b7bba53214170a741e,141084,senado,825,5352,0.14285714285714285,1,Sen. Paulo Paim,PT,RS,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+4de57fe01be4f0b7bba53214170a741e,141084,senado,825,5627,0.14285714285714285,1,Sen. Paulo Paim,PT,RS,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+4de57fe01be4f0b7bba53214170a741e,141084,senado,825,5783,0.14285714285714285,1,Sen. Paulo Paim,PT,RS,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+60211d690442e4790271643cd0ad3dc2,140895,senado,3806,3806,1,1,Sen. Zequinha Marinho,PSC,PA,senado,governo,Sen. Zequinha Marinho,PSC,PA,senado,governo
+6142605ff5d70b1c2b51d7d6d0d942f9,140754,senado,374,5352,0.16666666666666666,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+6142605ff5d70b1c2b51d7d6d0d942f9,140754,senado,374,5627,0.16666666666666666,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+6142605ff5d70b1c2b51d7d6d0d942f9,140754,senado,374,5783,0.16666666666666666,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+6142605ff5d70b1c2b51d7d6d0d942f9,140754,senado,374,581,0.16666666666666666,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Jaques Wagner,PT,BA,senado,oposição
+6142605ff5d70b1c2b51d7d6d0d942f9,140754,senado,374,825,0.16666666666666666,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Paulo Paim,PT,RS,senado,oposição
+6142605ff5d70b1c2b51d7d6d0d942f9,140754,senado,5352,5627,0.16666666666666666,1,Sen. Rogério Carvalho,PT,SE,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+6142605ff5d70b1c2b51d7d6d0d942f9,140754,senado,5352,5783,0.16666666666666666,1,Sen. Rogério Carvalho,PT,SE,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+6142605ff5d70b1c2b51d7d6d0d942f9,140754,senado,5627,5783,0.16666666666666666,1,Sen. Jean Paul Prates,PT,RN,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+6142605ff5d70b1c2b51d7d6d0d942f9,140754,senado,581,5352,0.16666666666666666,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+6142605ff5d70b1c2b51d7d6d0d942f9,140754,senado,581,5627,0.16666666666666666,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+6142605ff5d70b1c2b51d7d6d0d942f9,140754,senado,581,5783,0.16666666666666666,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+6142605ff5d70b1c2b51d7d6d0d942f9,140754,senado,581,825,0.16666666666666666,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Paulo Paim,PT,RS,senado,oposição
+6142605ff5d70b1c2b51d7d6d0d942f9,140754,senado,825,5352,0.16666666666666666,1,Sen. Paulo Paim,PT,RS,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+6142605ff5d70b1c2b51d7d6d0d942f9,140754,senado,825,5627,0.16666666666666666,1,Sen. Paulo Paim,PT,RS,senado,oposição,Sen. Jean Paul Prates,PT,RN,senado,oposição
+6142605ff5d70b1c2b51d7d6d0d942f9,140754,senado,825,5783,0.16666666666666666,1,Sen. Paulo Paim,PT,RS,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+6ef66f861e22202de3ce51fcb6a05d27,145734,senado,5953,5953,1,1,Sen. Fabiano Contarato,REDE,ES,senado,oposição,Sen. Fabiano Contarato,REDE,ES,senado,oposição
+86578c7c53c72a80231998f1ecdaf8ed,141968,senado,5352,5352,2,2,Sen. Rogério Carvalho,PT,SE,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+8ed2938db61996066a7ee26d53b2ff98,140199,senado,374,5718,0.3333333333333333,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Eliziane Gama,CIDADANIA,MA,senado,governo
+8ed2938db61996066a7ee26d53b2ff98,140199,senado,374,5783,0.3333333333333333,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Zenaide Maia,PROS,RN,senado,governo
+8ed2938db61996066a7ee26d53b2ff98,140199,senado,5718,5783,0.3333333333333333,1,Sen. Eliziane Gama,CIDADANIA,MA,senado,governo,Sen. Zenaide Maia,PROS,RN,senado,governo
+90aa7f96ef7d19436c81a41b549c2b89,141764,senado,5012,5012,2,2,Sen. Randolfe Rodrigues,REDE,AP,senado,oposição,Sen. Randolfe Rodrigues,REDE,AP,senado,oposição
 9c581eea6c5862113234baa0372bc44c,145213,senado,5376,5376,1,1,Sen. Mara Gabrilli,PSDB,SP,senado,governo,Sen. Mara Gabrilli,PSDB,SP,senado,governo
 9c581eea6c5862113234baa0372bc44c,145213,senado,5376,5953,0.5,1,Sen. Mara Gabrilli,PSDB,SP,senado,governo,Sen. Fabiano Contarato,REDE,ES,senado,oposição
+a9bd1e213051d3fa015f0eb66daf6074,140618,senado,5012,5012,1,1,Sen. Randolfe Rodrigues,REDE,AP,senado,oposição,Sen. Randolfe Rodrigues,REDE,AP,senado,oposição
+c7b6bcd6022b6818e3f8314d05ce2afb,144966,senado,374,374,1,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Paulo Rocha,PT,PA,senado,oposição
+c7b6bcd6022b6818e3f8314d05ce2afb,144966,senado,374,5008,0.25,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Humberto Costa,PT,PE,senado,oposição
+c7b6bcd6022b6818e3f8314d05ce2afb,144966,senado,374,5352,0.25,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+c7b6bcd6022b6818e3f8314d05ce2afb,144966,senado,374,581,0.25,1,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Jaques Wagner,PT,BA,senado,oposição
+c7b6bcd6022b6818e3f8314d05ce2afb,144966,senado,5008,5008,1,1,Sen. Humberto Costa,PT,PE,senado,oposição,Sen. Humberto Costa,PT,PE,senado,oposição
+c7b6bcd6022b6818e3f8314d05ce2afb,144966,senado,5008,5352,0.25,1,Sen. Humberto Costa,PT,PE,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+c7b6bcd6022b6818e3f8314d05ce2afb,144966,senado,5352,5352,1,1,Sen. Rogério Carvalho,PT,SE,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
+c7b6bcd6022b6818e3f8314d05ce2afb,144966,senado,581,5008,0.25,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Humberto Costa,PT,PE,senado,oposição
+c7b6bcd6022b6818e3f8314d05ce2afb,144966,senado,581,5352,0.25,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Rogério Carvalho,PT,SE,senado,oposição
