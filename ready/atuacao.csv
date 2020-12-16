@@ -466,6 +466,56 @@ de1feaba6ef76577fb80a7cbc7aa452f,1204530,2266284,camara,204530,Rodrigo Agostinho
 40f6bd930b777bfe979231fc48dded07,1204509,2266316,camara,204509,Áurea Carolina,PSOL,MG,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),0.1,1,FALSE,oposição,Proposição,-8.703365880613536,0.067985
 40f6bd930b777bfe979231fc48dded07,1204535,2266316,camara,204535,Sâmia Bomfim,PSOL,SP,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),0.1,1,FALSE,oposição,Proposição,-5.2750668607101865,0.0888473
 40f6bd930b777bfe979231fc48dded07,1205548,2266316,camara,205548,David Miranda,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,SECAP(SGM),0.1,1,FALSE,oposição,Proposição,-5.245995552196576,0.0785702
+2d8e49e60313f657cf1870f22524cb41,25953,136417,senado,5953,Fabiano Contarato,REDE,ES,senador,senado,Prop. Original / Apensada,Plenário,1,1,TRUE,oposição,Proposição,-6.475067277189618,0.350629
+8ed2938db61996066a7ee26d53b2ff98,2374,140199,senado,374,Paulo Rocha,PT,PA,senador,senado,Prop. Original / Apensada,Plenário,0.3333333333333333,1,TRUE,oposição,Proposição,-9.877485918562256,0.365028
+8ed2938db61996066a7ee26d53b2ff98,25718,140199,senado,5718,Eliziane Gama,CIDADANIA,MA,senador,senado,Prop. Original / Apensada,Plenário,0.3333333333333333,1,TRUE,governo,Proposição,-3.9228169265204222,0.380735
+8ed2938db61996066a7ee26d53b2ff98,25783,140199,senado,5783,Zenaide Maia,PROS,RN,senador,senado,Prop. Original / Apensada,Plenário,0.3333333333333333,1,TRUE,governo,Proposição,-8.30485078789202,0.0173823
+a9bd1e213051d3fa015f0eb66daf6074,25012,140618,senado,5012,Randolfe Rodrigues,REDE,AP,senador,senado,Prop. Original / Apensada,Plenário,1,1,TRUE,oposição,Proposição,-9.49913857636502,0.723893
+40b6e1bf9af39379d5677d7f3486c063,2374,140619,senado,374,Paulo Rocha,PT,PA,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,-9.877485918562256,0.365028
+40b6e1bf9af39379d5677d7f3486c063,2581,140619,senado,581,Jaques Wagner,PT,BA,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,-10,0.100209
+40b6e1bf9af39379d5677d7f3486c063,2825,140619,senado,825,Paulo Paim,PT,RS,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,-8.771983771486855,0.358875
+40b6e1bf9af39379d5677d7f3486c063,25008,140619,senado,5008,Humberto Costa,PT,PE,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,-8.709200337096954,0.395398
+40b6e1bf9af39379d5677d7f3486c063,25352,140619,senado,5352,Rogério Carvalho,PT,SE,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,-9.96288104764234,0.0770198
+40b6e1bf9af39379d5677d7f3486c063,25627,140619,senado,5627,NA,NA,NA,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,NA,NA
+40b6e1bf9af39379d5677d7f3486c063,25783,140619,senado,5783,Zenaide Maia,PROS,RN,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,governo,Proposição,-8.30485078789202,0.0173823
+6142605ff5d70b1c2b51d7d6d0d942f9,2374,140754,senado,374,Paulo Rocha,PT,PA,senador,senado,Prop. Original / Apensada,Plenário,0.16666666666666666,1,TRUE,oposição,Proposição,-9.877485918562256,0.365028
+6142605ff5d70b1c2b51d7d6d0d942f9,2581,140754,senado,581,Jaques Wagner,PT,BA,senador,senado,Prop. Original / Apensada,Plenário,0.16666666666666666,1,TRUE,oposição,Proposição,-10,0.100209
+6142605ff5d70b1c2b51d7d6d0d942f9,2825,140754,senado,825,Paulo Paim,PT,RS,senador,senado,Prop. Original / Apensada,Plenário,0.16666666666666666,1,TRUE,oposição,Proposição,-8.771983771486855,0.358875
+6142605ff5d70b1c2b51d7d6d0d942f9,25352,140754,senado,5352,Rogério Carvalho,PT,SE,senador,senado,Prop. Original / Apensada,Plenário,0.16666666666666666,1,TRUE,oposição,Proposição,-9.96288104764234,0.0770198
+6142605ff5d70b1c2b51d7d6d0d942f9,25627,140754,senado,5627,NA,NA,NA,senador,senado,Prop. Original / Apensada,Plenário,0.16666666666666666,1,TRUE,oposição,Proposição,NA,NA
+6142605ff5d70b1c2b51d7d6d0d942f9,25783,140754,senado,5783,Zenaide Maia,PROS,RN,senador,senado,Prop. Original / Apensada,Plenário,0.16666666666666666,1,TRUE,governo,Proposição,-8.30485078789202,0.0173823
+60211d690442e4790271643cd0ad3dc2,23806,140895,senado,3806,Zequinha Marinho,PSC,PA,senador,senado,Prop. Original / Apensada,Plenário,1,1,TRUE,governo,Proposição,2.817743168877625,0.366733
+4de57fe01be4f0b7bba53214170a741e,2374,141084,senado,374,Paulo Rocha,PT,PA,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,-9.877485918562256,0.365028
+4de57fe01be4f0b7bba53214170a741e,2581,141084,senado,581,Jaques Wagner,PT,BA,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,-10,0.100209
+4de57fe01be4f0b7bba53214170a741e,2825,141084,senado,825,Paulo Paim,PT,RS,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,-8.771983771486855,0.358875
+4de57fe01be4f0b7bba53214170a741e,25008,141084,senado,5008,Humberto Costa,PT,PE,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,-8.709200337096954,0.395398
+4de57fe01be4f0b7bba53214170a741e,25352,141084,senado,5352,Rogério Carvalho,PT,SE,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,-9.96288104764234,0.0770198
+4de57fe01be4f0b7bba53214170a741e,25627,141084,senado,5627,NA,NA,NA,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,NA,NA
+4de57fe01be4f0b7bba53214170a741e,25783,141084,senado,5783,Zenaide Maia,PROS,RN,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,governo,Proposição,-8.30485078789202,0.0173823
+90aa7f96ef7d19436c81a41b549c2b89,25012,141764,senado,5012,Randolfe Rodrigues,REDE,AP,senador,senado,Outros,Plenário,1,1,TRUE,oposição,Outros,-9.49913857636502,0.723893
+90aa7f96ef7d19436c81a41b549c2b89,25012,141764,senado,5012,Randolfe Rodrigues,REDE,AP,senador,senado,Prop. Original / Apensada,Plenário,1,1,TRUE,oposição,Proposição,-9.49913857636502,0.723893
+0ced1482a161e821a6e7676795d76da0,2374,141878,senado,374,Paulo Rocha,PT,PA,senador,senado,Outros,Plenário,1,1,TRUE,oposição,Outros,-9.877485918562256,0.365028
+0ced1482a161e821a6e7676795d76da0,2581,141878,senado,581,Jaques Wagner,PT,BA,senador,senado,Outros,Plenário,1,1,TRUE,oposição,Outros,-10,0.100209
+0ced1482a161e821a6e7676795d76da0,25352,141878,senado,5352,Rogério Carvalho,PT,SE,senador,senado,Outros,Plenário,1,1,TRUE,oposição,Outros,-9.96288104764234,0.0770198
+0ced1482a161e821a6e7676795d76da0,25627,141878,senado,5627,NA,NA,NA,senador,senado,Outros,Plenário,1,1,TRUE,oposição,Outros,NA,NA
+0ced1482a161e821a6e7676795d76da0,25783,141878,senado,5783,Zenaide Maia,PROS,RN,senador,senado,Outros,Plenário,1,1,TRUE,governo,Outros,-8.30485078789202,0.0173823
+0ced1482a161e821a6e7676795d76da0,2374,141878,senado,374,Paulo Rocha,PT,PA,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,-9.877485918562256,0.365028
+0ced1482a161e821a6e7676795d76da0,2581,141878,senado,581,Jaques Wagner,PT,BA,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,-10,0.100209
+0ced1482a161e821a6e7676795d76da0,2825,141878,senado,825,Paulo Paim,PT,RS,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,-8.771983771486855,0.358875
+0ced1482a161e821a6e7676795d76da0,25008,141878,senado,5008,Humberto Costa,PT,PE,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,-8.709200337096954,0.395398
+0ced1482a161e821a6e7676795d76da0,25352,141878,senado,5352,Rogério Carvalho,PT,SE,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,-9.96288104764234,0.0770198
+0ced1482a161e821a6e7676795d76da0,25627,141878,senado,5627,NA,NA,NA,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,oposição,Proposição,NA,NA
+0ced1482a161e821a6e7676795d76da0,25783,141878,senado,5783,Zenaide Maia,PROS,RN,senador,senado,Prop. Original / Apensada,Plenário,0.14285714285714285,1,TRUE,governo,Proposição,-8.30485078789202,0.0173823
+86578c7c53c72a80231998f1ecdaf8ed,25352,141968,senado,5352,Rogério Carvalho,PT,SE,senador,senado,Outros,Plenário,1,1,TRUE,oposição,Outros,-9.96288104764234,0.0770198
+86578c7c53c72a80231998f1ecdaf8ed,25352,141968,senado,5352,Rogério Carvalho,PT,SE,senador,senado,Prop. Original / Apensada,Plenário,1,1,TRUE,oposição,Proposição,-9.96288104764234,0.0770198
+c7b6bcd6022b6818e3f8314d05ce2afb,2374,144966,senado,374,Paulo Rocha,PT,PA,senador,senado,Requerimento,Plenário,1,1,TRUE,oposição,Proposição,-9.877485918562256,0.365028
+c7b6bcd6022b6818e3f8314d05ce2afb,25008,144966,senado,5008,Humberto Costa,PT,PE,senador,senado,Requerimento,Plenário,1,1,TRUE,oposição,Proposição,-8.709200337096954,0.395398
+c7b6bcd6022b6818e3f8314d05ce2afb,25352,144966,senado,5352,Rogério Carvalho,PT,SE,senador,senado,Requerimento,Plenário,1,1,TRUE,oposição,Proposição,-9.96288104764234,0.0770198
+c7b6bcd6022b6818e3f8314d05ce2afb,2374,144966,senado,374,Paulo Rocha,PT,PA,senador,senado,Prop. Original / Apensada,Plenário,0.25,1,TRUE,oposição,Proposição,-9.877485918562256,0.365028
+c7b6bcd6022b6818e3f8314d05ce2afb,2581,144966,senado,581,Jaques Wagner,PT,BA,senador,senado,Prop. Original / Apensada,Plenário,0.25,1,TRUE,oposição,Proposição,-10,0.100209
+c7b6bcd6022b6818e3f8314d05ce2afb,25008,144966,senado,5008,Humberto Costa,PT,PE,senador,senado,Prop. Original / Apensada,Plenário,0.25,1,TRUE,oposição,Proposição,-8.709200337096954,0.395398
+c7b6bcd6022b6818e3f8314d05ce2afb,25352,144966,senado,5352,Rogério Carvalho,PT,SE,senador,senado,Prop. Original / Apensada,Plenário,0.25,1,TRUE,oposição,Proposição,-9.96288104764234,0.0770198
 9c581eea6c5862113234baa0372bc44c,25376,145213,senado,5376,Mara Gabrilli,PSDB,SP,senador,senado,Requerimento,Plenário,1,1,TRUE,governo,Proposição,-2.219548930868225,0.0964358
 9c581eea6c5862113234baa0372bc44c,25376,145213,senado,5376,Mara Gabrilli,PSDB,SP,senador,senado,Prop. Original / Apensada,Plenário,0.5,1,TRUE,governo,Proposição,-2.219548930868225,0.0964358
 9c581eea6c5862113234baa0372bc44c,25953,145213,senado,5953,Fabiano Contarato,REDE,ES,senador,senado,Prop. Original / Apensada,Plenário,0.5,1,TRUE,oposição,Proposição,-6.475067277189618,0.350629
+6ef66f861e22202de3ce51fcb6a05d27,25953,145734,senado,5953,Fabiano Contarato,REDE,ES,senador,senado,Prop. Original / Apensada,Plenário,1,1,TRUE,oposição,Proposição,-6.475067277189618,0.350629
