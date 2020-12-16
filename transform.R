@@ -56,7 +56,7 @@ transform_autorias <- function(proposicoes) {
   
   autorias %>%
     detalha_autorias() %>% 
-  write_csv(here::here(out_detalhes))
+    write_csv(here::here(out_detalhes))
   message("Detalhes de autorias em ", out_detalhes)
   
   resumo_todos %>%
@@ -89,7 +89,7 @@ detalha_autorias = function(data) {
            uf,
            casa,
            sigla_tipo,
-           proposicao,
+           proposicao = nome_proposicao,
            autores,
            governismo) %>%
     mutate(
