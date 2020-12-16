@@ -1328,3 +1328,42 @@ id_ext,casa,data,sequencia,texto_tramitacao,sigla_local,id_situacao,descricao_si
 2202983,camara,2019-05-20T19:20:00Z,16,Apensação desta proposição ao PDL 229/2019.,CCJC,106,Tramitando em Conjunto,NA,NA,CCJC,NA,3,NA,NA,NA,NA,NA,NA,NA,Ativa
 145213,senado,2020-10-21T07:16:57Z,1,"Encaminhado à publicação, em 21/10/2020.
 (Encaminhado à publicação o RQS nº 2545/2020, de adição de assinatura)",SEADI,NA,NA,,apresentacao_pl,Mesa - Senado,NA,2,Apresentação de Projeto de Lei,NA,NA,NA,NA,NA,NA,Ativa
+136417,senado,2019-04-23T00:00:01Z,1,"Encaminhado à publicação.
+À CCJ.
+(Este processado contém quatro folhas numeradas)",SEADI,147,MATÉRIA LIDA EM PLENÁRIO.,,apresentacao_pl,Mesa - Senado,NA,2,Apresentação de Projeto de Lei,NA,NA,NA,matéria_lida_em_plenário_,NA, - Revisão (Senado),Ativa
+136417,senado,2019-04-23T00:00:02Z,2,Matéria aguardando distribuição.,CCJ,87,AGUARDANDO DESIGNAÇÃO DO RELATOR,,NA,CCJ,NA,3,NA,NA,NA,NA,aguardando_designação_do_relator,NA, - Revisão (Senado),Ativa
+136417,senado,2019-06-06T12:11:00Z,3,"Distribuído ao Senador Veneziano Vital do Rêgo, para emitir relatório.",CCJ,91,MATÉRIA COM A RELATORIA,,designado_relator,CCJ,NA,1,Designação de Relator,NA,NA,Análise do relator,matéria_com_a_relatoria,NA, - Revisão (Senado),Ativa
+136417,senado,2020-10-21T18:35:14Z,4,"Devolvido pelo relator, Senador Veneziano Vital do Rêgo, em virtude de não mais pertencer aos quadros desta Comissão. A matéria será redistribuída.",CCJ,87,AGUARDANDO DESIGNAÇÃO DO RELATOR,,devolvido,CCJ,NA,1,Devolução do Projeto pelo Relator,NA,NA,Análise do relator,aguardando_designação_do_relator,NA, - Revisão (Senado),Ativa
+140199,senado,2019-12-12T00:00:01Z,1,"Encaminhado à publicação.
+À CCJ.
+(Este processado contém 5 (cinco) folhas numeradas)",SEADI,147,MATÉRIA LIDA EM PLENÁRIO.,,apresentacao_pl,Mesa - Senado,NA,2,Apresentação de Projeto de Lei,NA,NA,NA,matéria_lida_em_plenário_,NA, - Revisão (Senado),Ativa
+140199,senado,2019-12-12T00:00:02Z,2,Matéria aguardando distribuição.,CCJ,87,AGUARDANDO DESIGNAÇÃO DO RELATOR,,NA,CCJ,NA,3,NA,NA,NA,NA,aguardando_designação_do_relator,NA, - Revisão (Senado),Ativa
+140619,senado,2020-02-11T00:00:01Z,1,"Encaminhado à publicação.
+À CCJ.
+(Este processado contém 06 folhas numeradas)",SEADI,147,MATÉRIA LIDA EM PLENÁRIO.,,apresentacao_pl,Mesa - Senado,NA,2,Apresentação de Projeto de Lei,NA,NA,NA,matéria_lida_em_plenário_,NA, - Revisão (Senado),Ativa
+140619,senado,2020-02-11T00:00:02Z,2,Matéria aguardando distribuição.,CCJ,87,AGUARDANDO DESIGNAÇÃO DO RELATOR,,NA,CCJ,NA,3,NA,NA,NA,NA,aguardando_designação_do_relator,NA, - Revisão (Senado),Ativa
+140618,senado,2020-02-11T00:00:01Z,1,"Encaminhado à publicação.
+À CCJ.
+(Este processo contém 5 (cinco) folhas numeradas.",SEADI,147,MATÉRIA LIDA EM PLENÁRIO.,,apresentacao_pl,Mesa - Senado,NA,2,Apresentação de Projeto de Lei,NA,NA,NA,matéria_lida_em_plenário_,NA, - Revisão (Senado),Ativa
+140618,senado,2020-02-11T00:00:02Z,2,Matéria aguardando distribuição.,CCJ,87,AGUARDANDO DESIGNAÇÃO DO RELATOR,,NA,CCJ,NA,3,NA,NA,NA,NA,aguardando_designação_do_relator,NA, - Revisão (Senado),Ativa
+140754,senado,2020-02-18T00:00:01Z,1,"Encaminhado à publicação.
+À CCJ. 
+(Este processado contém 8 (oito) folhas numeradas)",SEADI,147,MATÉRIA LIDA EM PLENÁRIO.,,apresentacao_pl,Mesa - Senado,NA,2,Apresentação de Projeto de Lei,NA,NA,NA,matéria_lida_em_plenário_,NA, - Revisão (Senado),Ativa
+140754,senado,2020-02-18T00:00:02Z,2,Recebido nesta Comissão. Matéria aguardando distribuição.,CCJ,87,AGUARDANDO DESIGNAÇÃO DO RELATOR,,NA,CCJ,NA,3,NA,NA,NA,Recebimento,aguardando_designação_do_relator,NA, - Revisão (Senado),Ativa
+140895,senado,2020-03-04T00:00:01Z,1,"Encaminhado à publicação. 
+À CCJ.
+(Este processado contém 4 (quatro) folhas numeradas)",SEADI,147,MATÉRIA LIDA EM PLENÁRIO.,,apresentacao_pl,Mesa - Senado,NA,2,Apresentação de Projeto de Lei,NA,NA,NA,matéria_lida_em_plenário_,NA, - Revisão (Senado),Ativa
+140895,senado,2020-03-05T00:00:01Z,2,Matéria aguardando distribuição.,CCJ,87,AGUARDANDO DESIGNAÇÃO DO RELATOR,,NA,CCJ,NA,3,NA,NA,NA,NA,aguardando_designação_do_relator,NA, - Revisão (Senado),Ativa
+140895,senado,2020-03-11T18:03:20Z,3,"Distribuído ao Senador Mecias de Jesus, para emitir relatório.",CCJ,91,MATÉRIA COM A RELATORIA,,designado_relator,CCJ,NA,1,Designação de Relator,NA,NA,Análise do relator,matéria_com_a_relatoria,NA, - Revisão (Senado),Ativa
+141084,senado,2020-03-12T00:00:01Z,1,"Encaminhado à publicação.
+À CCJ.
+(Este processado contém nove folhas numeradas)",SEADI,147,MATÉRIA LIDA EM PLENÁRIO.,,apresentacao_pl,Mesa - Senado,NA,2,Apresentação de Projeto de Lei,NA,NA,NA,matéria_lida_em_plenário_,NA, - Revisão (Senado),Ativa
+141084,senado,2020-03-13T00:00:01Z,2,Matéria aguardando distribuição.,CCJ,87,AGUARDANDO DESIGNAÇÃO DO RELATOR,,NA,CCJ,NA,3,NA,NA,NA,NA,aguardando_designação_do_relator,NA, - Revisão (Senado),Ativa
+141764,senado,2020-04-30T00:00:01Z,1,Encaminhado à publicação no DSF de 07/05/2020.,SEADI,NA,NA,,apresentacao_pl,Mesa - Senado,NA,2,Apresentação de Projeto de Lei,NA,NA,NA,NA,NA,NA,Ativa
+141878,senado,2020-05-08T00:00:01Z,1,Encaminhado à publicação no DSF de 14/05/2020.,SEADI,NA,NA,,apresentacao_pl,Mesa - Senado,NA,2,Apresentação de Projeto de Lei,NA,NA,NA,NA,NA,NA,Ativa
+141878,senado,2020-05-13T00:00:01Z,2,"Recebidas as correspondências eletrônicas de confirmação de subscrição, dos Senadores Jaques Wagner, Jean Paul Prates, Zenaide Maia e Paulo Rocha.",SLSF,NA,NA,,NA,Mesa - Senado,NA,3,NA,NA,NA,NA,NA,NA,NA,Ativa
+141878,senado,2020-05-13T00:00:02Z,3,"Recebidas correspondências eletrônicas de confirmação de subscrição,dos Senadores Paulo Paim e Humberto Costa.",SLSF,NA,NA,,NA,Mesa - Senado,NA,3,NA,NA,NA,NA,NA,NA,NA,Ativa
+141968,senado,2020-05-15T00:00:01Z,1,Encaminhado à publicação no DSF de 21/05/2020.,SEADI,NA,NA,,apresentacao_pl,Mesa - Senado,NA,2,Apresentação de Projeto de Lei,NA,NA,NA,NA,NA,NA,Ativa
+144966,senado,2020-09-28T09:44:26Z,1,"Encaminhado à publicação, em 28/09/2020.
+(Encaminhados à publicação os RQS nºs 2458, 2460 e 2470, de 2020, de adição de assinatura)",SEADI,NA,NA,,apresentacao_pl,Mesa - Senado,NA,2,Apresentação de Projeto de Lei,NA,NA,NA,NA,NA,NA,Ativa
+145734,senado,2020-12-07T05:53:28Z,1,"Encaminhado à publicação, em 07/12/2020.",SEADI,NA,NA,,apresentacao_pl,Mesa - Senado,NA,2,Apresentação de Projeto de Lei,NA,NA,NA,NA,NA,NA,Ativa
