@@ -84,3 +84,8 @@ read_atuacao_raw <- function() {
     )
   )
 }
+
+read_relatoria_raw <- function(){
+  read_csv(here::here("data/leggo_data/relatores_leggo.csv"), 
+           col_types = cols(.default = col_character()))
+}

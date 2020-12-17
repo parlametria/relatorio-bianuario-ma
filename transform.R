@@ -9,11 +9,15 @@ source(here::here("code/read_raw.R"))
 transform_proposicoes <-
   function(raw_data = "data/leggo_data/proposicoes.csv") {
     proposicoes_leggo = read_proposicoes_raw(raw_data)
-    proposicoes_input = read_proposicoes_input_raw() %>% 
+    proposicoes_input = read_proposicoes_input_raw() %>%
       select(proposicao, tema, situacao, norma_atacada)
     
-    proposicoes_tudo = proposicoes_leggo %>% 
-      mutate(nome_proposicao = str_glue("{sigla_tipo} {numero}/{lubridate::year(data_apresentacao)}")) %>% 
+    proposicoes_tudo = proposicoes_leggo %>%
+      mutate(
+        nome_proposicao = str_glue(
+          "{sigla_tipo} {numero}/{lubridate::year(data_apresentacao)}"
+        )
+      ) %>%
       left_join(proposicoes_input, by = c("nome_proposicao" = "proposicao"))
     
     out_props = "data/ready/proposicoes.csv"
@@ -32,7 +36,7 @@ transform_proposicoes <-
 transform_autorias <- function(proposicoes) {
   # Ler
   autores_leggo_raw = read_autorias_raw()
-  parlamentares = parlamentares_data()  
+  parlamentares = parlamentares_data()
   
   # Cruzar
   autores_leggo = autores_leggo_raw %>%
@@ -47,7 +51,8 @@ transform_autorias <- function(proposicoes) {
   
   resumo_todos = parlamentares %>%
     filter(em_exercicio == 1) %>%
-    left_join(resumo_autores, by = c("casa", "nome", "partido", "uf", "governismo")) %>%
+    left_join(resumo_autores,
+              by = c("casa", "nome", "partido", "uf", "governismo")) %>%
     mutate(across(assinadas:autorias_ponderadas, replace_na, 0))
   
   # Salvar
@@ -55,7 +60,7 @@ transform_autorias <- function(proposicoes) {
   out_resumo = "data/ready/autorias-resumo.csv"
   
   autorias %>%
-    detalha_autorias() %>% 
+    detalha_autorias() %>%
     write_csv(here::here(out_detalhes))
   message("Detalhes de autorias em ", out_detalhes)
   
@@ -64,15 +69,15 @@ transform_autorias <- function(proposicoes) {
   message("Resumo de autorias em ", out_resumo)
 }
 
-parlamentares_data <- function(){
+parlamentares_data <- function() {
   parlamentares_raw = read_parlamentares_raw()
   governismo = read_governismo_raw()
   peso = read_peso_raw()
   
   parlamentares_raw %>%
     left_join(governismo,
-              by = c("id_entidade" = "id_parlamentar")) %>% 
-    left_join(peso, 
+              by = c("id_entidade" = "id_parlamentar")) %>%
+    left_join(peso,
               by = c("id_entidade_parlametria" = "id_parlamentar_parlametria"))
 }
 
@@ -110,15 +115,40 @@ resume_autorias = function(data) {
     )
 }
 
-transform_atuacao <- function(){
+transform_atuacao <- function() {
   atuacao = read_atuacao_raw()
-  parlamentares = parlamentares_data() %>% 
+  parlamentares = parlamentares_data() %>%
     select(id_entidade_parlametria, governismo, peso_politico)
   
+  out_file = here::here("data/ready/atuacao.csv")
   atuacao %>%
     left_join(parlamentares,
-              by = c("id_autor_parlametria" = "id_entidade_parlametria")) %>% 
-    write_csv(here::here("data/ready/atuacao.csv"))
+              by = c("id_autor_parlametria" = "id_entidade_parlametria")) %>%
+    write_csv(out_file)
+  message("Atuação salva em ", out_file)
+}
+
+transform_relatorias <- function(props) {
+  relatorias = read_relatoria_raw()
+  parlamentares = parlamentares_data()
+  
+  t = relatorias %>%
+    left_join(
+      parlamentares,
+      by = c(
+        "relator_id_parlametria" = "id_entidade_parlametria",
+        "casa",
+        "relator_id" = "id_entidade"
+      )
+    ) %>%
+    select(-situacao)
+  
+  out_file = here::here("data/ready/relatorias.csv")
+  
+  props %>%
+    left_join(t, by = "id_leggo") %>%
+    write_csv(out_file)
+  message("Relatorias salvas em ", out_file)
 }
 
 
@@ -128,10 +158,11 @@ transform_atuacao <- function(){
 main <- function(argv = NULL) {
   props = transform_proposicoes()
   transform_autorias(props)
+  transform_relatorias(props)
   transform_atuacao()
 }
 
 if (!interactive()) {
-  argv <- commandArgs(TRUE) 
+  argv <- commandArgs(TRUE)
   main(argv)
 }

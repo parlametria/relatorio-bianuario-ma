@@ -45,9 +45,20 @@ read_atuacao <- function() {
       .default = col_character(),
       peso_total_documentos = col_double(),
       num_documentos = col_double(),
-      governismo = col_double(), 
+      governismo = col_double(),
       peso_politico = col_double(),
       is_important = col_logical()
+    )
+  )
+}
+
+read_relatoria <- function() {
+  read_csv(
+    here::here("data/ready/relatorias.csv"),
+    col_types = cols(
+      .default = col_character(),
+      governismo = col_double(),
+      peso_politico = col_double()
     )
   )
 }
