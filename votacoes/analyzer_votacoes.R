@@ -90,7 +90,11 @@ processa_votacoes_senado <- function() {
         pull(id_proposicao), ~ fetch_info_proposicao_senado(.x)
     )
   
-  proposicoes_ma <- proposicoes %>% 
+  # Remove proposições do tipo MSF e OFS
+  proposicoes_filtradas <- proposicoes %>% 
+    filter(!str_detect(tolower(nome), "msf|ofs"))
+  
+  proposicoes_ma <- proposicoes_filtradas %>% 
     filter(
       str_detect(
         tema,
@@ -99,7 +103,7 @@ processa_votacoes_senado <- function() {
     ) 
   
   votacoes_filtradas <- votacoes_senado %>% 
-    inner_join(proposicoes,
+    inner_join(proposicoes_ma,
                by = c("id_proposicao" = "id")) %>% 
     mutate(cod_sessao = "",
            hora = "") %>% 
