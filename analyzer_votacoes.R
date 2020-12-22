@@ -10,19 +10,11 @@ source(here("code/proposicoes/fetcher_proposicoes_camara.R"))
 #' @examples
 #' votacoes <- processa_votacoes_camara()
 processa_votacoes_camara <- function() {
-  .TIPOS_PROPOSICOES <- c("PDL", "PEC", "PL", "PLP", "PRS")
-  
-  proposicoes_ma_agric <- fetch_proposicoes_apresentadas_ma_camara()
-  
-  proposicoes_ma_agric_filtradas <- proposicoes_ma_agric %>%
-    filter(sigla_tipo %in% .TIPOS_PROPOSICOES)
-  
-  ## Marcando quais as proposições tiveram votações nominais em plenário em 2020
+  ## Marcando quais as proposições tiveram votações nominais em plenário em 2019 e 2020
   proposicoes_votadas <- fetch_proposicoes_votadas_plenario_camara()
   
-  proposicoes <- proposicoes_ma_agric_filtradas %>%
-    left_join(proposicoes_votadas, by = "id") %>%
-    filter(!is.na(votada_plenario))
+  proposicoes <- proposicoes_votadas %>% 
+    distinct(id)
   
   proposicoes_info <-
     purrr::pmap_dfr(list(proposicoes$id), ~ fetch_info_proposicao_camara(..1)) %>%
@@ -35,14 +27,17 @@ processa_votacoes_camara <- function() {
       indexacao_proposicao = indexacao,
       tema,
       uri_tramitacao
-    ) %>% 
+    )
+  
+  proposicoes_ma <- proposicoes_info %>% 
+    filter(str_detect(tolower(tema), "meio ambiente|agricultura")) %>% 
     group_by(id_proposicao) %>% 
     mutate(tema = paste0(tema, collapse = ";"),
               autor = paste0(autor, collapse = ";")) %>% 
     ungroup() %>% 
-    distinct()
+    distinct() 
   
-  votacoes_proposicoes <- tibble(id_proposicao = proposicoes$id) %>%
+  votacoes_proposicoes <- tibble(id_proposicao = proposicoes_ma$id_proposicao) %>%
     mutate(data = map(id_proposicao,
                       fetch_votacoes_por_proposicao_camara)) %>%
     unnest(data) %>%
@@ -85,10 +80,23 @@ processa_votacoes_camara <- function() {
 #' votacoes <- processa_votacoes_senado()
 processa_votacoes_senado <- function() {
   
-  proposicoes <- processa_proposicoes_senado()
-  
   votacoes_senado <- fetch_proposicoes_votadas_senado(initial_date = "01/02/2019",
                                                       end_date = format(Sys.Date(), "%d/%m/%Y"))
+  
+  proposicoes <-
+    purrr::map_df(
+      votacoes_senado %>% 
+        distinct(id_proposicao) %>%
+        pull(id_proposicao), ~ fetch_info_proposicao_senado(.x)
+    )
+  
+  proposicoes_ma <- proposicoes %>% 
+    filter(
+      str_detect(
+        tema,
+        "Nao especificado|Meio ambiente|Agricultura, pecuária e abastecimento|Recursos hídricos"
+      )
+    ) 
   
   votacoes_filtradas <- votacoes_senado %>% 
     inner_join(proposicoes,
