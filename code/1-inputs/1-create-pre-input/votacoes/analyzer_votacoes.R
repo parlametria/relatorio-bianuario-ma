@@ -1,7 +1,7 @@
 library(tidyverse)
 library(here)
 source(here("code/utils/check_packages.R"))
-source(here("code/proposicoes/fetcher_proposicoes_camara.R"))
+source(here("code/1-inputs/1-create-pre-input/proposicoes/fetcher_proposicoes_camara.R"))
 .check_and_load_perfilparlamentar_package()
 
 #' @title Votações nominais em plenário de Meio Ambiente e Agricultura
