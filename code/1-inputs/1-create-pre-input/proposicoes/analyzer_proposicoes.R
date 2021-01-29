@@ -2,8 +2,8 @@ library(tidyverse)
 library(here)
 library(agoradigital)
 source(here("code/utils/check_packages.R"))
-source(here("code/proposicoes/fetcher_proposicoes_camara.R"))
-source(here("code/proposicoes/fetcher_proposicoes_senado.R"))
+source(here("code/1-inputs/1-create-pre-input/proposicoes/fetcher_proposicoes_camara.R"))
+source(here("code/1-inputs/1-create-pre-input/proposicoes/fetcher_proposicoes_senado.R"))
 .check_and_load_perfilparlamentar_package()
 
 #' @title Processa dados de proposições apresentadas na Câmara em 2019 e 2020
