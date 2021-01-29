@@ -1,0 +1,174 @@
+---
+title: "Relatorias nas proposições"
+output:
+  html_document:
+    theme: paper
+    css: styles.css
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  # message = FALSE,
+  # warning = FALSE,
+  # fig.cap = '',
+  # fig.align = 'center',
+  fig.width = 6,
+  fig.height = 5
+)
+
+Sys.setenv(LANGUAGE="pt-br")
+Sys.setlocale("LC_TIME", "pt_BR")
+options(scipen = 999)
+```
+
+```{r warning=FALSE, message=FALSE}
+library(tidyverse)
+library(reactable)
+library(ggchicklet)
+library(ggbeeswarm)
+library(hrbrthemes)
+theme_set(theme_ipsum_rc())
+
+source(here::here("code/read_ready.R"))
+source(here::here("reports/autorias.R"))
+```
+
+```{r}
+relatorias = read_relatoria()
+```
+
+Temos `r sum(!is.na(relatorias$relator_id_parlametria))` relatorias identificadas. 
+
+```{r}
+escala_governismo = cria_paleta(c(-10, 10), to = "#ffffcc", from = "#41b6c4")
+escala_peso = cria_paleta(c(0,1), from = "#edf8fb", to = "#8c96c6")
+
+relatorias %>%
+  filter(!is.na(nome)) %>%
+  select(nome,
+         casa,
+         partido,
+         uf,
+         nome_proposicao,
+         governismo,
+         peso_politico) %>%
+  reactable(
+    defaultPageSize = 15,
+    compact = TRUE,
+    searchable = T,
+    striped = FALSE,
+    defaultSorted = "nome",
+    columns = list(
+      nome = colDef(name = "Parlamentar", minWidth = 150),
+      partido = colDef(
+        name = "Partido",
+        minWidth = 75
+      ),
+      uf = colDef(
+        name = "UF",
+        minWidth = 30
+      ),
+      casa = colDef(
+        name = "Casa",
+        minWidth = 40
+      ),
+      nome_proposicao = colDef(
+        name = "Proposição",
+        minWidth = 100
+      ),
+      governismo = colDef(
+          name = "Governismo (-10 a 10)", 
+          minWidth = 70, 
+          format = colFormat(digits = 1), 
+          style = function(value) {
+            if(is.na(value)){
+              list()
+            } else{
+              list(background = escala_governismo(value))
+            }
+          }
+        ), 
+        peso_politico = colDef(
+          name = "Peso político", 
+          minWidth = 70, 
+          format = colFormat(digits = 1), 
+          style = function(value) {
+            if(is.na(value)){
+              list()
+            } else{
+              list(background = escala_peso(value))
+            }
+          }
+        )
+    )
+  )
+```
+
+### Perfil dos relatores
+
+
+```{r}
+relatorias %>%
+  filter(!is.na(governismo)) %>%
+  count(governismo, casa) %>% 
+  ggplot(aes(y = governismo, x = casa, size = n)) +
+  scale_color_discrete(name = NULL) +
+  coord_flip() +
+  geom_point(alpha = .6, color = "darkorange4") +
+  labs(
+    y = "Governismo (neg. sign. oposição)",
+    x = "",
+    title = "Governismo entre relatores das PDLs",
+    subtitle = "Cada ponto é um(a) parlamentar. Maiores relataram mais."
+  ) +
+  theme(legend.position = "None")
+```
+
+```{r}
+relatorias %>% 
+  filter(!is.na(peso_politico)) %>% 
+  count(nome, peso_politico, casa) %>% 
+  ggplot(aes(y = peso_politico, x = casa, size = n)) + 
+  scale_color_discrete(name = NULL) + 
+  coord_flip() + 
+  geom_point(alpha = .7, color = "darkseagreen") + 
+  labs(y = "Peso político no parlametria", 
+       x = "", 
+       title = "Peso político entre relatores das PDLs", 
+       subtitle = "Cada ponto é um(a) parlamentar. Maiores relataram mais.",
+       size = "Autorias poderadas") + 
+  theme(legend.position = "None")
+```
+
+
+```{r}
+relatorias %>% 
+  filter(!is.na(peso_politico + governismo)) %>% 
+  count(nome, casa, peso_politico, governismo) %>% 
+  ggplot(aes(y = peso_politico, x = governismo, size = n)) + 
+  facet_grid(casa ~ .) + 
+  scale_color_discrete(name = NULL) + 
+  geom_point(alpha = .6, color = "coral4") + 
+  labs(y = "Peso político no parlametria", 
+       x = "Governismo", 
+       title = "Peso político e governismo entre relatores das PDLs", 
+       subtitle = "Cada ponto é um(a) parlamentar. Maiores relataram mais.") + 
+  theme(legend.position = "None")
+```
+
+
+## Relatorias nos partidos
+
+
+```{r fig.height=4}
+relatorias %>%
+  filter(!is.na(nome)) %>% 
+  select(nome_proposicao, partido) %>% 
+  count(partido) %>%
+  ggplot(aes(x = reorder(partido, n), y = n)) +
+  geom_chicklet(fill = "#21a6a0") +
+  coord_flip() +
+  labs(title = "Participação dos partidos na relatoria dos PDLs",
+       x = "", y = "PDLs relatadas por parlamentar do partido")
+```
