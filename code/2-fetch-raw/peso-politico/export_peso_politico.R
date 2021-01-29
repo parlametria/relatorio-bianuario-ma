@@ -1,7 +1,7 @@
 library(tidyverse)
 library(here)
 
-source(here::here("code/peso-politico/fetcher_peso_politico.R"))
+source(here::here("code/2-fetch-raw/peso-politico/fetcher_peso_politico.R"))
 
 if (!require(optparse)) {
   install.packages("optparse")
@@ -17,7 +17,7 @@ option_list = list(
   make_option(
     c("-o", "--out"),
     type = "character",
-    default = here::here("data/raw/peso_politico/peso_politico.csv"),
+    default = here::here("data/2-fetch-raw/peso_politico/peso_politico.csv"),
     help = "nome do arquivo de saída [default= %default]",
     metavar = "character"
   )

@@ -10,7 +10,7 @@ Rscript export_peso_politico.R --o <peso_datapath>
 
 Com o seguinte argumento:
 
-* `--o <peso_datapath> `: Caminho para o arquivo onde o csv com os dados de pesos políticos será salvo. O caminho default é "../../data/raw/peso_politico/peso_politico.csv".
+* `--o <peso_datapath> `: Caminho para o arquivo onde o csv com os dados de pesos políticos será salvo. O caminho default é "../../../data/2-fetch-raw/peso_politico/peso_politico.csv".
 
 Se preferir execute com os caminhos de saída default:
 
