@@ -17,7 +17,7 @@ option_list = list(
   make_option(
     c("-o", "--out"),
     type = "character",
-    default = here::here("data/1-inputs/1-create-pre-input/proposicoes/proposicoes_camara.csv"),
+    default = here::here("data/inputs/1-create-pre-input/proposicoes/proposicoes_camara.csv"),
     help = "nome do arquivo de saída [default= %default]",
     metavar = "character"
   )

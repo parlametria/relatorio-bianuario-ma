@@ -12,7 +12,7 @@ Rscript export_proposicoes_senado.R --o <proposicoes_datapath>
 
 Com o seguinte argumento:
 
-* `--o <proposicoes_datapath> `: Caminho para o arquivo onde o csv de proposições será salvo. O caminho default é "../../../data/1-inputs/1-create-pre-input/proposicoes/proposicoes_senado.csv".
+* `--o <proposicoes_datapath> `: Caminho para o arquivo onde o csv de proposições será salvo. O caminho default é "../../../data/inputs/1-create-pre-input/proposicoes/proposicoes_senado.csv".
 
 Se preferir execute com os caminhos de saída default:
 
@@ -30,7 +30,7 @@ Rscript export_proposicoes_camara.R --o <proposicoes_datapath>
 
 Com o seguinte argumento:
 
-* `--o <proposicoes_datapath> `: Caminho para o arquivo onde o csv de proposições será salvo. O caminho default é "../../../data/1-inputs/1-create-pre-input/proposicoes/proposicoes_camara.csv".
+* `--o <proposicoes_datapath> `: Caminho para o arquivo onde o csv de proposições será salvo. O caminho default é "../../../data/inputs/1-create-pre-input/proposicoes/proposicoes_camara.csv".
 
 Se preferir execute com os caminhos de saída default:
 
