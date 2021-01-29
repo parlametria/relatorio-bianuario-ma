@@ -1,7 +1,7 @@
 library(tidyverse)
 library(here)
 
-source(here::here("code/cargos/comissoes/fetcher_comissoes.R"))
+source(here::here("code/2-fetch-raw/cargos/comissoes/fetcher_comissoes.R"))
 
 if(!require(optparse)){
   install.packages("optparse")
@@ -14,7 +14,7 @@ message("LEIA O README deste diretório")
 message("Use --help para mais informações\n")
 
 option_list = list(
-  make_option(c("-o", "--out"), type="character", default=here::here("data/raw/comissoes/"), 
+  make_option(c("-o", "--out"), type="character", default=here::here("data/2-fetch-raw/cargos/comissoes/"), 
               help="nome do arquivo de saída [default= %default]", metavar="character")
 ) 
 

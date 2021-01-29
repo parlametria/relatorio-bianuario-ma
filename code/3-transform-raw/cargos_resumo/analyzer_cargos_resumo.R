@@ -11,7 +11,7 @@ process_cargos_resumo_parlamentares <- function(filtrar_em_exercicio = TRUE, cas
   
   source(here("code/utils/utils.R"))
   
-  parlamentares_raw <- read_csv(here("data/parlamentares/parlamentares.csv"), col_types = cols(id = "c")) %>% 
+  parlamentares_raw <- read_csv(here("data/2-fetch-raw/parlamentares/parlamentares.csv"), col_types = cols(id = "c")) %>% 
     mutate(sg_partido = padroniza_sigla(sg_partido))
   
   if (!is.null(casa_parlamentar)) {
@@ -24,10 +24,10 @@ process_cargos_resumo_parlamentares <- function(filtrar_em_exercicio = TRUE, cas
       filter(em_exercicio == 1)
   }
   
-  comissoes <- read_csv(here("data/comissoes/comissoes.csv")) %>% 
+  comissoes <- read_csv(here("data/2-fetch-raw/comissoes/comissoes.csv")) %>% 
     select(-casa)
   
-  cargos_comissoes <- read_csv(here("data/comissoes/composicao_comissoes.csv"), 
+  cargos_comissoes <- read_csv(here("data/2-fetch-raw/comissoes/composicao_comissoes.csv"), 
                                col_types = cols(id_parlamentar = "c"))
   
   cargos_comissoes <- cargos_comissoes %>% 
@@ -39,7 +39,7 @@ process_cargos_resumo_parlamentares <- function(filtrar_em_exercicio = TRUE, cas
     
     spread(cargo, comissoes)
   
-  liderancas <- read_csv(here("data/liderancas/liderancas.csv"), col_types = cols(id = "c")) %>% 
+  liderancas <- read_csv(here("data/2-fetch-raw/liderancas/liderancas.csv"), col_types = cols(id = "c")) %>% 
     select(id_parlamentar = id, casa, cargo, bloco_partido) %>% 
     
     group_by(id_parlamentar, casa, cargo) %>% 

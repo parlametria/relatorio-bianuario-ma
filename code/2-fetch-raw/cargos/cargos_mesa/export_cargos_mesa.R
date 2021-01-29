@@ -1,7 +1,7 @@
 library(tidyverse)
 library(here)
 
-source(here::here("code/cargos/liderancas/fetcher_liderancas.R"))
+source(here::here("code/2-fetch-raw/cargos/cargos_mesa/fetcher_cargos_mesa.R"))
 
 if(!require(optparse)){
   install.packages("optparse")
@@ -14,7 +14,7 @@ message("LEIA O README deste diretório")
 message("Use --help para mais informações\n")
 
 option_list = list(
-  make_option(c("-o", "--out"), type="character", default=here::here("data/raw/liderancas/liderancas.csv"), 
+  make_option(c("-o", "--out"), type="character", default=here::here("data/2-fetch-raw/cargos/cargos_mesa/cargos_mesa.csv"), 
               help="nome do arquivo de saída [default= %default]", metavar="character")
 ) 
 
@@ -23,11 +23,10 @@ opt = parse_args(opt_parser)
 
 saida <- opt$out
 
-message("Baixando dados de lideranças partidárias...")
-liderancas <- fetch_liderancas()
+message("Baixando dados de cargos nas mesas diretoras...")
+cargos_mesa <- fetch_cargos_mesa()
 
 message(paste0("Salvando o resultado em ", saida))
-
-write_csv(liderancas, saida)
+write_csv(cargos_mesa, saida)
 
 message("Concluído!")

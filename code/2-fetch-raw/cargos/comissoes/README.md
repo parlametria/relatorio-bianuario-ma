@@ -12,7 +12,7 @@ Rscript export_comissoes.R --o <composicao_composicoes_folderpath>
 
 Com o seguinte argumento:
 
-* `--o <composicao_composicoes_folderpath> `: Caminho para o diretório onde os csvs de de comissões e composições das comissões serão salvos. O caminho default é "../../data/raw/comissoes/"
+* `--o <composicao_composicoes_folderpath> `: Caminho para o diretório onde os csvs de de comissões e composições das comissões serão salvos. O caminho default é "../../../data/2-fetch-raw/cargos/comissoes/"
 
 Se preferir execute com os caminhos de saída default:
 
