@@ -40,15 +40,8 @@ processa_votacoes_camara <- function() {
   votacoes_proposicoes <- tibble(id_proposicao = proposicoes_ma$id_proposicao) %>%
     mutate(data = map(id_proposicao,
                       fetch_votacoes_por_proposicao_camara)) %>%
-    unnest(data) %>%
-    mutate(id_votacao = paste0(cod_sessao, str_remove(hora, ":"))) %>%
-    select(id_proposicao,
-           id_votacao,
-           obj_votacao,
-           resumo,
-           cod_sessao,
-           hora,
-           data)
+    select(-id_proposicao) %>% 
+    unnest(data)
   
   votacoes <- votacoes_proposicoes %>%
     left_join(proposicoes_info, by = c("id_proposicao")) %>%
@@ -57,8 +50,6 @@ processa_votacoes_camara <- function() {
       ementa_proposicao,
       obj_votacao,
       resumo,
-      cod_sessao,
-      hora,
       data,
       data_apresentacao_proposicao,
       autor,
