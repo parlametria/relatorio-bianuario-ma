@@ -11,7 +11,7 @@ Com tudo instalado, vamos prosseguir.
 
 ## Passo 1.1
 
-O processamento dos dados do Parlametria assumem como entrada uma lista de proposições de interesse. Essa lista deve ser um CSV no formato dessa [planilha].(https://docs.google.com/spreadsheets/d/1ErZBSZ6WlgUAQKfr5-X52JSdnbWgWQ9VQg3juh5WQEo/edit?usp=sharing)
+O processamento dos dados do Parlametria assumem como entrada uma lista de proposições de interesse. Essa lista deve ser um CSV no formato dessa [planilha](https://docs.google.com/spreadsheets/d/1ErZBSZ6WlgUAQKfr5-X52JSdnbWgWQ9VQg3juh5WQEo/edit?usp=sharing).
 
 As colunas `id_camara` e `id_senado` precisam estar preenchidas com os identificadores das proposições nas suas respectivas casas.
 
