@@ -61,6 +61,7 @@ read_proposicoes_raw <-
     ) %>%
       filter(!duplicated(id_leggo)) %>%
       select(id_leggo,
+             id_ext,
              sigla_tipo,
              numero,
              ementa,

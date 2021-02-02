@@ -1,5 +1,8 @@
 library(tidyverse)
+library(futile.logger)
 source(here::here("code/read_raw.R"))
+
+flog.threshold(TRACE, "transform-raw")
 
 #' Transforma dados das proposições acompanhadas para ready.
 #'
@@ -10,19 +13,41 @@ transform_proposicoes <-
   function(raw_data = "data/raw/leggo_data/proposicoes.csv",
            arquivo_props_input = "data/inputs/3-transform-input/proposicoes/proposicoes_input.csv") {
     proposicoes_leggo = read_proposicoes_raw(raw_data)
-    proposicoes_input = read_proposicoes_input_raw(arquivo_props_input)
+    n_leggo = proposicoes_leggo %>% pull(id_leggo) %>% n_distinct()
+    flog.info(str_glue("{n_leggo} proposições nos dados do leggo"))
     
-    proposicoes_tudo = proposicoes_leggo %>%
-      mutate(
-        nome_proposicao = str_glue(
-          "{sigla_tipo} {numero}/{lubridate::year(data_apresentacao)}"
-        )
-      ) %>%
-      inner_join(proposicoes_input, by = c("nome_proposicao" = "proposicao"))
+    proposicoes_input = read_proposicoes_input_raw(arquivo_props_input)
+    n_input = proposicoes_input %>% pull(proposicao) %>% n_distinct()
+    flog.info(str_glue("{n_input} proposições na planilha de input"))
+    
+    pi_long = pivot_longer(
+      proposicoes_input,
+      c(id_camara, id_senado),
+      names_to = "tipo_id",
+      values_to = "id_ext"
+    ) %>% 
+      filter(!is.na(id_ext)) %>% 
+      select(-tipo_id)
+    
+    proposicoes_tudo = proposicoes_leggo %>% 
+      inner_join(pi_long, by = c("id_ext")) %>% 
+      rename(nome_proposicao = proposicao)
+    
+    ## CRUZAR PI_LONG COM PORPS_LEGGO DEVE DAR 1069 matches
+    
+    n_cruzado = proposicoes_tudo %>% pull(id_leggo) %>% n_distinct()
+    flog.info(str_glue("{n_cruzado} proposições após cruzar input e leggo"))
     
     proposicoes_tudo
   }
 
+proposicoes_f = proposicoes_leggo %>%
+  mutate(
+    nome_proposicao = str_glue(
+      "{sigla_tipo} {numero}/{lubridate::year(data_apresentacao)}"
+    )
+  ) %>%
+  anti_join(proposicoes_input, by = c("nome_proposicao" = "proposicao"))
 
 #' Código comum para transform_autorias_*
 #'
@@ -130,16 +155,17 @@ resume_autorias = function(data) {
     )
 }
 
-transform_atuacao <- function(atuacao_file = "data/raw/leggo_data/atuacao.csv", 
-                              parlamentares) {
-  atuacao = read_atuacao_raw(atuacao_file)
-  parlamentares = parlamentares %>%
-    select(id_entidade_parlametria, governismo, peso_politico)
-  
-  atuacao %>%
-    left_join(parlamentares,
-              by = c("id_autor_parlametria" = "id_entidade_parlametria")) 
-}
+transform_atuacao <-
+  function(atuacao_file = "data/raw/leggo_data/atuacao.csv",
+           parlamentares) {
+    atuacao = read_atuacao_raw(atuacao_file)
+    parlamentares = parlamentares %>%
+      select(id_entidade_parlametria, governismo, peso_politico)
+    
+    atuacao %>%
+      left_join(parlamentares,
+                by = c("id_autor_parlametria" = "id_entidade_parlametria"))
+  }
 
 transform_relatorias <-
   function(props, relatorias_file, parlamentares) {
@@ -157,7 +183,7 @@ transform_relatorias <-
       select(-situacao)
     
     props %>%
-      left_join(t, by = "id_leggo") 
+      left_join(t, by = "id_leggo")
   }
 
 
@@ -170,7 +196,7 @@ main <- function(argv = NULL) {
   out_autorias_resumo = "data/ready/autorias-resumo.csv"
   out_relatorias = "data/ready/relatorias.csv"
   out_atuacao = "data/ready/atuacao.csv"
-    
+  
   # PROPOSIÇÕES
   props = transform_proposicoes(
     "data/raw/leggo_data/proposicoes.csv",
@@ -179,7 +205,7 @@ main <- function(argv = NULL) {
   
   props %>% # temos uma linha por casa da proposição
     write_csv(here::here(out_props))
-  message("Dados prontos das proposições em ", out_props)
+  flog.info(str_glue("Dados prontos das proposições em {out_props}"))
   
   # PARLAMENTARES
   parlamentares = parlamentares_data(
@@ -195,29 +221,29 @@ main <- function(argv = NULL) {
                                          parlamentares)
   autorias %>%
     write_csv(here::here(out_autorias_detalhes))
-  message("Detalhes de autorias em ", out_autorias_detalhes)
+  flog.info(str_glue("Detalhes de autorias em {out_autorias_detalhes}"))
   
   autorias_resumo = transform_autorias_resumo(props,
                                               "data/raw/leggo_data/autores_leggo.csv",
                                               parlamentares)
   autorias_resumo %>%
     write_csv(here::here(out_autorias_resumo))
-  message("Resumo de autorias em ", out_autorias_resumo)
+  flog.info(str_glue("Resumo de autorias em {out_autorias_resumo}"))
   
   # RELATORIAS
   relatorias = transform_relatorias(props,
                                     "data/raw/leggo_data/relatores_leggo.csv",
                                     parlamentares)
-  relatorias %>% 
+  relatorias %>%
     write_csv(here::here(out_relatorias))
-  message("Relatorias salvas em ", out_relatorias)    
+  flog.info(str_glue("Relatorias salvas em {out_relatorias}"))
   
   # ATUAÇÃO
-  atuacao = transform_atuacao("data/raw/leggo_data/atuacao.csv", 
+  atuacao = transform_atuacao("data/raw/leggo_data/atuacao.csv",
                               parlamentares)
   atuacao %>%
     write_csv(here::here(out_atuacao))
-  message("Atuação salva em ", out_atuacao)
+  flog.info(str_glue("Atuação salva em {out_atuacao}"))
 }
 
 if (!interactive()) {
