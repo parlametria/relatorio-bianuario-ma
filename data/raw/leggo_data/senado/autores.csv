@@ -1,0 +1,945 @@
+id_principal,id_documento,casa,nome_autor,partido,uf,tipo_autor,id_autor
+134695,7889694,senado,Senador José Serra ,PSDB,SP,senador,90
+134695,7940730,senado,Senador Wellington Fagundes ,PR,MT,senador,1173
+134695,7944465,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+128221,5065182,senado,Senador Alvaro Dias ,PV,PR,senador,945
+128221,7753672,senado,Senador Ronaldo Caiado ,DEM,GO,senador,456
+128221,7880026,senado,Senador Humberto Costa ,PT,PE,senador,5008
+128221,7959588,senado,Senadora Kátia Abreu ,PDT,TO,senador,1249
+128221,7965507,senado,Senadora Kátia Abreu ,PDT,TO,senador,1249
+128221,8010815,senado,Senadora Kátia Abreu ,PDT,TO,senador,1249
+137437,7998280,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+137437,8005965,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+137437,8013400,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+137437,8012552,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137437,8023535,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+137437,8028029,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+140314,8061163,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140546,8871356,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140546,8888523,senado,Senador Telmário Mota ,PROS,RR,senador,5535
+140546,8889130,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140546,8888894,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+140546,8888959,senado,Senador Jean Paul Prates ,PT,RN,senador,5627
+140546,8889070,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+142690,8885499,senado,Líder do CIDADANIA Eliziane Gama ,CIDADANIA,MA,senador,5718
+142690,8885504,senado,Senador Antonio Anastasia ,PSD,MG,senador,5529
+142690,8885506,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+142690,8885622,senado,Senador Antonio Anastasia ,PSD,MG,senador,5529
+138126,8036505,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+135108,7909966,senado,Senador Styvenson Valentim ,PODE,RN,senador,5959
+135108,8009181,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+126199,568584,senado,Senador Telmário Mota ,PDT,RR,senador,5535
+126199,4746873,senado,Senador José Aníbal ,PSDB,SP,senador,878
+126199,7228578,senado,Senador Armando Monteiro ,PTB,PE,senador,715
+126199,7958524,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
+126199,7963744,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
+126199,7963544,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
+132156,7628681,senado,Senador Lasier Martins ,PSD,RS,senador,5533
+132156,7945877,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+132156,7955141,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+132156,7976129,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+133385,7734782,senado,Senador Wellington Fagundes ,PR,MT,senador,1173
+133385,7747666,senado,Senador Valdir Raupp ,MDB,RO,senador,3372
+133385,7949070,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+133639,7744628,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+133639,7889955,senado,Senador Wellington Fagundes ,PR,MT,senador,1173
+133639,7936395,senado,Senador Nelsinho Trad ,PSD,MS,senador,5985
+133639,7998006,senado,Senador Nelsinho Trad ,PSD,MS,senador,5985
+135648,7926293,senado,Senador Carlos Viana ,PSD,MG,senador,5990
+135648,7951460,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+135648,7956486,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+135648,7973511,senado,Senador Antonio Anastasia ,PSDB,MG,senador,5529
+135648,7990321,senado,Senador Antonio Anastasia ,PSDB,MG,senador,5529
+143587,8871821,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+143587,8871948,senado,Senador Paulo Paim ,PT,RS,senador,825
+143587,8872025,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+143587,8872028,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+143587,8872040,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+143587,8872057,senado,Senador Paulo Rocha ,PT,PA,senador,374
+143587,8872059,senado,Senador Luiz do Carmo ,MDB,GO,senador,5585
+143587,8872149,senado,Senadora Kátia Abreu ,PP,TO,senador,1249
+143587,8872191,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+143587,8872204,senado,Senador Paulo Rocha ,PT,PA,senador,374
+143587,8872285,senado,Senador Paulo Rocha ,PT,PA,senador,374
+136872,7955389,senado,Senador Eduardo Gomes ,MDB,TO,senador,3777
+136872,7972862,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+136872,8024796,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+136839,7954980,senado,Senador Wellington Fagundes ,PL,MT,senador,1173
+136839,7987603,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+136839,8032477,senado,Senador Antonio Anastasia ,PSDB,MG,senador,5529
+137797,7980444,senado,Senador Angelo Coronel ,PSD,BA,senador,5967
+137797,7990507,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+137797,8019077,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+137797,8039124,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+143356,8872795,senado,Senador Fernando Collor ,PROS,AL,senador,4525
+143356,8873322,senado,Senador Fernando Collor ,PROS,AL,senador,4525
+141437,8089480,senado,Senador Mecias de Jesus ,REPUBLICANOS,RR,senador,6027
+141437,8089443,senado,Senador Mecias de Jesus ,REPUBLICANOS,RR,senador,6027
+141437,8112074,senado,Senador Paulo Paim ,PT,RS,senador,825
+141437,8112076,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+141437,8111953,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+141437,8111956,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+141437,8112035,senado,Senador Paulo Paim ,PT,RS,senador,825
+141437,8112038,senado,Senador Paulo Paim ,PT,RS,senador,825
+141437,8112041,senado,Senador Paulo Paim ,PT,RS,senador,825
+141437,8112044,senado,Senador Paulo Paim ,PT,RS,senador,825
+141437,8112056,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+141437,8112059,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+141437,8113640,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+141437,8113812,senado,Senador Alvaro Dias ,PODEMOS,PR,senador,945
+141437,8113617,senado,Senador Jaques Wagner ,PT,BA,senador,581
+141437,8113615,senado,Senador Jaques Wagner ,PT,BA,senador,581
+141437,8113461,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+141437,8113798,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+141437,8113873,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+141437,8113709,senado,Senador Ciro Nogueira ,PP,PI,senador,739
+141437,8113563,senado,Senador Weverton ,PDT,MA,senador,5411
+141437,8113600,senado,Senador Jayme Campos ,DEM,MT,senador,4531
+141437,8113726,senado,Senador Weverton ,PDT,MA,senador,5411
+141437,8113690,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+141437,8113404,senado,Senador Wellington Fagundes ,PL,MT,senador,1173
+141437,8113407,senado,Senador Wellington Fagundes ,PL,MT,senador,1173
+141437,8113409,senado,Senador Paulo Rocha ,PT,PA,senador,374
+141437,8113413,senado,Senador Paulo Rocha ,PT,PA,senador,374
+141437,8113420,senado,Senador Paulo Rocha ,PT,PA,senador,374
+141437,8113423,senado,Senador Paulo Rocha ,PT,PA,senador,374
+141437,8113432,senado,Senador Paulo Rocha ,PT,PA,senador,374
+141437,8113447,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+141437,8113450,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+141437,8113550,senado,Senador Marcos do Val ,PODEMOS,ES,senador,5942
+141437,8113555,senado,Senador Weverton ,PDT,MA,senador,5411
+141437,8113558,senado,Senadora Kátia Abreu ,PP,TO,senador,1249
+141437,8113565,senado,Senadora Kátia Abreu ,PP,TO,senador,1249
+141437,8113586,senado,Senador Jaques Wagner ,PT,BA,senador,581
+141437,8113597,senado,Senador Jayme Campos ,DEM,MT,senador,4531
+141437,8113613,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+141437,8113602,senado,Senador Jean Paul Prates ,PT,RN,senador,5627
+141437,8113607,senado,Senador Jean Paul Prates ,PT,RN,senador,5627
+141437,8113610,senado,Senador Jean Paul Prates ,PT,RN,senador,5627
+141437,8113628,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+141437,8113631,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+141437,8113684,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+141437,8113700,senado,Líder do PP Ciro Nogueira ,PP,PI,senador,739
+141437,8113716,senado,Senador Marcos do Val ,PODEMOS,ES,senador,5942
+141437,8113721,senado,Líder do PDT Weverton ,PDT,MA,senador,5411
+141437,8113773,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+141437,8113776,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+141437,8113779,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+141437,8113785,senado,Líder do PROS Telmário Mota ,PROS,RR,senador,5535
+141437,8113800,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+141437,8113803,senado,Líder do PODEMOS Alvaro Dias ,PODEMOS,PR,senador,945
+141437,8113829,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+141437,8113866,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+141437,8113871,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+141437,8113878,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+141437,8113881,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+141437,8113883,senado,Senador Paulo Rocha ,PT,PA,senador,374
+141437,8113886,senado,Senador Paulo Rocha ,PT,PA,senador,374
+141437,8113888,senado,Senador Jean Paul Prates ,PT,RN,senador,5627
+141437,8113891,senado,Senador Jean Paul Prates ,PT,RN,senador,5627
+141437,8114200,senado,Líder do CIDADANIA Eliziane Gama ,CIDADANIA,MA,senador,5718
+141437,8114270,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+141437,8114280,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+141437,8115013,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+141437,8115249,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+141437,8115205,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+141437,8115208,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+141437,8115251,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+141437,8115262,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+141437,8115276,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+141437,8115309,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+141437,8115451,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+144719,8895647,senado,Senador Diego Tavares ,PP,PB,senador,5996
+144719,8895688,senado,Senador Diego Tavares ,PP,PB,senador,5996
+144719,8895436,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+144719,8895439,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+144719,8895442,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+144719,8895486,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+144719,8895542,senado,Senadora Mara Gabrilli ,PSDB,SP,senador,5376
+144719,8895560,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+144719,8895564,senado,Senador Alvaro Dias ,PODEMOS,PR,senador,945
+144719,8895571,senado,Senador Paulo Paim ,PT,RS,senador,825
+144719,8895574,senado,Senador Elmano Férrer ,PODEMOS,PI,senador,5531
+144643,8889438,senado,Senador Paulo Rocha ,PT,PA,senador,374
+144643,8890433,senado,Senador Paulo Rocha ,PT,PA,senador,374
+144643,8890455,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144643,8894975,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144643,8901558,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+144643,8907479,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+144643,8907509,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+140760,8068586,senado,Senador Luiz Pastore ,MDB,ES,senador,151
+140760,8073107,senado,Senador Paulo Paim ,PT,RS,senador,825
+141238,8074996,senado,Senador Nelsinho Trad ,PSD,MS,senador,5985
+135609,7924697,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+135609,7924697,senado,Senador Alvaro Dias ,PODE,PR,senador,945
+135609,7924697,senado,Senador Angelo Coronel ,PSD,BA,senador,5967
+135609,7924697,senado,Senador Antonio Anastasia ,PSDB,MG,senador,5529
+135609,7924697,senado,Senador Arolde de Oliveira ,PSD,RJ,senador,751
+135609,7924697,senado,Senador Cid Gomes ,PDT,CE,senador,5973
+135609,7924697,senado,Senador Ciro Nogueira ,PP,PI,senador,739
+135609,7924697,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
+135609,7924697,senado,Senador Eduardo Girão ,PODE,CE,senador,5976
+135609,7924697,senado,Senadora Eliziane Gama ,PPS,MA,senador,5718
+135609,7924697,senado,Senador Elmano Férrer ,PODE,PI,senador,5531
+135609,7924697,senado,Senador Esperidião Amin ,PP,SC,senador,22
+135609,7924697,senado,Senador Fernando Bezerra Coelho ,MDB,PE,senador,5540
+135609,7924697,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+135609,7924697,senado,Senador Jorge Kajuru ,PSB,GO,senador,5895
+135609,7924697,senado,Senador Lasier Martins ,PODE,RS,senador,5533
+135609,7924697,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+135609,7924697,senado,Senador Marcos do Val ,PPS,ES,senador,5942
+135609,7924697,senado,Senador Omar Aziz ,PSD,AM,senador,5525
+135609,7924697,senado,Senador Reguffe ,,DF,senador,5236
+135609,7924697,senado,Senador Rodrigo Cunha ,PSDB,AL,senador,5905
+135609,7924697,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
+135609,7924697,senado,Senador Styvenson Valentim ,PODE,RN,senador,5959
+135609,7924697,senado,Senador Telmário Mota ,PROS,RR,senador,5535
+135609,7924697,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+135609,7924697,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+135609,7924697,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+135609,7964134,senado,Senador Antonio Anastasia ,PSDB,MG,senador,5529
+135602,7924559,senado,Senador Weverton ,PDT,MA,senador,5411
+135602,7928481,senado,Senador Weverton ,PDT,MA,senador,5411
+135602,7928773,senado,Presidente do Senado Federal: Senador Lasier Martins ,PODE,RS,senador,5533
+142024,8113402,senado,Senador Major Olimpio ,PSL,SP,senador,5666
+142971,8116968,senado,Senador Paulo Paim ,PT,RS,senador,825
+142971,8117539,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+142971,8117654,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+142971,8118926,senado,Senador Paulo Rocha ,PT,PA,senador,374
+142971,8119239,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+142971,8119241,senado,Senadora Mailza Gomes ,PP,AC,senador,5557
+142971,8119251,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+142971,8119265,senado,Senador Fernando Collor ,PROS,AL,senador,4525
+142971,8119267,senado,Senador Nelsinho Trad ,PSD,MS,senador,5985
+142971,8119269,senado,Senador Flávio Arns ,REDE,PR,senador,345
+142971,8119360,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+142971,8119557,senado,Senador Jayme Campos ,DEM,MT,senador,4531
+142971,8119642,senado,Senador Humberto Costa ,PT,PE,senador,5008
+142971,8119711,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+142971,8119739,senado,Senador Jean Paul Prates ,PT,RN,senador,5627
+142971,8120018,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+142971,8120499,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+142971,8121965,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+142971,8121993,senado,Senador Romário ,PODEMOS,RJ,senador,5322
+142971,8122567,senado,Senador Ciro Nogueira ,PP,PI,senador,739
+142971,8124241,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+142971,8124398,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+142971,8125297,senado,Senador José Serra ,PSDB,SP,senador,90
+142971,8125467,senado,Senador Marcelo Castro ,MDB,PI,senador,742
+142971,8125471,senado,Senador Esperidião Amin ,PP,SC,senador,22
+142971,8125765,senado,Senador Reguffe ,PODEMOS,DF,senador,5236
+142971,8116819,senado,Senador Jaques Wagner ,PT,BA,senador,581
+142971,8116819,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+142971,8116819,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+142971,8116819,senado,Senador Paulo Paim ,PT,RS,senador,825
+142971,8116819,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+142971,8116819,senado,Senador Paulo Rocha ,PT,PA,senador,374
+142971,8116819,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+142971,8116819,senado,Senadora Mailza Gomes ,PP,AC,senador,5557
+142971,8116819,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+142971,8116819,senado,Senador Fernando Collor ,PROS,AL,senador,4525
+142971,8116819,senado,Senador Nelsinho Trad ,PSD,MS,senador,5985
+142971,8116819,senado,Senador Flávio Arns ,REDE,PR,senador,345
+142971,8116819,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+142971,8116819,senado,Senador Jayme Campos ,DEM,MT,senador,4531
+142971,8116819,senado,Senador Humberto Costa ,PT,PE,senador,5008
+142971,8116819,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+142971,8116819,senado,Senador Jean Paul Prates ,PT,RN,senador,5627
+142971,8116819,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+142971,8116819,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+142971,8116819,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+142971,8116819,senado,Senador Romário ,PODEMOS,RJ,senador,5322
+142971,8116819,senado,Senador Ciro Nogueira ,PP,PI,senador,739
+142971,8116819,senado,Senador José Serra ,PSDB,SP,senador,90
+142971,8116819,senado,Senador Marcelo Castro ,MDB,PI,senador,742
+142971,8116819,senado,Senador Esperidião Amin ,PP,SC,senador,22
+142971,8116819,senado,Senador Reguffe ,PODEMOS,DF,senador,5236
+142971,8116819,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+142971,8126092,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+142971,8128471,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+135165,7916180,senado,Senador Mecias de Jesus ,PRB,RR,senador,6027
+135165,8039928,senado,Senador Telmário Mota ,PROS,RR,senador,5535
+135858,7929860,senado,Senador Weverton ,PDT,MA,senador,5411
+135858,7929860,senado,Senador Angelo Coronel ,PSD,BA,senador,5967
+135858,7929860,senado,Senadora Eliziane Gama ,PPS,MA,senador,5718
+135858,7929860,senado,Senador Elmano Férrer ,PODE,PI,senador,5531
+135858,7929860,senado,Senador Humberto Costa ,PT,PE,senador,5008
+135858,7929860,senado,Senador Jean Paul Prates ,PT,RN,senador,5627
+135858,7929860,senado,Senador Marcelo Castro ,MDB,PI,senador,742
+135858,7929860,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+135858,7929860,senado,Senador Styvenson Valentim ,PODE,RN,senador,5959
+135858,7929860,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+135858,7958694,senado,Senador Weverton ,PDT,MA,senador,5411
+135858,7937095,senado,Senador Jaques Wagner ,PT,BA,senador,581
+135175,7916250,senado,Senador Mecias de Jesus ,PRB,RR,senador,6027
+135175,7937319,senado,Senador Telmário Mota ,PROS,RR,senador,5535
+135175,8000883,senado,Senador Telmário Mota ,PROS,RR,senador,5535
+135175,8023591,senado,Líder do REPUBLICANOS Mecias de Jesus ,REPUBLICANOS,RR,senador,6027
+135175,8023591,senado,Líder do PSC Zequinha Marinho ,PSC,PA,senador,3806
+135175,8023591,senado,Líder do CIDADANIA Alessandro Vieira ,CIDADANIA,SE,senador,5982
+135175,8023591,senado,Líder do Governo Fernando Bezerra Coelho ,MDB,PE,senador,5540
+135175,8023591,senado,Líder do PP Daniella Ribeiro ,PP,PB,senador,5998
+135175,8023591,senado,Líder do REDE Randolfe Rodrigues ,REDE,AP,senador,5012
+135175,8023591,senado,Líder do MDB Eduardo Braga ,MDB,AM,senador,4994
+135175,8023591,senado,Líder do PDT Weverton ,PDT,MA,senador,5411
+135175,8023591,senado,Líder do PODEMOS Eduardo Girão ,PODEMOS,CE,senador,5976
+135175,8023591,senado,Líder do DEM Rodrigo Pacheco ,DEM,MG,senador,5732
+135175,8027326,senado,Senador Telmário Mota ,PROS,RR,senador,5535
+136879,7955548,senado,Senador Jaques Wagner ,PT,BA,senador,581
+136879,7973620,senado,Senador Mecias de Jesus ,PRB,RR,senador,6027
+137065,7959772,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+137065,7959772,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+137065,7959772,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+137065,7959772,senado,Senador Alvaro Dias ,PODE,PR,senador,945
+137065,7959772,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+137065,7959772,senado,Senador Elmano Férrer ,PODE,PI,senador,5531
+137065,7959772,senado,Senador Antonio Anastasia ,PSDB,MG,senador,5529
+137065,7959772,senado,Senador Paulo Rocha ,PT,PA,senador,374
+137065,7959772,senado,Senador Arolde de Oliveira ,PSD,RJ,senador,751
+137065,7959772,senado,Senador Styvenson Valentim ,PODE,RN,senador,5959
+137065,7959772,senado,Senador Flávio Arns ,REDE,PR,senador,345
+137065,7959772,senado,Senador Oriovisto Guimarães ,PODE,PR,senador,5924
+137065,7959772,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+137065,7959772,senado,Senador Eduardo Girão ,PODE,CE,senador,5976
+137065,7959772,senado,Senador Jaques Wagner ,PT,BA,senador,581
+137065,7959772,senado,Senadora Daniella Ribeiro ,PP,PB,senador,5998
+137065,7959772,senado,Senador Paulo Paim ,PT,RS,senador,825
+137065,7959772,senado,Senador Mecias de Jesus ,PRB,RR,senador,6027
+137065,7959772,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+137065,7959772,senado,Senadora Mailza Gomes ,PP,AC,senador,5557
+137065,7959772,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+137065,7959772,senado,Senador Humberto Costa ,PT,PE,senador,5008
+137065,7959772,senado,Senador Nelsinho Trad ,PSD,MS,senador,5985
+137065,7959772,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+137065,7959772,senado,Senador Irajá ,PSD,TO,senador,5385
+137065,7959772,senado,Senador Lasier Martins ,PODE,RS,senador,5533
+137065,7959772,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+137065,7959772,senado,Senadora Juíza Selma ,PSL,MT,senador,5929
+137065,7959772,senado,Senador Jean Paul Prates ,PT,RN,senador,5627
+137065,7959772,senado,Senador Jorge Kajuru ,PSB,GO,senador,5895
+137065,7959772,senado,Senador Jorginho Mello ,PL,SC,senador,5350
+137065,7959772,senado,Senador Tasso Jereissati ,PSDB,CE,senador,3396
+137065,7959772,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+137065,7959772,senado,Senador Eduardo Gomes ,MDB,TO,senador,3777
+137065,7959772,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+137065,7961322,senado,Senador Carlos Viana ,PSD,MG,senador,5990
+137065,7972867,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137065,8890547,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+137065,8890398,senado,Senador Jayme Campos ,DEM,MT,senador,4531
+137065,8890479,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+140895,8071009,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+135796,7928653,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+135796,7949834,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+135796,7957050,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+135796,7963194,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+135796,7967638,senado,Senador Jaques Wagner ,PT,BA,senador,581
+135796,7969802,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+135796,7989681,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
+135796,7980029,senado,Presidente do Senado Federal: Senador Izalci Lucas ,PSDB,DF,senador,4770
+135796,7990108,senado,Presidente do Senado Federal: Senador Lasier Martins ,PODEMOS,RS,senador,5533
+135796,7993970,senado,Senador Jaques Wagner ,PT,BA,senador,581
+135796,7992303,senado,Presidente do Senado Federal: Senador Lasier Martins ,PODEMOS,RS,senador,5533
+135796,7998306,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+138552,8003617,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+138552,8049791,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+138552,8897109,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+138552,8896991,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+141084,8074041,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+141084,8074041,senado,Senador Paulo Rocha ,PT,PA,senador,374
+141084,8074041,senado,Senador Jean Paul Prates ,PT,RN,senador,5627
+141084,8074041,senado,Senador Paulo Paim ,PT,RS,senador,825
+141084,8074041,senado,Senador Humberto Costa ,PT,PE,senador,5008
+141084,8074041,senado,Senador Jaques Wagner ,PT,BA,senador,581
+141084,8074041,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+140489,8061526,senado,Senador Eduardo Girão ,PODEMOS,CE,senador,5976
+136287,7976463,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140530,8062243,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
+140541,8062509,senado,Senador Ciro Nogueira ,PP,PI,senador,739
+139657,8032792,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+139657,8032792,senado,Senador Angelo Coronel ,PSD,BA,senador,5967
+139657,8032792,senado,Senador Antonio Anastasia ,PSDB,MG,senador,5529
+139657,8032792,senado,Senador Carlos Viana ,PSD,MG,senador,5990
+139657,8032792,senado,Senador Cid Gomes ,PDT,CE,senador,5973
+139657,8032792,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
+139657,8032792,senado,Senador Eduardo Girão ,PODEMOS,CE,senador,5976
+139657,8032792,senado,Senador Eduardo Gomes ,MDB,TO,senador,3777
+139657,8032792,senado,Senador Fernando Collor ,PROS,AL,senador,4525
+139657,8032792,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+139657,8032792,senado,Senador Jaques Wagner ,PT,BA,senador,581
+139657,8032792,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+139657,8032792,senado,Senador Lucas Barreto ,PSD,AP,senador,5926
+139657,8032792,senado,Senador Marcelo Castro ,MDB,PI,senador,742
+139657,8032792,senado,Senadora Maria do Carmo Alves ,DEM,SE,senador,1023
+139657,8032792,senado,Senador Nelsinho Trad ,PSD,MS,senador,5985
+139657,8032792,senado,Senador Paulo Rocha ,PT,PA,senador,374
+139657,8032792,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+139657,8032792,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139657,8032792,senado,Senador Rodrigo Cunha ,PSDB,AL,senador,5905
+139657,8032792,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+139657,8032792,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+139657,8032792,senado,Senadora Soraya Thronicke ,PSL,MS,senador,5988
+139657,8032792,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
+139657,8032792,senado,Senador Vanderlan Cardoso ,PP,GO,senador,5899
+139657,8032792,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+139657,8032792,senado,Senador Wellington Fagundes ,PL,MT,senador,1173
+139657,8032792,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+141764,8102529,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+141764,8102545,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140613,8062797,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+136417,7943254,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+139916,8047221,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+139916,8047221,senado,Senador Alvaro Dias ,PODEMOS,PR,senador,945
+139916,8047221,senado,Senador Angelo Coronel ,PSD,BA,senador,5967
+139916,8047221,senado,Senador Cid Gomes ,PDT,CE,senador,5973
+139916,8047221,senado,Senador Eduardo Girão ,PODEMOS,CE,senador,5976
+139916,8047221,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+139916,8047221,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+139916,8047221,senado,Senador Flávio Arns ,REDE,PR,senador,345
+139916,8047221,senado,Senador Jaques Wagner ,PT,BA,senador,581
+139916,8047221,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
+139916,8047221,senado,Senadora Juíza Selma ,PODEMOS,MT,senador,5929
+139916,8047221,senado,Senador Lasier Martins ,PODEMOS,RS,senador,5533
+139916,8047221,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+139916,8047221,senado,Senador Major Olimpio ,PSL,SP,senador,5666
+139916,8047221,senado,Senadora Mara Gabrilli ,PSDB,SP,senador,5376
+139916,8047221,senado,Senador Marcos do Val ,PODEMOS,ES,senador,5942
+139916,8047221,senado,Senadora Maria do Carmo Alves ,DEM,SE,senador,1023
+139916,8047221,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+139916,8047221,senado,Senador Paulo Paim ,PT,RS,senador,825
+139916,8047221,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+139916,8047221,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139916,8047221,senado,Senador Reguffe ,PODEMOS,DF,senador,5236
+139916,8047221,senado,Senador Rodrigo Cunha ,PSDB,AL,senador,5905
+139916,8047221,senado,Senadora Simone Tebet ,MDB,MS,senador,5527
+139916,8047221,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
+139916,8047221,senado,Senador Tasso Jereissati ,PSDB,CE,senador,3396
+139916,8047221,senado,Senador Weverton ,PDT,MA,senador,5411
+139916,8047221,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+139916,8058754,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139917,8047219,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+139917,8047219,senado,Senador Alvaro Dias ,PODEMOS,PR,senador,945
+139917,8047219,senado,Senador Angelo Coronel ,PSD,BA,senador,5967
+139917,8047219,senado,Senador Cid Gomes ,PDT,CE,senador,5973
+139917,8047219,senado,Senador Eduardo Girão ,PODEMOS,CE,senador,5976
+139917,8047219,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+139917,8047219,senado,Senador Flávio Arns ,REDE,PR,senador,345
+139917,8047219,senado,Senador Jaques Wagner ,PT,BA,senador,581
+139917,8047219,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
+139917,8047219,senado,Senadora Juíza Selma ,PODEMOS,MT,senador,5929
+139917,8047219,senado,Senador Lasier Martins ,PODEMOS,RS,senador,5533
+139917,8047219,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+139917,8047219,senado,Senador Major Olimpio ,PSL,SP,senador,5666
+139917,8047219,senado,Senadora Mara Gabrilli ,PSDB,SP,senador,5376
+139917,8047219,senado,Senador Marcos do Val ,PODEMOS,ES,senador,5942
+139917,8047219,senado,Senadora Maria do Carmo Alves ,DEM,SE,senador,1023
+139917,8047219,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+139917,8047219,senado,Senador Paulo Paim ,PT,RS,senador,825
+139917,8047219,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+139917,8047219,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139917,8047219,senado,Senador Reguffe ,PODEMOS,DF,senador,5236
+139917,8047219,senado,Senador Rodrigo Cunha ,PSDB,AL,senador,5905
+139917,8047219,senado,Senadora Simone Tebet ,MDB,MS,senador,5527
+139917,8047219,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
+139917,8047219,senado,Senador Tasso Jereissati ,PSDB,CE,senador,3396
+139917,8047219,senado,Senador Weverton ,PDT,MA,senador,5411
+139917,8047219,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+140081,8051632,senado,Senador Jader Barbalho ,MDB,PA,senador,35
+140081,8051632,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+140081,8051632,senado,Senador Antonio Anastasia ,PSDB,MG,senador,5529
+140081,8051632,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+140081,8051632,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140081,8051632,senado,Senador Dário Berger ,MDB,SC,senador,5537
+140081,8051632,senado,Senador Elmano Férrer ,PODEMOS,PI,senador,5531
+140081,8051632,senado,Senador Esperidião Amin ,PP,SC,senador,22
+140081,8051632,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140081,8051632,senado,Senador Fernando Bezerra Coelho ,MDB,PE,senador,5540
+140081,8051632,senado,Senador Jayme Campos ,DEM,MT,senador,4531
+140081,8051632,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
+140081,8051632,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+140081,8051632,senado,Senador Lucas Barreto ,PSD,AP,senador,5926
+140081,8051632,senado,Senadora Mailza Gomes ,PP,AC,senador,5557
+140081,8051632,senado,Senador Marcelo Castro ,MDB,PI,senador,742
+140081,8051632,senado,Senador Marcos Rogério ,DEM,RO,senador,5422
+140081,8051632,senado,Senador Marcos do Val ,PODEMOS,ES,senador,5942
+140081,8051632,senado,Senadora Maria do Carmo Alves ,DEM,SE,senador,1023
+140081,8051632,senado,Senador Nelsinho Trad ,PSD,MS,senador,5985
+140081,8051632,senado,Senador Omar Aziz ,PSD,AM,senador,5525
+140081,8051632,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+140081,8051632,senado,Senador Paulo Paim ,PT,RS,senador,825
+140081,8051632,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140081,8051632,senado,Senador Reguffe ,PODEMOS,DF,senador,5236
+140081,8051632,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
+140081,8051632,senado,Senadora Simone Tebet ,MDB,MS,senador,5527
+140081,8051632,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
+140081,8051632,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140081,8051632,senado,Senador Wellington Fagundes ,PL,MT,senador,1173
+140081,8051632,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+141968,8111753,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+141968,8111549,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+140340,8059076,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+140340,8059076,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+140340,8059076,senado,Senador Alvaro Dias ,PODEMOS,PR,senador,945
+140340,8059076,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140340,8059076,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+140340,8059076,senado,Senador Elmano Férrer ,PODEMOS,PI,senador,5531
+140340,8059076,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140340,8059076,senado,Senador Flávio Arns ,REDE,PR,senador,345
+140340,8059076,senado,Senador Humberto Costa ,PT,PE,senador,5008
+140340,8059076,senado,Senador Jaques Wagner ,PT,BA,senador,581
+140340,8059076,senado,Senador Jayme Campos ,DEM,MT,senador,4531
+140340,8059076,senado,Senador Jean Paul Prates ,PT,RN,senador,5627
+140340,8059076,senado,Senador Lasier Martins ,PODEMOS,RS,senador,5533
+140340,8059076,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+140340,8059076,senado,Senador Luiz Pastore ,MDB,ES,senador,151
+140340,8059076,senado,Senador Major Olimpio ,PSL,SP,senador,5666
+140340,8059076,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+140340,8059076,senado,Senador Marcos do Val ,PODEMOS,ES,senador,5942
+140340,8059076,senado,Senador Nelsinho Trad ,PSD,MS,senador,5985
+140340,8059076,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+140340,8059076,senado,Senador Paulo Paim ,PT,RS,senador,825
+140340,8059076,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140340,8059076,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+140340,8059076,senado,Senador Reguffe ,PODEMOS,DF,senador,5236
+140340,8059076,senado,Senadora Soraya Thronicke ,PSL,MS,senador,5988
+140340,8059076,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
+140340,8059076,senado,Senador Telmário Mota ,PROS,RR,senador,5535
+140340,8059076,senado,Senador Wellington Fagundes ,PL,MT,senador,1173
+140340,8059076,senado,Senador Weverton ,PDT,MA,senador,5411
+140340,8059076,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+139622,8031772,senado,Senador Carlos Viana ,PSD,MG,senador,5990
+140744,8065269,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
+140818,8070104,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
+144966,8894833,senado,Senador Jaques Wagner ,PT,BA,senador,581
+144966,8894833,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144966,8894833,senado,Senador Humberto Costa ,PT,PE,senador,5008
+144966,8894833,senado,Senador Paulo Rocha ,PT,PA,senador,374
+144966,8894907,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144966,8894918,senado,Senador Humberto Costa ,PT,PE,senador,5008
+144966,8895061,senado,Senador Paulo Rocha ,PT,PA,senador,374
+145213,8901489,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+145213,8901489,senado,Senadora Mara Gabrilli ,PSDB,SP,senador,5376
+145213,8901521,senado,Senadora Mara Gabrilli ,PSDB,SP,senador,5376
+145734,8910654,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+138255,8031789,senado,Senador Arolde de Oliveira ,PSD,RJ,senador,751
+135117,7909606,senado,Senador Mecias de Jesus ,PRB,RR,senador,6027
+138337,7997725,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+138337,8016149,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+138337,8031507,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+135169,7916193,senado,Senador Lasier Martins ,PODE,RS,senador,5533
+135169,7926803,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+135169,7929791,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+135169,7936148,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+135169,7948280,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+135161,7916236,senado,Senador Lasier Martins ,PSD,RS,senador,5533
+135161,7918758,senado,Presidente do Senado Federal: Senador Lasier Martins ,PODE,RS,senador,5533
+135158,7916246,senado,Senador Telmário Mota ,PROS,RR,senador,5535
+135158,7997683,senado,Senador Major Olimpio ,PSL,SP,senador,5666
+135179,7916279,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+135179,7918758,senado,Presidente do Senado Federal: Senador Lasier Martins ,PODE,RS,senador,5533
+135179,7920891,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+135179,7921069,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+135207,7916644,senado,Senador Jorginho Mello ,PR,SC,senador,5350
+135230,7917411,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+135230,7972310,senado,Senador Marcelo Castro ,MDB,PI,senador,742
+135230,8006334,senado,Senador Marcelo Castro ,MDB,PI,senador,742
+135230,8025001,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+135240,7917526,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+135240,7937129,senado,Senador Telmário Mota ,PROS,RR,senador,5535
+135244,7917771,senado,Senador Alvaro Dias ,PODE,PR,senador,945
+135244,7918782,senado,Presidente do Senado Federal: Senador Lasier Martins ,PODE,RS,senador,5533
+135244,7918577,senado,Senador Alvaro Dias ,PODE,PR,senador,945
+135332,7918755,senado,Senador Telmário Mota ,PROS,RR,senador,5535
+135332,7934501,senado,Presidente do Senado Federal: Senador Antonio Anastasia ,PSDB,MG,senador,5529
+135332,7933781,senado,Senador Jayme Campos ,DEM,MT,senador,4531
+135377,7919520,senado,Senadora Eliziane Gama ,PPS,MA,senador,5718
+135377,7952863,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+141233,8075599,senado,Senador Telmário Mota ,PROS,RR,senador,5535
+141252,8072224,senado,Senador Jaques Wagner ,PT,BA,senador,581
+135567,7923483,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+135567,7981124,senado,Senador Marcelo Castro ,MDB,PI,senador,742
+135567,7985609,senado,Presidente do Senado Federal: Senador Marcos Rogério ,DEM,RO,senador,5422
+135567,7989536,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+135586,7923951,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+135586,7929937,senado,Presidente do Senado Federal: Senador Izalci Lucas ,PSDB,DF,senador,4770
+135586,7929767,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+135595,7924381,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
+135595,7937332,senado,Presidente do Senado Federal: Senador Lasier Martins ,PODE,RS,senador,5533
+135595,7962760,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+135653,7926411,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+135672,7926402,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+135672,7929049,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+135672,7929502,senado,Presidente do Senado Federal: Senador Antonio Anastasia ,PSDB,MG,senador,5529
+135672,7956568,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+135672,7957938,senado,Presidente do Senado Federal: Senador Paulo Paim ,PT,RS,senador,825
+135651,7926408,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+135651,7936414,senado,Presidente do Senado Federal: Senador Lasier Martins ,PODE,RS,senador,5533
+135651,7962754,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+135651,7962760,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+135651,8024011,senado,Presidente do Senado Federal: Senador Antonio Anastasia ,PSDB,MG,senador,5529
+135664,7926193,senado,Senadora Rose de Freitas ,PODE,ES,senador,2331
+135664,7929937,senado,Presidente do Senado Federal: Senador Izalci Lucas ,PSDB,DF,senador,4770
+135664,7929767,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+135686,7926944,senado,Senadora Rose de Freitas ,PODE,ES,senador,2331
+135686,7944574,senado,Senador Carlos Viana ,PSD,MG,senador,5990
+135686,7951684,senado,Líder do PODE Rose de Freitas ,PODE,ES,senador,2331
+135686,7951684,senado,Líder do PSD Otto Alencar ,PSD,BA,senador,5523
+135686,7951684,senado,Líder do CIDADANIA Eliziane Gama ,CIDADANIA,MA,senador,5718
+135686,7951684,senado,Líder do MDB Eduardo Braga ,MDB,AM,senador,4994
+135686,7951684,senado,Líder do PSDB Roberto Rocha ,PSDB,MA,senador,677
+135686,7951684,senado,Líder do PR Jorginho Mello ,PR,SC,senador,5350
+135686,7951684,senado,Líder do PT Humberto Costa ,PT,PE,senador,5008
+135686,7951684,senado,Líder do PRB Mecias de Jesus ,PRB,RR,senador,6027
+135686,7951684,senado,Líder do PSL Major Olimpio ,PSL,SP,senador,5666
+135686,7951684,senado,Líder do PODE Alvaro Dias ,PODE,PR,senador,945
+135686,7951684,senado,Líder do PDT Weverton ,PDT,MA,senador,5411
+135686,7951684,senado,Líder do REDE Randolfe Rodrigues ,REDE,AP,senador,5012
+135686,7951798,senado,Senadora Rose de Freitas ,PODE,ES,senador,2331
+135686,7954614,senado,Senador Carlos Viana ,PSD,MG,senador,5990
+135681,7927011,senado,Senador Jorge Kajuru ,PSB,GO,senador,5895
+135681,8055205,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+135717,7927462,senado,Senador Jaques Wagner ,PT,BA,senador,581
+135799,7928650,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+135799,7943048,senado,Presidente do Senado Federal: Senador Sérgio Petecão ,PSD,AC,senador,4560
+135799,7941856,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+135799,7943250,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+135801,7928647,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+135801,7968198,senado,Senador Mecias de Jesus ,PRB,RR,senador,6027
+135801,8022619,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+135818,7929129,senado,Senador Jorge Kajuru ,PSB,GO,senador,5895
+135818,7958852,senado,Senador Jaques Wagner ,PT,BA,senador,581
+141446,8090058,senado,Senador Marcos Rogério ,DEM,RO,senador,5422
+141446,8090111,senado,Senador Marcos Rogério ,DEM,RO,senador,5422
+135859,7929845,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+135859,7940061,senado,Presidente do Senado Federal: Senador Jaques Wagner ,PT,BA,senador,581
+135868,7929842,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+135868,8070540,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+135948,7931768,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+135986,7933916,senado,Senador Jader Barbalho ,MDB,PA,senador,35
+141537,8094239,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+141537,8094347,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+136084,7936011,senado,Senador Lasier Martins ,PODE,RS,senador,5533
+136084,7978297,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+141656,8098018,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
+141656,8098035,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
+136200,7951025,senado,Senador Styvenson Valentim ,PODE,RN,senador,5959
+136200,7963316,senado,Senadora Kátia Abreu ,PDT,TO,senador,1249
+136200,7991150,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
+136200,7993130,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
+136265,7939518,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+136265,7981592,senado,Senador Eduardo Girão ,PODEMOS,CE,senador,5976
+136294,7939999,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+136294,8024902,senado,Senador Weverton ,PDT,MA,senador,5411
+136294,8027802,senado,Senador Weverton ,PDT,MA,senador,5411
+136339,7943475,senado,Senador Lasier Martins ,PODE,RS,senador,5533
+141759,8102424,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+141759,8102464,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+136371,7941850,senado,Senador Flávio Bolsonaro ,PSL,RJ,senador,5894
+136371,7941850,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+136371,7943250,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+136371,7964256,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+136371,7990505,senado,Presidente do Senado Federal: Senador Antonio Anastasia ,PSDB,MG,senador,5529
+136371,7989965,senado,Senador Flávio Bolsonaro ,PSL,RJ,senador,5894
+136371,7989965,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+141808,8104353,senado,Senador Irajá ,PSD,TO,senador,5385
+141808,8104404,senado,Senador Irajá ,PSD,TO,senador,5385
+136380,7942047,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+136380,8031677,senado,Senador Marcos Rogério ,DEM,RO,senador,5422
+136493,7944463,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+141952,8110906,senado,Senadora Kátia Abreu ,PP,TO,senador,1249
+141952,8110884,senado,Senadora Kátia Abreu ,PP,TO,senador,1249
+136643,7949377,senado,Senadora Rose de Freitas ,PODE,ES,senador,2331
+136643,7980025,senado,Senador Carlos Viana ,PSD,MG,senador,5990
+136643,7994373,senado,Senador Carlos Viana ,PSD,MG,senador,5990
+142064,8114231,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
+142064,8114207,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
+136782,7952136,senado,Senador Jorge Kajuru ,PSB,GO,senador,5895
+136798,7952702,senado,Senador Vanderlan Cardoso ,PP,GO,senador,5899
+136798,7972670,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
+136798,7974342,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
+136798,8039664,senado,Senador Luiz do Carmo ,MDB,GO,senador,5585
+142330,8117920,senado,Senador Ciro Nogueira ,PP,PI,senador,739
+137008,7958842,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+137008,8019374,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+137118,7960880,senado,Senador Tasso Jereissati ,PSDB,CE,senador,3396
+137118,7961501,senado,Líder do PROS Telmário Mota ,PROS,RR,senador,5535
+137118,7961501,senado,Líder do DEM Rodrigo Pacheco ,DEM,MG,senador,5732
+137118,7961501,senado,Líder do PSB Jorge Kajuru ,PSB,GO,senador,5895
+137118,7961501,senado,Líder do PL Jorginho Mello ,PL,SC,senador,5350
+137118,7961613,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+137118,7961632,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+137118,7962155,senado,Senador Jaques Wagner ,PT,BA,senador,581
+137118,7962979,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+137118,7962964,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+137118,7962976,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+137118,7962973,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+137118,7962967,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+137118,7962612,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+137118,7962957,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+137118,7962970,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+137118,7963442,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+137294,7962288,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137294,7968169,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+137294,7968306,senado,Presidente do Senado Federal: Senador Elmano Férrer ,PODEMOS,PI,senador,5531
+137294,7972333,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137294,7999854,senado,Senador Mecias de Jesus ,REPUBLICANOS,RR,senador,6027
+137294,8047984,senado,Senador Sérgio Petecão ,PSD,AC,senador,4560
+137294,8048020,senado,Senador Sérgio Petecão ,PSD,AC,senador,4560
+137294,8048335,senado,Senador Sérgio Petecão ,PSD,AC,senador,4560
+137294,8069500,senado,Senador Sérgio Petecão ,PSD,AC,senador,4560
+137404,7969307,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+137404,7972333,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137404,7972626,senado,Presidente do Senado Federal: Senador Lasier Martins ,PODEMOS,RS,senador,5533
+137404,8052345,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
+137486,7972292,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
+137486,8016000,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+137599,7980271,senado,Senador Wellington Fagundes ,PL,MT,senador,1173
+137599,7980274,senado,Senador Wellington Fagundes ,PL,MT,senador,1173
+137601,7991203,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+137601,8013496,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+137601,8025815,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+137601,8025769,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+137601,8025772,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+137653,7974055,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+137657,7974061,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+143753,8871638,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+143780,8871991,senado,Senador Jader Barbalho ,MDB,PA,senador,35
+143914,8873483,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+137828,7980703,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137828,8049086,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+137828,8068520,senado,Presidente do Senado Federal: Senador Dário Berger ,MDB,SC,senador,5537
+137828,8068285,senado,Senador Jaques Wagner ,PT,BA,senador,581
+137828,8069041,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140534,8072385,senado,Senador Lasier Martins ,PODEMOS,RS,senador,5533
+140534,8090241,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+140534,8122700,senado,Senador Tasso Jereissati ,PSDB,CE,senador,3396
+140534,8122711,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
+140534,8123194,senado,Senador Wellington Fagundes ,PL,MT,senador,1173
+140534,8123429,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+140534,8123660,senado,Senador Esperidião Amin ,PP,SC,senador,22
+140534,8124007,senado,Senador Marcos do Val ,PODEMOS,ES,senador,5942
+140534,8124258,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
+140534,8124264,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
+140534,8124261,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
+140534,8124312,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+140534,8124359,senado,Líder do PODEMOS Alvaro Dias ,PODEMOS,PR,senador,945
+140534,8124447,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+140534,8124528,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+140534,8124531,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+140534,8124534,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+140534,8124575,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+140534,8124614,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
+140534,8124617,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
+140534,8124622,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
+140534,8124625,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
+140534,8124628,senado,Senador Jader Barbalho ,MDB,PA,senador,35
+140534,8125715,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
+140534,8124995,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+140534,8124995,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140534,8124998,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+140534,8124998,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140534,8125001,senado,Senador Weverton ,PDT,MA,senador,5411
+140534,8125004,senado,Senador Weverton ,PDT,MA,senador,5411
+140534,8125007,senado,Senador Weverton ,PDT,MA,senador,5411
+140534,8125010,senado,Senador Weverton ,PDT,MA,senador,5411
+140534,8125013,senado,Senador Weverton ,PDT,MA,senador,5411
+140534,8125016,senado,Senador Weverton ,PDT,MA,senador,5411
+140534,8125019,senado,Senador Weverton ,PDT,MA,senador,5411
+140534,8125022,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+140534,8125025,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125028,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125031,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125034,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125037,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125040,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125043,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125046,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125049,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125052,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125055,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125058,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125061,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125064,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125067,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125070,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125073,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125076,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125083,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140534,8125092,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140534,8125089,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140534,8125086,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140534,8125095,senado,Senador Weverton ,PDT,MA,senador,5411
+140534,8125099,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140534,8125109,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140534,8125112,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140534,8125118,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+140534,8125121,senado,Senador Luiz do Carmo ,MDB,GO,senador,5585
+140534,8125127,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+140534,8125124,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140534,8125130,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140534,8125133,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140534,8125136,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140534,8125139,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140534,8125142,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140534,8125147,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140534,8125153,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140534,8125150,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140534,8125156,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+140534,8125159,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+140534,8125162,senado,Senador Weverton ,PDT,MA,senador,5411
+140534,8125174,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+140534,8125174,senado,Senador Jean Paul Prates ,PT,RN,senador,5627
+140534,8125174,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+140534,8125174,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140534,8125177,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
+140534,8125201,senado,Líder do MDB Eduardo Braga ,MDB,AM,senador,4994
+140534,8125204,senado,Senador Mecias de Jesus ,REPUBLICANOS,RR,senador,6027
+140534,8125214,senado,Líder do MDB Eduardo Braga ,MDB,AM,senador,4994
+140534,8125217,senado,Líder do CIDADANIA Eliziane Gama ,CIDADANIA,MA,senador,5718
+140534,8125222,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+140534,8125225,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+140534,8125230,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+140534,8125235,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+140534,8125247,senado,Senador Jaques Wagner ,PT,BA,senador,581
+140534,8125250,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140534,8125254,senado,Senador Jaques Wagner ,PT,BA,senador,581
+140534,8125257,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140534,8125260,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140534,8125263,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140534,8125266,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140534,8125269,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140534,8125272,senado,Senador Esperidião Amin ,PP,SC,senador,22
+140534,8125276,senado,Senador Jean Paul Prates ,PT,RN,senador,5627
+140534,8125288,senado,Senador Rodrigo Cunha ,PSDB,AL,senador,5905
+140534,8125292,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+140534,8125303,senado,Líder do PDT Weverton ,PDT,MA,senador,5411
+140534,8125308,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+140534,8125315,senado,Líder do MDB Eduardo Braga ,MDB,AM,senador,4994
+140534,8125317,senado,Líder do MDB Eduardo Braga ,MDB,AM,senador,4994
+140534,8125323,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+140534,8125330,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+140534,8125333,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140534,8125336,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+140534,8125339,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+140534,8125362,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+140534,8125368,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+140534,8125373,senado,Líder do REDE Randolfe Rodrigues ,REDE,AP,senador,5012
+140534,8125378,senado,Senador Tasso Jereissati ,PSDB,CE,senador,3396
+140534,8125380,senado,Líder do PODEMOS Alvaro Dias ,PODEMOS,PR,senador,945
+140534,8125396,senado,Líder do PROS Telmário Mota ,PROS,RR,senador,5535
+140534,8125433,senado,Líder do MDB Eduardo Braga ,MDB,AM,senador,4994
+140534,8125436,senado,Líder do PROS Telmário Mota ,PROS,RR,senador,5535
+140534,8125452,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+140534,8125464,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+140534,8125461,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+140534,8125458,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+140534,8125455,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+140534,8125482,senado,Senador Tasso Jereissati ,PSDB,CE,senador,3396
+140534,8125719,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
+137850,7982420,senado,Senador Jorge Kajuru ,PSB,GO,senador,5895
+137850,8065464,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+145636,8911640,senado,Líder do PDT Weverton ,PDT,MA,senador,5411
+145636,8912251,senado,Senador Antonio Anastasia ,PSD,MG,senador,5529
+145636,8911988,senado,Senador Antonio Anastasia ,PSD,MG,senador,5529
+145636,8911821,senado,Líder do PODEMOS Alvaro Dias ,PODEMOS,PR,senador,945
+145636,8911828,senado,Líder do PSD Otto Alencar ,PSD,BA,senador,5523
+145636,8911883,senado,Senador Antonio Anastasia ,PSD,MG,senador,5529
+145636,8911905,senado,Líder do PSD Otto Alencar ,PSD,BA,senador,5523
+145636,8911915,senado,Senador Alvaro Dias ,PODEMOS,PR,senador,945
+145636,8911918,senado,Líder do CIDADANIA Eliziane Gama ,CIDADANIA,MA,senador,5718
+145636,8911924,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+145636,8912180,senado,Senador Antonio Anastasia ,PSD,MG,senador,5529
+144393,8882019,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+138338,7997694,senado,Senador Major Olimpio ,PSL,SP,senador,5666
+144927,8894082,senado,Senador Marcos Rogério ,DEM,RO,senador,5422
+144969,8894844,senado,Senador Jader Barbalho ,MDB,PA,senador,35
+144993,8895273,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+145013,8895633,senado,Senadora Soraya Thronicke ,PSL,MS,senador,5988
+145031,8895957,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+145031,8895957,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+145031,8895978,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+138480,8001460,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+138480,8028227,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+138498,8001954,senado,Senador Ciro Nogueira ,PP,PI,senador,739
+138540,8002929,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
+138540,8049375,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+138694,8005235,senado,Senador Telmário Mota ,PROS,RR,senador,5535
+138735,8004469,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+138725,8064604,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+138725,8064604,senado,Senador Jaques Wagner ,PT,BA,senador,581
+138725,8064593,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+138725,8064593,senado,Senador Jaques Wagner ,PT,BA,senador,581
+138725,8064606,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+138725,8064606,senado,Senador Jaques Wagner ,PT,BA,senador,581
+138725,8070247,senado,Senadora Soraya Thronicke ,PSL,MS,senador,5988
+138725,8070992,senado,Senador Jayme Campos ,DEM,MT,senador,4531
+138725,8070992,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+138725,8070968,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+138725,8075030,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+138725,8910812,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
+138725,8910921,senado,Senador Rodrigo Cunha ,PSDB,AL,senador,5905
+138725,8910940,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+138725,8910971,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+138725,8910977,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+138725,8910974,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+138725,8910983,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+138725,8911043,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+138725,8911123,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+138725,8911123,senado,Senadora Soraya Thronicke ,PSL,MS,senador,5988
+138725,8911123,senado,Senador Luiz do Carmo ,MDB,GO,senador,5585
+138725,8911169,senado,Senadora Soraya Thronicke ,PSL,MS,senador,5988
+138725,8911173,senado,Senador Luiz do Carmo ,MDB,GO,senador,5585
+138725,8911770,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+138725,8912561,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+138725,8912573,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+138725,8912570,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+138725,8912567,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+138725,8912564,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+138725,8914115,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+138725,8915178,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+138812,8010383,senado,Senador Jorge Kajuru ,PATRIOTA,GO,senador,5895
+138839,8011379,senado,Senador Jayme Campos ,DEM,MT,senador,4531
+138839,8025024,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+138873,8012898,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+138892,8013724,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+145420,8906358,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+145425,8906398,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+138902,8014308,senado,Senador Alvaro Dias ,PODEMOS,PR,senador,945
+138902,8052889,senado,Senadora Soraya Thronicke ,PSL,MS,senador,5988
+138904,8014389,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+138904,8022433,senado,Senador Jaques Wagner ,PT,BA,senador,581
+138937,8004605,senado,Senador Irajá ,PSD,TO,senador,5385
+138937,8056381,senado,Senador Lucas Barreto ,PSD,AP,senador,5926
+138937,8067335,senado,Presidente do Senado Federal: Senador Izalci Lucas ,PSDB,DF,senador,4770
+138937,8066345,senado,Senador Irajá ,PSD,TO,senador,5385
+145560,8908307,senado,Senador Jayme Campos ,DEM,MT,senador,4531
+145598,8908845,senado,Senador Carlos Viana ,PSD,MG,senador,5990
+139054,8017519,senado,Senador Sérgio Petecão ,PSD,AC,senador,4560
+145626,8909364,senado,Senador José Serra ,PSDB,SP,senador,90
+139066,8017137,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+139154,8020056,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+139154,8025934,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+139154,8051557,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+139154,8066902,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139267,8019958,senado,Senador Jaques Wagner ,PT,BA,senador,581
+139361,8024176,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+139527,8029003,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+139527,8050199,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+139527,8917901,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+139585,8030895,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+139596,8031191,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139662,8033091,senado,Senador José Serra ,PSDB,SP,senador,90
+139839,8037149,senado,Senador Wellington Fagundes ,PL,MT,senador,1173
+139839,8058254,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139848,8040148,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+139858,8040158,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+139853,8040174,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+139853,8064713,senado,Senador Luiz Pastore ,MDB,ES,senador,151
+139856,8040170,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
+139856,8072752,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+139856,8073316,senado,Presidente do Senado Federal: Senador Izalci Lucas ,PSDB,DF,senador,4770
+139856,8073275,senado,Presidente do Senado Federal: Senador Paulo Paim ,PT,RS,senador,825
+139966,8036489,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+139988,8048914,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140281,8113362,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+140347,8058926,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+143587,8886216,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
