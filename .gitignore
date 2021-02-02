@@ -1,3 +1,9 @@
+*.Rproj
+.DS_Store
+reports/*nb.html
+reports/*html
+data/raw/*csv
+
 # History files
 .Rhistory
 .Rapp.history
@@ -29,6 +35,7 @@ vignettes/*.pdf
 
 # knitr and R markdown default cache directories
 *_cache/
+/*_cache/
 /cache/
 
 # Temporary files created by R markdown
@@ -37,3 +44,4 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+.Rproj.user
