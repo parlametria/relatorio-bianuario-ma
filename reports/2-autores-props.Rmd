@@ -1,0 +1,145 @@
+---
+title: "Autorias nas proposições"
+output:
+  html_document:
+    theme: paper
+    css: styles.css
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  # message = FALSE,
+  # warning = FALSE,
+  # fig.cap = '',
+  # fig.align = 'center',
+  fig.width = 6,
+  fig.height = 5
+)
+
+Sys.setenv(LANGUAGE="pt-br")
+Sys.setlocale("LC_TIME", "pt_BR")
+options(scipen = 999)
+```
+
+```{r warning=FALSE, message=FALSE}
+library(tidyverse)
+library(reactable)
+library(ggchicklet)
+library(ggbeeswarm)
+library(hrbrthemes)
+theme_set(theme_ipsum_rc())
+
+source(here::here("code/read_ready.R"))
+source(here::here("reports/autorias.R"))
+```
+
+```{r}
+proposicoes = read_proposicoes()
+detalhes_autorias = read_autorias_det()
+resumo_autorias = read_autorias_res() %>%  select(-situacao,
+                                                  -em_exercicio,
+                                                  -is_parlamentar,
+                                                  -sexo,
+                                                  -starts_with("id"))
+
+resumo_autorias = resumo_autorias %>%
+  filter(assinadas > 0)
+  # mutate(assinou = if_else(assinadas > 0, "Autores", "Demais parlamentares"))
+```
+
+
+```{r}
+resumo_autorias %>%
+  tbl_autorias_resumida()
+```
+
+#### Detalhes
+
+```{r}
+detalhes_autorias %>% 
+  select(-id_entidade, -sigla_tipo) %>% 
+  tbl_detalhes_autorias()
+```
+
+### Perfil dos autores
+
+
+```{r}
+resumo_autorias %>%
+  filter(!is.na(governismo)) %>%
+  ggplot(aes(y = governismo, x = casa, size = autorias_ponderadas)) +
+  scale_color_discrete(name = NULL) +
+  coord_flip() +
+  geom_quasirandom(alpha = .6, color = "darkorange4") +
+  labs(
+    y = "Governismo (neg. sign. oposição)",
+    x = "",
+    title = "Governismo entre autores das PDLs",
+    subtitle = "Cada ponto é um(a) parlamentar. Maiores autoraram mais.",
+    size = "Autorias poderadas"
+  ) +
+  theme(legend.position = "None")
+```
+
+```{r}
+resumo_autorias %>% 
+  filter(!is.na(peso_politico)) %>% 
+  ggplot(aes(y = peso_politico, x = casa, size = autorias_ponderadas)) + 
+  scale_color_discrete(name = NULL) + 
+  coord_flip() + 
+  geom_quasirandom(alpha = .6, color = "darkseagreen") + 
+  labs(y = "Peso político no parlametria", 
+       x = "", 
+       title = "Peso político entre autores das PDLs", 
+       subtitle = "Cada ponto é um(a) parlamentar. Maiores autoraram mais.",
+       size = "Autorias poderadas") + 
+  theme(legend.position = "None")
+```
+```{r}
+resumo_autorias %>% 
+  filter(!is.na(peso_politico + governismo)) %>% 
+  ggplot(aes(y = peso_politico, x = governismo, size = autorias_ponderadas)) + 
+  facet_grid(casa ~ .) + 
+  scale_color_discrete(name = NULL) + 
+  geom_point(alpha = .6, color = "coral4") + 
+  labs(y = "Peso político no parlametria", 
+       x = "Governismo", 
+       title = "Peso político entre autores das PDLs", 
+       subtitle = "Cada ponto é um(a) parlamentar. Maiores autoraram mais.",
+       size = "Autorias poderadas") + 
+  theme(legend.position = "None")
+```
+
+
+## Autoria dos partidos
+
+```{r}
+autorias_partidos = 
+  detalhes_autorias %>% 
+  select(proposicao, partido) %>% 
+  distinct()
+```
+
+
+```{r fig.height=4}
+autorias_partidos %>%
+  filter(!is.na(partido)) %>% 
+  count(partido) %>%
+  ggplot(aes(x = reorder(partido, n), y = n)) +
+  geom_chicklet(fill = "#21a6a0") +
+  coord_flip() +
+  labs(title = "Participação dos partidos na autoria dos PDLs",
+       subtitle = "Pelo menos um(a) parlamentar do partido é autor(a)",
+       x = "", y = "PDLs autordas por parlamentar do partido")
+```
+
+
+
+```{r}
+autorias_partidos %>%
+  filter(!is.na(partido)) %>% 
+  count(partido, sort = T) %>%
+  reactable()
+```
+
