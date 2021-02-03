@@ -41,14 +41,6 @@ transform_proposicoes <-
     proposicoes_tudo
   }
 
-proposicoes_f = proposicoes_leggo %>%
-  mutate(
-    nome_proposicao = str_glue(
-      "{sigla_tipo} {numero}/{lubridate::year(data_apresentacao)}"
-    )
-  ) %>%
-  anti_join(proposicoes_input, by = c("nome_proposicao" = "proposicao"))
-
 #' Código comum para transform_autorias_*
 #'
 le_cruza_autorias <- function(proposicoes,

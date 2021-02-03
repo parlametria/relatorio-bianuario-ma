@@ -51,16 +51,17 @@ Estamos examinando `r NROW(proposicoes)` proposições dos seguintes tipos:
 ```{r fig.height=3}
 proposicoes %>% 
   count(casa_origem, sigla_tipo) %>% 
-  ggplot(aes(x = reorder(casa_origem, n), y = n)) + 
-  geom_chicklet(fill = "#21a6a0") + 
+  ggplot(aes(x = reorder(casa_origem, n), y = n, fill = sigla_tipo)) + 
+  geom_chicklet() + 
   coord_flip() + 
   labs(x = "", y = "Proposições", 
-       title = "PDLs por casa de origem")
+       title = "Proposições por casa de origem e tipo")
 ```
 
 
 ```{r}
 proposicoes %>% 
+  filter(lubridate::year(data_apresentacao) >= 2019) %>% 
   mutate(mes = lubridate::floor_date(data_apresentacao, "months")) %>% 
   count(mes) %>% 
   ggplot(aes(x = mes, y = n)) + 
@@ -72,72 +73,66 @@ proposicoes %>%
 ```
 
 ```{r}
-proposicoes %>% 
-  count(tema) %>% 
-  ggplot(aes(x = reorder(tema, n), y = n)) + 
-  geom_chicklet(fill = "#21a6a0") + 
-  coord_flip() + 
-  labs(x = "", y = "Proposições", title = "Por tema", subtitle = "Categorização para o relatório")
+temas = proposicoes %>%
+  separate_rows(tema, sep = ";") %>%
+  count(tema) 
+
+temas %>%
+  ggplot(aes(x = reorder(tema, n), y = n)) +
+  geom_chicklet(fill = "#21a6a0") +
+  coord_flip() +
+  labs(
+    x = "",
+    y = "Proposições",
+    title = "Por tema (do congresso)",
+    subtitle = "Uma proposição pode ter mais de um tema"
+  )
 ```
 
 ```{r}
-proposicoes %>% 
-  count(tema, sort = T) %>% 
+temas %>% 
+  arrange(-n) %>% 
   reactable()
 ```
 
 
 ```{r}
-proposicoes %>% 
-  count(norma_atacada) %>% 
-  top_n(10, n) %>% 
-  mutate(norma_atacada = if_else(str_length(norma_atacada) <= 50, 
-                                 norma_atacada, 
-                                 paste0(str_sub(norma_atacada, end = 47), "..."))) %>% 
-  ggplot(aes(x = reorder(norma_atacada, n), y = n)) + 
-  geom_chicklet(fill = "#ff8040") + 
-  coord_flip() + 
-  labs(x = "", y = "Proposições", title = "Por Norma Atacada", subtitle = "Norma a ser suspendida")
-```
-
-
-```{r}
-tramitacao = proposicoes %>%
-  filter(!is.na(situacao)) %>%
-  separate(situacao, c("situacao", "resto"), sep = "[-.]") %>%
-  mutate(situacao = if_else(casa_origem == "senado", resto, situacao)) %>%
-  mutate(situacao = str_to_sentence(situacao) %>% str_replace("de relator", "do relator") %>% str_trim()) %>%
-  mutate(situacao = if_else(str_detect(situacao, "Aguardando parecer"), "Aguardando parecer", situacao)) 
-
-tramitacao %>% 
-  count(situacao) %>%
-  mutate(destaque = situacao != "Pronta para pauta") %>% 
-  filter(n > 1) %>%
-  ggplot(aes(x = reorder(situacao, n), y = n, fill = destaque)) +
-  geom_chicklet() +
-  coord_flip() +
-  labs(
-    title = "Tramitação das proposições",
-    subtitle = "Situações mais comuns em dez/2020",
-    x = "",
-    y = "Proposições"
-  ) + 
-  theme(legend.position = "None")
+# tramitacao = proposicoes %>%
+#   filter(!is.na(situacao)) %>%
+#   separate(situacao, c("situacao", "resto"), sep = "[-.]") %>%
+#   mutate(situacao = if_else(casa_origem == "senado", resto, situacao)) %>%
+#   mutate(situacao = str_to_sentence(situacao) %>% str_replace("de relator", "do relator") %>% str_trim()) %>%
+#   mutate(situacao = if_else(str_detect(situacao, "Aguardando parecer"), "Aguardando parecer", situacao)) 
+# 
+# tramitacao %>% 
+#   count(situacao) %>%
+#   mutate(destaque = situacao != "Pronta para pauta") %>% 
+#   filter(n > 1) %>%
+#   ggplot(aes(x = reorder(situacao, n), y = n, fill = destaque)) +
+#   geom_chicklet() +
+#   coord_flip() +
+#   labs(
+#     title = "Tramitação das proposições",
+#     subtitle = "Situações mais comuns em dez/2020",
+#     x = "",
+#     y = "Proposições"
+#   ) + 
+#   theme(legend.position = "None")
 ```
 
 Proposições prontas para a pauta:
 
 ```{r}
-tramitacao %>% 
-  filter(situacao == "Pronta para pauta") %>% 
-  select(`Proposição` = nome_proposicao, `Casa de Origem` = casa_origem) %>% 
-  reactable::reactable()
+# tramitacao %>% 
+#   filter(situacao == "Pronta para pauta") %>% 
+#   select(`Proposição` = nome_proposicao, `Casa de Origem` = casa_origem) %>% 
+#   reactable::reactable()
 ```
 
 ```{r}
-tramitacao %>% 
-  count(situacao, sort = T) %>%
-  reactable()
+# tramitacao %>% 
+#   count(situacao, sort = T) %>%
+#   reactable()
 ```
 
 
@@ -148,7 +143,8 @@ participacao = detalhes_autorias %>%
   group_by(proposicao) %>% 
   filter(!is.na(partido)) %>% 
   summarise(autores = n(), 
-            partidos = n_distinct(partido))
+            partidos = n_distinct(partido), 
+            .groups = "drop")
 ```
 
 ```{r}
@@ -182,26 +178,27 @@ participacao %>%
 
 ```{r}
 participacao %>% 
-  filter(partidos > 1) %>% 
+  filter(partidos >= 5) %>% 
   ggplot(aes(x = reorder(proposicao, partidos), y = partidos)) + 
   geom_hline(yintercept = 1, color = "#dddddd") + 
   geom_chicklet(width = .5, fill = "#f7c74f") +
   coord_flip() + 
   labs(x = "", 
        title = "Número de partidos entre autores", 
-       subtitle = "Apenas proposições com mais de um partido autor")
+       subtitle = "Proposições que mobilizaram mais partidos")
 ```
 ```{r fig.width=10}
 atividade_partido = detalhes_autorias %>% 
   filter(!is.na(partido)) %>% 
   group_by(partido) %>% 
-  summarise(proposicoes = n_distinct(proposicao))
+  summarise(proposicoes = n_distinct(proposicao), 
+            .groups = "drop")
   
 detalhes_autorias %>%
   filter(proposicao %in% (filter(participacao, partidos > 1) %>% pull(proposicao))) %>%
   distinct(proposicao, partido) %>%
-  left_join(participacao) %>%
-  left_join(atividade_partido) %>%
+  left_join(participacao, by = "proposicao") %>%
+  left_join(atividade_partido, by = "partido") %>%
   ggplot(aes(
     x = reorder(partido,-proposicoes),
     y = reorder(proposicao, partidos)
