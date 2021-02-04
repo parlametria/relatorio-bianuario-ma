@@ -127,6 +127,7 @@ detalha_autorias = function(data) {
            casa,
            sigla_tipo,
            proposicao = nome_proposicao,
+           classificacao_ambientalismo,
            autores,
            governismo) %>%
     mutate(
@@ -143,6 +144,9 @@ resume_autorias = function(data) {
     summarise(
       assinadas = sum(assinadas),
       autorias_ponderadas = sum(autorias_ponderadas),
+      positivas = sum(classificacao_ambientalismo == "Positivo"),
+      negativas = sum(classificacao_ambientalismo == "Negativo"),
+      neutras = sum(classificacao_ambientalismo == "Neutro"),
       .groups = "drop"
     )
 }
