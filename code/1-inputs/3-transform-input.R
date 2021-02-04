@@ -1,6 +1,4 @@
 library(tidyverse)
-library(readxl)
-library(urltools)
 library(here)
 
 #' @title Processa a planilha de entrada
@@ -10,44 +8,58 @@ library(here)
 #' @examples
 #' transform_input_proposicoes()
 transform_input_proposicoes <-
-  function(planilha_path = here::here("data/input/PDLs Ambientais 2019 e 2020 - Filtro Bruno Carazza.xlsx")) {
-    proposicoes_selecao <- read_excel(planilha_path, 
-                                      sheet = "Revisão Carol")
-    urls <- proposicoes_selecao %>%
-      filter(str_detect(`Dentro do escopo do relatório?`, "Sim")) %>%
-      select(
-        proposicao = `Proposições`,
-        url = Link,
-        tema = `Classificação Bruno`,
-        situacao = `Situação`,
-        norma_atacada = `Norma Atacada`
-      ) %>%
-      mutate(dominio = domain(url)) %>%
-      mutate(
-        origem = case_when(
-          (
-            dominio == "www.camara.leg.br" |
-              dominio == "www.camara.gov.br"
-          ) ~ "camara",
-          dominio == "www.congressonacional.leg.br" ~ "congresso",
-          dominio ==  "www25.senado.leg.br" ~ "senado",
-          TRUE ~ NA_character_
-        )
-      ) %>%
-      rowwise() %>%
-      mutate(id_prop = .extract_id(url, origem)) %>%
-      mutate(casa = if_else(origem == 'congresso', 'senado', origem))
+  function(planilha_path = here::here("data/inputs/2-fetch-input/proposicoes/proposicoes_preenchidas.csv")) {
     
-    proposicoes_camara <- urls %>%
+    proposicoes_selecao <- read_csv(planilha_path)
+    
+    proposicoes_camara <- proposicoes_selecao %>%
       filter(casa == "camara") %>%
-      select(proposicao, tema, url, situacao, norma_atacada, id_camara = id_prop)
+      mutate(explicacao_ambientalismo = classificacao_ambientalismo) %>% 
+      select(proposicao, sigla_tipo, numero, ano, tema, id_camara = id, casa, 
+             classificacao_ambientalismo, explicacao_ambientalismo)
     
-    proposicoes_senado <- urls %>%
-      filter(casa == "senado") %>%
-      select(proposicao, tema, url, situacao, norma_atacada, id_senado = id_prop)
+    proposicoes_senado <- proposicoes_selecao %>%
+      filter(casa == "senado",
+             relacionada_ma == "Sim") %>%
+      mutate(explicacao_ambientalismo = classificacao_ambientalismo) %>% 
+      mutate(classificacao_ambientalismo = 
+               case_when(
+                 str_detect(tolower(classificacao_ambientalismo), "positiv.") ~ "Positivo",
+                 str_detect(tolower(classificacao_ambientalismo), "negativo") ~ "Negativo",
+                 str_detect(tolower(classificacao_ambientalismo), "neutr.") ~ "Neutro",
+                 TRUE ~ NA_character_
+                 )
+             ) %>% 
+      select(proposicao, sigla_tipo, numero, ano, tema, id_senado = id, casa, 
+           classificacao_ambientalismo, explicacao_ambientalismo)
     
-    proposicoes <- proposicoes_camara %>%
-      bind_rows(proposicoes_senado) %>%
+    proposicoes_merge <- proposicoes_camara %>%
+      bind_rows(proposicoes_senado) %>% 
+      group_by(proposicao) %>% 
+      fill(id_camara, .direction = c("downup")) %>% 
+      fill(id_senado, .direction = c("downup")) %>% 
+      ungroup() %>% 
+      distinct(id_camara, id_senado, .keep_all = TRUE) %>% 
+      rowwise()
+
+    proposicoes_id <- purrr::pmap_dfr(
+      list(
+      proposicoes_merge$sigla_tipo,
+      proposicoes_merge$numero,
+      proposicoes_merge$ano,
+      proposicoes_merge$id_camara,
+      proposicoes_merge$id_senado
+      ),
+      ~ process_id_proposicao(..1, ..2, ..3, ..4, ..5)
+    )
+      
+    proposicoes_input <- proposicoes_merge %>% 
+      left_join(proposicoes_id,
+                by = c("sigla_tipo"="tipo",
+                       "numero", 
+                       "ano")) %>% 
+      mutate(id_camara = if_else(is.na(id_camara.x), id_camara.y, id_camara.x),
+             id_senado = if_else(is.na(id_senado.x), id_senado.y, id_senado.x)) %>% 
       mutate(
         apelido = "",
         prioridade = "",
@@ -69,49 +81,54 @@ transform_input_proposicoes <-
         keywords,
         tipo_agenda,
         explicacao_projeto,
-        situacao,
-        norma_atacada
+        classificacao_ambientalismo,
+        explicacao_ambientalismo
       )
     
     # Salvar
-    out_proposicoes = "data/raw/proposicoes_input.csv"
+    out_proposicoes = "data/inputs/3-transform-input/proposicoes/proposicoes_input.csv"
     
-    proposicoes %>%
+    proposicoes_input %>%
       write_csv(here::here(out_proposicoes))
     message("Proposições processadas em ", out_proposicoes)
     
-    return(proposicoes)
+    return(proposicoes_input)
   }
 
-#' @title Extrai ids das proposições através da URL
-#' @description Extrai ids das proposições através da URL para a página da proposição na respectiva casa
-#' @param url URL para a página da proposição
-#' @param casa Casa de origem da proposição
-#' @return Id da proposição
+#' @title Recupera id na câmara ou no senado a partir do nome formal da proposição
+#' @description Recupera id na câmara ou no senado a partir do nome formal da proposição usando funções do rcongresso
+#' @param tipo Tipo da proposição
+#' @param numero Número da proposição
+#' @param ano Ano da proposição
+#' @param casa Casa da proposição
+#' @param id Id da proposição
+#' @return id da proposição
 #' @examples
-#' .extract_id("http://www.camara.gov.br/proposicoesWeb/fichadetramitacao?idProposicao=2194820", "camara")
-.extract_id <- function(url, casa) {
-  id <- case_when(
-    is.na(casa) ~ NA_character_,
-    casa == "camara" ~ .extract_number_from_regex(url, "idProposicao=[0-9]+"),
-    casa == "senado" ~ .extract_number_from_regex(url, "materia/[0-9]+"),
-    casa == "congresso" ~ .extract_number_from_regex(url, "mpv/[0-9]+"),
-    TRUE ~ NA_character_
+#' process_id_proposicao(tipo = "PEC", numero = "6", ano = "2019", id_camara = NA, id_senado = NA)
+process_id_proposicao <- function(tipo = "PEC", numero = "6", ano = "2019", id_camara = NA, id_senado = NA) {
+  print(paste0("Proposição: ", id_camara, " - ", id_senado))
+
+  if (is.na(id_camara)) {
+    id_camara <- rcongresso::fetch_id_proposicao_camara(tipo, numero, ano)
+  }
+  
+  if (is.na(id_senado)) {
+    data_senado <- rcongresso::fetch_proposicao_senado_sigla(tipo, numero, ano) 
+    
+    if (nrow(data_senado) != 0) {
+      id_senado <- data_senado %>% pull(codigo_materia)
+    }
+  }
+  
+  data <- tibble(
+    tipo = tipo,
+    numero = numero,
+    ano = ano,
+    id_camara = as.numeric(id_camara),
+    id_senado = as.numeric(id_senado)
   )
-  return(id)
+  
+  return(data)
 }
-
-#' @title Extrai somente os números de um texto extraído de regex
-#' @description A partir de uma expressão regular, extrai o texto desse regex e depois retorna apenas os números existentes
-#' @param text Texto onde o regex será aplicado
-#' @param text_regex Expressão regular onde o texto será extraído para depois serem retornados apenas os números
-#' @return Números existentes em um texto extraído a partir de uma expressão regular
-#' @examples
-#' .extract_number_from_regex("http://www.camara.gov.br/proposicoesWeb/fichadetramitacao?idProposicao=2194820", "idProposicao=[0-9]+")
-.extract_number_from_regex <- function(text, text_regex) {
-  return(stringr::str_extract(text, text_regex) %>%
-           stringr::str_extract("[0-9]+"))
-}
-
 
 transform_input_proposicoes()
