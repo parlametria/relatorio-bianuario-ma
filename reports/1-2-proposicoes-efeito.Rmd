@@ -32,17 +32,7 @@ theme_set(theme_ipsum_rc())
 
 source(here::here("code/read_ready.R"))
 source(here::here("reports/autorias.R"))
-```
-
-```{r}
-escala_sinais = scale_fill_manual(
-  na.value = "#dddddd",
-  values = c(
-    "Positivo" = "#91cf60",
-    "Negativo" = "#fc8d59",
-    "Neutro" = "#ffff8a"
-  ) 
-) 
+source(here::here("reports/escalas.R"))
 ```
 
 

@@ -37,11 +37,12 @@ source(here::here("reports/autorias.R"))
 ```{r}
 proposicoes = read_proposicoes()
 detalhes_autorias = read_autorias_det()
-resumo_autorias = read_autorias_res() %>%  select(-situacao,
-                                                  -em_exercicio,
-                                                  -is_parlamentar,
-                                                  -sexo,
-                                                  -starts_with("id"))
+resumo_autorias = read_autorias_res() %>%  
+  select(-situacao,
+         -em_exercicio,
+         -is_parlamentar,
+         -sexo,
+         -starts_with("id"))
 ```
 
 ## Proposições consideradas
@@ -61,7 +62,6 @@ proposicoes %>%
 
 ```{r}
 proposicoes %>% 
-  filter(lubridate::year(data_apresentacao) >= 2019) %>% 
   mutate(mes = lubridate::floor_date(data_apresentacao, "months")) %>% 
   count(mes) %>% 
   ggplot(aes(x = mes, y = n)) + 
@@ -96,6 +96,8 @@ temas %>%
 ```
 
 
+
+
 ```{r}
 # tramitacao = proposicoes %>%
 #   filter(!is.na(situacao)) %>%
@@ -120,7 +122,7 @@ temas %>%
 #   theme(legend.position = "None")
 ```
 
-Proposições prontas para a pauta:
+<!-- Proposições prontas para a pauta: -->
 
 ```{r}
 # tramitacao %>% 
@@ -211,4 +213,3 @@ detalhes_autorias %>%
     y = ""
   )
 ```
-
