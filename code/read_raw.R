@@ -59,6 +59,10 @@ read_proposicoes_raw <-
         data_apresentacao = col_datetime(format = "")
       )
     ) %>%
+      group_by(id_leggo) %>%
+      mutate(status_collapsed = paste(status, collapse = ',')) %>%
+      ungroup() %>%
+      mutate(status_final = if_else(str_detect(status_collapsed, 'Lei'), 'Lei', status)) %>%
       filter(!duplicated(id_leggo)) %>%
       select(id_leggo,
              id_ext,
@@ -67,7 +71,7 @@ read_proposicoes_raw <-
              ementa,
              data_apresentacao,
              casa_origem,
-             status)
+             status = status_final)
   }
 
 read_proposicoes_input_raw <- function(arquivo) {
