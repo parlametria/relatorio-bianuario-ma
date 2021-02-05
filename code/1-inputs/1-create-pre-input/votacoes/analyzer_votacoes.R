@@ -4,6 +4,46 @@ source(here("code/utils/check_packages.R"))
 source(here("code/1-inputs/1-create-pre-input/proposicoes/fetcher_proposicoes_camara.R"))
 .check_and_load_perfilparlamentar_package()
 
+#' @title Adiciona votações da planilha que não estão no dataframe de votações
+#' @description Adiciona as votações faltantes no csv de votações, considerando a planilha
+#' de votações relacionadas ao Meio Ambiente em 2019 e 2020.
+#' @param votacoes_df Dataframe das votações retornadas pelo pacote perfilparlamentar
+#' @param planilha_votacoes_path Caminho do csv contendo as votações preenchidas na planilha
+#' @return Dataframe com o merge das votações
+merge_votacoes_com_planilha_externa <- function(
+  votacoes_df,
+  planilha_votacoes_path = here::here("data/externo/planilha_votacoes/votacoes_meio_ambiente_camara.csv")) {
+  
+  votacoes_planilha <- read_csv(planilha_votacoes_path, col_types = cols(.default = "c")) %>% 
+    anti_join(votacoes_df, by = "id_votacao")
+  
+  votacoes_planilha_info <- votacoes_planilha %>% 
+    mutate(data = map(id_proposicoes,
+                      perfilparlamentar::fetch_info_proposicao_camara)) %>%
+    select(-id_proposicoes) %>% 
+    unnest(data) %>% 
+    select(
+      nome_proposicao = nome,
+      ementa_proposicao = ementa,
+      obj_votacao = obj_possiveis,
+      resumo = descricao_resultado,
+      data = data_votacao,
+      data_apresentacao_proposicao = data_apresentacao,
+      autor,
+      indexacao_proposicao = indexacao,
+      tema,
+      uri_tramitacao,
+      id_proposicao = id,
+      id_votacao,
+      descricao_efeitos
+    )
+  
+  votacoes <- votacoes_df %>% 
+    bind_rows(votacoes_planilha_info)
+  
+  return(votacoes)
+}
+
 #' @title Votações nominais em plenário de Meio Ambiente e Agricultura
 #' @description Processa informações de votações em plenário relacionadas a proposições dos temas de Meio Ambiente e Agricultura
 #' @return Informações sobre as votações
@@ -30,7 +70,7 @@ processa_votacoes_camara <- function() {
     )
   
   proposicoes_ma <- proposicoes_info %>% 
-    filter(str_detect(tolower(tema), "meio ambiente|agricultura")) %>% 
+    filter(str_detect(tolower(tema), "meio ambiente|agricultura|estrutura fundiária")) %>% 
     group_by(id_proposicao) %>% 
     mutate(tema = paste0(tema, collapse = ";"),
               autor = paste0(autor, collapse = ";")) %>% 
@@ -39,9 +79,10 @@ processa_votacoes_camara <- function() {
   
   votacoes_proposicoes <- tibble(id_proposicao = proposicoes_ma$id_proposicao) %>%
     mutate(data = map(id_proposicao,
-                      fetch_votacoes_por_proposicao_camara)) %>%
+                      perfilparlamentar::fetch_votacoes_por_proposicao_camara)) %>%
     select(-id_proposicao) %>% 
-    unnest(data)
+    unnest(data) %>% 
+    mutate(id_proposicao = as.character(id_proposicao))
   
   votacoes <- votacoes_proposicoes %>%
     left_join(proposicoes_info, by = c("id_proposicao")) %>%
@@ -60,7 +101,10 @@ processa_votacoes_camara <- function() {
       id_votacao
     )
   
-  return(votacoes)
+  votacoes_alt <- votacoes %>% 
+    merge_votacoes_com_planilha_externa()
+  
+  return(votacoes_alt)
 }
 
 
