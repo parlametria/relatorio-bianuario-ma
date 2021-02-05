@@ -160,6 +160,12 @@ transform_relatorias <-
       left_join(t, by = "id_leggo") 
   }
 
+filter_lei <-
+  function() {
+    proposicoes_leggo = read_proposicoes_raw()
+    leis = proposicoes_leggo %>% filter(status == 'Lei')
+  }
+
 
 #' Main do script para uso em CLI.
 #' Para uso interativo, chame main() no console
