@@ -44,6 +44,32 @@ merge_votacoes_com_planilha_externa <- function(
   return(votacoes)
 }
 
+#' @title Adiciona rótulos já preenchidos previamente na planilha da Câmara
+#' @description Adiciona rótulos de orientação preenchidas na planilha para as votações
+#' já rotuladas previamente.
+#' @param votacoes_df Dataframe de votações a receber rótulos já preenchidos.
+#' @return Votações com 'Ambientalismo orienta SIM/NÃO/LIBERADO' adicionado
+adiciona_rotulos_existentes_camara <- function(votacoes_df) {
+  source(here("code/1-inputs/constants.R"))
+  
+  votacoes_rotuladas <-
+    read_csv(.URL_PLANILHA_VOTACAO_CAMARA, col_types = cols(.default = "c")) %>%
+    distinct(id_votacao,
+             `Ambientalismo orienta SIM/NÃO/LIBERADO`,
+             descricao_efeitos)
+  
+  votacoes <- votacoes_rotuladas %>% right_join(votacoes_df, by = c("id_votacao")) %>%
+    mutate(descricao_efeitos = if_else(
+      is.na(descricao_efeitos.x),
+      descricao_efeitos.y,
+      descricao_efeitos.x
+    )) %>%
+    select(c(`Ambientalismo orienta SIM/NÃO/LIBERADO`, names(votacoes_df))) %>% 
+    distinct(id_votacao, .keep_all = T)
+  
+  return(votacoes)
+}
+
 #' @title Votações nominais em plenário de Meio Ambiente e Agricultura
 #' @description Processa informações de votações em plenário relacionadas a proposições dos temas de Meio Ambiente e Agricultura
 #' @return Informações sobre as votações
@@ -102,7 +128,8 @@ processa_votacoes_camara <- function() {
     )
   
   votacoes_alt <- votacoes %>% 
-    merge_votacoes_com_planilha_externa()
+    merge_votacoes_com_planilha_externa() %>% 
+    adiciona_rotulos_existentes_camara()
   
   return(votacoes_alt)
 }
