@@ -53,7 +53,13 @@ adiciona_rotulos_existentes_camara <- function(votacoes_df) {
   source(here("code/1-inputs/constants.R"))
   
   votacoes_rotuladas <-
-    read_csv(.URL_PLANILHA_VOTACAO_CAMARA, col_types = cols(.default = "c")) %>%
+    read_csv(.URL_PLANILHA_VOTACAO_CAMARA, col_types = cols(.default = "c")) 
+  
+  if (!"descricao_efeitos" %in% names(votacoes_rotuladas)) {
+    votacoes_rotuladas$descricao_efeitos <- NA
+  }
+  
+  votacoes_rotuladas <- votacoes_rotuladas %>%
     distinct(id_votacao,
              `Ambientalismo orienta SIM/NÃO/LIBERADO`,
              descricao_efeitos)

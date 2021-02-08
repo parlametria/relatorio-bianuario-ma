@@ -12,6 +12,7 @@ main <- function(argv = NULL) {
   out_autorias_resumo = "data/ready/autorias-resumo.csv"
   out_relatorias = "data/ready/relatorias.csv"
   out_atuacao = "data/ready/atuacao.csv"
+  out_avanco = "data/ready/avanco.csv"
   
   # PROPOSIÇÕES
   props = transform_proposicoes(
@@ -60,6 +61,7 @@ main <- function(argv = NULL) {
   atuacao %>%
     write_csv(here::here(out_atuacao))
   flog.info(str_glue("Atuação salva em {out_atuacao}"))
+  
 }
 
 if (!interactive()) {
