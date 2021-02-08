@@ -99,7 +99,7 @@ Eis seus autores:
 detalhes_autorias %>% 
   filter(proposicao %in% aprovadas$nome_proposicao) %>% 
   mutate(governismo = round(governismo, 1)) %>% 
-  select(proposicao, proposicao, nome, partido, uf, casa, governismo) %>% View
+  select(proposicao, proposicao, nome, partido, uf, casa, governismo) %>%
   reactable()
 ```
 
@@ -112,4 +112,3 @@ detalhes_autorias %>%
   labs(title = "Governismo dos autores de proposições aprovadas", 
        )
 ```
-
