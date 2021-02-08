@@ -54,13 +54,17 @@ Considerando e ignorando proposições apensadas
 
 ```{r}
 resumo_atuacao  %>%
-  filter(acoes >= 5) %>%
+  filter(!is.na(nome_autor), tipo_generico != "Outros") %>% 
+  group_by(nome_autor) %>% 
+  mutate(acoes_total = sum(acoes)) %>% 
+  ungroup() %>% 
+  filter(acoes_total > 20) %>% 
   ggplot(aes(
     x = reorder(nome_autor, acoes, sum),
     y = acoes,
     fill = tipo_generico
   )) +
-  facet_wrap(~ casa) +
+  facet_grid(casa ~ ., scales = "free") +
   geom_chicklet() +
   coord_flip() +
   scale_fill_brewer(palette = "Accent") +
