@@ -67,3 +67,38 @@ fetch_proposicoes_votadas_plenario_camara <- function() {
   
   return(proposicoes_votadas)
 }
+
+#' @title Retorna o ano de apresentação de uma proposição feita no Senado
+#' @description Recebe um id e "raspa" no site da câmara de uma proposição se ela tem
+#' uma proposição de origem. Se sim, retorna o ano de apresentação.
+#' @param id_proposicao ID da proposição na Câmara
+#' @return Ano de apresentação da proposição de origem
+.crawler_ano_apresentacao_origem <- function(id_proposicao) {
+  library(rvest)
+  ano <- tryCatch({
+    print(str_glue("Recuperando ano de origem da proposição {id_proposicao}..."))
+    
+    url <- 
+      str_glue("https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao={id_proposicao}")
+    
+    html_raw <- read_html(url) %>% 
+      html_nodes("#subSecaoSituacaoOrigemAcessoria") %>% 
+      html_nodes("p") %>%
+      html_text() %>% 
+      str_extract("Origem.*")
+    
+    origem_proposicao <- html_raw[!is.na(html_raw)]
+    
+    if (!all(is.na(origem_proposicao))) {
+      ano_apresentacao_origem <- str_extract(origem_proposicao, "\\d{4}")
+      return(ano_apresentacao_origem)
+    }
+    
+    return(NA)
+  }, error = function(e) {
+    print(e)
+    return(NA)
+  })
+  
+  return(ano)
+}

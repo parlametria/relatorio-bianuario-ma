@@ -13,12 +13,21 @@ source(here("code/1-inputs/1-create-pre-input/proposicoes/fetcher_proposicoes_se
 #' @examples
 #' processa_proposicoes_camara()
 processa_proposicoes_camara <- function() {
-  .TIPOS_PROPOSICOES <- c("PDL", "PEC", "PL", "PLP", "PRS")
+  .TIPOS_PROPOSICOES <- c("PDL", "PEC", "PL", "PLP", "PRS", "MPV")
   
   proposicoes_ma_agric <- fetch_proposicoes_apresentadas_ma_camara()
   
   proposicoes_ma_agric_filtradas <- proposicoes_ma_agric %>%
     filter(sigla_tipo %in% .TIPOS_PROPOSICOES)
+  
+  proposicoes_ma_agric_filtradas_ano <- proposicoes_ma_agric_filtradas %>% 
+    rowwise(.) %>% 
+    mutate(ano_apresentacao_origem = .crawler_ano_apresentacao_origem(id)) %>% 
+    ungroup() 
+  
+  proposicoes_ma_agric_filtradas <- proposicoes_ma_agric_filtradas_ano %>% 
+    mutate(ano_apresentacao_origem = as.numeric(ano_apresentacao_origem)) %>% 
+    filter(is.na(ano_apresentacao_origem) | (ano_apresentacao_origem >= 2019))
   
   ## Marcando quais as proposições tiveram votações nominais em plenário em 2019 e 2020
   proposicoes_votadas <- fetch_proposicoes_votadas_plenario_camara()
