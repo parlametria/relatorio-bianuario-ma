@@ -83,6 +83,14 @@ prop_situacao %>%
   coord_flip()
 ```
 
+```{r}
+situacao %>% 
+  filter(!(situacao %in% c("Ativa", "Sem urgência", "Ainda no início"))) %>% 
+  select(nome_proposicao, situacao) %>% 
+  reactable()
+```
+
+
 ## Proposições transformadas em lei
 
 ```{r}
