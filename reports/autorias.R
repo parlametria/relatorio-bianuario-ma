@@ -102,7 +102,8 @@ tbl_autorias_resumida = function(data) {
 
 tbl_detalhes_autorias = function(data) {
   data %>%
-    select(-autores) %>%
+    mutate(nome = str_glue("{nome} - {partido}/{uf}")) %>% 
+    select(-autores, -uf, -casa, -partido) %>%
     reactable(
       defaultPageSize = 10,
       compact = TRUE,
@@ -112,20 +113,9 @@ tbl_detalhes_autorias = function(data) {
       defaultSorted = "assinadas",
       columns = list(
         nome = colDef(name = "Parlamentar", minWidth = 150),
-        partido = colDef(
-          name = "Partido",
-          minWidth = 75,
-          aggregate = "unique"
-        ),
-        uf = colDef(
-          name = "UF",
-          minWidth = 30,
-          aggregate = "unique"
-        ),
-        casa = colDef(
-          name = "Casa",
-          minWidth = 40,
-          aggregate = "unique"
+        classificacao_ambientalismo = colDef(
+          name = "Efeito", 
+          minWidth = 50
         ),
         governismo = colDef(
           name = "Governismo",
