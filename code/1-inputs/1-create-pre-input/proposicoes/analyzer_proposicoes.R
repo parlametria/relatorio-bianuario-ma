@@ -13,7 +13,7 @@ source(here("code/1-inputs/1-create-pre-input/proposicoes/fetcher_proposicoes_se
 #' @examples
 #' processa_proposicoes_camara()
 processa_proposicoes_camara <- function() {
-  .TIPOS_PROPOSICOES <- c("PDL", "PEC", "PL", "PLP", "PRS")
+  .TIPOS_PROPOSICOES <- c("PDL", "PEC", "PL", "PLP", "PRS", "MPV")
   
   proposicoes_ma_agric <- fetch_proposicoes_apresentadas_ma_camara()
   
@@ -69,11 +69,12 @@ processa_proposicoes_camara <- function() {
 #' processa_proposicoes_senado()
 processa_proposicoes_senado <- function() {
 
-  .TIPOS_PROPOSICOES <- c("PDL", "PEC", "PL", "PLP", "PRS")
+  .TIPOS_PROPOSICOES <- c("PDL", "PEC", "PL", "PLP", "PRS", "MPV")
   proposicoes <- fetch_proposicoes_apresentadas_ma_senado()
   
   proposicoes_filtradas <- proposicoes %>%
-    filter(sigla_tipo %in% .TIPOS_PROPOSICOES)
+    filter(sigla_tipo %in% .TIPOS_PROPOSICOES) %>% 
+    rowid_to_column("rn")
   
   proposicoes_info <-
     purrr::map2_df(proposicoes_filtradas$id, proposicoes_filtradas$rn,
@@ -91,7 +92,7 @@ processa_proposicoes_senado <- function() {
     filter(
       str_detect(
         tema,
-        "Nao especificado|Meio ambiente|Agricultura, pecuária e abastecimento|Recursos hídricos"
+        "Nao especificado|Meio ambiente|Agricultura, pecuária e abastecimento|Recursos hídricos|Política fundiária e reforma agrária"
       )
     ) %>%
     mutate(casa = "senado") %>% 
