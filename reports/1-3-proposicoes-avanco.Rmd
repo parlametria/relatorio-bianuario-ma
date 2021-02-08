@@ -107,7 +107,7 @@ Eis seus autores:
 detalhes_autorias %>% 
   filter(proposicao %in% aprovadas$nome_proposicao) %>% 
   mutate(governismo = round(governismo, 1)) %>% 
-  select(proposicao, proposicao, nome, partido, uf, casa, governismo) %>% View
+  select(proposicao, proposicao, nome, partido, uf, casa, governismo) %>%
   reactable()
 ```
 
@@ -117,7 +117,6 @@ detalhes_autorias %>%
   ggplot(aes(y = governismo, x = proposicao)) +
   geom_quasirandom() + 
   coord_flip() + 
-  labs(title = "Governismo dos autores de proposições aprovadas", 
+  labs(title = "Governismo dos autores de proposições aprovadas"
        )
 ```
-
