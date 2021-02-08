@@ -18,18 +18,24 @@ fetch_proposicoes_apresentadas_ma_camara <- function() {
   proposicoes_apresentadas_meio_ambiente <-
     fetch_proposicoes_apresentadas_camara(data_inicio = "2019-02-01",
                                           data_final = "2020-12-31",
-                                          tema = 48)
+                                          tema = 48) %>% 
+    mutate(tema = 'Meio Ambiente e Desenvolvimento Sustentável')
   
   proposicoes_apresentadas_agricultura <-
     fetch_proposicoes_apresentadas_camara(data_inicio = "2019-01-01",
                                           data_final = "2020-12-31",
-                                          tema = 64)
+                                          tema = 64) %>% 
+    mutate(tema = 'Agricultura, Pecuária, Pesca e Extrativismo')
+  
+  proposicoes_apresentadas_estrutura_fundiaria <-
+    fetch_proposicoes_apresentadas_camara(data_inicio = "2019-01-01",
+                                          data_final = "2020-12-31",
+                                          tema = 51) %>% 
+    mutate(tema = 'Estrutura Fundiária')
   
   proposicoes_ma_agric <- proposicoes_apresentadas_meio_ambiente %>% 
     rbind(proposicoes_apresentadas_agricultura) %>% 
-    mutate(tema = if_else(tema == 48,
-                          'Meio Ambiente e Desenvolvimento Sustentável',
-                          'Agricultura, Pecuária, Pesca e Extrativismo')) %>%
+    rbind(proposicoes_apresentadas_estrutura_fundiaria) %>% 
     group_by(id) %>% 
     summarise(tema = paste0(tema, collapse = ";"),
               sigla_tipo = first(siglaTipo),
