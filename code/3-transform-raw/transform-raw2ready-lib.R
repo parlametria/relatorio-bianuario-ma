@@ -9,7 +9,8 @@ source(here::here("code/read_raw.R"))
 #'
 transform_proposicoes <-
   function(raw_data = "data/raw/leggo_data/proposicoes.csv",
-           arquivo_props_input = "data/inputs/3-transform-input/proposicoes/proposicoes_input.csv") {
+           arquivo_props_input = "data/inputs/3-transform-input/proposicoes/proposicoes_input.csv",
+           arquivo_destaques_tramitacao = "data/raw/leggo_data/proposicoes_destaques.csv") {
     proposicoes_leggo = read_proposicoes_raw(raw_data)
     n_leggo = proposicoes_leggo %>% pull(id_leggo) %>% n_distinct()
     flog.info(str_glue("{n_leggo} proposições nos dados do leggo"))
@@ -23,20 +24,21 @@ transform_proposicoes <-
       c(id_camara, id_senado),
       names_to = "tipo_id",
       values_to = "id_ext"
-    ) %>% 
-      filter(!is.na(id_ext)) %>% 
+    ) %>%
+      filter(!is.na(id_ext)) %>%
       select(-tipo_id)
     
-    proposicoes_tudo = proposicoes_leggo %>% 
-      inner_join(pi_long, by = c("id_ext")) %>% 
-      rename(nome_proposicao = proposicao)
-    
-    ## CRUZAR PI_LONG COM PORPS_LEGGO DEVE DAR 1069 matches
+    proposicoes_tudo = proposicoes_leggo %>%
+      inner_join(pi_long, by = c("id_ext")) %>%
+      rename(nome_proposicao = proposicao) %>% 
+      filter(lubridate::year(data_apresentacao) >= 2019)  
     
     n_cruzado = proposicoes_tudo %>% pull(id_leggo) %>% n_distinct()
     flog.info(str_glue("{n_cruzado} proposições após cruzar input e leggo"))
     
-    proposicoes_tudo
+    proposicoes_com_tram = cruza_destaques_tramitacao(proposicoes_tudo, arquivo_destaques_tramitacao)
+    
+    proposicoes_com_tram
   }
 
 #' Código comum para transform_autorias_*
@@ -118,16 +120,18 @@ detalha_autorias = function(data) {
     group_by(id_leggo, proposicao) %>%
     mutate(autores = n()) %>%
     ungroup() %>%
-    select(nome,
-           id_entidade,
-           partido,
-           uf,
-           casa,
-           sigla_tipo,
-           proposicao = nome_proposicao,
-           classificacao_ambientalismo,
-           autores,
-           governismo) %>%
+    select(
+      nome,
+      id_entidade,
+      partido,
+      uf,
+      casa,
+      sigla_tipo,
+      proposicao = nome_proposicao,
+      classificacao_ambientalismo,
+      autores,
+      governismo
+    ) %>%
     mutate(
       assinadas = 1,
       autorias_ponderadas = 1 / autores,
@@ -179,3 +183,41 @@ transform_relatorias <-
     props %>%
       left_join(t, by = "id_leggo")
   }
+
+#' Transforma critérios para destaques de tramitação. Principais colunas resultado
+#' são urgencia, avanco e status. Juntos eles ajudam a dar uma visão do avanço das proposições.
+#'
+cruza_destaques_tramitacao <- function(props,
+                                       destaques_file = "data/raw/leggo_data/proposicoes_destaques.csv") {
+  destaques_raw = read_destaques_raw(destaques_file)
+  criterios = destaques_raw %>%
+    transmute(
+      id_leggo = id_leggo,
+      urgencia = case_when(
+        criterio_req_urgencia_aprovado ~ "Urgência aprovada",
+        criterio_req_urgencia_apresentado ~ "Urgência apresentada",
+        TRUE ~ "Sem urgência"
+      ),
+      avanco = case_when(
+        criterio_aprovada_em_uma_casa ~ "Avançou em uma casa",
+        criterio_avancou_comissoes ~ "Avançou em comissões",
+        TRUE ~ "Ainda no início"
+      )
+    )
+  
+  # Precisamos conferir quais já são leis
+  destaques = criterios %>%
+    right_join(props, by = "id_leggo")
+  
+  n_props = n_distinct(destaques$id_leggo)
+  n_faltantes = destaques %>%
+    mutate(falta = is.na(urgencia) |
+             is.na(avanco)) %>%
+    summarise(faltam = sum(falta)) %>%
+    pull(faltam)
+  
+  flog.info(str_glue("{n_props} proposiçòes nos dados de destaques"))
+  flog.info(str_glue("{n_faltantes} proposiçòes com destaques NA"))
+  
+  destaques
+}
