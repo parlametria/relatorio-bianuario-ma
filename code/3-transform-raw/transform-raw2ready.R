@@ -12,7 +12,6 @@ main <- function(argv = NULL) {
   out_autorias_resumo = "data/ready/autorias-resumo.csv"
   out_relatorias = "data/ready/relatorias.csv"
   out_atuacao = "data/ready/atuacao.csv"
-  out_avanco = "data/ready/avanco.csv"
   
   # PROPOSIÇÕES
   props = transform_proposicoes(

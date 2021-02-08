@@ -119,7 +119,7 @@ relatorias %>%
   labs(
     y = "Governismo (neg. sign. oposição)",
     x = "",
-    title = "Governismo entre relatores das PDLs",
+    title = "Governismo entre relatores das proposições",
     subtitle = "Cada ponto é um(a) parlamentar. Maiores relataram mais."
   ) +
   theme(legend.position = "None")
@@ -135,7 +135,7 @@ relatorias %>%
   geom_point(alpha = .7, color = "darkseagreen") + 
   labs(y = "Peso político no parlametria", 
        x = "", 
-       title = "Peso político entre relatores das PDLs", 
+       title = "Peso político entre relatores das proposições", 
        subtitle = "Cada ponto é um(a) parlamentar. Maiores relataram mais.",
        size = "Autorias poderadas") + 
   theme(legend.position = "None")
@@ -152,7 +152,7 @@ relatorias %>%
   geom_point(alpha = .6, color = "coral4") + 
   labs(y = "Peso político no parlametria", 
        x = "Governismo", 
-       title = "Peso político e governismo entre relatores das PDLs", 
+       title = "Peso político e governismo entre relatores das proposições", 
        subtitle = "Cada ponto é um(a) parlamentar. Maiores relataram mais.") + 
   theme(legend.position = "None")
 ```
@@ -169,6 +169,6 @@ relatorias %>%
   ggplot(aes(x = reorder(partido, n), y = n)) +
   geom_chicklet(fill = "#21a6a0") +
   coord_flip() +
-  labs(title = "Participação dos partidos na relatoria dos PDLs",
+  labs(title = "Participação dos partidos na relatoria dos proposições",
        x = "", y = "PDLs relatadas por parlamentar do partido")
 ```

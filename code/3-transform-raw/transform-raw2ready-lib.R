@@ -30,8 +30,8 @@ transform_proposicoes <-
     
     proposicoes_tudo = proposicoes_leggo %>%
       inner_join(pi_long, by = c("id_ext")) %>%
-      rename(nome_proposicao = proposicao) %>% 
-      filter(lubridate::year(data_apresentacao) >= 2019)  
+      rename(nome_proposicao = proposicao) %>%
+      filter(lubridate::year(data_apresentacao) >= 2019)
     
     n_cruzado = proposicoes_tudo %>% pull(id_leggo) %>% n_distinct()
     flog.info(str_glue("{n_cruzado} proposições após cruzar input e leggo"))
@@ -146,9 +146,9 @@ resume_autorias = function(data) {
     summarise(
       assinadas = sum(assinadas),
       autorias_ponderadas = sum(autorias_ponderadas),
-      positivas = sum(classificacao_ambientalismo == "Positivo"),
-      negativas = sum(classificacao_ambientalismo == "Negativo"),
-      neutras = sum(classificacao_ambientalismo == "Neutro"),
+      positivas = sum(classificacao_ambientalismo == "Positivo", na.rm = T),
+      negativas = sum(classificacao_ambientalismo == "Negativo", na.rm = T),
+      neutras = sum(classificacao_ambientalismo == "Neutro", na.rm = T),
       .groups = "drop"
     )
 }
