@@ -82,7 +82,8 @@ processa_proposicoes_senado <- function() {
   proposicoes <- fetch_proposicoes_apresentadas_ma_senado()
   
   proposicoes_filtradas <- proposicoes %>%
-    filter(sigla_tipo %in% .TIPOS_PROPOSICOES)
+    filter(sigla_tipo %in% .TIPOS_PROPOSICOES) %>% 
+    rowid_to_column("rn")
   
   proposicoes_filtradas_ano <- proposicoes_filtradas %>% 
     rowwise(.) %>% 
@@ -110,7 +111,7 @@ processa_proposicoes_senado <- function() {
     filter(
       str_detect(
         tema,
-        "Nao especificado|Meio ambiente|Agricultura, pecuária e abastecimento|Recursos hídricos"
+        "Nao especificado|Meio ambiente|Agricultura, pecuária e abastecimento|Recursos hídricos|Política fundiária e reforma agrária"
       )
     ) %>%
     mutate(casa = "senado") %>% 
