@@ -1,0 +1,90 @@
+---
+title: "Leis mais mencionadas nas proposições"
+output:
+  html_document:
+    theme: paper
+    css: styles.css
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  message = FALSE,
+  # fig.cap = '',
+  warning = FALSE,
+  # fig.align = 'center',
+  fig.width = 8,
+  fig.height = 5
+)
+
+Sys.setenv(LANGUAGE="pt-br")
+Sys.setlocale("LC_TIME", "pt_BR")
+options(scipen = 999)
+```
+
+```{r warning=FALSE, message=FALSE}
+library(tidyverse)
+library(ggbeeswarm)
+library(ggchicklet)
+library(hrbrthemes)
+library(reactable)
+theme_set(theme_ipsum_rc())
+
+source(here::here("code/read_ready.R"))
+source(here::here("reports/autorias.R"))
+```
+
+```{r}
+proposicoes = read_proposicoes()
+```
+
+```{r}
+leis = proposicoes %>%
+  transmute(
+    nome_proposicao,
+    classificacao_ambientalismo,
+    ementa = ementa,
+    status,
+    lei = str_extract_all(ementa, regex("Lei....[\\d\\.]+", ignore_case = TRUE))
+  ) %>%
+  unnest(lei) %>% 
+  distinct() %>% 
+  mutate(lei = str_to_sentence(lei)) %>% 
+  filter(!is.na(lei))
+```
+
+Considerando as leis mencionadas **nas ementas** das proposições, podemos ver que normas mais foram alvo de modificação pelos parlamentares.
+
+Considerando as `r n_distinct(proposicoes$nome_proposicao)` proposições **apresentadas em 2019 e 2020**, temos leis mencionadas em `r n_distinct(leis$nome_proposicao)` ementas.
+
+## Leis mais frequentemente mencionadas nas ementas
+
+```{r}
+leis %>% 
+  count(lei, sort = T, name = "menções") %>% 
+  reactable()
+```
+
+## Leis mencionadas nas ementas das proposições aprovadas
+
+Proposições apresentadas e aprovadas no período 2019-2020.
+
+```{r}
+leis %>% 
+  filter(status == "Lei") %>% 
+  select(aprovada = nome_proposicao, 
+         efeito = classificacao_ambientalismo, 
+         menciona = lei) %>% 
+  reactable()
+```
+
+As ementas das proposições aprovadas: 
+
+```{r}
+leis %>% 
+  filter(status == "Lei") %>% 
+  select(aprovada = nome_proposicao, ementa) %>% 
+  distinct() %>% 
+  reactable()
+```
+
