@@ -22,19 +22,19 @@ transform_input_proposicoes <-
       filter(casa == "senado",
              relacionada_ma == "Sim") %>%
       mutate(explicacao_ambientalismo = classificacao_ambientalismo) %>% 
-      mutate(classificacao_ambientalismo = 
-               case_when(
-                 str_detect(tolower(classificacao_ambientalismo), "positiv.") ~ "Positivo",
-                 str_detect(tolower(classificacao_ambientalismo), "negativo") ~ "Negativo",
-                 str_detect(tolower(classificacao_ambientalismo), "neutr.") ~ "Neutro",
-                 TRUE ~ NA_character_
-                 )
-             ) %>% 
       select(proposicao, sigla_tipo, numero, ano, tema, id_senado = id, casa, 
            classificacao_ambientalismo, explicacao_ambientalismo)
     
     proposicoes_merge <- proposicoes_camara %>%
       bind_rows(proposicoes_senado) %>% 
+      mutate(classificacao_ambientalismo = 
+               case_when(
+                 str_detect(tolower(classificacao_ambientalismo), "negativo") ~ "Negativo",
+                 str_detect(tolower(classificacao_ambientalismo), "positiv.") ~ "Positivo",
+                 str_detect(tolower(classificacao_ambientalismo), "neutr.") ~ "Neutro",
+                 TRUE ~ NA_character_
+               )
+      ) %>% 
       group_by(proposicao) %>% 
       fill(id_camara, .direction = c("downup")) %>% 
       fill(id_senado, .direction = c("downup")) %>% 
