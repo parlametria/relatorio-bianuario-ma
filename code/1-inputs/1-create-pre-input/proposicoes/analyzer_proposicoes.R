@@ -79,11 +79,11 @@ processa_proposicoes_camara <- function() {
 processa_proposicoes_senado <- function() {
 
   .TIPOS_PROPOSICOES <- c("PDL", "PEC", "PL", "PLP", "PRS", "MPV")
-  proposicoes <- fetch_proposicoes_apresentadas_ma_senado()
+  proposicoes <- fetch_proposicoes_apresentadas_ma_senado() %>% 
+    filter(ano < 2021)
   
   proposicoes_filtradas <- proposicoes %>%
-    filter(sigla_tipo %in% .TIPOS_PROPOSICOES) %>% 
-    rowid_to_column("rn")
+    filter(sigla_tipo %in% .TIPOS_PROPOSICOES)
   
   proposicoes_filtradas_ano <- proposicoes_filtradas %>% 
     rowwise(.) %>% 
@@ -93,7 +93,8 @@ processa_proposicoes_senado <- function() {
   proposicoes_filtradas <- proposicoes_filtradas_ano %>% 
     mutate(ano_apresentacao_origem = as.numeric(ano_apresentacao_origem)) %>% 
     filter(is.na(ano_apresentacao_origem) | ano_apresentacao_origem >= 2019) %>% 
-    select(-ano_apresentacao_origem)
+    select(-ano_apresentacao_origem) %>% 
+    rowid_to_column("rn")
   
   proposicoes_info <-
     purrr::map2_df(proposicoes_filtradas$id, proposicoes_filtradas$rn,
