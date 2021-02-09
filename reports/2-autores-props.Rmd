@@ -13,8 +13,8 @@ knitr::opts_chunk$set(
   # warning = FALSE,
   # fig.cap = '',
   # fig.align = 'center',
-  fig.width = 6,
-  fig.height = 5
+  fig.width = 8,
+  fig.height = 8
 )
 
 Sys.setenv(LANGUAGE="pt-br")
@@ -37,15 +37,16 @@ source(here::here("reports/autorias.R"))
 ```{r}
 proposicoes = read_proposicoes()
 detalhes_autorias = read_autorias_det()
-resumo_autorias = read_autorias_res() %>%  select(-situacao,
-                                                  -em_exercicio,
-                                                  -is_parlamentar,
-                                                  -sexo,
-                                                  -starts_with("id"))
-
-resumo_autorias = resumo_autorias %>%
+resumo_autorias_todos = read_autorias_res() %>%
+  select(-situacao,
+         -em_exercicio,
+         -is_parlamentar,
+         -sexo,
+         -starts_with("id"))
+resumo_autorias = resumo_autorias_todos %>%
   filter(assinadas > 0)
-  # mutate(assinou = if_else(assinadas > 0, "Autores", "Demais parlamentares"))
+resumo_autorias_todos = resumo_autorias_todos %>% 
+  mutate(assinou = if_else(assinadas > 0, "Apresentou prop. de MA", "Não apresentou")) 
 ```
 
 
@@ -66,16 +67,22 @@ detalhes_autorias %>%
 
 
 ```{r}
-resumo_autorias %>%
+resumo_autorias_todos %>%
   filter(!is.na(governismo)) %>%
-  ggplot(aes(y = governismo, x = casa, size = autorias_ponderadas)) +
-  scale_color_discrete(name = NULL) +
+  ggplot(aes(
+    y = governismo,
+    x = reorder(assinou, -governismo),
+    size = autorias_ponderadas,
+    color = assinou
+  )) +
+  facet_grid(casa ~ .) +
   coord_flip() +
-  geom_quasirandom(alpha = .6, color = "darkorange4") +
+  scale_color_brewer(palette = "Set2") + 
+  geom_quasirandom(alpha = .6, position = "dodge") +
   labs(
     y = "Governismo (neg. sign. oposição)",
     x = "",
-    title = "Governismo entre autores das PDLs",
+    title = "Governismo e autoria de propostas",
     subtitle = "Cada ponto é um(a) parlamentar. Maiores autoraram mais.",
     size = "Autorias poderadas"
   ) +
@@ -83,32 +90,30 @@ resumo_autorias %>%
 ```
 
 ```{r}
-resumo_autorias %>% 
+resumo_autorias_todos %>% 
   filter(!is.na(peso_politico)) %>% 
-  ggplot(aes(y = peso_politico, x = casa, size = autorias_ponderadas)) + 
-  scale_color_discrete(name = NULL) + 
+  ggplot(aes(y = peso_politico, x = assinou, size = autorias_ponderadas, color = assinou)) + 
   coord_flip() + 
-  geom_quasirandom(alpha = .6, color = "darkseagreen") + 
+  facet_grid(casa ~ .) +
+  geom_quasirandom(alpha = .6) + 
   labs(y = "Peso político no parlametria", 
        x = "", 
-       title = "Peso político entre autores das PDLs", 
-       subtitle = "Cada ponto é um(a) parlamentar. Maiores autoraram mais.",
-       size = "Autorias poderadas") + 
+       title = "Peso político entre autores das propostas", 
+       subtitle = "Cada ponto é um(a) parlamentar. Maiores autoraram mais.") + 
   theme(legend.position = "None")
 ```
 ```{r}
-resumo_autorias %>% 
+resumo_autorias_todos %>% 
   filter(!is.na(peso_politico + governismo)) %>% 
-  ggplot(aes(y = peso_politico, x = governismo, size = autorias_ponderadas)) + 
+  ggplot(aes(y = peso_politico, x = governismo, color = assinou)) + 
   facet_grid(casa ~ .) + 
-  scale_color_discrete(name = NULL) + 
-  geom_point(alpha = .6, color = "coral4") + 
+  geom_point(alpha = .4) + 
+  scale_color_manual(values = c("brown", "#969696")) + 
   labs(y = "Peso político no parlametria", 
        x = "Governismo", 
        title = "Peso político entre autores das PDLs", 
        subtitle = "Cada ponto é um(a) parlamentar. Maiores autoraram mais.",
-       size = "Autorias poderadas") + 
-  theme(legend.position = "None")
+       color = "Apresentou proposta em MA?") 
 ```
 
 
@@ -122,7 +127,7 @@ autorias_partidos =
 ```
 
 
-```{r fig.height=4}
+```{r}
 autorias_partidos %>%
   filter(!is.na(partido)) %>% 
   count(partido) %>%

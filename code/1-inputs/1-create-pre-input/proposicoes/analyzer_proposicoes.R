@@ -20,6 +20,15 @@ processa_proposicoes_camara <- function() {
   proposicoes_ma_agric_filtradas <- proposicoes_ma_agric %>%
     filter(sigla_tipo %in% .TIPOS_PROPOSICOES)
   
+  proposicoes_ma_agric_filtradas_ano <- proposicoes_ma_agric_filtradas %>% 
+    rowwise(.) %>% 
+    mutate(ano_apresentacao_origem = .crawler_ano_apresentacao_origem_camara(id)) %>% 
+    ungroup() 
+  
+  proposicoes_ma_agric_filtradas <- proposicoes_ma_agric_filtradas_ano %>% 
+    mutate(ano_apresentacao_origem = as.numeric(ano_apresentacao_origem)) %>% 
+    filter(is.na(ano_apresentacao_origem) | ano_apresentacao_origem >= 2019)
+  
   ## Marcando quais as proposições tiveram votações nominais em plenário em 2019 e 2020
   proposicoes_votadas <- fetch_proposicoes_votadas_plenario_camara()
   
@@ -75,6 +84,16 @@ processa_proposicoes_senado <- function() {
   proposicoes_filtradas <- proposicoes %>%
     filter(sigla_tipo %in% .TIPOS_PROPOSICOES) %>% 
     rowid_to_column("rn")
+  
+  proposicoes_filtradas_ano <- proposicoes_filtradas %>% 
+    rowwise(.) %>% 
+    mutate(ano_apresentacao_origem = .crawler_ano_apresentacao_origem_senado(id)) %>% 
+    ungroup()
+  
+  proposicoes_filtradas <- proposicoes_filtradas_ano %>% 
+    mutate(ano_apresentacao_origem = as.numeric(ano_apresentacao_origem)) %>% 
+    filter(is.na(ano_apresentacao_origem) | ano_apresentacao_origem >= 2019) %>% 
+    select(-ano_apresentacao_origem)
   
   proposicoes_info <-
     purrr::map2_df(proposicoes_filtradas$id, proposicoes_filtradas$rn,

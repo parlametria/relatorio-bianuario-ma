@@ -189,7 +189,7 @@ participacao %>%
        title = "Número de partidos entre autores", 
        subtitle = "Proposições que mobilizaram mais partidos")
 ```
-```{r fig.width=10}
+```{r fig.width=12, fig.height=14}
 atividade_partido = detalhes_autorias %>% 
   filter(!is.na(partido)) %>% 
   group_by(partido) %>% 
