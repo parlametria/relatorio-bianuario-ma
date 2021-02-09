@@ -22,13 +22,13 @@ fetch_proposicoes_apresentadas_ma_camara <- function() {
     mutate(tema = 'Meio Ambiente e Desenvolvimento Sustentável')
   
   proposicoes_apresentadas_agricultura <-
-    fetch_proposicoes_apresentadas_camara(data_inicio = "2019-01-01",
+    fetch_proposicoes_apresentadas_camara(data_inicio = "2019-02-01",
                                           data_final = "2020-12-31",
                                           tema = 64) %>% 
     mutate(tema = 'Agricultura, Pecuária, Pesca e Extrativismo')
   
   proposicoes_apresentadas_estrutura_fundiaria <-
-    fetch_proposicoes_apresentadas_camara(data_inicio = "2019-01-01",
+    fetch_proposicoes_apresentadas_camara(data_inicio = "2019-02-01",
                                           data_final = "2020-12-31",
                                           tema = 51) %>% 
     mutate(tema = 'Estrutura Fundiária')
