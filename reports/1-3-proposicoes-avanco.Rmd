@@ -56,14 +56,18 @@ situacao = proposicoes %>%
 
 ```{r}
 situacao %>% 
-  filter(!(situacao %in% c("Ativa", "Sem urgência", "Ainda no início"))) %>% 
+  filter(!(situacao %in% c("Ativa", "Sem urgência", "Ainda no início")), 
+         !is.na(situacao), 
+         !is.na(classificacao_ambientalismo)) %>% 
   count(aspecto, situacao, classificacao_ambientalismo) %>% 
   ggplot(aes(x = situacao, y = n, fill =  classificacao_ambientalismo)) + 
-  facet_grid(aspecto ~ ., scales = "free") + 
+  facet_grid(reorder(aspecto, -n) ~ ., scales = "free") + 
   geom_chicklet() + 
   escala_sinais + 
   coord_flip()
 ```
+
+
 ```{r}
 prop_situacao = situacao %>% 
   filter(!is.na(situacao), !is.na(classificacao_ambientalismo)) %>% 
@@ -80,8 +84,25 @@ prop_situacao %>%
   geom_chicklet(position = "dodge") + 
   escala_sinais + 
   scale_y_percent() + 
-  coord_flip()
+  coord_flip() + 
+  labs(
+    title = "% das proposições em destaque", 
+    subtitle = "De acordo com efeito esperado", 
+    x = "", 
+    y = "% das proposições com esse efeito", 
+    fill = "Efeito esperado"
+  )
 ```
+
+```{r}
+situacao %>% 
+  filter(!(situacao %in% c("Ativa", "Sem urgência", "Ainda no início")), 
+         !is.na(situacao), 
+         !is.na(classificacao_ambientalismo)) %>% 
+  select(nome_proposicao, situacao) %>% 
+  reactable()
+```
+
 
 ## Proposições transformadas em lei
 
@@ -106,9 +127,10 @@ detalhes_autorias %>%
 ```{r}
 detalhes_autorias %>%
   filter(proposicao %in% aprovadas$nome_proposicao) %>%
-  ggplot(aes(y = governismo, x = proposicao)) +
+  ggplot(aes(y = governismo, x = reorder(proposicao, governismo))) +
   geom_quasirandom() + 
   coord_flip() + 
-  labs(title = "Governismo dos autores de proposições aprovadas"
-       )
+  labs(title = "Governismo dos autores de proposições aprovadas", 
+       x = "", 
+       subtitle = "Cada ponto é um autor")
 ```
