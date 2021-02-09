@@ -1,5 +1,5 @@
 ---
-title: "Autorias nas proposições"
+title: "Proposições apresentadas na legislatura"
 output:
   html_document:
     theme: paper
@@ -32,6 +32,7 @@ theme_set(theme_ipsum_rc())
 
 source(here::here("code/read_ready.R"))
 source(here::here("reports/autorias.R"))
+source(here::here("reports/escalas.R"))
 ```
 
 ```{r}
@@ -45,12 +46,13 @@ resumo_autorias = read_autorias_res() %>%
          -starts_with("id"))
 ```
 
-## Proposições consideradas
+## Proposições apresentadas em 2019 e 2020
 
-Estamos examinando `r NROW(proposicoes)` proposições dos seguintes tipos:
+Estamos examinando `r NROW(proposicoes)` proposições apresentadas em 2019 e 2020. Elas tem os seguintes tipos.
 
 ```{r fig.height=3}
 proposicoes %>% 
+  filter(!is.na(casa_origem)) %>% 
   count(casa_origem, sigla_tipo) %>% 
   ggplot(aes(x = reorder(casa_origem, n), y = n, fill = sigla_tipo)) + 
   geom_chicklet() + 
@@ -61,25 +63,35 @@ proposicoes %>%
 
 
 ```{r}
-proposicoes %>% 
-  mutate(mes = lubridate::floor_date(data_apresentacao, "months")) %>% 
-  count(mes) %>% 
-  ggplot(aes(x = mes, y = n)) + 
-  geom_chicklet(fill = "#ff8040") + 
-  scale_x_datetime(date_minor_breaks = "1 month", date_labels = "%b/%y") + 
-  labs(x = "Mês", 
-       y = "Proposições apresentadas", 
+proposicoes %>%
+  mutate(mes = lubridate::floor_date(data_apresentacao, "months")) %>%
+  count(mes) %>%
+  ggplot(aes(x = mes, y = n)) +
+  geom_chicklet(fill = "#ff8040") +
+  scale_x_datetime(
+    date_minor_breaks = "1 month",
+    date_labels = "%b/%y"
+  ) +
+  labs(x = "Mês",
+       y = "Proposições apresentadas",
        title = "Quando as proposições foram apresentadas")
 ```
 
 ```{r}
 temas = proposicoes %>%
   separate_rows(tema, sep = ";") %>%
-  count(tema) 
+  mutate(tema = case_when(
+    tema == "Meio ambiente" ~ "Meio Ambiente e Desenvolvimento Sustentável", 
+    tema == "Agricultura, pecuária e abastecimento" ~ "Agricultura, Pecuária, Pesca e Extrativismo", 
+    TRUE ~ tema 
+  )) %>% 
+  count(casa_origem, tema) 
 
 temas %>%
+  filter(!is.na(casa_origem)) %>% 
   ggplot(aes(x = reorder(tema, n), y = n)) +
-  geom_chicklet(fill = "#21a6a0") +
+  geom_col(fill = "#21a6a0") +
+  facet_grid(. ~ casa_origem) + 
   coord_flip() +
   labs(
     x = "",
@@ -91,52 +103,10 @@ temas %>%
 
 ```{r}
 temas %>% 
+  filter(!is.na(casa_origem)) %>% 
   arrange(-n) %>% 
   reactable()
 ```
-
-
-
-
-```{r}
-# tramitacao = proposicoes %>%
-#   filter(!is.na(situacao)) %>%
-#   separate(situacao, c("situacao", "resto"), sep = "[-.]") %>%
-#   mutate(situacao = if_else(casa_origem == "senado", resto, situacao)) %>%
-#   mutate(situacao = str_to_sentence(situacao) %>% str_replace("de relator", "do relator") %>% str_trim()) %>%
-#   mutate(situacao = if_else(str_detect(situacao, "Aguardando parecer"), "Aguardando parecer", situacao)) 
-# 
-# tramitacao %>% 
-#   count(situacao) %>%
-#   mutate(destaque = situacao != "Pronta para pauta") %>% 
-#   filter(n > 1) %>%
-#   ggplot(aes(x = reorder(situacao, n), y = n, fill = destaque)) +
-#   geom_chicklet() +
-#   coord_flip() +
-#   labs(
-#     title = "Tramitação das proposições",
-#     subtitle = "Situações mais comuns em dez/2020",
-#     x = "",
-#     y = "Proposições"
-#   ) + 
-#   theme(legend.position = "None")
-```
-
-<!-- Proposições prontas para a pauta: -->
-
-```{r}
-# tramitacao %>% 
-#   filter(situacao == "Pronta para pauta") %>% 
-#   select(`Proposição` = nome_proposicao, `Casa de Origem` = casa_origem) %>% 
-#   reactable::reactable()
-```
-
-```{r}
-# tramitacao %>% 
-#   count(situacao, sort = T) %>%
-#   reactable()
-```
-
 
 ## Números de autores
 
@@ -189,7 +159,7 @@ participacao %>%
        title = "Número de partidos entre autores", 
        subtitle = "Proposições que mobilizaram mais partidos")
 ```
-```{r fig.width=12, fig.height=14}
+```{r fig.width=16, fig.height=18}
 atividade_partido = detalhes_autorias %>% 
   filter(!is.na(partido)) %>% 
   group_by(partido) %>% 
@@ -197,18 +167,23 @@ atividade_partido = detalhes_autorias %>%
             .groups = "drop")
   
 detalhes_autorias %>%
+  filter(!is.na(partido), sigla_tipo != "PEC") %>% 
+  distinct(proposicao, classificacao_ambientalismo, partido) %>%
   filter(proposicao %in% (filter(participacao, partidos > 1) %>% pull(proposicao))) %>%
-  distinct(proposicao, partido) %>%
   left_join(participacao, by = "proposicao") %>%
   left_join(atividade_partido, by = "partido") %>%
+  mutate(partido = str_sub(partido, 1, 5)) %>% 
   ggplot(aes(
     x = reorder(partido,-proposicoes),
-    y = reorder(proposicao, partidos)
+    y = reorder(proposicao, partidos), 
+    fill = classificacao_ambientalismo
   )) +
-  geom_tile(fill =  "#f7c74f", color = "black") +
+  escala_sinais +
+  scale_x_discrete(position = "top") + 
+  geom_tile(color = "black") +
   labs(
     title = "Colaborações entre partidos que coautoraram",
-    subtitle = "Células indicam se cada partido assinou cada prop.",
+    subtitle = "Células indicam se cada partido assinou cada proposição. Ignoramos PECs.",
     x = "",
     y = ""
   )
