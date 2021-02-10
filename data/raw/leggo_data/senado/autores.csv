@@ -1,13 +1,4 @@
 id_principal,id_documento,casa,nome_autor,partido,uf,tipo_autor,id_autor
-134695,7889694,senado,Senador José Serra ,PSDB,SP,senador,90
-134695,7940730,senado,Senador Wellington Fagundes ,PR,MT,senador,1173
-134695,7944465,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
-128221,5065182,senado,Senador Alvaro Dias ,PV,PR,senador,945
-128221,7753672,senado,Senador Ronaldo Caiado ,DEM,GO,senador,456
-128221,7880026,senado,Senador Humberto Costa ,PT,PE,senador,5008
-128221,7959588,senado,Senadora Kátia Abreu ,PDT,TO,senador,1249
-128221,7965507,senado,Senadora Kátia Abreu ,PDT,TO,senador,1249
-128221,8010815,senado,Senadora Kátia Abreu ,PDT,TO,senador,1249
 137437,7998280,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
 137437,8005965,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
 137437,8013400,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
@@ -28,23 +19,6 @@ id_principal,id_documento,casa,nome_autor,partido,uf,tipo_autor,id_autor
 138126,8036505,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
 135108,7909966,senado,Senador Styvenson Valentim ,PODE,RN,senador,5959
 135108,8009181,senado,Senador Veneziano Vital do Rêgo ,PSB,PB,senador,5748
-126199,568584,senado,Senador Telmário Mota ,PDT,RR,senador,5535
-126199,4746873,senado,Senador José Aníbal ,PSDB,SP,senador,878
-126199,7228578,senado,Senador Armando Monteiro ,PTB,PE,senador,715
-126199,7958524,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
-126199,7963744,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
-126199,7963544,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
-132156,7628681,senado,Senador Lasier Martins ,PSD,RS,senador,5533
-132156,7945877,senado,Senadora Leila Barros ,PSB,DF,senador,5979
-132156,7955141,senado,Senadora Leila Barros ,PSB,DF,senador,5979
-132156,7976129,senado,Senadora Leila Barros ,PSB,DF,senador,5979
-133385,7734782,senado,Senador Wellington Fagundes ,PR,MT,senador,1173
-133385,7747666,senado,Senador Valdir Raupp ,MDB,RO,senador,3372
-133385,7949070,senado,Senadora Leila Barros ,PSB,DF,senador,5979
-133639,7744628,senado,Senador Otto Alencar ,PSD,BA,senador,5523
-133639,7889955,senado,Senador Wellington Fagundes ,PR,MT,senador,1173
-133639,7936395,senado,Senador Nelsinho Trad ,PSD,MS,senador,5985
-133639,7998006,senado,Senador Nelsinho Trad ,PSD,MS,senador,5985
 135648,7926293,senado,Senador Carlos Viana ,PSD,MG,senador,5990
 135648,7951460,senado,Senador Otto Alencar ,PSD,BA,senador,5523
 135648,7956486,senado,Senador Otto Alencar ,PSD,BA,senador,5523
@@ -160,6 +134,7 @@ id_principal,id_documento,casa,nome_autor,partido,uf,tipo_autor,id_autor
 144719,8895564,senado,Senador Alvaro Dias ,PODEMOS,PR,senador,945
 144719,8895571,senado,Senador Paulo Paim ,PT,RS,senador,825
 144719,8895574,senado,Senador Elmano Férrer ,PODEMOS,PI,senador,5531
+146362,8924111,senado,Senadora Rose de Freitas ,MDB,ES,senador,2331
 144643,8889438,senado,Senador Paulo Rocha ,PT,PA,senador,374
 144643,8890433,senado,Senador Paulo Rocha ,PT,PA,senador,374
 144643,8890455,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
@@ -167,6 +142,463 @@ id_principal,id_documento,casa,nome_autor,partido,uf,tipo_autor,id_autor
 144643,8901558,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
 144643,8907479,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
 144643,8907509,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
+137319,7966804,senado,Senador Flávio Arns ,REDE,PR,senador,345
+137319,7967828,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
+137319,7968133,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
+137319,7969193,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+137319,7969288,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+137319,7969336,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137319,7969372,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137319,7969369,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137319,7969366,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137319,7969363,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137319,7969360,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137319,7969357,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137319,7969354,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137319,7969351,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137319,7969348,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137319,7969345,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137319,7969342,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137319,7969339,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+137319,8001735,senado,Senador Irajá ,PSD,TO,senador,5385
+137319,8003207,senado,Senador Irajá ,PSD,TO,senador,5385
+137319,8003154,senado,Senador Irajá ,PSD,TO,senador,5385
+139071,8020910,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+139071,8020925,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+139071,8020922,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+139071,8020919,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+139071,8020916,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+139071,8020913,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+139071,8020946,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+139071,8020949,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+139071,8021171,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139071,8021424,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+139071,8021445,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+139071,8021442,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+139071,8021439,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+139071,8021436,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+139071,8021433,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+139071,8021430,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+139071,8021427,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+139071,8021623,senado,Senador Flávio Arns ,REDE,PR,senador,345
+139071,8021692,senado,Senador Weverton ,PDT,MA,senador,5411
+139071,8021698,senado,Senador Weverton ,PDT,MA,senador,5411
+139071,8021695,senado,Senador Weverton ,PDT,MA,senador,5411
+139071,8021749,senado,Senador Marcos Rogério ,DEM,RO,senador,5422
+139071,8021755,senado,Senador Marcos Rogério ,DEM,RO,senador,5422
+139071,8021752,senado,Senador Marcos Rogério ,DEM,RO,senador,5422
+139071,8021884,senado,Senador Rodrigo Cunha ,PSDB,AL,senador,5905
+139071,8021896,senado,Senador Rodrigo Cunha ,PSDB,AL,senador,5905
+139071,8021893,senado,Senador Rodrigo Cunha ,PSDB,AL,senador,5905
+139071,8021890,senado,Senador Rodrigo Cunha ,PSDB,AL,senador,5905
+139071,8021887,senado,Senador Rodrigo Cunha ,PSDB,AL,senador,5905
+139071,8021983,senado,Senador Rodrigo Cunha ,PSDB,AL,senador,5905
+139071,8022056,senado,Senador Antonio Anastasia ,PSDB,MG,senador,5529
+139071,8022062,senado,Senador Sérgio Petecão ,PSD,AC,senador,4560
+139071,8022065,senado,Senador Sérgio Petecão ,PSD,AC,senador,4560
+139071,8022196,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022271,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022268,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022265,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022262,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022259,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022256,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022253,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022250,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022247,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022244,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022241,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022238,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022235,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022232,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022229,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022226,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022223,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022220,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022217,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022214,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022211,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022208,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022205,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022202,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022199,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8022304,senado,Senador Wellington Fagundes ,PL,MT,senador,1173
+139071,8022365,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+139071,8022368,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+139071,8022371,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+139071,8022374,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+139071,8022377,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+139071,8022380,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+139071,8022383,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+139071,8022386,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+139071,8035776,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8035779,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
+139071,8071576,senado,Senador Otto Alencar ,PSD,BA,senador,5523
+139071,8071579,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+139071,8122579,senado,Senador Jader Barbalho ,MDB,PA,senador,35
+139444,8028421,senado,Senador Jaques Wagner ,PT,BA,senador,581
+139444,8028430,senado,Senador Jaques Wagner ,PT,BA,senador,581
+139444,8028427,senado,Senador Jaques Wagner ,PT,BA,senador,581
+139444,8028424,senado,Senador Jaques Wagner ,PT,BA,senador,581
+139444,8029300,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139444,8029312,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139444,8029309,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139444,8029306,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139444,8029303,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139444,8029516,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139444,8029519,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139444,8029848,senado,Senador Jaques Wagner ,PT,BA,senador,581
+139444,8029854,senado,Senador Jaques Wagner ,PT,BA,senador,581
+139444,8029851,senado,Senador Jaques Wagner ,PT,BA,senador,581
+139444,8029922,senado,Senador Alvaro Dias ,PODEMOS,PR,senador,945
+139444,8029964,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+139444,8029970,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+139444,8029967,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+139444,8029973,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+139444,8029976,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+139444,8030195,senado,Senador Jader Barbalho ,MDB,PA,senador,35
+139444,8030198,senado,Senador Jader Barbalho ,MDB,PA,senador,35
+139444,8030283,senado,Senador Alvaro Dias ,PODEMOS,PR,senador,945
+139444,8030338,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+139444,8030909,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+139444,8030912,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+139444,8051231,senado,Senador Paulo Rocha ,PT,PA,senador,374
+139444,8051253,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+139444,8051258,senado,Senador Jaques Wagner ,PT,BA,senador,581
+139444,8051268,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+139444,8068398,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+139448,8029700,senado,Senador Weverton ,PDT,MA,senador,5411
+139448,8029879,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+139448,8029885,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+139448,8029882,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+139448,8031184,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+139448,8031376,senado,Senador Telmário Mota ,PROS,RR,senador,5535
+139448,8031379,senado,Senador Telmário Mota ,PROS,RR,senador,5535
+139448,8031866,senado,Senador Mecias de Jesus ,REPUBLICANOS,RR,senador,6027
+139448,8031878,senado,Senador Mecias de Jesus ,REPUBLICANOS,RR,senador,6027
+139448,8031875,senado,Senador Mecias de Jesus ,REPUBLICANOS,RR,senador,6027
+139448,8031872,senado,Senador Mecias de Jesus ,REPUBLICANOS,RR,senador,6027
+139448,8031869,senado,Senador Mecias de Jesus ,REPUBLICANOS,RR,senador,6027
+139448,8031952,senado,Senador Lucas Barreto ,PSD,AP,senador,5926
+139448,8031955,senado,Senador Lucas Barreto ,PSD,AP,senador,5926
+139448,8122581,senado,Senador Mecias de Jesus ,REPUBLICANOS,RR,senador,6027
+139736,8094000,senado,Senador Carlos Viana ,PSD,MG,senador,5990
+139736,8094222,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+140001,8050083,senado,Senador Humberto Costa ,PT,PE,senador,5008
+140001,8050086,senado,Senador Humberto Costa ,PT,PE,senador,5008
+140001,8051923,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+140001,8052304,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140001,8052307,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140001,8052310,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140001,8052313,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140001,8052316,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140001,8062107,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+140001,8082448,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+140116,8055381,senado,Senador Paulo Paim ,PT,RS,senador,825
+140116,8055387,senado,Senador Paulo Paim ,PT,RS,senador,825
+140116,8055384,senado,Senador Paulo Paim ,PT,RS,senador,825
+140116,8056071,senado,Senador Telmário Mota ,PROS,RR,senador,5535
+140116,8056297,senado,Senador Jaques Wagner ,PT,BA,senador,581
+140116,8056318,senado,Senador Jaques Wagner ,PT,BA,senador,581
+140116,8056315,senado,Senador Jaques Wagner ,PT,BA,senador,581
+140116,8056312,senado,Senador Jaques Wagner ,PT,BA,senador,581
+140116,8056309,senado,Senador Jaques Wagner ,PT,BA,senador,581
+140116,8056306,senado,Senador Jaques Wagner ,PT,BA,senador,581
+140116,8056303,senado,Senador Jaques Wagner ,PT,BA,senador,581
+140116,8056300,senado,Senador Jaques Wagner ,PT,BA,senador,581
+140116,8056701,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056769,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056764,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056761,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056758,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056755,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056752,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056749,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056746,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056743,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056740,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056737,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056734,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056731,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056728,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056725,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056722,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056719,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056716,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056713,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056710,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056707,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056704,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8056836,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140116,8056839,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140116,8056842,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140116,8056845,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140116,8056848,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140116,8056851,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140116,8056854,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140116,8056857,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140116,8056860,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140116,8056945,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+140116,8056957,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+140116,8056954,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+140116,8056951,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+140116,8056948,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+140116,8057436,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+140116,8057445,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+140116,8057442,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+140116,8057439,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+140116,8057503,senado,Senador Marcos Rogério ,DEM,RO,senador,5422
+140116,8057522,senado,Senador Marcos Rogério ,DEM,RO,senador,5422
+140116,8057517,senado,Senador Marcos Rogério ,DEM,RO,senador,5422
+140116,8057514,senado,Senador Marcos Rogério ,DEM,RO,senador,5422
+140116,8057511,senado,Senador Marcos Rogério ,DEM,RO,senador,5422
+140116,8057506,senado,Senador Marcos Rogério ,DEM,RO,senador,5422
+140116,8057713,senado,Senador Mecias de Jesus ,REPUBLICANOS,RR,senador,6027
+140116,8057719,senado,Senador Mecias de Jesus ,REPUBLICANOS,RR,senador,6027
+140116,8057716,senado,Senador Mecias de Jesus ,REPUBLICANOS,RR,senador,6027
+140116,8057744,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140116,8057753,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140116,8057750,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140116,8057747,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+140116,8057816,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8057819,senado,Senador Confúcio Moura ,MDB,RO,senador,475
+140116,8057959,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+140116,8057995,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+140116,8057992,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+140116,8057989,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+140116,8057986,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+140116,8057983,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+140116,8057980,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+140116,8057977,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+140116,8057974,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+140116,8057971,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+140116,8057968,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+140116,8057965,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+140116,8057962,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+140116,8058206,senado,Senador Weverton ,PDT,MA,senador,5411
+140116,8058227,senado,Senador Weverton ,PDT,MA,senador,5411
+140116,8058224,senado,Senador Weverton ,PDT,MA,senador,5411
+140116,8058221,senado,Senador Weverton ,PDT,MA,senador,5411
+140116,8058218,senado,Senador Weverton ,PDT,MA,senador,5411
+140116,8058215,senado,Senador Weverton ,PDT,MA,senador,5411
+140116,8058212,senado,Senador Weverton ,PDT,MA,senador,5411
+140116,8058209,senado,Senador Weverton ,PDT,MA,senador,5411
+140116,8058258,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+140116,8058273,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+140116,8058270,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+140116,8058267,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+140116,8058264,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+140116,8058261,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+140116,8058499,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140116,8058538,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140116,8058535,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140116,8058532,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140116,8058529,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140116,8058526,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140116,8058523,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140116,8058520,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140116,8058517,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140116,8058514,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140116,8058511,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140116,8058508,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140116,8058505,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140116,8058502,senado,Senador Paulo Rocha ,PT,PA,senador,374
+140116,8058607,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+140116,8058610,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+140116,8058613,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+140116,8058643,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+140116,8058640,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+140116,8058637,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+140116,8058634,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+140116,8058631,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+140116,8058628,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+140116,8058625,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+140116,8058622,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+140116,8058619,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+140116,8058616,senado,Senador Acir Gurgacz ,PDT,RO,senador,4981
+140116,8058717,senado,Senador Wellington Fagundes ,PL,MT,senador,1173
+140116,8058720,senado,Senador Wellington Fagundes ,PL,MT,senador,1173
+140116,8058823,senado,Senador Vanderlan Cardoso ,PP,GO,senador,5899
+140116,8058841,senado,Senador Vanderlan Cardoso ,PP,GO,senador,5899
+140116,8058838,senado,Senador Vanderlan Cardoso ,PP,GO,senador,5899
+140116,8058835,senado,Senador Vanderlan Cardoso ,PP,GO,senador,5899
+140116,8058832,senado,Senador Vanderlan Cardoso ,PP,GO,senador,5899
+140116,8058829,senado,Senador Vanderlan Cardoso ,PP,GO,senador,5899
+140116,8058826,senado,Senador Vanderlan Cardoso ,PP,GO,senador,5899
+140116,8061762,senado,Senador Irajá ,PSD,TO,senador,5385
+140116,8061958,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+140116,8062012,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+140116,8062116,senado,Senador Irajá ,PSD,TO,senador,5385
+140116,8074977,senado,Senador Irajá ,PSD,TO,senador,5385
+140116,8075391,senado,Senador Irajá ,PSD,TO,senador,5385
+140116,8081102,senado,Senador Irajá ,PSD,TO,senador,5385
+140117,8075036,senado,Senador Jean Paul Prates ,PT,RN,senador,5627
+140367,8104889,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+140367,8104891,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+140367,8105058,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
+140424,8064379,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
+140424,8082814,senado,Senador Luiz do Carmo ,MDB,GO,senador,5585
+140424,8115673,senado,Senador Carlos Viana ,PSD,MG,senador,5990
+140424,8115721,senado,Senador Carlos Viana ,PSD,MG,senador,5990
+141814,8104852,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+141814,8104823,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+141814,8104826,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+141814,8104829,senado,Senador Paulo Paim ,PT,RS,senador,825
+141814,8104835,senado,Senador Paulo Paim ,PT,RS,senador,825
+141814,8104832,senado,Senador Paulo Paim ,PT,RS,senador,825
+141814,8104844,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+141814,8104847,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+141814,8104870,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+141814,8104872,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+141814,8104874,senado,Senador Paulo Paim ,PT,RS,senador,825
+141814,8104876,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+141814,8104878,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+141814,8104880,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+141814,8104920,senado,Líder do CIDADANIA Eliziane Gama ,CIDADANIA,MA,senador,5718
+141814,8104972,senado,Senador Lucas Barreto ,PSD,AP,senador,5926
+141814,8104980,senado,Senador Lucas Barreto ,PSD,AP,senador,5926
+141814,8105033,senado,Senador Lucas Barreto ,PSD,AP,senador,5926
+141814,8105041,senado,Senador Lucas Barreto ,PSD,AP,senador,5926
+143654,8869975,senado,Senador Paulo Rocha ,PT,PA,senador,374
+143654,8907222,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+144365,8881796,senado,Senador Paulo Paim ,PT,RS,senador,825
+144365,8881806,senado,Senador Paulo Paim ,PT,RS,senador,825
+144365,8881803,senado,Senador Paulo Paim ,PT,RS,senador,825
+144365,8881868,senado,Senador Angelo Coronel ,PSD,BA,senador,5967
+144365,8881971,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+144365,8881974,senado,Senador Roberto Rocha ,PSDB,MA,senador,677
+144365,8881982,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+144365,8882037,senado,Senador Jader Barbalho ,MDB,PA,senador,35
+144365,8882040,senado,Senador Jader Barbalho ,MDB,PA,senador,35
+144365,8882960,senado,Senador Jaques Wagner ,PT,BA,senador,581
+144365,8882972,senado,Senador Jayme Campos ,DEM,MT,senador,4531
+144365,8882975,senado,Senador Jayme Campos ,DEM,MT,senador,4531
+144365,8882978,senado,Senador Jaques Wagner ,PT,BA,senador,581
+144365,8882981,senado,Senador Jaques Wagner ,PT,BA,senador,581
+144365,8883078,senado,Senadora Maria do Carmo Alves ,DEM,SE,senador,1023
+144365,8883156,senado,Senadora Mara Gabrilli ,PSDB,SP,senador,5376
+144365,8883165,senado,Senadora Mara Gabrilli ,PSDB,SP,senador,5376
+144365,8883162,senado,Senadora Mara Gabrilli ,PSDB,SP,senador,5376
+144365,8883159,senado,Senadora Mara Gabrilli ,PSDB,SP,senador,5376
+144365,8883383,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+144365,8883389,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+144365,8883386,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+144365,8883468,senado,Senador Flávio Arns ,REDE,PR,senador,345
+144365,8883471,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+144365,8883474,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+144365,8883567,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+144365,8883573,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+144365,8883570,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
+144365,8883636,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+144365,8883725,senado,Senador Humberto Costa ,PT,PE,senador,5008
+144365,8883731,senado,Senador Humberto Costa ,PT,PE,senador,5008
+144365,8883728,senado,Senador Humberto Costa ,PT,PE,senador,5008
+144365,8883764,senado,Senador Jaques Wagner ,PT,BA,senador,581
+144365,8883791,senado,Senador Jaques Wagner ,PT,BA,senador,581
+144365,8883788,senado,Senador Jaques Wagner ,PT,BA,senador,581
+144365,8883785,senado,Senador Jaques Wagner ,PT,BA,senador,581
+144365,8883782,senado,Senador Jaques Wagner ,PT,BA,senador,581
+144365,8883779,senado,Senador Jaques Wagner ,PT,BA,senador,581
+144365,8883776,senado,Senador Jaques Wagner ,PT,BA,senador,581
+144365,8883773,senado,Senador Jaques Wagner ,PT,BA,senador,581
+144365,8883770,senado,Senador Jaques Wagner ,PT,BA,senador,581
+144365,8883767,senado,Senador Jaques Wagner ,PT,BA,senador,581
+144365,8883796,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144365,8883814,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144365,8883811,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144365,8883808,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144365,8883805,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144365,8883802,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144365,8883799,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144365,8883820,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144365,8883835,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144365,8883832,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144365,8883829,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144365,8883826,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144365,8883823,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+144365,8883992,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+144365,8884016,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+144365,8884013,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+144365,8884010,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+144365,8884007,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+144365,8884004,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+144365,8884001,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+144365,8883998,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+144365,8883995,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+144365,8884349,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+144365,8884361,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+144365,8884370,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+144365,8884367,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+144365,8884364,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+144365,8884373,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+144365,8884376,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+144365,8884458,senado,Senador Paulo Rocha ,PT,PA,senador,374
+144365,8884467,senado,Senador Paulo Rocha ,PT,PA,senador,374
+144365,8884464,senado,Senador Paulo Rocha ,PT,PA,senador,374
+144365,8884461,senado,Senador Paulo Rocha ,PT,PA,senador,374
+144365,8884470,senado,Senador Paulo Rocha ,PT,PA,senador,374
+144365,8910806,senado,Senador Flávio Arns ,PODEMOS,PR,senador,345
+144365,8910861,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+144365,8910864,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+144365,8910892,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+144365,8910901,senado,Senadora Kátia Abreu ,PP,TO,senador,1249
+144365,8910911,senado,Senador Jader Barbalho ,MDB,PA,senador,35
+144365,8910924,senado,Senador Weverton ,PDT,MA,senador,5411
+144365,8910933,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+144365,8910937,senado,Líder do CIDADANIA Eliziane Gama ,CIDADANIA,MA,senador,5718
+144365,8910957,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+144365,8910960,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
+144365,8911038,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+144365,8911040,senado,Líder do PSDB Izalci Lucas ,PSDB,DF,senador,4770
+144365,8911051,senado,Líder do PT Rogério Carvalho ,PT,SE,senador,5352
+144365,8911079,senado,Senador Marcio Bittar ,MDB,AC,senador,285
+136853,7954926,senado,Senador Irajá ,PSD,TO,senador,5385
+136853,8017445,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
+136853,8018189,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
+136853,8027767,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
+136853,8033208,senado,Senador Jaques Wagner ,PT,BA,senador,581
+136853,8037460,senado,Senador Paulo Rocha ,PT,PA,senador,374
+136853,8037498,senado,Senador Humberto Costa ,PT,PE,senador,5008
+136853,8037794,senado,Presidente do Senado Federal: Senador Lasier Martins ,PODEMOS,RS,senador,5533
+136853,8048818,senado,Senador Jaques Wagner ,PT,BA,senador,581
+136853,8053539,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
+136853,8072948,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
+136853,8072956,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
+136853,8914582,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
+136853,8913523,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+136853,8913672,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+136853,8913739,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
+136853,8913739,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+136853,8913739,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+136853,8913739,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+136853,8913739,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
+136853,8913739,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+136853,8913739,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
+136853,8913739,senado,Senador Paulo Rocha ,PT,PA,senador,374
+136853,8913739,senado,Senador Eduardo Girão ,PODEMOS,CE,senador,5976
+136853,8913739,senado,Senador Flávio Arns ,PODEMOS,PR,senador,345
+136853,8913739,senado,Senador Jaques Wagner ,PT,BA,senador,581
+136853,8913739,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+136853,8913826,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
+136853,8913826,senado,Senador Paulo Paim ,PT,RS,senador,825
+136853,8913837,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+136853,8913840,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+136853,8913865,senado,Senador Fernando Bezerra Coelho ,MDB,PE,senador,5540
+136853,8913874,senado,Senador Fernando Bezerra Coelho ,MDB,PE,senador,5540
+136853,8913950,senado,Senadora Leila Barros ,PSB,DF,senador,5979
+136853,8913953,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
+136853,8913956,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
+136853,8913959,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
+136853,8913962,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
+136853,8913992,senado,Senador Fernando Bezerra Coelho ,MDB,PE,senador,5540
+136853,8914039,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
+136853,8914042,senado,Senador Paulo Rocha ,PT,PA,senador,374
+136853,8914045,senado,Senador Eduardo Girão ,PODEMOS,CE,senador,5976
+136853,8914112,senado,Senador Flávio Arns ,PODEMOS,PR,senador,345
+136853,8914135,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
+136853,8914234,senado,Senador Jaques Wagner ,PT,BA,senador,581
+136853,8914309,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
+136853,8915386,senado,Senador Rodrigo Pacheco ,DEM,MG,senador,5732
 140760,8068586,senado,Senador Luiz Pastore ,MDB,ES,senador,151
 140760,8073107,senado,Senador Paulo Paim ,PT,RS,senador,825
 141238,8074996,senado,Senador Nelsinho Trad ,PSD,MS,senador,5985
@@ -352,7 +784,6 @@ id_principal,id_documento,casa,nome_autor,partido,uf,tipo_autor,id_autor
 141084,8074041,senado,Senador Jaques Wagner ,PT,BA,senador,581
 141084,8074041,senado,Senadora Zenaide Maia ,PROS,RN,senador,5783
 140489,8061526,senado,Senador Eduardo Girão ,PODEMOS,CE,senador,5976
-136287,7976463,senado,Senador Confúcio Moura ,MDB,RO,senador,475
 140530,8062243,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
 140541,8062509,senado,Senador Ciro Nogueira ,PP,PI,senador,739
 139657,8032792,senado,Senador Confúcio Moura ,MDB,RO,senador,475
@@ -520,7 +951,6 @@ id_principal,id_documento,casa,nome_autor,partido,uf,tipo_autor,id_autor
 145213,8901489,senado,Senadora Mara Gabrilli ,PSDB,SP,senador,5376
 145213,8901521,senado,Senadora Mara Gabrilli ,PSDB,SP,senador,5376
 145734,8910654,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
-138255,8031789,senado,Senador Arolde de Oliveira ,PSD,RJ,senador,751
 135117,7909606,senado,Senador Mecias de Jesus ,PRB,RR,senador,6027
 138337,7997725,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
 138337,8016149,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
@@ -621,10 +1051,6 @@ id_principal,id_documento,casa,nome_autor,partido,uf,tipo_autor,id_autor
 136084,7978297,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
 141656,8098018,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
 141656,8098035,senado,Senador Jorge Kajuru ,CIDADANIA,GO,senador,5895
-136200,7951025,senado,Senador Styvenson Valentim ,PODE,RN,senador,5959
-136200,7963316,senado,Senadora Kátia Abreu ,PDT,TO,senador,1249
-136200,7991150,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
-136200,7993130,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
 136265,7939518,senado,Senador Rogério Carvalho ,PT,SE,senador,5352
 136265,7981592,senado,Senador Eduardo Girão ,PODEMOS,CE,senador,5976
 136294,7939999,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
@@ -837,17 +1263,6 @@ id_principal,id_documento,casa,nome_autor,partido,uf,tipo_autor,id_autor
 140534,8125719,senado,Senador Eduardo Braga ,MDB,AM,senador,4994
 137850,7982420,senado,Senador Jorge Kajuru ,PSB,GO,senador,5895
 137850,8065464,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
-145636,8911640,senado,Líder do PDT Weverton ,PDT,MA,senador,5411
-145636,8912251,senado,Senador Antonio Anastasia ,PSD,MG,senador,5529
-145636,8911988,senado,Senador Antonio Anastasia ,PSD,MG,senador,5529
-145636,8911821,senado,Líder do PODEMOS Alvaro Dias ,PODEMOS,PR,senador,945
-145636,8911828,senado,Líder do PSD Otto Alencar ,PSD,BA,senador,5523
-145636,8911883,senado,Senador Antonio Anastasia ,PSD,MG,senador,5529
-145636,8911905,senado,Líder do PSD Otto Alencar ,PSD,BA,senador,5523
-145636,8911915,senado,Senador Alvaro Dias ,PODEMOS,PR,senador,945
-145636,8911918,senado,Líder do CIDADANIA Eliziane Gama ,CIDADANIA,MA,senador,5718
-145636,8911924,senado,Senador Otto Alencar ,PSD,BA,senador,5523
-145636,8912180,senado,Senador Antonio Anastasia ,PSD,MG,senador,5529
 144393,8882019,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
 138338,7997694,senado,Senador Major Olimpio ,PSL,SP,senador,5666
 144927,8894082,senado,Senador Marcos Rogério ,DEM,RO,senador,5422
@@ -864,38 +1279,6 @@ id_principal,id_documento,casa,nome_autor,partido,uf,tipo_autor,id_autor
 138540,8049375,senado,Senador Confúcio Moura ,MDB,RO,senador,475
 138694,8005235,senado,Senador Telmário Mota ,PROS,RR,senador,5535
 138735,8004469,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
-138725,8064604,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
-138725,8064604,senado,Senador Jaques Wagner ,PT,BA,senador,581
-138725,8064593,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
-138725,8064593,senado,Senador Jaques Wagner ,PT,BA,senador,581
-138725,8064606,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
-138725,8064606,senado,Senador Jaques Wagner ,PT,BA,senador,581
-138725,8070247,senado,Senadora Soraya Thronicke ,PSL,MS,senador,5988
-138725,8070992,senado,Senador Jayme Campos ,DEM,MT,senador,4531
-138725,8070992,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
-138725,8070968,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
-138725,8075030,senado,Senador Chico Rodrigues ,DEM,RR,senador,470
-138725,8910812,senado,Senador Styvenson Valentim ,PODEMOS,RN,senador,5959
-138725,8910921,senado,Senador Rodrigo Cunha ,PSDB,AL,senador,5905
-138725,8910940,senado,Senadora Rose de Freitas ,PODEMOS,ES,senador,2331
-138725,8910971,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
-138725,8910977,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
-138725,8910974,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
-138725,8910983,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
-138725,8911043,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
-138725,8911123,senado,Senador Zequinha Marinho ,PSC,PA,senador,3806
-138725,8911123,senado,Senadora Soraya Thronicke ,PSL,MS,senador,5988
-138725,8911123,senado,Senador Luiz do Carmo ,MDB,GO,senador,5585
-138725,8911169,senado,Senadora Soraya Thronicke ,PSL,MS,senador,5988
-138725,8911173,senado,Senador Luiz do Carmo ,MDB,GO,senador,5585
-138725,8911770,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
-138725,8912561,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
-138725,8912573,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
-138725,8912570,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
-138725,8912567,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
-138725,8912564,senado,Senador Izalci Lucas ,PSDB,DF,senador,4770
-138725,8914115,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
-138725,8915178,senado,Senador Fabiano Contarato ,REDE,ES,senador,5953
 138812,8010383,senado,Senador Jorge Kajuru ,PATRIOTA,GO,senador,5895
 138839,8011379,senado,Senador Jayme Campos ,DEM,MT,senador,4531
 138839,8025024,senado,Senador Plínio Valério ,PSDB,AM,senador,5502
@@ -912,7 +1295,6 @@ id_principal,id_documento,casa,nome_autor,partido,uf,tipo_autor,id_autor
 138937,8067335,senado,Presidente do Senado Federal: Senador Izalci Lucas ,PSDB,DF,senador,4770
 138937,8066345,senado,Senador Irajá ,PSD,TO,senador,5385
 145560,8908307,senado,Senador Jayme Campos ,DEM,MT,senador,4531
-145598,8908845,senado,Senador Carlos Viana ,PSD,MG,senador,5990
 139054,8017519,senado,Senador Sérgio Petecão ,PSD,AC,senador,4560
 145626,8909364,senado,Senador José Serra ,PSDB,SP,senador,90
 139066,8017137,senado,Senador Alessandro Vieira ,CIDADANIA,SE,senador,5982
@@ -940,6 +1322,1369 @@ id_principal,id_documento,casa,nome_autor,partido,uf,tipo_autor,id_autor
 139856,8073275,senado,Presidente do Senado Federal: Senador Paulo Paim ,PT,RS,senador,825
 139966,8036489,senado,Senadora Eliziane Gama ,CIDADANIA,MA,senador,5718
 139988,8048914,senado,Senador Randolfe Rodrigues ,REDE,AP,senador,5012
-140281,8113362,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
 140347,8058926,senado,Senador Luis Carlos Heinze ,PP,RS,senador,1186
 143587,8886216,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+137319,7966734,senado,Deputado Federal José Nelto ,PODEMOS,GO,deputado,204391
+137319,7967500,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+137319,7967503,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+137319,7967931,senado,Deputado Federal Vermelho ,PSD,PR,deputado,204396
+137319,7968069,senado,Deputado Federal Daniel Coelho ,CIDADANIA,PE,deputado,178916
+137319,7968107,senado,Deputado Federal Carlos Zarattini ,PT,SP,deputado,141398
+137319,7968110,senado,Deputado Federal Carlos Zarattini ,PT,SP,deputado,141398
+137319,7968126,senado,Deputado Federal João Carlos Bacelar ,PL,BA,deputado,74131
+137319,7968126,senado,Deputado Federal João Carlos Bacelar ,PL,BA,deputado,141458
+137319,7968150,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+137319,7968165,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+137319,7968162,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+137319,7968159,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+137319,7968156,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+137319,7968153,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+137319,7968278,senado,Deputado Federal Rodrigo Agostinho ,PSB,SP,deputado,204530
+137319,7969209,senado,Deputado Federal Mauro Nazif ,PSB,RO,deputado,141508
+137319,7969489,senado,Deputado Federal Paulo Pimenta ,PT,RS,deputado,74400
+139071,8019471,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8019700,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8019703,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8020254,senado,Deputado Federal José Medeiros ,PODEMOS,MT,deputado,204472
+139071,8020067,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8020070,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8020247,senado,Deputado Federal Marcelo Ramos ,PL,AM,deputado,204556
+139071,8020929,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+139071,8020941,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+139071,8020938,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+139071,8020935,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+139071,8020932,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+139071,8021052,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+139071,8021064,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+139071,8021061,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+139071,8021058,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+139071,8021055,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+139071,8021204,senado,Deputado Federal Ruy Carneiro ,PSDB,PB,deputado,160635
+139071,8021216,senado,Deputado Federal Ruy Carneiro ,PSDB,PB,deputado,160635
+139071,8021213,senado,Deputado Federal Ruy Carneiro ,PSDB,PB,deputado,160635
+139071,8021210,senado,Deputado Federal Ruy Carneiro ,PSDB,PB,deputado,160635
+139071,8021207,senado,Deputado Federal Ruy Carneiro ,PSDB,PB,deputado,160635
+139071,8021240,senado,Deputada Federal Mara Rocha ,PSDB,AC,deputado,204471
+139071,8021252,senado,Deputada Federal Mara Rocha ,PSDB,AC,deputado,204471
+139071,8021249,senado,Deputada Federal Mara Rocha ,PSDB,AC,deputado,204471
+139071,8021246,senado,Deputada Federal Mara Rocha ,PSDB,AC,deputado,204471
+139071,8021243,senado,Deputada Federal Mara Rocha ,PSDB,AC,deputado,204471
+139071,8021261,senado,Deputado Federal Elias Vaz ,PSB,GO,deputado,204389
+139071,8021267,senado,Deputado Federal Elias Vaz ,PSB,GO,deputado,204389
+139071,8021264,senado,Deputado Federal Elias Vaz ,PSB,GO,deputado,204389
+139071,8021357,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021393,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021390,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021387,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021384,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021381,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021378,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021375,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021372,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021369,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021366,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021363,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021360,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021293,senado,Deputado Federal Hercílio Coelho Diniz ,MDB,MG,deputado,204539
+139071,8021305,senado,Deputado Federal Hercílio Coelho Diniz ,MDB,MG,deputado,204539
+139071,8021302,senado,Deputado Federal Hercílio Coelho Diniz ,MDB,MG,deputado,204539
+139071,8021299,senado,Deputado Federal Hercílio Coelho Diniz ,MDB,MG,deputado,204539
+139071,8021296,senado,Deputado Federal Hercílio Coelho Diniz ,MDB,MG,deputado,204539
+139071,8021275,senado,Deputado Federal Domingos Sávio ,PSDB,MG,deputado,160758
+139071,8021278,senado,Deputado Federal Domingos Sávio ,PSDB,MG,deputado,160758
+139071,8021281,senado,Deputado Federal Domingos Sávio ,PSDB,MG,deputado,160758
+139071,8021284,senado,Deputado Federal Domingos Sávio ,PSDB,MG,deputado,160758
+139071,8021287,senado,Deputado Federal Domingos Sávio ,PSDB,MG,deputado,160758
+139071,8021290,senado,Deputado Federal Domingos Sávio ,PSDB,MG,deputado,160758
+139071,8021339,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021354,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021351,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021348,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021345,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021342,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021309,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021336,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021333,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021330,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021327,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021324,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021321,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021318,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021315,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021312,senado,Deputado Federal Jerônimo Goergen ,PP,RS,deputado,160570
+139071,8021400,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+139071,8021419,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+139071,8021416,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+139071,8021413,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+139071,8021410,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+139071,8021407,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+139071,8021404,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+139071,8021452,senado,Deputado Federal Vinicius Poit ,NOVO,SP,deputado,204532
+139071,8021461,senado,Deputado Federal Vinicius Poit ,NOVO,SP,deputado,204532
+139071,8021458,senado,Deputado Federal Vinicius Poit ,NOVO,SP,deputado,204532
+139071,8021455,senado,Deputado Federal Vinicius Poit ,NOVO,SP,deputado,204532
+139071,8021464,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+139071,8021473,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+139071,8021470,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+139071,8021467,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+139071,8021476,senado,Deputado Federal Marcelo Ramos ,PL,AM,deputado,204556
+139071,8021479,senado,Deputado Federal Marcelo Ramos ,PL,AM,deputado,204556
+139071,8021527,senado,Deputado Federal Lucas Vergilio ,SOLIDARIEDADE,GO,deputado,178879
+139071,8021530,senado,Deputado Federal Lucas Vergilio ,SOLIDARIEDADE,GO,deputado,178879
+139071,8021543,senado,Deputado Federal Alceu Moreira ,MDB,RS,deputado,160559
+139071,8021549,senado,Deputado Federal Professor Israel Batista ,PV,DF,deputado,204383
+139071,8021561,senado,Deputado Federal Professor Israel Batista ,PV,DF,deputado,204383
+139071,8021558,senado,Deputado Federal Professor Israel Batista ,PV,DF,deputado,204383
+139071,8021555,senado,Deputado Federal Professor Israel Batista ,PV,DF,deputado,204383
+139071,8021552,senado,Deputado Federal Professor Israel Batista ,PV,DF,deputado,204383
+139071,8021564,senado,Deputado Federal Bosco Costa ,PL,SE,deputado,74052
+139071,8021567,senado,Deputado Federal Sergio Vidigal ,PDT,ES,deputado,178874
+139071,8021590,senado,Deputada Federal Aline Sleutjes ,PSL,PR,deputado,204400
+139071,8021620,senado,Deputada Federal Aline Sleutjes ,PSL,PR,deputado,204400
+139071,8021617,senado,Deputada Federal Aline Sleutjes ,PSL,PR,deputado,204400
+139071,8021614,senado,Deputada Federal Aline Sleutjes ,PSL,PR,deputado,204400
+139071,8021611,senado,Deputada Federal Aline Sleutjes ,PSL,PR,deputado,204400
+139071,8021608,senado,Deputada Federal Aline Sleutjes ,PSL,PR,deputado,204400
+139071,8021605,senado,Deputada Federal Aline Sleutjes ,PSL,PR,deputado,204400
+139071,8021602,senado,Deputada Federal Aline Sleutjes ,PSL,PR,deputado,204400
+139071,8021599,senado,Deputada Federal Aline Sleutjes ,PSL,PR,deputado,204400
+139071,8021596,senado,Deputada Federal Aline Sleutjes ,PSL,PR,deputado,204400
+139071,8021593,senado,Deputada Federal Aline Sleutjes ,PSL,PR,deputado,204400
+139071,8021575,senado,Deputada Federal Luisa Canziani ,PTB,PR,deputado,204410
+139071,8021587,senado,Deputada Federal Luisa Canziani ,PTB,PR,deputado,204410
+139071,8021584,senado,Deputada Federal Luisa Canziani ,PTB,PR,deputado,204410
+139071,8021581,senado,Deputada Federal Luisa Canziani ,PTB,PR,deputado,204410
+139071,8021578,senado,Deputada Federal Luisa Canziani ,PTB,PR,deputado,204410
+139071,8021629,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8021671,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8021668,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8021665,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8021662,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8021659,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8021656,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8021653,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8021650,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8021647,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8021644,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8021641,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8021638,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8021635,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8021632,senado,Deputado Federal Nelson Barbudo ,PSL,MT,deputado,204449
+139071,8021674,senado,Deputado Federal Heitor Freire ,PSL,CE,deputado,204548
+139071,8021689,senado,Deputado Federal Heitor Freire ,PSL,CE,deputado,204548
+139071,8021686,senado,Deputado Federal Heitor Freire ,PSL,CE,deputado,204548
+139071,8021683,senado,Deputado Federal Heitor Freire ,PSL,CE,deputado,204548
+139071,8021680,senado,Deputado Federal Heitor Freire ,PSL,CE,deputado,204548
+139071,8021677,senado,Deputado Federal Heitor Freire ,PSL,CE,deputado,204548
+139071,8021706,senado,Deputado Federal Geninho Zuliani ,DEM,SP,deputado,204527
+139071,8021772,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021796,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021793,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021790,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021787,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021784,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021781,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021778,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021775,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021758,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021767,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021764,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021761,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021719,senado,Deputado Federal Arnaldo Jardim ,CIDADANIA,SP,deputado,141391
+139071,8021746,senado,Deputado Federal Arnaldo Jardim ,CIDADANIA,SP,deputado,141391
+139071,8021743,senado,Deputado Federal Arnaldo Jardim ,CIDADANIA,SP,deputado,141391
+139071,8021740,senado,Deputado Federal Arnaldo Jardim ,CIDADANIA,SP,deputado,141391
+139071,8021737,senado,Deputado Federal Arnaldo Jardim ,CIDADANIA,SP,deputado,141391
+139071,8021734,senado,Deputado Federal Arnaldo Jardim ,CIDADANIA,SP,deputado,141391
+139071,8021731,senado,Deputado Federal Arnaldo Jardim ,CIDADANIA,SP,deputado,141391
+139071,8021728,senado,Deputado Federal Arnaldo Jardim ,CIDADANIA,SP,deputado,141391
+139071,8021725,senado,Deputado Federal Arnaldo Jardim ,CIDADANIA,SP,deputado,141391
+139071,8021722,senado,Deputado Federal Arnaldo Jardim ,CIDADANIA,SP,deputado,141391
+139071,8021801,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021810,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021807,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021804,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+139071,8021813,senado,Deputado Federal André Figueiredo ,PDT,CE,deputado,133439
+139071,8021818,senado,Deputado Federal Darci de Matos ,PSD,SC,deputado,116379
+139071,8021821,senado,Deputado Federal Darci de Matos ,PSD,SC,deputado,116379
+139071,8021824,senado,Deputado Federal Júlio Cesar ,PSD,PI,deputado,74317
+139071,8021863,senado,Deputado Federal Júlio Cesar ,PSD,PI,deputado,74317
+139071,8021860,senado,Deputado Federal Júlio Cesar ,PSD,PI,deputado,74317
+139071,8021857,senado,Deputado Federal Júlio Cesar ,PSD,PI,deputado,74317
+139071,8021854,senado,Deputado Federal Júlio Cesar ,PSD,PI,deputado,74317
+139071,8021851,senado,Deputado Federal Júlio Cesar ,PSD,PI,deputado,74317
+139071,8021848,senado,Deputado Federal Júlio Cesar ,PSD,PI,deputado,74317
+139071,8021845,senado,Deputado Federal Júlio Cesar ,PSD,PI,deputado,74317
+139071,8021842,senado,Deputado Federal Júlio Cesar ,PSD,PI,deputado,74317
+139071,8021839,senado,Deputado Federal Júlio Cesar ,PSD,PI,deputado,74317
+139071,8021836,senado,Deputado Federal Júlio Cesar ,PSD,PI,deputado,74317
+139071,8021833,senado,Deputado Federal Júlio Cesar ,PSD,PI,deputado,74317
+139071,8021830,senado,Deputado Federal Júlio Cesar ,PSD,PI,deputado,74317
+139071,8021827,senado,Deputado Federal Júlio Cesar ,PSD,PI,deputado,74317
+139071,8021866,senado,Deputado Federal Alexis Fonteyne ,NOVO,SP,deputado,204516
+139071,8021875,senado,Deputado Federal Alexis Fonteyne ,NOVO,SP,deputado,204516
+139071,8021872,senado,Deputado Federal Alexis Fonteyne ,NOVO,SP,deputado,204516
+139071,8021869,senado,Deputado Federal Alexis Fonteyne ,NOVO,SP,deputado,204516
+139071,8021878,senado,Deputado Federal Neri Geller ,PP,MT,deputado,146307
+139071,8021881,senado,Deputado Federal Neri Geller ,PP,MT,deputado,146307
+139071,8021899,senado,Deputado Federal Denis Bezerra ,PSB,CE,deputado,204542
+139071,8021914,senado,Deputado Federal Denis Bezerra ,PSB,CE,deputado,204542
+139071,8021911,senado,Deputado Federal Denis Bezerra ,PSB,CE,deputado,204542
+139071,8021908,senado,Deputado Federal Denis Bezerra ,PSB,CE,deputado,204542
+139071,8021905,senado,Deputado Federal Denis Bezerra ,PSB,CE,deputado,204542
+139071,8021902,senado,Deputado Federal Denis Bezerra ,PSB,CE,deputado,204542
+139071,8021917,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021977,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021974,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021971,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021968,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021965,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021962,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021959,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021956,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021953,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021950,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021947,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021944,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021941,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021938,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021935,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021932,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021929,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021926,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021923,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021920,senado,Deputado Federal Sergio Souza ,MDB,PR,deputado,178933
+139071,8021980,senado,Deputado Federal Marcelo Ramos ,PL,AM,deputado,204556
+139071,8021995,senado,Deputado Federal Paulo Bengtson ,PTB,PA,deputado,204538
+139071,8022004,senado,Deputado Federal Paulo Bengtson ,PTB,PA,deputado,204538
+139071,8022001,senado,Deputado Federal Paulo Bengtson ,PTB,PA,deputado,204538
+139071,8021998,senado,Deputado Federal Paulo Bengtson ,PTB,PA,deputado,204538
+139071,8021992,senado,Deputado Federal Carlos Henrique Gaguim ,DEM,TO,deputado,178993
+139071,8022009,senado,Deputada Federal Aline Sleutjes ,PSL,PR,deputado,204400
+139071,8022026,senado,Deputado Federal José Medeiros ,PODEMOS,MT,deputado,204472
+139071,8022029,senado,Deputado Federal Celso Maldaner ,MDB,SC,deputado,141405
+139071,8022035,senado,Deputado Federal Celso Maldaner ,MDB,SC,deputado,141405
+139071,8022032,senado,Deputado Federal Celso Maldaner ,MDB,SC,deputado,141405
+139071,8022038,senado,Deputado Federal Laercio Oliveira ,PP,SE,deputado,151208
+139071,8022053,senado,Deputado Federal Laercio Oliveira ,PP,SE,deputado,151208
+139071,8022050,senado,Deputado Federal Laercio Oliveira ,PP,SE,deputado,151208
+139071,8022047,senado,Deputado Federal Laercio Oliveira ,PP,SE,deputado,151208
+139071,8022044,senado,Deputado Federal Laercio Oliveira ,PP,SE,deputado,151208
+139071,8022041,senado,Deputado Federal Laercio Oliveira ,PP,SE,deputado,151208
+139071,8022071,senado,Deputado Federal Félix Mendonça Júnior ,PDT,BA,deputado,160666
+139071,8022081,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+139071,8022084,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022099,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022096,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022093,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022090,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022087,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022106,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+139071,8022115,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+139071,8022112,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+139071,8022109,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+139071,8022150,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022183,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022180,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022177,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022174,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022171,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022168,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022165,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022162,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022159,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022156,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022153,senado,Deputado Federal Evair Vieira de Melo ,PP,ES,deputado,178871
+139071,8022187,senado,Deputado Federal Arnaldo Jardim ,CIDADANIA,SP,deputado,141391
+139071,8022190,senado,Deputado Federal Arnaldo Jardim ,CIDADANIA,SP,deputado,141391
+139071,8022274,senado,Deputado Federal Neri Geller ,PP,MT,deputado,146307
+139071,8022298,senado,Deputado Federal Neri Geller ,PP,MT,deputado,146307
+139071,8022295,senado,Deputado Federal Neri Geller ,PP,MT,deputado,146307
+139071,8022292,senado,Deputado Federal Neri Geller ,PP,MT,deputado,146307
+139071,8022289,senado,Deputado Federal Neri Geller ,PP,MT,deputado,146307
+139071,8022286,senado,Deputado Federal Neri Geller ,PP,MT,deputado,146307
+139071,8022283,senado,Deputado Federal Neri Geller ,PP,MT,deputado,146307
+139071,8022280,senado,Deputado Federal Neri Geller ,PP,MT,deputado,146307
+139071,8022277,senado,Deputado Federal Neri Geller ,PP,MT,deputado,146307
+139071,8022307,senado,Deputado Federal Zé Silva ,SOLIDARIEDADE,MG,deputado,160632
+139071,8022313,senado,Deputado Federal Zé Silva ,SOLIDARIEDADE,MG,deputado,160632
+139071,8022310,senado,Deputado Federal Zé Silva ,SOLIDARIEDADE,MG,deputado,160632
+139071,8022318,senado,Deputado Federal Beto Pereira ,PSDB,MS,deputado,204358
+139071,8022321,senado,Deputado Federal Denis Bezerra ,PSB,CE,deputado,204542
+139071,8022344,senado,Deputado Federal Sergio Toledo ,PL,AL,deputado,204438
+139071,8022356,senado,Deputado Federal Sergio Toledo ,PL,AL,deputado,204438
+139071,8022353,senado,Deputado Federal Sergio Toledo ,PL,AL,deputado,204438
+139071,8022350,senado,Deputado Federal Sergio Toledo ,PL,AL,deputado,204438
+139071,8022347,senado,Deputado Federal Sergio Toledo ,PL,AL,deputado,204438
+139071,8022389,senado,Deputado Federal João Roma ,REPUBLICANOS,BA,deputado,204576
+139071,8022392,senado,Deputado Federal João Roma ,REPUBLICANOS,BA,deputado,204576
+139071,8025064,senado,Deputado Federal Júlio Cesar ,PSD,PI,deputado,74317
+139071,8031383,senado,Deputado Federal Pedro Lupion ,DEM,PR,deputado,204395
+139071,8031443,senado,Deputado Federal Bohn Gass ,PT,RS,deputado,160538
+139071,8032812,senado,Deputado Federal Darci de Matos ,PSD,SC,deputado,116379
+139071,8035816,senado,Deputada Federal Luisa Canziani ,PTB,PR,deputado,204410
+139071,8050488,senado,Deputado Federal Pedro Lupion ,DEM,PR,deputado,204395
+139071,8051354,senado,Deputado Federal Pedro Lupion ,DEM,PR,deputado,204395
+139444,8029151,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+139444,8029154,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+139444,8029157,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+139444,8029160,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+139444,8029163,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+139444,8029166,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+139444,8029200,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+139444,8029215,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+139444,8029212,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+139444,8029209,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+139444,8029206,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+139444,8029203,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+139444,8029230,senado,Deputado Federal Daniel Coelho ,CIDADANIA,PE,deputado,178916
+139444,8029338,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+139444,8029353,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+139444,8029350,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+139444,8029347,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+139444,8029344,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+139444,8029341,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+139444,8029356,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+139444,8029368,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+139444,8029365,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+139444,8029362,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+139444,8029359,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+139444,8029434,senado,Deputada Federal Joenia Wapichana ,REDE,RR,deputado,204468
+139444,8029527,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+139444,8029542,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+139444,8029539,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+139444,8029536,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+139444,8029533,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+139444,8029530,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+139444,8029724,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+139444,8030288,senado,Deputado Federal Daniel Coelho ,CIDADANIA,PE,deputado,178916
+139444,8030294,senado,Deputado Federal Daniel Coelho ,CIDADANIA,PE,deputado,178916
+139444,8030291,senado,Deputado Federal Daniel Coelho ,CIDADANIA,PE,deputado,178916
+139444,8030305,senado,Deputado Federal Mário Heringer ,PDT,MG,deputado,74158
+139444,8030333,senado,Deputado Federal André Figueiredo ,PDT,CE,deputado,133439
+139444,8030361,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+139444,8030373,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+139444,8030370,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+139444,8030367,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+139444,8030364,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+139444,8030813,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+139444,8030828,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+139444,8030825,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+139444,8030822,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+139444,8030819,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+139444,8030816,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+139444,8030831,senado,Deputado Federal Nilto Tatto ,PT,SP,deputado,178986
+139444,8030846,senado,Deputado Federal Nilto Tatto ,PT,SP,deputado,178986
+139444,8030843,senado,Deputado Federal Nilto Tatto ,PT,SP,deputado,178986
+139444,8030840,senado,Deputado Federal Nilto Tatto ,PT,SP,deputado,178986
+139444,8030837,senado,Deputado Federal Nilto Tatto ,PT,SP,deputado,178986
+139444,8030834,senado,Deputado Federal Nilto Tatto ,PT,SP,deputado,178986
+139444,8030849,senado,Deputado Federal Felipe Rigoni ,PSB,ES,deputado,204371
+139444,8030870,senado,Deputado Federal Felipe Rigoni ,PSB,ES,deputado,204371
+139444,8030867,senado,Deputado Federal Felipe Rigoni ,PSB,ES,deputado,204371
+139444,8030864,senado,Deputado Federal Felipe Rigoni ,PSB,ES,deputado,204371
+139444,8030861,senado,Deputado Federal Felipe Rigoni ,PSB,ES,deputado,204371
+139444,8030858,senado,Deputado Federal Felipe Rigoni ,PSB,ES,deputado,204371
+139444,8030855,senado,Deputado Federal Felipe Rigoni ,PSB,ES,deputado,204371
+139444,8030852,senado,Deputado Federal Felipe Rigoni ,PSB,ES,deputado,204371
+139444,8030888,senado,Deputado Federal Paulo Ganime ,NOVO,RJ,deputado,204461
+139444,8030891,senado,Deputado Federal Paulo Ganime ,NOVO,RJ,deputado,204461
+139444,8030897,senado,Deputado Federal Túlio Gadêlha ,PDT,PE,deputado,157130
+139444,8030900,senado,Deputado Federal Túlio Gadêlha ,PDT,PE,deputado,157130
+139444,8031106,senado,Deputado Federal Laercio Oliveira ,PP,SE,deputado,151208
+139444,8031109,senado,Deputado Federal Laercio Oliveira ,PP,SE,deputado,151208
+139444,8051190,senado,Deputado Federal Nilto Tatto ,PT,SP,deputado,178986
+139444,8051261,senado,Deputado Federal Elias Vaz ,PSB,GO,deputado,204389
+139448,8031542,senado,Deputado Federal Jhonatan de Jesus ,REPUBLICANOS,RR,deputado,160531
+139448,8031744,senado,Deputado Federal Camilo Capiberibe ,PSB,AP,deputado,204352
+139448,8042886,senado,Deputado Federal Nilto Tatto ,PT,SP,deputado,178986
+139448,8052873,senado,Deputado Federal Edio Lopes ,PL,RR,deputado,141417
+139448,8052956,senado,Deputado Federal Elias Vaz ,PSB,GO,deputado,204389
+139448,8053758,senado,Deputado Federal Edio Lopes ,PL,RR,deputado,141417
+139736,8036737,senado,Deputado Federal Mauro Benevides Filho ,PDT,CE,deputado,204486
+139736,8064805,senado,Deputado Federal Domingos Sávio ,PSDB,MG,deputado,160758
+140001,8050031,senado,Deputado Federal André Figueiredo ,PDT,CE,deputado,133439
+140001,8050034,senado,Deputado Federal André Figueiredo ,PDT,CE,deputado,133439
+140001,8050542,senado,Deputado Federal Raimundo Costa ,PL,BA,deputado,204567
+140001,8050545,senado,Deputado Federal Raimundo Costa ,PL,BA,deputado,204567
+140001,8050756,senado,Deputado Federal Assis Carvalho ,PT,PI,deputado,159237
+140001,8050798,senado,Deputada Federal Rejane Dias ,PT,PI,deputado,178925
+140001,8050803,senado,Deputada Federal Rejane Dias ,PT,PI,deputado,178925
+140001,8050893,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+140001,8050976,senado,Deputado Federal Renildo Calheiros ,PCdoB,PE,deputado,73801
+140001,8051180,senado,Deputado Federal Paulo Pereira da Silva ,SOLIDARIEDADE,SP,deputado,141518
+140001,8051242,senado,Deputado Federal Daniel Almeida ,PCdoB,BA,deputado,74060
+140001,8051383,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+140001,8051386,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+140001,8051532,senado,Deputado Federal Túlio Gadêlha ,PDT,PE,deputado,157130
+140001,8051535,senado,Deputado Federal Túlio Gadêlha ,PDT,PE,deputado,157130
+140001,8051576,senado,Deputado Federal Orlando Silva ,PCdoB,SP,deputado,178987
+140001,8051579,senado,Deputado Federal José Airton Félix Cirilo ,PT,CE,deputado,141464
+140001,8051582,senado,Deputado Federal José Airton Félix Cirilo ,PT,CE,deputado,141464
+140001,8051751,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140001,8051763,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140001,8051760,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140001,8051757,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140001,8051754,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140001,8051775,senado,Deputado Federal Mário Negromonte Jr. ,PP,BA,deputado,178858
+140001,8051784,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140001,8051787,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140001,8051790,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140001,8051793,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140001,8051796,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140001,8051802,senado,Deputado Federal Carlos Veras ,PT,PE,deputado,204426
+140001,8051926,senado,Deputado Federal Eduardo Bismarck ,PDT,CE,deputado,204541
+140001,8051929,senado,Deputado Federal Eduardo Bismarck ,PDT,CE,deputado,204541
+140001,8052043,senado,Deputado Federal Raimundo Costa ,PL,BA,deputado,204567
+140001,8052114,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+140001,8052123,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+140001,8052120,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+140001,8052117,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+140001,8052126,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140001,8052147,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140001,8052144,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140001,8052141,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140001,8052138,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140001,8052135,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140001,8052132,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140001,8052129,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140001,8052150,senado,Deputada Federal Luizianne Lins ,PT,CE,deputado,178866
+140001,8052153,senado,Deputada Federal Luizianne Lins ,PT,CE,deputado,178866
+140001,8052156,senado,Deputada Federal Luizianne Lins ,PT,CE,deputado,178866
+140001,8052159,senado,Deputada Federal Luizianne Lins ,PT,CE,deputado,178866
+140001,8052162,senado,Deputada Federal Luizianne Lins ,PT,CE,deputado,178866
+140001,8052165,senado,Deputada Federal Luizianne Lins ,PT,CE,deputado,178866
+140001,8052168,senado,Deputada Federal Luizianne Lins ,PT,CE,deputado,178866
+140001,8052171,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+140001,8052183,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+140001,8052180,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+140001,8052177,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+140001,8052174,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+140001,8052188,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140001,8052194,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140001,8052191,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140001,8052242,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140001,8052245,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140001,8052248,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140001,8052271,senado,Deputado Federal Carlos Veras ,PT,PE,deputado,204426
+140001,8052276,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140001,8052297,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140001,8052294,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140001,8052291,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140001,8052288,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140001,8052285,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140001,8052282,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140001,8052279,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140001,8052319,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140001,8052340,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140001,8052337,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140001,8052334,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140001,8052331,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140001,8052328,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140001,8052325,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140001,8052322,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140116,8056041,senado,Deputado Federal Rogério Peninha Mendonça ,MDB,SC,deputado,160651
+140116,8056096,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8056111,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8056108,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8056105,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8056102,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8056099,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8056114,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8056132,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8056129,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8056126,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8056123,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8056120,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8056117,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8056135,senado,Deputado Federal João Roma ,REPUBLICANOS,BA,deputado,204576
+140116,8056184,senado,Deputado Federal Coronel Chrisóstomo ,PSL,RO,deputado,204378
+140116,8056187,senado,Deputado Federal Coronel Chrisóstomo ,PSL,RO,deputado,204378
+140116,8056257,senado,Deputado Federal Zé Silva ,SOLIDARIEDADE,MG,deputado,160632
+140116,8056260,senado,Deputado Federal Zé Silva ,SOLIDARIEDADE,MG,deputado,160632
+140116,8056272,senado,Deputado Federal André Figueiredo ,PDT,CE,deputado,133439
+140116,8056275,senado,Deputado Federal André Figueiredo ,PDT,CE,deputado,133439
+140116,8056351,senado,Deputado Federal Nilto Tatto ,PT,SP,deputado,178986
+140116,8056363,senado,Deputado Federal Nilto Tatto ,PT,SP,deputado,178986
+140116,8056360,senado,Deputado Federal Nilto Tatto ,PT,SP,deputado,178986
+140116,8056357,senado,Deputado Federal Nilto Tatto ,PT,SP,deputado,178986
+140116,8056354,senado,Deputado Federal Nilto Tatto ,PT,SP,deputado,178986
+140116,8056390,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+140116,8056411,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+140116,8056408,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+140116,8056405,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+140116,8056402,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+140116,8056399,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+140116,8056396,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+140116,8056393,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+140116,8056534,senado,Deputado Federal Padre João ,PT,MG,deputado,160556
+140116,8056537,senado,Deputado Federal Padre João ,PT,MG,deputado,160556
+140116,8056540,senado,Deputado Federal Padre João ,PT,MG,deputado,160556
+140116,8056543,senado,Deputado Federal Padre João ,PT,MG,deputado,160556
+140116,8056546,senado,Deputado Federal Padre João ,PT,MG,deputado,160556
+140116,8056555,senado,Deputada Federal Jandira Feghali ,PCdoB,RJ,deputado,74848
+140116,8056558,senado,Deputada Federal Jandira Feghali ,PCdoB,RJ,deputado,74848
+140116,8056561,senado,Deputada Federal Jandira Feghali ,PCdoB,RJ,deputado,74848
+140116,8056564,senado,Deputada Federal Jandira Feghali ,PCdoB,RJ,deputado,74848
+140116,8056567,senado,Deputada Federal Jandira Feghali ,PCdoB,RJ,deputado,74848
+140116,8056570,senado,Deputada Federal Jandira Feghali ,PCdoB,RJ,deputado,74848
+140116,8056788,senado,Deputado Federal Arnaldo Jardim ,CIDADANIA,SP,deputado,141391
+140116,8056804,senado,Deputado Federal Eduardo Costa ,PTB,PA,deputado,204500
+140116,8056807,senado,Deputado Federal Eduardo Costa ,PTB,PA,deputado,204500
+140116,8056810,senado,Deputado Federal Eduardo Costa ,PTB,PA,deputado,204500
+140116,8056813,senado,Deputado Federal Eduardo Costa ,PTB,PA,deputado,204500
+140116,8056816,senado,Deputado Federal Eduardo Costa ,PTB,PA,deputado,204500
+140116,8056819,senado,Deputado Federal Eduardo Costa ,PTB,PA,deputado,204500
+140116,8056822,senado,Deputado Federal Eduardo Costa ,PTB,PA,deputado,204500
+140116,8056888,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056942,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056939,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056936,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056933,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056930,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056927,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056924,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056921,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056918,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056915,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056912,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056909,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056906,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056903,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056900,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056897,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056894,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056891,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056969,senado,Deputado Federal Luis Miranda ,DEM,DF,deputado,204381
+140116,8056972,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+140116,8056980,senado,Deputado Federal Heitor Schuch ,PSB,RS,deputado,178964
+140116,8056998,senado,Deputado Federal Heitor Schuch ,PSB,RS,deputado,178964
+140116,8056995,senado,Deputado Federal Heitor Schuch ,PSB,RS,deputado,178964
+140116,8056992,senado,Deputado Federal Heitor Schuch ,PSB,RS,deputado,178964
+140116,8056989,senado,Deputado Federal Heitor Schuch ,PSB,RS,deputado,178964
+140116,8056986,senado,Deputado Federal Heitor Schuch ,PSB,RS,deputado,178964
+140116,8056983,senado,Deputado Federal Heitor Schuch ,PSB,RS,deputado,178964
+140116,8057037,senado,Deputado Federal Daniel Almeida ,PCdoB,BA,deputado,74060
+140116,8057066,senado,Deputado Federal Daniel Almeida ,PCdoB,BA,deputado,74060
+140116,8057063,senado,Deputado Federal Daniel Almeida ,PCdoB,BA,deputado,74060
+140116,8057060,senado,Deputado Federal Daniel Almeida ,PCdoB,BA,deputado,74060
+140116,8057057,senado,Deputado Federal Daniel Almeida ,PCdoB,BA,deputado,74060
+140116,8057054,senado,Deputado Federal Daniel Almeida ,PCdoB,BA,deputado,74060
+140116,8057051,senado,Deputado Federal Daniel Almeida ,PCdoB,BA,deputado,74060
+140116,8057048,senado,Deputado Federal Daniel Almeida ,PCdoB,BA,deputado,74060
+140116,8057043,senado,Deputado Federal Daniel Almeida ,PCdoB,BA,deputado,74060
+140116,8057040,senado,Deputado Federal Daniel Almeida ,PCdoB,BA,deputado,74060
+140116,8057079,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8057100,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8057097,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8057094,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8057091,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8057088,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8057085,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8057082,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8057113,senado,Deputado Federal Camilo Capiberibe ,PSB,AP,deputado,204352
+140116,8057149,senado,Deputado Federal Camilo Capiberibe ,PSB,AP,deputado,204352
+140116,8057146,senado,Deputado Federal Camilo Capiberibe ,PSB,AP,deputado,204352
+140116,8057143,senado,Deputado Federal Camilo Capiberibe ,PSB,AP,deputado,204352
+140116,8057140,senado,Deputado Federal Camilo Capiberibe ,PSB,AP,deputado,204352
+140116,8057137,senado,Deputado Federal Camilo Capiberibe ,PSB,AP,deputado,204352
+140116,8057134,senado,Deputado Federal Camilo Capiberibe ,PSB,AP,deputado,204352
+140116,8057131,senado,Deputado Federal Camilo Capiberibe ,PSB,AP,deputado,204352
+140116,8057128,senado,Deputado Federal Camilo Capiberibe ,PSB,AP,deputado,204352
+140116,8057125,senado,Deputado Federal Camilo Capiberibe ,PSB,AP,deputado,204352
+140116,8057122,senado,Deputado Federal Camilo Capiberibe ,PSB,AP,deputado,204352
+140116,8057119,senado,Deputado Federal Camilo Capiberibe ,PSB,AP,deputado,204352
+140116,8057116,senado,Deputado Federal Camilo Capiberibe ,PSB,AP,deputado,204352
+140116,8057152,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057173,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057170,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057167,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057164,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057161,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057158,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057155,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057182,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057211,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057206,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057203,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057200,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057197,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057194,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057191,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057188,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057185,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8057228,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+140116,8057249,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+140116,8057246,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+140116,8057243,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+140116,8057240,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+140116,8057237,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+140116,8057234,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+140116,8057231,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+140116,8057294,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+140116,8057291,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+140116,8057288,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+140116,8057285,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+140116,8057282,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+140116,8057279,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+140116,8057276,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+140116,8057297,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+140116,8057302,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+140116,8057305,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+140116,8057308,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+140116,8057382,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140116,8057418,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140116,8057415,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140116,8057412,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140116,8057409,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140116,8057406,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140116,8057403,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140116,8057400,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140116,8057397,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140116,8057394,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140116,8057391,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140116,8057388,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140116,8057385,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+140116,8057421,senado,Deputado Federal Célio Moura ,PT,TO,deputado,204370
+140116,8057433,senado,Deputado Federal Célio Moura ,PT,TO,deputado,204370
+140116,8057430,senado,Deputado Federal Célio Moura ,PT,TO,deputado,204370
+140116,8057427,senado,Deputado Federal Célio Moura ,PT,TO,deputado,204370
+140116,8057424,senado,Deputado Federal Célio Moura ,PT,TO,deputado,204370
+140116,8057458,senado,Deputado Federal Túlio Gadêlha ,PDT,PE,deputado,157130
+140116,8057470,senado,Deputado Federal Túlio Gadêlha ,PDT,PE,deputado,157130
+140116,8057467,senado,Deputado Federal Túlio Gadêlha ,PDT,PE,deputado,157130
+140116,8057464,senado,Deputado Federal Túlio Gadêlha ,PDT,PE,deputado,157130
+140116,8057461,senado,Deputado Federal Túlio Gadêlha ,PDT,PE,deputado,157130
+140116,8057612,senado,Deputado Federal Rodrigo Agostinho ,PSB,SP,deputado,204530
+140116,8057648,senado,Deputado Federal Rodrigo Agostinho ,PSB,SP,deputado,204530
+140116,8057645,senado,Deputado Federal Rodrigo Agostinho ,PSB,SP,deputado,204530
+140116,8057642,senado,Deputado Federal Rodrigo Agostinho ,PSB,SP,deputado,204530
+140116,8057639,senado,Deputado Federal Rodrigo Agostinho ,PSB,SP,deputado,204530
+140116,8057636,senado,Deputado Federal Rodrigo Agostinho ,PSB,SP,deputado,204530
+140116,8057633,senado,Deputado Federal Rodrigo Agostinho ,PSB,SP,deputado,204530
+140116,8057630,senado,Deputado Federal Rodrigo Agostinho ,PSB,SP,deputado,204530
+140116,8057627,senado,Deputado Federal Rodrigo Agostinho ,PSB,SP,deputado,204530
+140116,8057624,senado,Deputado Federal Rodrigo Agostinho ,PSB,SP,deputado,204530
+140116,8057621,senado,Deputado Federal Rodrigo Agostinho ,PSB,SP,deputado,204530
+140116,8057618,senado,Deputado Federal Rodrigo Agostinho ,PSB,SP,deputado,204530
+140116,8057615,senado,Deputado Federal Rodrigo Agostinho ,PSB,SP,deputado,204530
+140116,8057563,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140116,8057601,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140116,8057596,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140116,8057593,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140116,8057590,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140116,8057587,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140116,8057584,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140116,8057581,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140116,8057578,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140116,8057575,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140116,8057572,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140116,8057569,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140116,8057566,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+140116,8057658,senado,Deputado Federal Vinicius Poit ,NOVO,SP,deputado,204532
+140116,8057671,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140116,8057707,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140116,8057704,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140116,8057701,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140116,8057698,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140116,8057695,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140116,8057692,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140116,8057689,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140116,8057686,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140116,8057683,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140116,8057680,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140116,8057677,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140116,8057674,senado,Deputada Federal Talíria Petrone ,PSOL,RJ,deputado,204464
+140116,8057738,senado,Deputado Federal Mauro Nazif ,PSB,RO,deputado,141508
+140116,8057741,senado,Deputado Federal Mauro Nazif ,PSB,RO,deputado,141508
+140116,8057761,senado,Deputado Federal Camilo Capiberibe ,PSB,AP,deputado,204352
+140116,8057777,senado,Deputado Federal Bira do Pindaré ,PSB,MA,deputado,204561
+140116,8057813,senado,Deputado Federal Bira do Pindaré ,PSB,MA,deputado,204561
+140116,8057810,senado,Deputado Federal Bira do Pindaré ,PSB,MA,deputado,204561
+140116,8057807,senado,Deputado Federal Bira do Pindaré ,PSB,MA,deputado,204561
+140116,8057804,senado,Deputado Federal Bira do Pindaré ,PSB,MA,deputado,204561
+140116,8057801,senado,Deputado Federal Bira do Pindaré ,PSB,MA,deputado,204561
+140116,8057798,senado,Deputado Federal Bira do Pindaré ,PSB,MA,deputado,204561
+140116,8057795,senado,Deputado Federal Bira do Pindaré ,PSB,MA,deputado,204561
+140116,8057792,senado,Deputado Federal Bira do Pindaré ,PSB,MA,deputado,204561
+140116,8057789,senado,Deputado Federal Bira do Pindaré ,PSB,MA,deputado,204561
+140116,8057786,senado,Deputado Federal Bira do Pindaré ,PSB,MA,deputado,204561
+140116,8057783,senado,Deputado Federal Bira do Pindaré ,PSB,MA,deputado,204561
+140116,8057780,senado,Deputado Federal Bira do Pindaré ,PSB,MA,deputado,204561
+140116,8057834,senado,Deputado Federal Renildo Calheiros ,PCdoB,PE,deputado,73801
+140116,8057852,senado,Deputado Federal Renildo Calheiros ,PCdoB,PE,deputado,73801
+140116,8057849,senado,Deputado Federal Renildo Calheiros ,PCdoB,PE,deputado,73801
+140116,8057846,senado,Deputado Federal Renildo Calheiros ,PCdoB,PE,deputado,73801
+140116,8057843,senado,Deputado Federal Renildo Calheiros ,PCdoB,PE,deputado,73801
+140116,8057840,senado,Deputado Federal Renildo Calheiros ,PCdoB,PE,deputado,73801
+140116,8057837,senado,Deputado Federal Renildo Calheiros ,PCdoB,PE,deputado,73801
+140116,8057859,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8057903,senado,Deputado Federal Newton Cardoso Jr ,MDB,MG,deputado,178896
+140116,8057915,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+140116,8057954,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+140116,8057951,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+140116,8057948,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+140116,8057945,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+140116,8057942,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+140116,8057939,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+140116,8057936,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+140116,8057933,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+140116,8057930,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+140116,8057927,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+140116,8057924,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+140116,8057921,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+140116,8057918,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+140116,8058012,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140116,8058045,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140116,8058042,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140116,8058039,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140116,8058036,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140116,8058033,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140116,8058030,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140116,8058027,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140116,8058024,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140116,8058021,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140116,8058018,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140116,8058015,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+140116,8058000,senado,Deputado Federal Daniel Coelho ,CIDADANIA,PE,deputado,178916
+140116,8058009,senado,Deputado Federal Daniel Coelho ,CIDADANIA,PE,deputado,178916
+140116,8058006,senado,Deputado Federal Daniel Coelho ,CIDADANIA,PE,deputado,178916
+140116,8058003,senado,Deputado Federal Daniel Coelho ,CIDADANIA,PE,deputado,178916
+140116,8058048,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140116,8058084,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140116,8058081,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140116,8058078,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140116,8058075,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140116,8058072,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140116,8058069,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140116,8058066,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140116,8058063,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140116,8058060,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140116,8058057,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140116,8058054,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140116,8058051,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+140116,8058087,senado,Deputado Federal Glauber Braga ,PSOL,RJ,deputado,152605
+140116,8058123,senado,Deputado Federal Glauber Braga ,PSOL,RJ,deputado,152605
+140116,8058120,senado,Deputado Federal Glauber Braga ,PSOL,RJ,deputado,152605
+140116,8058117,senado,Deputado Federal Glauber Braga ,PSOL,RJ,deputado,152605
+140116,8058114,senado,Deputado Federal Glauber Braga ,PSOL,RJ,deputado,152605
+140116,8058111,senado,Deputado Federal Glauber Braga ,PSOL,RJ,deputado,152605
+140116,8058108,senado,Deputado Federal Glauber Braga ,PSOL,RJ,deputado,152605
+140116,8058105,senado,Deputado Federal Glauber Braga ,PSOL,RJ,deputado,152605
+140116,8058102,senado,Deputado Federal Glauber Braga ,PSOL,RJ,deputado,152605
+140116,8058099,senado,Deputado Federal Glauber Braga ,PSOL,RJ,deputado,152605
+140116,8058096,senado,Deputado Federal Glauber Braga ,PSOL,RJ,deputado,152605
+140116,8058093,senado,Deputado Federal Glauber Braga ,PSOL,RJ,deputado,152605
+140116,8058090,senado,Deputado Federal Glauber Braga ,PSOL,RJ,deputado,152605
+140116,8058132,senado,Deputado Federal Vilson da Fetaemg ,PSB,MG,deputado,204483
+140116,8058159,senado,Deputado Federal Vilson da Fetaemg ,PSB,MG,deputado,204483
+140116,8058156,senado,Deputado Federal Vilson da Fetaemg ,PSB,MG,deputado,204483
+140116,8058153,senado,Deputado Federal Vilson da Fetaemg ,PSB,MG,deputado,204483
+140116,8058150,senado,Deputado Federal Vilson da Fetaemg ,PSB,MG,deputado,204483
+140116,8058147,senado,Deputado Federal Vilson da Fetaemg ,PSB,MG,deputado,204483
+140116,8058144,senado,Deputado Federal Vilson da Fetaemg ,PSB,MG,deputado,204483
+140116,8058141,senado,Deputado Federal Vilson da Fetaemg ,PSB,MG,deputado,204483
+140116,8058138,senado,Deputado Federal Vilson da Fetaemg ,PSB,MG,deputado,204483
+140116,8058135,senado,Deputado Federal Vilson da Fetaemg ,PSB,MG,deputado,204483
+140116,8058169,senado,Deputado Federal Orlando Silva ,PCdoB,SP,deputado,178987
+140116,8058196,senado,Deputado Federal Orlando Silva ,PCdoB,SP,deputado,178987
+140116,8058193,senado,Deputado Federal Orlando Silva ,PCdoB,SP,deputado,178987
+140116,8058190,senado,Deputado Federal Orlando Silva ,PCdoB,SP,deputado,178987
+140116,8058187,senado,Deputado Federal Orlando Silva ,PCdoB,SP,deputado,178987
+140116,8058184,senado,Deputado Federal Orlando Silva ,PCdoB,SP,deputado,178987
+140116,8058181,senado,Deputado Federal Orlando Silva ,PCdoB,SP,deputado,178987
+140116,8058178,senado,Deputado Federal Orlando Silva ,PCdoB,SP,deputado,178987
+140116,8058175,senado,Deputado Federal Orlando Silva ,PCdoB,SP,deputado,178987
+140116,8058172,senado,Deputado Federal Orlando Silva ,PCdoB,SP,deputado,178987
+140116,8058230,senado,Deputada Federal Tabata Amaral ,PDT,SP,deputado,204534
+140116,8058251,senado,Deputada Federal Tabata Amaral ,PDT,SP,deputado,204534
+140116,8058248,senado,Deputada Federal Tabata Amaral ,PDT,SP,deputado,204534
+140116,8058245,senado,Deputada Federal Tabata Amaral ,PDT,SP,deputado,204534
+140116,8058242,senado,Deputada Federal Tabata Amaral ,PDT,SP,deputado,204534
+140116,8058239,senado,Deputada Federal Tabata Amaral ,PDT,SP,deputado,204534
+140116,8058236,senado,Deputada Federal Tabata Amaral ,PDT,SP,deputado,204534
+140116,8058233,senado,Deputada Federal Tabata Amaral ,PDT,SP,deputado,204534
+140116,8058276,senado,Deputado Federal Coronel Chrisóstomo ,PSL,RO,deputado,204378
+140116,8058279,senado,Deputado Federal Coronel Chrisóstomo ,PSL,RO,deputado,204378
+140116,8058284,senado,Deputado Federal Sergio Vidigal ,PDT,ES,deputado,178874
+140116,8058287,senado,Deputado Federal Sergio Vidigal ,PDT,ES,deputado,178874
+140116,8058292,senado,Deputado Federal Bira do Pindaré ,PSB,MA,deputado,204561
+140116,8058295,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140116,8058331,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140116,8058328,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140116,8058325,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140116,8058322,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140116,8058319,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140116,8058316,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140116,8058313,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140116,8058310,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140116,8058307,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140116,8058304,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140116,8058301,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140116,8058298,senado,Deputado Federal Marcelo Freixo ,PSOL,RJ,deputado,76874
+140116,8058341,senado,Deputada Federal Professora Marcivania ,PCdoB,AP,deputado,160641
+140116,8058362,senado,Deputada Federal Professora Marcivania ,PCdoB,AP,deputado,160641
+140116,8058359,senado,Deputada Federal Professora Marcivania ,PCdoB,AP,deputado,160641
+140116,8058356,senado,Deputada Federal Professora Marcivania ,PCdoB,AP,deputado,160641
+140116,8058353,senado,Deputada Federal Professora Marcivania ,PCdoB,AP,deputado,160641
+140116,8058350,senado,Deputada Federal Professora Marcivania ,PCdoB,AP,deputado,160641
+140116,8058347,senado,Deputada Federal Professora Marcivania ,PCdoB,AP,deputado,160641
+140116,8058344,senado,Deputada Federal Professora Marcivania ,PCdoB,AP,deputado,160641
+140116,8058365,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+140116,8058401,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+140116,8058398,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+140116,8058395,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+140116,8058392,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+140116,8058389,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+140116,8058386,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+140116,8058383,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+140116,8058380,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+140116,8058377,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+140116,8058374,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+140116,8058371,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+140116,8058368,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+140116,8058404,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058455,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058452,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058449,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058446,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058443,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058440,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058437,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058434,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058431,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058428,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058425,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058422,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058419,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058416,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058413,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058410,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058407,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+140116,8058458,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8058467,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8058464,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8058461,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8058470,senado,Deputado Federal José Ricardo ,PT,AM,deputado,204555
+140116,8058491,senado,Deputado Federal José Ricardo ,PT,AM,deputado,204555
+140116,8058488,senado,Deputado Federal José Ricardo ,PT,AM,deputado,204555
+140116,8058485,senado,Deputado Federal José Ricardo ,PT,AM,deputado,204555
+140116,8058482,senado,Deputado Federal José Ricardo ,PT,AM,deputado,204555
+140116,8058479,senado,Deputado Federal José Ricardo ,PT,AM,deputado,204555
+140116,8058476,senado,Deputado Federal José Ricardo ,PT,AM,deputado,204555
+140116,8058473,senado,Deputado Federal José Ricardo ,PT,AM,deputado,204555
+140116,8058494,senado,Deputado Federal Roberto de Lucena ,PODEMOS,SP,deputado,160653
+140116,8058541,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+140116,8058559,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+140116,8058556,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+140116,8058553,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+140116,8058550,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+140116,8058547,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+140116,8058544,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+140116,8058565,senado,Deputado Federal Carlos Veras ,PT,PE,deputado,204426
+140116,8058592,senado,Deputado Federal Carlos Veras ,PT,PE,deputado,204426
+140116,8058589,senado,Deputado Federal Carlos Veras ,PT,PE,deputado,204426
+140116,8058586,senado,Deputado Federal Carlos Veras ,PT,PE,deputado,204426
+140116,8058583,senado,Deputado Federal Carlos Veras ,PT,PE,deputado,204426
+140116,8058580,senado,Deputado Federal Carlos Veras ,PT,PE,deputado,204426
+140116,8058577,senado,Deputado Federal Carlos Veras ,PT,PE,deputado,204426
+140116,8058574,senado,Deputado Federal Carlos Veras ,PT,PE,deputado,204426
+140116,8058571,senado,Deputado Federal Carlos Veras ,PT,PE,deputado,204426
+140116,8058568,senado,Deputado Federal Carlos Veras ,PT,PE,deputado,204426
+140116,8058595,senado,Deputado Federal Subtenente Gonzaga ,PDT,MG,deputado,177282
+140116,8058598,senado,Deputada Federal Celina Leão ,PP,DF,deputado,204380
+140116,8058601,senado,Deputado Federal Zé Silva ,SOLIDARIEDADE,MG,deputado,160632
+140116,8058604,senado,Deputada Federal Jaqueline Cassol ,PP,RO,deputado,108338
+140116,8058710,senado,Deputado Federal Zé Vitor ,PL,MG,deputado,204517
+140116,8058732,senado,Deputado Federal Dr. Leonardo ,SOLIDARIEDADE,MT,deputado,204439
+140116,8058735,senado,Deputado Federal Dr. Leonardo ,SOLIDARIEDADE,MT,deputado,204439
+140116,8058844,senado,Deputado Federal Célio Moura ,PT,TO,deputado,204370
+140116,8062738,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8062804,senado,Deputado Federal Lucio Mosquini ,MDB,RO,deputado,178954
+140116,8062028,senado,Deputado Federal Bira do Pindaré ,PSB,MA,deputado,204561
+140116,8062123,senado,Deputado Federal Luis Miranda ,DEM,DF,deputado,204381
+140116,8062126,senado,Deputado Federal Luis Miranda ,DEM,DF,deputado,204381
+140116,8062212,senado,Deputado Federal Zé Silva ,SOLIDARIEDADE,MG,deputado,160632
+140116,8074803,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+140116,8074993,senado,Deputado Federal Rogério Peninha Mendonça ,MDB,SC,deputado,160651
+140117,8058562,senado,Deputado Federal João H. Campos ,PSB,PE,deputado,204429
+140367,8061684,senado,Deputado Federal Hildo Rocha ,MDB,MA,deputado,178884
+140367,8061687,senado,Deputado Federal Hildo Rocha ,MDB,MA,deputado,178884
+140424,8061567,senado,Deputado Federal Sergio Vidigal ,PDT,ES,deputado,178874
+140424,8063913,senado,Deputado Federal Hercílio Coelho Diniz ,MDB,MG,deputado,204539
+140424,8063916,senado,Deputado Federal Hercílio Coelho Diniz ,MDB,MG,deputado,204539
+140424,8063919,senado,Deputado Federal Hercílio Coelho Diniz ,MDB,MG,deputado,204539
+140424,8063922,senado,Deputado Federal Hercílio Coelho Diniz ,MDB,MG,deputado,204539
+140424,8063925,senado,Deputado Federal Hercílio Coelho Diniz ,MDB,MG,deputado,204539
+140424,8063928,senado,Deputado Federal Hercílio Coelho Diniz ,MDB,MG,deputado,204539
+140424,8063931,senado,Deputado Federal Hercílio Coelho Diniz ,MDB,MG,deputado,204539
+140424,8063934,senado,Deputado Federal Hercílio Coelho Diniz ,MDB,MG,deputado,204539
+140424,8064382,senado,Deputado Federal Coronel Tadeu ,PSL,SP,deputado,204514
+143654,8869680,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+143654,8869701,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+143654,8869793,senado,Deputado Federal Wolney Queiroz ,PDT,PE,deputado,74439
+143654,8869796,senado,Deputado Federal Wolney Queiroz ,PDT,PE,deputado,74439
+143654,8870120,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+144365,8881929,senado,Deputado Federal Eduardo Barbosa ,PSDB,MG,deputado,74655
+144365,8881932,senado,Deputado Federal Eduardo Barbosa ,PSDB,MG,deputado,74655
+144365,8881977,senado,Deputado Federal Geninho Zuliani ,DEM,SP,deputado,204527
+144365,8882043,senado,Deputado Federal Rui Falcão ,PT,SP,deputado,73604
+144365,8882059,senado,Deputado Federal Mário Heringer ,PDT,MG,deputado,74158
+144365,8882062,senado,Deputado Federal Mário Heringer ,PDT,MG,deputado,74158
+144365,8882065,senado,Deputado Federal Mário Heringer ,PDT,MG,deputado,74158
+144365,8882135,senado,Deputado Federal Mário Heringer ,PDT,MG,deputado,74158
+144365,8882150,senado,Deputado Federal Mário Heringer ,PDT,MG,deputado,74158
+144365,8882147,senado,Deputado Federal Mário Heringer ,PDT,MG,deputado,74158
+144365,8882144,senado,Deputado Federal Mário Heringer ,PDT,MG,deputado,74158
+144365,8882141,senado,Deputado Federal Mário Heringer ,PDT,MG,deputado,74158
+144365,8882138,senado,Deputado Federal Mário Heringer ,PDT,MG,deputado,74158
+144365,8882639,senado,Deputado Federal Mauro Nazif ,PSB,RO,deputado,141508
+144365,8882645,senado,Deputado Federal Mauro Nazif ,PSB,RO,deputado,141508
+144365,8882642,senado,Deputado Federal Mauro Nazif ,PSB,RO,deputado,141508
+144365,8882957,senado,Deputado Federal Eduardo da Fonte ,PP,PE,deputado,141421
+144365,8882963,senado,Deputado Federal Milton Vieira ,REPUBLICANOS,SP,deputado,154178
+144365,8882969,senado,Deputado Federal Jesus Sérgio ,PDT,AC,deputado,204435
+144365,8882989,senado,Deputado Federal Jesus Sérgio ,PDT,AC,deputado,204435
+144365,8882995,senado,Deputado Federal Jesus Sérgio ,PDT,AC,deputado,204435
+144365,8882992,senado,Deputado Federal Jesus Sérgio ,PDT,AC,deputado,204435
+144365,8883001,senado,Deputado Federal Chiquinho Brazão ,AVANTE,RJ,deputado,204476
+144365,8883008,senado,Deputado Federal Denis Bezerra ,PSB,CE,deputado,204542
+144365,8883011,senado,Deputado Federal Denis Bezerra ,PSB,CE,deputado,204542
+144365,8883014,senado,Deputado Federal Paulo Teixeira ,PT,SP,deputado,141488
+144365,8883023,senado,Deputado Federal Paulo Teixeira ,PT,SP,deputado,141488
+144365,8883020,senado,Deputado Federal Paulo Teixeira ,PT,SP,deputado,141488
+144365,8883017,senado,Deputado Federal Paulo Teixeira ,PT,SP,deputado,141488
+144365,8883026,senado,Deputado Federal Professor Joziel ,PSL,RJ,deputado,204446
+144365,8883029,senado,Deputada Federal Jandira Feghali ,PCdoB,RJ,deputado,74848
+144365,8883032,senado,Deputado Federal Arnaldo Jardim ,CIDADANIA,SP,deputado,141391
+144365,8883071,senado,Deputado Federal Padre João ,PT,MG,deputado,160556
+144365,8883122,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883129,senado,Deputada Federal Benedita da Silva ,PT,RJ,deputado,73701
+144365,8883137,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8883142,senado,Deputado Federal Vinicius Poit ,NOVO,SP,deputado,204532
+144365,8883178,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883193,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883190,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883187,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883184,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883181,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883211,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8883224,senado,Deputado Federal Léo Moraes ,PODEMOS,RO,deputado,204359
+144365,8883233,senado,Deputado Federal Wolney Queiroz ,PDT,PE,deputado,74439
+144365,8883236,senado,Deputado Federal Paulo Teixeira ,PT,SP,deputado,141488
+144365,8883245,senado,Deputado Federal Paulo Teixeira ,PT,SP,deputado,141488
+144365,8883242,senado,Deputado Federal Paulo Teixeira ,PT,SP,deputado,141488
+144365,8883239,senado,Deputado Federal Paulo Teixeira ,PT,SP,deputado,141488
+144365,8883253,senado,Deputado Federal Paulo Teixeira ,PT,SP,deputado,141488
+144365,8883278,senado,Deputado Federal Padre João ,PT,MG,deputado,160556
+144365,8883281,senado,Deputado Federal Geninho Zuliani ,DEM,SP,deputado,204527
+144365,8883287,senado,Deputado Federal Sergio Vidigal ,PDT,ES,deputado,178874
+144365,8883290,senado,Deputado Federal Felipe Rigoni ,PSB,ES,deputado,204371
+144365,8883293,senado,Deputado Federal Felipe Rigoni ,PSB,ES,deputado,204371
+144365,8883297,senado,Deputado Federal Geninho Zuliani ,DEM,SP,deputado,204527
+144365,8883303,senado,Deputado Federal Geninho Zuliani ,DEM,SP,deputado,204527
+144365,8883300,senado,Deputado Federal Geninho Zuliani ,DEM,SP,deputado,204527
+144365,8883324,senado,Deputado Federal Paulo Teixeira ,PT,SP,deputado,141488
+144365,8883327,senado,Deputado Federal Mário Heringer ,PDT,MG,deputado,74158
+144365,8883338,senado,Deputado Federal Fausto Pinato ,PP,SP,deputado,66828
+144365,8883341,senado,Deputada Federal Major Fabiana ,PSL,RJ,deputado,204458
+144365,8883346,senado,Deputado Federal Paulo Teixeira ,PT,SP,deputado,141488
+144365,8883349,senado,Deputado Federal Paulo Teixeira ,PT,SP,deputado,141488
+144365,8883353,senado,Deputado Federal Carlos Zarattini ,PT,SP,deputado,141398
+144365,8883356,senado,Deputado Federal Santini ,PTB,RS,deputado,90842
+144365,8883359,senado,Deputado Federal Geninho Zuliani ,DEM,SP,deputado,204527
+144365,8883364,senado,Deputado Federal Felipe Rigoni ,PSB,ES,deputado,204371
+144365,8883369,senado,Deputado Federal Subtenente Gonzaga ,PDT,MG,deputado,177282
+144365,8883392,senado,Deputado Federal Eduardo da Fonte ,PP,PE,deputado,141421
+144365,8883396,senado,Deputado Federal Gil Cutrim ,PDT,MA,deputado,204575
+144365,8883400,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8883412,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8883409,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8883406,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8883403,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8883417,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8883447,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8883444,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8883441,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8883438,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8883435,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8883432,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8883429,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8883426,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8883423,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8883420,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8883450,senado,Deputada Federal Rejane Dias ,PT,PI,deputado,178925
+144365,8883459,senado,Deputada Federal Rejane Dias ,PT,PI,deputado,178925
+144365,8883456,senado,Deputada Federal Rejane Dias ,PT,PI,deputado,178925
+144365,8883453,senado,Deputada Federal Rejane Dias ,PT,PI,deputado,178925
+144365,8883462,senado,Deputado Federal Gil Cutrim ,PDT,MA,deputado,204575
+144365,8883465,senado,Deputado Federal João Carlos Bacelar ,PL,BA,deputado,74131
+144365,8883465,senado,Deputado Federal João Carlos Bacelar ,PL,BA,deputado,141458
+144365,8883477,senado,Deputado Federal Geninho Zuliani ,DEM,SP,deputado,204527
+144365,8883480,senado,Deputado Federal Geninho Zuliani ,DEM,SP,deputado,204527
+144365,8883483,senado,Deputada Federal Adriana Ventura ,NOVO,SP,deputado,204528
+144365,8883492,senado,Deputada Federal Adriana Ventura ,NOVO,SP,deputado,204528
+144365,8883489,senado,Deputada Federal Adriana Ventura ,NOVO,SP,deputado,204528
+144365,8883486,senado,Deputada Federal Adriana Ventura ,NOVO,SP,deputado,204528
+144365,8883495,senado,Deputada Federal Rejane Dias ,PT,PI,deputado,178925
+144365,8883501,senado,Deputada Federal Shéridan ,PSDB,RR,deputado,178961
+144365,8883498,senado,Deputado Federal André Figueiredo ,PDT,CE,deputado,133439
+144365,8883507,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+144365,8883537,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+144365,8883534,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+144365,8883531,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+144365,8883528,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+144365,8883525,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+144365,8883522,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+144365,8883519,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+144365,8883516,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+144365,8883513,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+144365,8883510,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+144365,8883540,senado,Deputado Federal Danilo Cabral ,PSB,PE,deputado,160528
+144365,8883558,senado,Deputado Federal Danilo Cabral ,PSB,PE,deputado,160528
+144365,8883555,senado,Deputado Federal Danilo Cabral ,PSB,PE,deputado,160528
+144365,8883552,senado,Deputado Federal Danilo Cabral ,PSB,PE,deputado,160528
+144365,8883549,senado,Deputado Federal Danilo Cabral ,PSB,PE,deputado,160528
+144365,8883546,senado,Deputado Federal Danilo Cabral ,PSB,PE,deputado,160528
+144365,8883543,senado,Deputado Federal Danilo Cabral ,PSB,PE,deputado,160528
+144365,8883561,senado,Deputado Federal Rodrigo de Castro ,PSDB,MG,deputado,141531
+144365,8883564,senado,Deputado Federal Rodrigo de Castro ,PSDB,MG,deputado,141531
+144365,8883576,senado,Deputado Federal Padre João ,PT,MG,deputado,160556
+144365,8883579,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+144365,8883585,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+144365,8883582,senado,Deputada Federal Fernanda Melchionna ,PSOL,RS,deputado,204407
+144365,8883588,senado,Deputado Federal Zé Neto ,PT,BA,deputado,204559
+144365,8883591,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8883609,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8883606,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8883603,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8883600,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8883597,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8883594,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8883612,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883627,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883624,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883621,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883618,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883615,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883630,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+144365,8883633,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883639,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+144365,8883672,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+144365,8883669,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+144365,8883666,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+144365,8883663,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+144365,8883660,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+144365,8883657,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+144365,8883654,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+144365,8883651,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+144365,8883648,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+144365,8883645,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+144365,8883642,senado,Deputado Federal Valmir Assunção ,PT,BA,deputado,160610
+144365,8883675,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883693,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883690,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883687,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883684,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883681,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883678,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8883696,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883717,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883714,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883711,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883708,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883705,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883702,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883699,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883720,senado,Deputado Federal Fausto Pinato ,PP,SP,deputado,66828
+144365,8883737,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883754,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883751,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883748,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883745,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883742,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883757,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+144365,8883849,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883870,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883867,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883864,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883861,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883858,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883855,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883852,senado,Deputado Federal Cezinha de Madureira ,PSD,SP,deputado,204504
+144365,8883875,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+144365,8883905,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+144365,8883902,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+144365,8883899,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+144365,8883896,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+144365,8883893,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+144365,8883890,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+144365,8883887,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+144365,8883884,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+144365,8883881,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+144365,8883878,senado,Deputada Federal Alice Portugal ,PCdoB,BA,deputado,74057
+144365,8883908,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+144365,8883913,senado,Deputado Federal Vanderlei Macris ,PSDB,SP,deputado,141553
+144365,8883920,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+144365,8883933,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+144365,8883930,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+144365,8883927,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+144365,8883924,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+144365,8883936,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8883945,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8883942,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8883939,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8883949,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8883952,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8883957,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8883966,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8883963,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8883960,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8883969,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+144365,8883972,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+144365,8883975,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+144365,8883978,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8883984,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8883981,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8884026,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8884035,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8884032,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8884029,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8884038,senado,Deputado Federal Pedro Uczai ,PT,SC,deputado,160604
+144365,8884068,senado,Deputado Federal Pedro Uczai ,PT,SC,deputado,160604
+144365,8884065,senado,Deputado Federal Pedro Uczai ,PT,SC,deputado,160604
+144365,8884062,senado,Deputado Federal Pedro Uczai ,PT,SC,deputado,160604
+144365,8884059,senado,Deputado Federal Pedro Uczai ,PT,SC,deputado,160604
+144365,8884056,senado,Deputado Federal Pedro Uczai ,PT,SC,deputado,160604
+144365,8884053,senado,Deputado Federal Pedro Uczai ,PT,SC,deputado,160604
+144365,8884050,senado,Deputado Federal Pedro Uczai ,PT,SC,deputado,160604
+144365,8884072,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+144365,8884075,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+144365,8884081,senado,Deputada Federal Natália Bonavides ,PT,RN,deputado,204453
+144365,8884084,senado,Deputada Federal Natália Bonavides ,PT,RN,deputado,204453
+144365,8884087,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8884090,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8884095,senado,Deputado Federal Edmilson Rodrigues ,PSOL,PA,deputado,134812
+144365,8884098,senado,Deputado Federal Túlio Gadêlha ,PDT,PE,deputado,157130
+144365,8884101,senado,Deputado Federal Christino Aureo ,PP,RJ,deputado,204440
+144365,8884112,senado,Deputada Federal Luiza Erundina ,PSOL,SP,deputado,74784
+144365,8884125,senado,Deputado Federal Celso Sabino ,PSDB,PA,deputado,204496
+144365,8884122,senado,Deputado Federal Celso Sabino ,PSDB,PA,deputado,204496
+144365,8884116,senado,Deputado Federal Christino Aureo ,PP,RJ,deputado,204440
+144365,8884119,senado,Deputado Federal Christino Aureo ,PP,RJ,deputado,204440
+144365,8884133,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884154,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884151,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884148,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884145,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884142,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884139,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884136,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884167,senado,Deputado Federal Celso Sabino ,PSDB,PA,deputado,204496
+144365,8884179,senado,Deputado Federal Celso Sabino ,PSDB,PA,deputado,204496
+144365,8884176,senado,Deputado Federal Celso Sabino ,PSDB,PA,deputado,204496
+144365,8884173,senado,Deputado Federal Celso Sabino ,PSDB,PA,deputado,204496
+144365,8884170,senado,Deputado Federal Celso Sabino ,PSDB,PA,deputado,204496
+144365,8884184,senado,Deputado Federal Pedro Uczai ,PT,SC,deputado,160604
+144365,8884196,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+144365,8884199,senado,Deputado Federal Christino Aureo ,PP,RJ,deputado,204440
+144365,8884202,senado,Deputado Federal Christino Aureo ,PP,RJ,deputado,204440
+144365,8884226,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884274,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884271,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884268,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884265,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884262,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884259,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884256,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884253,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884250,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884247,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884244,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884241,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884238,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884235,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884232,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884229,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884205,senado,Deputado Federal José Ricardo ,PT,AM,deputado,204555
+144365,8884223,senado,Deputado Federal José Ricardo ,PT,AM,deputado,204555
+144365,8884220,senado,Deputado Federal José Ricardo ,PT,AM,deputado,204555
+144365,8884217,senado,Deputado Federal José Ricardo ,PT,AM,deputado,204555
+144365,8884214,senado,Deputado Federal José Ricardo ,PT,AM,deputado,204555
+144365,8884211,senado,Deputado Federal José Ricardo ,PT,AM,deputado,204555
+144365,8884208,senado,Deputado Federal José Ricardo ,PT,AM,deputado,204555
+144365,8884277,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8884295,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8884292,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8884289,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8884286,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8884283,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8884280,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8884298,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+144365,8884301,senado,Deputado Federal Ivan Valente ,PSOL,SP,deputado,73531
+144365,8884304,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884337,senado,Deputada Federal Soraya Santos ,PL,RJ,deputado,178946
+144365,8884307,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8884310,senado,Deputado Federal Pedro Uczai ,PT,SC,deputado,160604
+144365,8884316,senado,Deputado Federal Pedro Uczai ,PT,SC,deputado,160604
+144365,8884319,senado,Deputado Federal Christino Aureo ,PP,RJ,deputado,204440
+144365,8884325,senado,Deputado Federal Christino Aureo ,PP,RJ,deputado,204440
+144365,8884322,senado,Deputado Federal Christino Aureo ,PP,RJ,deputado,204440
+144365,8884328,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+144365,8884334,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+144365,8884331,senado,Deputado Federal Jose Mario Schreiner ,DEM,GO,deputado,204386
+144365,8884340,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+144365,8884343,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8884346,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8884352,senado,Deputado Federal Enio Verri ,PT,PR,deputado,132504
+144365,8884355,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8884358,senado,Deputado Federal Frei Anastacio Ribeiro ,PT,PB,deputado,204393
+144365,8884379,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8884388,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8884385,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8884382,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8884391,senado,Deputada Federal Tabata Amaral ,PDT,SP,deputado,204534
+144365,8884394,senado,Deputada Federal Tabata Amaral ,PDT,SP,deputado,204534
+144365,8884397,senado,Deputada Federal Tabata Amaral ,PDT,SP,deputado,204534
+144365,8884400,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8884403,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8884406,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8884415,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8884412,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8884409,senado,Deputado Federal Patrus Ananias ,PT,MG,deputado,74160
+144365,8884418,senado,Deputado Federal Merlong Solano ,PT,PI,deputado,188097
+144365,8884421,senado,Deputado Federal Merlong Solano ,PT,PI,deputado,188097
+144365,8884424,senado,Deputado Federal Merlong Solano ,PT,PI,deputado,188097
+144365,8884428,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+144365,8884433,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+144365,8884436,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+144365,8884445,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+144365,8884442,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+144365,8884439,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+144365,8884448,senado,Deputado Federal Merlong Solano ,PT,PI,deputado,188097
+144365,8884451,senado,Deputado Federal Helder Salomão ,PT,ES,deputado,178873
+144365,8884498,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+144365,8884502,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+144365,8884492,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+144365,8884495,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+144365,8884505,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+144365,8884513,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+144365,8884510,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+144365,8884516,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+144365,8884528,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+144365,8884525,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+144365,8884522,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+144365,8884519,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+144365,8884531,senado,Deputada Federal Erika Kokay ,PT,DF,deputado,160575
+144365,8884540,senado,Deputada Federal Erika Kokay ,PT,DF,deputado,160575
+144365,8884537,senado,Deputada Federal Erika Kokay ,PT,DF,deputado,160575
+144365,8884534,senado,Deputada Federal Erika Kokay ,PT,DF,deputado,160575
+144365,8884543,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+144365,8884567,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+144365,8884564,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+144365,8884561,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+144365,8884558,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+144365,8884555,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+144365,8884552,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+144365,8884549,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+144365,8884546,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+144365,8884570,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+144365,8884603,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+144365,8884600,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+144365,8884597,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+144365,8884594,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+144365,8884591,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+144365,8884588,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+144365,8884585,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+144365,8884582,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+144365,8884579,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+144365,8884576,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+144365,8884573,senado,Deputado Federal David Miranda ,PSOL,RJ,deputado,205548
+144365,8884606,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+144365,8884630,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+144365,8884627,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+144365,8884624,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+144365,8884621,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+144365,8884618,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+144365,8884615,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+144365,8884612,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+144365,8884609,senado,Deputada Federal Sâmia Bomfim ,PSOL,SP,deputado,204535
+144365,8884633,senado,Deputado Federal Fausto Pinato ,PP,SP,deputado,66828
+144365,8884642,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+144365,8884651,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+144365,8884648,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+144365,8884645,senado,Deputada Federal Áurea Carolina ,PSOL,MG,deputado,204509
+144365,8884636,senado,Deputada Federal Natália Bonavides ,PT,RN,deputado,204453
+144365,8884639,senado,Deputada Federal Natália Bonavides ,PT,RN,deputado,204453
+144365,8884654,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+144365,8884657,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+144365,8884661,senado,Deputada Federal Erika Kokay ,PT,DF,deputado,160575
+144365,8884664,senado,Deputada Federal Erika Kokay ,PT,DF,deputado,160575
+144365,8884667,senado,Deputado Federal Airton Faleiro ,PT,PA,deputado,204495
+144365,8884673,senado,Deputada Federal Erika Kokay ,PT,DF,deputado,160575
+144365,8884676,senado,Deputada Federal Erika Kokay ,PT,DF,deputado,160575
+144365,8884687,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884720,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884717,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884714,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884711,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884708,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884705,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884702,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884699,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884696,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884693,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884690,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884735,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884777,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884774,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884771,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884768,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884765,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884762,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884759,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884756,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884753,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884750,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884747,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884744,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884741,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884738,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884723,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884732,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884729,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884726,senado,Deputado Federal Zé Carlos ,PT,MA,deputado,178889
+144365,8884780,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884792,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884789,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884786,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884783,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884795,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884804,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884801,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884798,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884807,senado,Deputado Federal Zé Neto ,PT,BA,deputado,204559
+144365,8884828,senado,Deputado Federal Zé Neto ,PT,BA,deputado,204559
+144365,8884825,senado,Deputado Federal Zé Neto ,PT,BA,deputado,204559
+144365,8884822,senado,Deputado Federal Zé Neto ,PT,BA,deputado,204559
+144365,8884819,senado,Deputado Federal Zé Neto ,PT,BA,deputado,204559
+144365,8884816,senado,Deputado Federal Zé Neto ,PT,BA,deputado,204559
+144365,8884813,senado,Deputado Federal Zé Neto ,PT,BA,deputado,204559
+144365,8884810,senado,Deputado Federal Zé Neto ,PT,BA,deputado,204559
+144365,8884831,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884849,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884846,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884843,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884840,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884837,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884834,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884852,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8884864,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8884861,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8884858,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8884855,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8884867,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884870,senado,Deputado Federal Marcon ,PT,RS,deputado,160535
+144365,8884873,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8884879,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
+144365,8884876,senado,Deputado Federal João Daniel ,PT,SE,deputado,178970
