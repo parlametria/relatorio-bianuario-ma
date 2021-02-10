@@ -5,6 +5,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 010f108d87169e77e6d08336510fdcac,178986,Dep. Nilto Tatto,PT,SP,oposição,camara,Dep. Nilto Tatto (PT/SP),1,1178986
 012e75f023ca113fee1251c10c706f8c,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 012e75f023ca113fee1251c10c706f8c,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),1,1204494
+0173dd266d3674d4493fe0b02f14dabf,204538,Dep. Paulo Bengtson,PTB,PA,governo,camara,Dep. Paulo Bengtson (PTB/PA),1,1204538
 01ba8d31d5ea4a3e0eb642761b6e9d80,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 01c04d6284a833b4f7e9842c9a9c5b8c,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 01c3291306586541b3164eaede8d2af1,160535,Dep. Marcon,PT,RS,oposição,camara,Dep. Marcon (PT/RS),0.875,1160535
@@ -16,6 +17,10 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 01c3291306586541b3164eaede8d2af1,74160,Dep. Patrus Ananias,PT,MG,oposição,camara,Dep. Patrus Ananias (PT/MG),0.875,174160
 01c3291306586541b3164eaede8d2af1,204495,Dep. Airton Faleiro,PT,PA,oposição,camara,Dep. Airton Faleiro (PT/PA),0.875,1204495
 01ea98edfa16ee97ada6ca6056a75f0a,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
+028492f72874907250d0505ce7b0bf2b,146307,Dep. Neri Geller,PP,MT,governo,camara,Dep. Neri Geller (PP/MT),2,1146307
+028492f72874907250d0505ce7b0bf2b,160665,Dep. Augusto Coutinho,SOLIDARIEDADE,PE,governo,camara,Dep. Augusto Coutinho (SOLIDARIEDADE/PE),2,1160665
+028492f72874907250d0505ce7b0bf2b,178933,Dep. Sergio Souza,MDB,PR,governo,camara,Dep. Sergio Souza (MDB/PR),4,1178933
+028492f72874907250d0505ce7b0bf2b,204439,Dep. Dr. Leonardo,SOLIDARIEDADE,MT,governo,camara,Dep. Dr. Leonardo (SOLIDARIEDADE/MT),2,1204439
 02e93380e62a7f22a31325eb7c2f6412,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 02eabdfe6de5c71af7fea09a7bf5b29c,74400,Dep. Paulo Pimenta,PT,RS,oposição,camara,Dep. Paulo Pimenta (PT/RS),1,174400
 0394d43a5340e23fee411e2dd5bf1e6a,204395,Dep. Pedro Lupion,DEM,PR,governo,camara,Dep. Pedro Lupion (DEM/PR),1,1204395
@@ -23,6 +28,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 03a334e664203d1f5f1fed64b52c8cce,5523,Sen. Otto Alencar,PSD,BA,governo,senado,Sen. Otto Alencar (PSD/BA),1,25523
 03a334e664203d1f5f1fed64b52c8cce,5533,Sen. Lasier Martins,PODEMOS,RS,governo,senado,Sen. Lasier Martins (PODEMOS/RS),1,25533
 03add855a077b65239656dae6c9ef587,73486,Dep. Pompeo De Mattos,PDT,RS,oposição,camara,Dep. Pompeo De Mattos (PDT/RS),1,173486
+03d2b390f50c1d41868f76ea03eec333,204468,Dep. Joenia Wapichana,REDE,RR,oposição,camara,Dep. Joenia Wapichana (REDE/RR),1,1204468
 03e997b90894385f11a430f4ff3cf553,204512,Dep. Delegado Marcelo Freitas,PSL,MG,governo,camara,Dep. Delegado Marcelo Freitas (PSL/MG),1,1204512
 045dac0441aa55b94d3c98c71bfd99a7,178993,Dep. Carlos Henrique Gaguim,DEM,TO,governo,camara,Dep. Carlos Henrique Gaguim (DEM/TO),1,1178993
 0499307899321790b1a9f3ca31d87f6f,204544,Dep. Alexandre Frota,PSL,SP,governo,camara,Dep. Alexandre Frota (PSL/SP),1,1204544
@@ -91,7 +97,6 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 0d283a482121fe5265a344532cd49b77,74585,Dep. Lincoln Portela,PL,MG,governo,camara,Dep. Lincoln Portela (PL/MG),1,174585
 0d4b2dc033002af39e7e4c2051f3c5d8,141470,Dep. José Guimarães,PT,CE,oposição,camara,Dep. José Guimarães (PT/CE),1,1141470
 0d777e42938dce5b33f10d60540d1e7c,204403,Dep. Marlon Santos,PDT,RS,oposição,camara,Dep. Marlon Santos (PDT/RS),1,1204403
-0d9474c890a194c8db2e4cf4aadfec9a,4994,Sen. Eduardo Braga,MDB,AM,governo,senado,Sen. Eduardo Braga (MDB/AM),3,24994
 0da5442954fdb33db5d136c638ce08ad,133968,Dep. Paulo Ramos,PDT,RJ,oposição,camara,Dep. Paulo Ramos (PDT/RJ),1,1133968
 0de26d5b31073271d9c99a64184f9501,72442,Dep. Felipe Carreras,PSB,PE,oposição,camara,Dep. Felipe Carreras (PSB/PE),1,172442
 0e44c1f66bb56752973625e921f23b0f,90201,Dep. Pedro Augusto Bezerra,PTB,CE,governo,camara,Dep. Pedro Augusto Bezerra (PTB/CE),1,190201
@@ -130,13 +135,14 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 14b3eab274470d37095bb3f204c54be1,204400,Dep. Aline Sleutjes,PSL,PR,governo,camara,Dep. Aline Sleutjes (PSL/PR),1,1204400
 14b3eab274470d37095bb3f204c54be1,204524,Dep. Pinheirinho,PP,MG,governo,camara,Dep. Pinheirinho (PP/MG),2,1204524
 14b876b3f66dc82bcbe80d64390f7a88,141411,Dep. Dagoberto Nogueira,PDT,MS,oposição,camara,Dep. Dagoberto Nogueira (PDT/MS),3,1141411
+14c2ed720bbddf495efdaf3ad23cc78d,204449,Dep. Nelson Barbudo,PSL,MT,governo,camara,Dep. Nelson Barbudo (PSL/MT),1,1204449
 14ce89d9d7b5a3e4d64552ff9eb541d6,204566,Dep. Marreca Filho,PATRIOTA,MA,governo,camara,Dep. Marreca Filho (PATRIOTA/MA),1,1204566
 1500badc155ea18ae6494b247a96c52f,4531,Sen. Jayme Campos,DEM,MT,governo,senado,Sen. Jayme Campos (DEM/MT),1,24531
-1500badc155ea18ae6494b247a96c52f,5529,Sen. Antonio Anastasia,PSD,MG,governo,senado,Sen. Antonio Anastasia (PSD/MG),1,25529
+1500badc155ea18ae6494b247a96c52f,5529,Sen. Antonio Anastasia,PSDB,MG,governo,senado,Sen. Antonio Anastasia (PSDB/MG),1,25529
 1500badc155ea18ae6494b247a96c52f,5535,Sen. Telmário Mota,PROS,RR,governo,senado,Sen. Telmário Mota (PROS/RR),1,25535
 150d97a9d33b8b7eac9796179c325721,134812,Dep. Edmilson Rodrigues,PSOL,PA,oposição,camara,Dep. Edmilson Rodrigues (PSOL/PA),1,1134812
 15a86f2c1f06a7ed346e413e22d922b4,5523,Sen. Otto Alencar,PSD,BA,governo,senado,Sen. Otto Alencar (PSD/BA),2,25523
-15a86f2c1f06a7ed346e413e22d922b4,5529,Sen. Antonio Anastasia,PSD,MG,governo,senado,Sen. Antonio Anastasia (PSD/MG),1,25529
+15a86f2c1f06a7ed346e413e22d922b4,5529,Sen. Antonio Anastasia,PSDB,MG,governo,senado,Sen. Antonio Anastasia (PSDB/MG),1,25529
 15a86f2c1f06a7ed346e413e22d922b4,5533,Sen. Lasier Martins,PODEMOS,RS,governo,senado,Sen. Lasier Martins (PODEMOS/RS),1,25533
 15a86f2c1f06a7ed346e413e22d922b4,5748,Sen. Veneziano Vital do Rêgo,PSB,PB,oposição,senado,Sen. Veneziano Vital do Rêgo (PSB/PB),1,25748
 15ca3093ce9b8e88a41e215985f16b9e,178863,Dep. Uldurico Junior,PROS,BA,governo,camara,Dep. Uldurico Junior (PROS/BA),1,1178863
@@ -150,6 +156,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 15dbe4328ddcbb677a040a03a4ffbc90,204540,Dep. Maria Rosas,PRB,SP,governo,camara,Dep. Maria Rosas (PRB/SP),1,1204540
 15f8c4a5440db567561904f25a31086c,74585,Dep. Lincoln Portela,PL,MG,governo,camara,Dep. Lincoln Portela (PL/MG),1,174585
 162063385d8d75aa905e6efb0a53a975,35,Sen. Jader Barbalho,MDB,PA,governo,senado,Sen. Jader Barbalho (MDB/PA),1,235
+164b0381e3276f2292996830e1a05cc5,205865,Dep. Reinhold Stephanes Junior,PSD,PR,governo,camara,Dep. Reinhold Stephanes Junior (PSD/PR),1,1205865
 1716fdf59ce6d94534bc34126325c60c,160570,Dep. Jerônimo Goergen,PP,RS,governo,camara,Dep. Jerônimo Goergen (PP/RS),1,1160570
 174918a8ca09646dac9b3129465fa44c,2331,Sen. Rose de Freitas,PODEMOS,ES,governo,senado,Sen. Rose de Freitas (PODEMOS/ES),1,22331
 174918a8ca09646dac9b3129465fa44c,475,Sen. Confúcio Moura,MDB,RO,governo,senado,Sen. Confúcio Moura (MDB/RO),1,2475
@@ -181,6 +188,107 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 1af6e2ed55ca8d11d72977bbfab3adc6,204356,Dep. Amaro Neto,PRB,ES,governo,camara,Dep. Amaro Neto (PRB/ES),1,1204356
 1af82e91b2c98778f90d7cf2ce4220e1,4560,Sen. Sérgio Petecão,PSD,AC,governo,senado,Sen. Sérgio Petecão (PSD/AC),1,24560
 1b67774eb0f3207270bd416f90a42966,204497,Dep. Júnior Ferrari,PSD,PA,governo,camara,Dep. Júnior Ferrari (PSD/PA),1,1204497
+1bc2466959107dd5a13fd523afd2ffa3,108338,Dep. Jaqueline Cassol,PP,RO,governo,camara,Dep. Jaqueline Cassol (PP/RO),0.75,1108338
+1bc2466959107dd5a13fd523afd2ffa3,132504,Dep. Enio Verri,PT,,oposição,camara,Dep. Enio Verri (PT/-),33.523809523809526,1132504
+1bc2466959107dd5a13fd523afd2ffa3,160511,Dep. Alessandro Molon,PSB,RJ,oposição,camara,Dep. Alessandro Molon (PSB/RJ),5.273809523809524,1160511
+1bc2466959107dd5a13fd523afd2ffa3,160575,Dep. Erika Kokay,PT,DF,oposição,camara,Dep. Erika Kokay (PT/DF),8.857142857142858,1160575
+1bc2466959107dd5a13fd523afd2ffa3,160587,Dep. Fábio Trad,PSD,MS,governo,camara,Dep. Fábio Trad (PSD/MS),0.75,1160587
+1bc2466959107dd5a13fd523afd2ffa3,160666,Dep. Félix Mendonça Júnior,PDT,BA,oposição,camara,Dep. Félix Mendonça Júnior (PDT/BA),0.8571428571428571,1160666
+1bc2466959107dd5a13fd523afd2ffa3,178836,Dep. Alan Rick,DEM,AC,governo,camara,Dep. Alan Rick (DEM/AC),0.75,1178836
+1bc2466959107dd5a13fd523afd2ffa3,178986,Dep. Nilto Tatto,PT,SP,oposição,camara,Dep. Nilto Tatto (PT/SP),0.8333333333333333,1178986
+1bc2466959107dd5a13fd523afd2ffa3,204352,Dep. Camilo Capiberibe,PSB,AP,oposição,camara,Dep. Camilo Capiberibe (PSB/AP),0.857142857142857,1204352
+1bc2466959107dd5a13fd523afd2ffa3,204436,Dep. Isnaldo Bulhões Jr.,MDB,AL,governo,camara,Dep. Isnaldo Bulhões Jr. (MDB/AL),8,1204436
+1bc2466959107dd5a13fd523afd2ffa3,204467,Dep. Professora Rosa Neide,PT,MT,oposição,camara,Dep. Professora Rosa Neide (PT/MT),1,1204467
+1bc2466959107dd5a13fd523afd2ffa3,204556,Dep. Marcelo Ramos,PL,AM,governo,camara,Dep. Marcelo Ramos (PL/AM),1,1204556
+1bc2466959107dd5a13fd523afd2ffa3,73943,Dep. Perpétua Almeida,PCdoB,AC,oposição,camara,Dep. Perpétua Almeida (PCdoB/AC),0.8333333333333333,173943
+1bc2466959107dd5a13fd523afd2ffa3,74262,Dep. Carlos Sampaio,PSDB,SP,governo,camara,Dep. Carlos Sampaio (PSDB/SP),0.75,174262
+1bc2466959107dd5a13fd523afd2ffa3,74439,Dep. Wolney Queiroz,PDT,PE,oposição,camara,Dep. Wolney Queiroz (PDT/PE),6.357142857142858,174439
+1bc2466959107dd5a13fd523afd2ffa3,74655,Dep. Eduardo Barbosa,PSDB,MG,governo,camara,Dep. Eduardo Barbosa (PSDB/MG),2.75,174655
+1bc2466959107dd5a13fd523afd2ffa3,1023,Sen. Maria do Carmo Alves,DEM,SE,governo,senado,Sen. Maria do Carmo Alves (DEM/SE),1,21023
+1bc2466959107dd5a13fd523afd2ffa3,1249,Sen. Kátia Abreu,PP,TO,governo,senado,Sen. Kátia Abreu (PP/TO),1,21249
+1bc2466959107dd5a13fd523afd2ffa3,133439,Dep. André Figueiredo,PDT,CE,oposição,camara,Dep. André Figueiredo (PDT/CE),1,1133439
+1bc2466959107dd5a13fd523afd2ffa3,134812,Dep. Edmilson Rodrigues,PSOL,PA,oposição,camara,Dep. Edmilson Rodrigues (PSOL/PA),16,1134812
+1bc2466959107dd5a13fd523afd2ffa3,141391,Dep. Arnaldo Jardim,CIDADANIA,SP,governo,camara,Dep. Arnaldo Jardim (CIDADANIA/SP),1,1141391
+1bc2466959107dd5a13fd523afd2ffa3,141398,Dep. Carlos Zarattini,PT,SP,oposição,camara,Dep. Carlos Zarattini (PT/SP),1,1141398
+1bc2466959107dd5a13fd523afd2ffa3,141421,Dep. Eduardo da Fonte,PP,PE,governo,camara,Dep. Eduardo da Fonte (PP/PE),2,1141421
+1bc2466959107dd5a13fd523afd2ffa3,141488,Dep. Paulo Teixeira,PT,SP,oposição,camara,Dep. Paulo Teixeira (PT/SP),12,1141488
+1bc2466959107dd5a13fd523afd2ffa3,141508,Dep. Mauro Nazif,PSB,RO,oposição,camara,Dep. Mauro Nazif (PSB/RO),3,1141508
+1bc2466959107dd5a13fd523afd2ffa3,141531,Dep. Rodrigo de Castro,PSDB,MG,governo,camara,Dep. Rodrigo de Castro (PSDB/MG),2,1141531
+1bc2466959107dd5a13fd523afd2ffa3,141553,Dep. Vanderlei Macris,PSDB,SP,governo,camara,Dep. Vanderlei Macris (PSDB/SP),1,1141553
+1bc2466959107dd5a13fd523afd2ffa3,154178,Dep. Milton Vieira,REPUBLICANOS,SP,governo,camara,Dep. Milton Vieira (REPUBLICANOS/SP),1,1154178
+1bc2466959107dd5a13fd523afd2ffa3,157130,Dep. Túlio Gadêlha,PDT,PE,oposição,camara,Dep. Túlio Gadêlha (PDT/PE),1,1157130
+1bc2466959107dd5a13fd523afd2ffa3,160528,Dep. Danilo Cabral,PSB,PE,oposição,camara,Dep. Danilo Cabral (PSB/PE),7,1160528
+1bc2466959107dd5a13fd523afd2ffa3,160535,Dep. Marcon,PT,RS,oposição,camara,Dep. Marcon (PT/RS),33,1160535
+1bc2466959107dd5a13fd523afd2ffa3,160556,Dep. Padre João,PT,MG,oposição,camara,Dep. Padre João (PT/MG),3,1160556
+1bc2466959107dd5a13fd523afd2ffa3,160604,Dep. Pedro Uczai,PT,SC,oposição,camara,Dep. Pedro Uczai (PT/SC),11,1160604
+1bc2466959107dd5a13fd523afd2ffa3,160610,Dep. Valmir Assunção,PT,BA,oposição,camara,Dep. Valmir Assunção (PT/BA),13,1160610
+1bc2466959107dd5a13fd523afd2ffa3,177282,Dep. Subtenente Gonzaga,PDT,MG,oposição,camara,Dep. Subtenente Gonzaga (PDT/MG),1,1177282
+1bc2466959107dd5a13fd523afd2ffa3,178873,Dep. Helder Salomão,PT,ES,oposição,camara,Dep. Helder Salomão (PT/ES),1,1178873
+1bc2466959107dd5a13fd523afd2ffa3,178874,Dep. Sergio Vidigal,PDT,ES,oposição,camara,Dep. Sergio Vidigal (PDT/ES),1,1178874
+1bc2466959107dd5a13fd523afd2ffa3,178889,Dep. Zé Carlos,PT,MA,oposição,camara,Dep. Zé Carlos (PT/MA),16,1178889
+1bc2466959107dd5a13fd523afd2ffa3,178925,Dep. Rejane Dias,PT,PI,oposição,camara,Dep. Rejane Dias (PT/PI),5,1178925
+1bc2466959107dd5a13fd523afd2ffa3,178946,Dep. Soraya Santos,PL,RJ,governo,camara,Dep. Soraya Santos (PL/RJ),1,1178946
+1bc2466959107dd5a13fd523afd2ffa3,178961,Dep. Shéridan,PSDB,RR,governo,camara,Dep. Shéridan (PSDB/RR),1,1178961
+1bc2466959107dd5a13fd523afd2ffa3,178970,Dep. João Daniel,PT,SE,oposição,camara,Dep. João Daniel (PT/SE),21,1178970
+1bc2466959107dd5a13fd523afd2ffa3,188097,Dep. Merlong Solano,PT,PI,oposição,camara,Dep. Merlong Solano (PT/PI),4,1188097
+1bc2466959107dd5a13fd523afd2ffa3,204359,Dep. Léo Moraes,PODEMOS,RO,governo,camara,Dep. Léo Moraes (PODEMOS/RO),1,1204359
+1bc2466959107dd5a13fd523afd2ffa3,204371,Dep. Felipe Rigoni,PSB,ES,oposição,camara,Dep. Felipe Rigoni (PSB/ES),3,1204371
+1bc2466959107dd5a13fd523afd2ffa3,204386,Dep. Jose Mario Schreiner,DEM,GO,governo,camara,Dep. Jose Mario Schreiner (DEM/GO),3,1204386
+1bc2466959107dd5a13fd523afd2ffa3,204393,Dep. Frei Anastacio Ribeiro,PT,PB,oposição,camara,Dep. Frei Anastacio Ribeiro (PT/PB),17.69047619047619,1204393
+1bc2466959107dd5a13fd523afd2ffa3,204407,Dep. Fernanda Melchionna,PSOL,RS,oposição,camara,Dep. Fernanda Melchionna (PSOL/RS),14,1204407
+1bc2466959107dd5a13fd523afd2ffa3,204435,Dep. Jesus Sérgio,PDT,AC,oposição,camara,Dep. Jesus Sérgio (PDT/AC),4,1204435
+1bc2466959107dd5a13fd523afd2ffa3,204440,Dep. Christino Aureo,PP,RJ,governo,camara,Dep. Christino Aureo (PP/RJ),8,1204440
+1bc2466959107dd5a13fd523afd2ffa3,204446,Dep. Professor Joziel,PSL,RJ,governo,camara,Dep. Professor Joziel (PSL/RJ),1,1204446
+1bc2466959107dd5a13fd523afd2ffa3,204453,Dep. Natália Bonavides,PT,RN,oposição,camara,Dep. Natália Bonavides (PT/RN),4,1204453
+1bc2466959107dd5a13fd523afd2ffa3,204458,Dep. Major Fabiana,PSL,RJ,governo,camara,Dep. Major Fabiana (PSL/RJ),1,1204458
+1bc2466959107dd5a13fd523afd2ffa3,204476,Dep. Chiquinho Brazão,AVANTE,RJ,governo,camara,Dep. Chiquinho Brazão (AVANTE/RJ),1,1204476
+1bc2466959107dd5a13fd523afd2ffa3,204495,Dep. Airton Faleiro,PT,PA,oposição,camara,Dep. Airton Faleiro (PT/PA),13,1204495
+1bc2466959107dd5a13fd523afd2ffa3,204496,Dep. Celso Sabino,PSDB,PA,governo,camara,Dep. Celso Sabino (PSDB/PA),7,1204496
+1bc2466959107dd5a13fd523afd2ffa3,204504,Dep. Cezinha de Madureira,PSD,SP,governo,camara,Dep. Cezinha de Madureira (PSD/SP),23,1204504
+1bc2466959107dd5a13fd523afd2ffa3,204509,Dep. Áurea Carolina,PSOL,MG,oposição,camara,Dep. Áurea Carolina (PSOL/MG),15,1204509
+1bc2466959107dd5a13fd523afd2ffa3,204527,Dep. Geninho Zuliani,DEM,SP,governo,camara,Dep. Geninho Zuliani (DEM/SP),8,1204527
+1bc2466959107dd5a13fd523afd2ffa3,204528,Dep. Adriana Ventura,NOVO,SP,governo,camara,Dep. Adriana Ventura (NOVO/SP),4,1204528
+1bc2466959107dd5a13fd523afd2ffa3,204532,Dep. Vinicius Poit,NOVO,SP,governo,camara,Dep. Vinicius Poit (NOVO/SP),1,1204532
+1bc2466959107dd5a13fd523afd2ffa3,204534,Dep. Tabata Amaral,PDT,SP,oposição,camara,Dep. Tabata Amaral (PDT/SP),3,1204534
+1bc2466959107dd5a13fd523afd2ffa3,204535,Dep. Sâmia Bomfim,PSOL,SP,oposição,camara,Dep. Sâmia Bomfim (PSOL/SP),15.5,1204535
+1bc2466959107dd5a13fd523afd2ffa3,204542,Dep. Denis Bezerra,PSB,CE,oposição,camara,Dep. Denis Bezerra (PSB/CE),2,1204542
+1bc2466959107dd5a13fd523afd2ffa3,204555,Dep. José Ricardo,PT,AM,oposição,camara,Dep. José Ricardo (PT/AM),7,1204555
+1bc2466959107dd5a13fd523afd2ffa3,204559,Dep. Zé Neto,PT,BA,oposição,camara,Dep. Zé Neto (PT/BA),9,1204559
+1bc2466959107dd5a13fd523afd2ffa3,204575,Dep. Gil Cutrim,PDT,MA,oposição,camara,Dep. Gil Cutrim (PDT/MA),2,1204575
+1bc2466959107dd5a13fd523afd2ffa3,205548,Dep. David Miranda,PSOL,RJ,oposição,camara,Dep. David Miranda (PSOL/RJ),14,1205548
+1bc2466959107dd5a13fd523afd2ffa3,2331,Sen. Rose de Freitas,PODEMOS,ES,governo,senado,Sen. Rose de Freitas (PODEMOS/ES),4,22331
+1bc2466959107dd5a13fd523afd2ffa3,285,Sen. Marcio Bittar,MDB,AC,governo,senado,Sen. Marcio Bittar (MDB/AC),3,2285
+1bc2466959107dd5a13fd523afd2ffa3,345,Sen. Flávio Arns,REDE,PR,oposição,senado,Sen. Flávio Arns (REDE/PR),2,2345
+1bc2466959107dd5a13fd523afd2ffa3,35,Sen. Jader Barbalho,MDB,PA,governo,senado,Sen. Jader Barbalho (MDB/PA),3,235
+1bc2466959107dd5a13fd523afd2ffa3,374,Sen. Paulo Rocha,PT,PA,oposição,senado,Sen. Paulo Rocha (PT/PA),5,2374
+1bc2466959107dd5a13fd523afd2ffa3,4531,Sen. Jayme Campos,DEM,MT,governo,senado,Sen. Jayme Campos (DEM/MT),2,24531
+1bc2466959107dd5a13fd523afd2ffa3,4770,Sen. Izalci Lucas,PSDB,DF,governo,senado,Sen. Izalci Lucas (PSDB/DF),10,24770
+1bc2466959107dd5a13fd523afd2ffa3,5008,Sen. Humberto Costa,PT,PE,oposição,senado,Sen. Humberto Costa (PT/PE),3,25008
+1bc2466959107dd5a13fd523afd2ffa3,5012,Sen. Randolfe Rodrigues,REDE,AP,oposição,senado,Sen. Randolfe Rodrigues (REDE/AP),9,25012
+1bc2466959107dd5a13fd523afd2ffa3,5352,Sen. Rogério Carvalho,PT,SE,oposição,senado,Sen. Rogério Carvalho (PT/SE),14,25352
+1bc2466959107dd5a13fd523afd2ffa3,5376,Sen. Mara Gabrilli,PSDB,SP,governo,senado,Sen. Mara Gabrilli (PSDB/SP),4,25376
+1bc2466959107dd5a13fd523afd2ffa3,5411,Sen. Weverton,PDT,MA,oposição,senado,Sen. Weverton (PDT/MA),1,25411
+1bc2466959107dd5a13fd523afd2ffa3,5718,Sen. Eliziane Gama,CIDADANIA,MA,governo,senado,Sen. Eliziane Gama (CIDADANIA/MA),6,25718
+1bc2466959107dd5a13fd523afd2ffa3,5783,Sen. Zenaide Maia,PROS,RN,governo,senado,Sen. Zenaide Maia (PROS/RN),1,25783
+1bc2466959107dd5a13fd523afd2ffa3,581,Sen. Jaques Wagner,PT,BA,oposição,senado,Sen. Jaques Wagner (PT/BA),13,2581
+1bc2466959107dd5a13fd523afd2ffa3,5967,Sen. Angelo Coronel,PSD,BA,governo,senado,Sen. Angelo Coronel (PSD/BA),1,25967
+1bc2466959107dd5a13fd523afd2ffa3,5982,Sen. Alessandro Vieira,CIDADANIA,SE,governo,senado,Sen. Alessandro Vieira (CIDADANIA/SE),3,25982
+1bc2466959107dd5a13fd523afd2ffa3,66828,Dep. Fausto Pinato,PP,SP,governo,camara,Dep. Fausto Pinato (PP/SP),3,166828
+1bc2466959107dd5a13fd523afd2ffa3,677,Sen. Roberto Rocha,PSDB,MA,governo,senado,Sen. Roberto Rocha (PSDB/MA),2,2677
+1bc2466959107dd5a13fd523afd2ffa3,73531,Dep. Ivan Valente,PSOL,SP,oposição,camara,Dep. Ivan Valente (PSOL/SP),15,173531
+1bc2466959107dd5a13fd523afd2ffa3,73604,Dep. Rui Falcão,PT,SP,oposição,camara,Dep. Rui Falcão (PT/SP),1,173604
+1bc2466959107dd5a13fd523afd2ffa3,73701,Dep. Benedita da Silva,PT,RJ,oposição,camara,Dep. Benedita da Silva (PT/RJ),1,173701
+1bc2466959107dd5a13fd523afd2ffa3,74057,Dep. Alice Portugal,PCdoB,BA,oposição,camara,Dep. Alice Portugal (PCdoB/BA),11,174057
+1bc2466959107dd5a13fd523afd2ffa3,74131,Dep. João Carlos Bacelar,PL,BA,governo,camara,Dep. João Carlos Bacelar (PL/BA),0.5,174131
+1bc2466959107dd5a13fd523afd2ffa3,74158,Dep. Mário Heringer,PDT,MG,oposição,camara,Dep. Mário Heringer (PDT/MG),10,174158
+1bc2466959107dd5a13fd523afd2ffa3,74160,Dep. Patrus Ananias,PT,MG,oposição,camara,Dep. Patrus Ananias (PT/MG),22,174160
+1bc2466959107dd5a13fd523afd2ffa3,74784,Dep. Luiza Erundina,PSOL,SP,oposição,camara,Dep. Luiza Erundina (PSOL/SP),21,174784
+1bc2466959107dd5a13fd523afd2ffa3,74848,Dep. Jandira Feghali,PCdoB,RJ,oposição,camara,Dep. Jandira Feghali (PCdoB/RJ),1,174848
+1bc2466959107dd5a13fd523afd2ffa3,825,Sen. Paulo Paim,PT,RS,oposição,senado,Sen. Paulo Paim (PT/RS),3,2825
+1bc2466959107dd5a13fd523afd2ffa3,90842,Dep. Santini,PTB,RS,governo,camara,Dep. Santini (PTB/RS),1,190842
+1bc2466959107dd5a13fd523afd2ffa3,204548,Dep. Heitor Freire,PSL,CE,governo,camara,Dep. Heitor Freire (PSL/CE),0.75,1204548
+1bc2466959107dd5a13fd523afd2ffa3,204394,Dep. Gervásio Maia,PSB,PB,oposição,camara,Dep. Gervásio Maia (PSB/PB),1.9166666666666665,1204394
+1bc2466959107dd5a13fd523afd2ffa3,141458,Dep. João Carlos Bacelar,PL,BA,governo,camara,Dep. João Carlos Bacelar (PL/BA),0.5,1141458
 1bdfcde00296f878de9ca63ae75e3cf5,204539,Dep. Hercílio Coelho Diniz,MDB,MG,governo,camara,Dep. Hercílio Coelho Diniz (MDB/MG),1,1204539
 1bed4c4ceb613954b1eea11cd2ef7ca3,132504,Dep. Enio Verri,PT,,oposição,camara,Dep. Enio Verri (PT/-),0.8333333333333333,1132504
 1bed4c4ceb613954b1eea11cd2ef7ca3,160511,Dep. Alessandro Molon,PSB,RJ,oposição,camara,Dep. Alessandro Molon (PSB/RJ),0.8333333333333333,1160511
@@ -197,6 +305,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 1d5d45895ac14c11b810b7e0424e5870,204435,Dep. Jesus Sérgio,PDT,AC,oposição,camara,Dep. Jesus Sérgio (PDT/AC),1,1204435
 1d5f1af19f04d44e5413beafca8f9ef7,5523,Sen. Otto Alencar,PSD,BA,governo,senado,Sen. Otto Alencar (PSD/BA),3,25523
 1d5f1af19f04d44e5413beafca8f9ef7,5953,Sen. Fabiano Contarato,REDE,ES,oposição,senado,Sen. Fabiano Contarato (REDE/ES),2,25953
+1d7aa64016a9c0aeade4ab528474b4dc,204538,Dep. Paulo Bengtson,PTB,PA,governo,camara,Dep. Paulo Bengtson (PTB/PA),1,1204538
 1db364484a7f086878f6889f701dc1c8,204352,Dep. Camilo Capiberibe,PSB,AP,oposição,camara,Dep. Camilo Capiberibe (PSB/AP),1,1204352
 1db364484a7f086878f6889f701dc1c8,204530,Dep. Rodrigo Agostinho,PSB,SP,oposição,camara,Dep. Rodrigo Agostinho (PSB/SP),1,1204530
 1dbe81661ce54b39de6507dabaa33349,204472,Dep. José Medeiros,PODE,MT,governo,camara,Dep. José Medeiros (PODE/MT),1,1204472
@@ -222,9 +331,28 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 21a9502f6a1a69e1456b7a3c61e04f88,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 21e5b28435834de735e2d7c956e0b27f,204354,Dep. Flávia Arruda,PL,DF,governo,camara,Dep. Flávia Arruda (PL/DF),1,1204354
 21e5b28435834de735e2d7c956e0b27f,204380,Dep. Celina Leão,PP,DF,governo,camara,Dep. Celina Leão (PP/DF),1,1204380
+2201837ecfa932982f8ebb8e3900567e,204538,Dep. Paulo Bengtson,PTB,PA,governo,camara,Dep. Paulo Bengtson (PTB/PA),1,1204538
 2246fd4a33e4df5e1f4bc4648cd83a1e,178922,Dep. Tadeu Alencar,PSB,PE,oposição,camara,Dep. Tadeu Alencar (PSB/PE),1,1178922
 2248dff228becaf25dba94d74e629842,5959,Sen. Styvenson Valentim,PODEMOS,RN,governo,senado,Sen. Styvenson Valentim (PODEMOS/RN),1,25959
 2274f601a4a2a54d5b30b4384dc66d86,179587,Dep. Major Vitor Hugo,PSL,GO,governo,camara,Dep. Major Vitor Hugo (PSL/GO),1,1179587
+2279e51c1818c4d5eaa8ca05bf8e10f9,2331,Sen. Rose de Freitas,PODEMOS,ES,governo,senado,Sen. Rose de Freitas (PODEMOS/ES),2.5,22331
+2279e51c1818c4d5eaa8ca05bf8e10f9,345,Sen. Flávio Arns,REDE,PR,oposição,senado,Sen. Flávio Arns (REDE/PR),1,2345
+2279e51c1818c4d5eaa8ca05bf8e10f9,374,Sen. Paulo Rocha,PT,PA,oposição,senado,Sen. Paulo Rocha (PT/PA),2,2374
+2279e51c1818c4d5eaa8ca05bf8e10f9,5008,Sen. Humberto Costa,PT,PE,oposição,senado,Sen. Humberto Costa (PT/PE),1,25008
+2279e51c1818c4d5eaa8ca05bf8e10f9,5012,Sen. Randolfe Rodrigues,REDE,AP,oposição,senado,Sen. Randolfe Rodrigues (REDE/AP),3,25012
+2279e51c1818c4d5eaa8ca05bf8e10f9,5352,Sen. Rogério Carvalho,PT,SE,oposição,senado,Sen. Rogério Carvalho (PT/SE),1,25352
+2279e51c1818c4d5eaa8ca05bf8e10f9,5385,Sen. Irajá,PSD,TO,governo,senado,Sen. Irajá (PSD/TO),1,25385
+2279e51c1818c4d5eaa8ca05bf8e10f9,5533,Sen. Lasier Martins,PODEMOS,RS,governo,senado,Sen. Lasier Martins (PODEMOS/RS),1,25533
+2279e51c1818c4d5eaa8ca05bf8e10f9,5540,Sen. Fernando Bezerra Coelho,MDB,PE,governo,senado,Sen. Fernando Bezerra Coelho (MDB/PE),3,25540
+2279e51c1818c4d5eaa8ca05bf8e10f9,5732,Sen. Rodrigo Pacheco,DEM,MG,governo,senado,Sen. Rodrigo Pacheco (DEM/MG),9,25732
+2279e51c1818c4d5eaa8ca05bf8e10f9,5783,Sen. Zenaide Maia,PROS,RN,governo,senado,Sen. Zenaide Maia (PROS/RN),1,25783
+2279e51c1818c4d5eaa8ca05bf8e10f9,581,Sen. Jaques Wagner,PT,BA,oposição,senado,Sen. Jaques Wagner (PT/BA),3,2581
+2279e51c1818c4d5eaa8ca05bf8e10f9,5895,Sen. Jorge Kajuru,PATRIOTA,GO,governo,senado,Sen. Jorge Kajuru (PATRIOTA/GO),1,25895
+2279e51c1818c4d5eaa8ca05bf8e10f9,5953,Sen. Fabiano Contarato,REDE,ES,oposição,senado,Sen. Fabiano Contarato (REDE/ES),1,25953
+2279e51c1818c4d5eaa8ca05bf8e10f9,5959,Sen. Styvenson Valentim,PODEMOS,RN,governo,senado,Sen. Styvenson Valentim (PODEMOS/RN),1,25959
+2279e51c1818c4d5eaa8ca05bf8e10f9,5976,Sen. Eduardo Girão,PODEMOS,CE,governo,senado,Sen. Eduardo Girão (PODEMOS/CE),1,25976
+2279e51c1818c4d5eaa8ca05bf8e10f9,5979,Sen. Leila Barros,PSB,DF,oposição,senado,Sen. Leila Barros (PSB/DF),1,25979
+2279e51c1818c4d5eaa8ca05bf8e10f9,825,Sen. Paulo Paim,PT,RS,oposição,senado,Sen. Paulo Paim (PT/RS),0.5,2825
 228fb060da529759a1457b4ef7f60fce,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),1,1204494
 22aa18f33a3fff84340a32a1ad07b221,74848,Dep. Jandira Feghali,PCdoB,RJ,oposição,camara,Dep. Jandira Feghali (PCdoB/RJ),1,174848
 22e1696ba9774b557b99f3c02a7b76d1,146307,Dep. Neri Geller,PP,MT,governo,camara,Dep. Neri Geller (PP/MT),2,1146307
@@ -250,22 +378,6 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 243851418016d466c78fa14da9e693dd,204391,Dep. José Nelto,PODE,GO,governo,camara,Dep. José Nelto (PODE/GO),1,1204391
 24405767db3342d52d98fe327b82000d,90201,Dep. Pedro Augusto Bezerra,PTB,CE,governo,camara,Dep. Pedro Augusto Bezerra (PTB/CE),1,190201
 2462919cc6ed26971f2a91de4e75c82a,204550,Dep. Júnior Mano,PL,CE,governo,camara,Dep. Júnior Mano (PL/CE),1,1204550
-24edfaa736103cd9272c75af7d156974,141391,Dep. Arnaldo Jardim,CIDADANIA,SP,governo,camara,Dep. Arnaldo Jardim (CIDADANIA/SP),12,1141391
-24edfaa736103cd9272c75af7d156974,204352,Dep. Camilo Capiberibe,PSB,AP,oposição,camara,Dep. Camilo Capiberibe (PSB/AP),2,1204352
-24edfaa736103cd9272c75af7d156974,73466,Dep. Rubens Bueno,CIDADANIA,PR,governo,camara,Dep. Rubens Bueno (CIDADANIA/PR),1,173466
-24edfaa736103cd9272c75af7d156974,1186,Sen. Luis Carlos Heinze,PP,RS,governo,senado,Sen. Luis Carlos Heinze (PP/RS),2,21186
-24edfaa736103cd9272c75af7d156974,2331,Sen. Rose de Freitas,PODEMOS,ES,governo,senado,Sen. Rose de Freitas (PODEMOS/ES),1,22331
-24edfaa736103cd9272c75af7d156974,3806,Sen. Zequinha Marinho,PSC,PA,governo,senado,Sen. Zequinha Marinho (PSC/PA),0.6666666666666666,23806
-24edfaa736103cd9272c75af7d156974,4531,Sen. Jayme Campos,DEM,MT,governo,senado,Sen. Jayme Campos (DEM/MT),0.5,24531
-24edfaa736103cd9272c75af7d156974,470,Sen. Chico Rodrigues,DEM,RR,governo,senado,Sen. Chico Rodrigues (DEM/RR),1,2470
-24edfaa736103cd9272c75af7d156974,4770,Sen. Izalci Lucas,PSDB,DF,governo,senado,Sen. Izalci Lucas (PSDB/DF),6,24770
-24edfaa736103cd9272c75af7d156974,5012,Sen. Randolfe Rodrigues,REDE,AP,oposição,senado,Sen. Randolfe Rodrigues (REDE/AP),3,25012
-24edfaa736103cd9272c75af7d156974,5585,Sen. Luiz do Carmo,MDB,GO,governo,senado,Sen. Luiz do Carmo (MDB/GO),1.6666666666666665,25585
-24edfaa736103cd9272c75af7d156974,581,Sen. Jaques Wagner,PT,BA,oposição,senado,Sen. Jaques Wagner (PT/BA),1.5,2581
-24edfaa736103cd9272c75af7d156974,5905,Sen. Rodrigo Cunha,PSDB,AL,governo,senado,Sen. Rodrigo Cunha (PSDB/AL),1,25905
-24edfaa736103cd9272c75af7d156974,5953,Sen. Fabiano Contarato,REDE,ES,oposição,senado,Sen. Fabiano Contarato (REDE/ES),5,25953
-24edfaa736103cd9272c75af7d156974,5959,Sen. Styvenson Valentim,PODEMOS,RN,governo,senado,Sen. Styvenson Valentim (PODEMOS/RN),1,25959
-24edfaa736103cd9272c75af7d156974,5988,Sen. Soraya Thronicke,PSL,MS,governo,senado,Sen. Soraya Thronicke (PSL/MS),2.6666666666666665,25988
 24f1cd8ee6b6fcdc6d7b3f90b0226f0f,204496,Dep. Celso Sabino,PSDB,PA,governo,camara,Dep. Celso Sabino (PSDB/PA),1,1204496
 2504a81d0bba4dde5b6b8ffa9104314d,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 252b869d8adf21983697fce31e6be987,160532,Dep. Eli Corrêa Filho,DEM,SP,governo,camara,Dep. Eli Corrêa Filho (DEM/SP),1,1160532
@@ -277,6 +389,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 2676dfebdea95eaf97d2cb880ed49c74,204480,Dep. Rogério Correia,PT,MG,oposição,camara,Dep. Rogério Correia (PT/MG),1.3333333333333333,1204480
 26b174b0f7dbcc69aed3fd7bbba2a3a2,178997,Dep. Moses Rodrigues,MDB,CE,governo,camara,Dep. Moses Rodrigues (MDB/CE),1,1178997
 26b174b0f7dbcc69aed3fd7bbba2a3a2,74371,Dep. Rubens Otoni,PT,GO,oposição,camara,Dep. Rubens Otoni (PT/GO),1,174371
+274a7798ff43d2699b1b9c5d3b34ee9d,160511,Dep. Alessandro Molon,PSB,RJ,oposição,camara,Dep. Alessandro Molon (PSB/RJ),1,1160511
 2758a9e192a8f87df74b9a4f8c2d00ae,162332,Dep. Luiz Nishimori,PL,PR,governo,camara,Dep. Luiz Nishimori (PL/PR),1,1162332
 2758a9e192a8f87df74b9a4f8c2d00ae,74052,Dep. Bosco Costa,PL,SE,governo,camara,Dep. Bosco Costa (PL/SE),2,174052
 27801502fe8b57eb8c5a318fcfe79d57,132504,Dep. Enio Verri,PT,,oposição,camara,Dep. Enio Verri (PT/-),0.8571428571428571,1132504
@@ -317,6 +430,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 2bde12e389c795c5d43714df55c4e24b,204538,Dep. Paulo Bengtson,PTB,PA,governo,camara,Dep. Paulo Bengtson (PTB/PA),1,1204538
 2c14a23a55219a9c031bbf2800160a67,160570,Dep. Jerônimo Goergen,PP,RS,governo,camara,Dep. Jerônimo Goergen (PP/RS),1,1160570
 2c17f65918903db5527e3438f65218f2,141470,Dep. José Guimarães,PT,CE,oposição,camara,Dep. José Guimarães (PT/CE),1,1141470
+2c1979a5a09d355754065cad8a04ced4,178954,Dep. Lucio Mosquini,MDB,RO,governo,camara,Dep. Lucio Mosquini (MDB/RO),1,1178954
 2c2948aaea6692477f9ab661b6c8cf89,22,Sen. Esperidião Amin,PP,SC,governo,senado,Sen. Esperidião Amin (PP/SC),1,222
 2c2948aaea6692477f9ab661b6c8cf89,2331,Sen. Rose de Freitas,PODEMOS,ES,governo,senado,Sen. Rose de Freitas (PODEMOS/ES),1,22331
 2c2948aaea6692477f9ab661b6c8cf89,345,Sen. Flávio Arns,REDE,PR,oposição,senado,Sen. Flávio Arns (REDE/PR),1,2345
@@ -364,6 +478,13 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 2e4bd65ef8c27025fba3d63b889ec4e9,178843,Dep. Marx Beltrão,PSD,AL,governo,camara,Dep. Marx Beltrão (PSD/AL),1,1178843
 2f4900063390c580e22253222f86f86e,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),1,1204494
 2f91f168ef3f54d44064a21ac63580f8,160512,Dep. Aureo Ribeiro,SOLIDARIEDADE,RJ,governo,camara,Dep. Aureo Ribeiro (SOLIDARIEDADE/RJ),1,1160512
+2f9960c5629a3e520b7b475dc6ccc4a9,178871,Dep. Evair Vieira De Melo,PP,ES,governo,camara,Dep. Evair Vieira De Melo (PP/ES),3,1178871
+2f9960c5629a3e520b7b475dc6ccc4a9,132504,Dep. Enio Verri,PT,PR,oposição,camara,Dep. Enio Verri (PT/PR),1,1132504
+2f9960c5629a3e520b7b475dc6ccc4a9,160610,Dep. Valmir Assunção,PT,BA,oposição,camara,Dep. Valmir Assunção (PT/BA),1,1160610
+2f9960c5629a3e520b7b475dc6ccc4a9,178970,Dep. João Daniel,PT,SE,oposição,camara,Dep. João Daniel (PT/SE),1,1178970
+2f9960c5629a3e520b7b475dc6ccc4a9,374,Sen. Paulo Rocha,PT,PA,oposição,senado,Sen. Paulo Rocha (PT/PA),1,2374
+2f9960c5629a3e520b7b475dc6ccc4a9,5783,Sen. Zenaide Maia,PROS,RN,governo,senado,Sen. Zenaide Maia (PROS/RN),1,25783
+2f9960c5629a3e520b7b475dc6ccc4a9,74439,Dep. Wolney Queiroz,PDT,PE,oposição,camara,Dep. Wolney Queiroz (PDT/PE),2,174439
 2fc709eaeb4ca650831bcc8406990582,204561,Dep. Bira Do Pindaré,PSB,MA,oposição,camara,Dep. Bira Do Pindaré (PSB/MA),1,1204561
 2fcb4dfd9ae3d7e12be02d0f0c15b61c,141408,Dep. Cleber Verde,PRB,MA,governo,camara,Dep. Cleber Verde (PRB/MA),1,1141408
 304233f518241a3566b71042603a2bc1,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),1,1204494
@@ -480,6 +601,21 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 3f7eab720eb21413985b71742fa82228,76874,Dep. Marcelo Freixo,PSOL,RJ,oposição,camara,Dep. Marcelo Freixo (PSOL/RJ),0.875,176874
 3f7eab720eb21413985b71742fa82228,204509,Dep. Áurea Carolina,PSOL,MG,oposição,camara,Dep. Áurea Carolina (PSOL/MG),0.875,1204509
 3f99f9f7b32cf7cbd0d05a48a598beb8,204468,Dep. Joenia Wapichana,REDE,RR,oposição,camara,Dep. Joenia Wapichana (REDE/RR),1,1204468
+401155d203eb228705feed831c2340b9,132504,Dep. Enio Verri,PT,,oposição,camara,Dep. Enio Verri (PT/-),0.6666666666666666,1132504
+401155d203eb228705feed831c2340b9,141391,Dep. Arnaldo Jardim,CIDADANIA,SP,governo,camara,Dep. Arnaldo Jardim (CIDADANIA/SP),1,1141391
+401155d203eb228705feed831c2340b9,141422,Dep. Efraim Filho,DEM,,governo,camara,Dep. Efraim Filho (DEM/-),0.875,1141422
+401155d203eb228705feed831c2340b9,160531,Dep. Jhonatan De Jesus,PRB,RR,governo,camara,Dep. Jhonatan De Jesus (PRB/RR),0.875,1160531
+401155d203eb228705feed831c2340b9,160541,Dep. Arthur Lira,PP,AL,governo,camara,Dep. Arthur Lira (PP/AL),0.875,1160541
+401155d203eb228705feed831c2340b9,160559,Dep. Alceu Moreira,MDB,,governo,camara,Dep. Alceu Moreira (MDB/-),0.5,1160559
+401155d203eb228705feed831c2340b9,178871,Dep. Evair Vieira De Melo,PP,ES,governo,camara,Dep. Evair Vieira De Melo (PP/ES),1.375,1178871
+401155d203eb228705feed831c2340b9,178975,Dep. Baleia Rossi,MDB,SP,governo,camara,Dep. Baleia Rossi (MDB/SP),0.875,1178975
+401155d203eb228705feed831c2340b9,204395,Dep. Pedro Lupion,DEM,PR,governo,camara,Dep. Pedro Lupion (DEM/PR),0.875,1204395
+401155d203eb228705feed831c2340b9,204398,Dep. Felipe Francischini,PSL,PR,governo,camara,Dep. Felipe Francischini (PSL/PR),0.875,1204398
+401155d203eb228705feed831c2340b9,204440,Dep. Christino Aureo,PP,RJ,governo,camara,Dep. Christino Aureo (PP/RJ),10,1204440
+401155d203eb228705feed831c2340b9,74439,Dep. Wolney Queiroz,PDT,PE,oposição,camara,Dep. Wolney Queiroz (PDT/PE),0.6666666666666666,174439
+401155d203eb228705feed831c2340b9,2331,Sen. Rose de Freitas,PODEMOS,ES,governo,senado,Sen. Rose de Freitas (PODEMOS/ES),1,22331
+401155d203eb228705feed831c2340b9,160511,Dep. Alessandro Molon,PSB,RJ,oposição,camara,Dep. Alessandro Molon (PSB/RJ),0.6666666666666666,1160511
+401155d203eb228705feed831c2340b9,204449,Dep. Nelson Barbudo,PSL,MT,governo,camara,Dep. Nelson Barbudo (PSL/MT),0.875,1204449
 404f6c4f573e815e22349d2eece0cbba,178901,Dep. Tereza Cristina,DEM,,governo,camara,Dep. Tereza Cristina (DEM/-),2,1178901
 40741e74575180b0387477d2c6d821ba,205863,Dep. Marcelo Brum,PSL,RS,governo,camara,Dep. Marcelo Brum (PSL/RS),1,1205863
 40bfbdaba6f32a08c244f882e54b64cd,72442,Dep. Felipe Carreras,PSB,PE,oposição,camara,Dep. Felipe Carreras (PSB/PE),1,172442
@@ -527,7 +663,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 431c027eb9b1a9755ee05e55685b049d,160535,Dep. Marcon,PT,RS,oposição,camara,Dep. Marcon (PT/RS),1,1160535
 434f77fd413d28c5c711f6d07a2cda8d,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 438b1cecb3dd026c3397fbe5d5e28a86,178970,Dep. João Daniel,PT,SE,oposição,camara,Dep. João Daniel (PT/SE),1,1178970
-43c63b9f26c97da7a15f453f5935b47a,204352,Dep. Camilo Capiberibe,PSB,AP,oposição,camara,Dep. Camilo Capiberibe (PSB/AP),3.1666666666666665,1204352
+43c63b9f26c97da7a15f453f5935b47a,204352,Dep. Camilo Capiberibe,PSB,AP,oposição,camara,Dep. Camilo Capiberibe (PSB/AP),4.166666666666666,1204352
 43c63b9f26c97da7a15f453f5935b47a,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1.1666666666666665,1204488
 43c63b9f26c97da7a15f453f5935b47a,204467,Dep. Professora Rosa Neide,PT,MT,oposição,camara,Dep. Professora Rosa Neide (PT/MT),0.5,1204467
 43c63b9f26c97da7a15f453f5935b47a,204536,Dep. Kim Kataguiri,DEM,SP,governo,camara,Dep. Kim Kataguiri (DEM/SP),1.1666666666666665,1204536
@@ -561,6 +697,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 468566097eb58091861706e7171146ab,204544,Dep. Alexandre Frota,PSL,SP,governo,camara,Dep. Alexandre Frota (PSL/SP),1,1204544
 46f21b82789c07a457d65619991a3e56,5533,Sen. Lasier Martins,PODEMOS,RS,governo,senado,Sen. Lasier Martins (PODEMOS/RS),2,25533
 47318a198e3800c631a6648ee6a9f204,5422,Sen. Marcos Rogério,DEM,RO,governo,senado,Sen. Marcos Rogério (DEM/RO),1,25422
+473d4f743fd7c38f95d48c99ddf5875b,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 480355ae3c783211d6b064ab5f2578c0,160651,Dep. Rogério Peninha Mendonça,MDB,SC,governo,camara,Dep. Rogério Peninha Mendonça (MDB/SC),1,1160651
 480355ae3c783211d6b064ab5f2578c0,204368,Dep. Fabio Schiochet,PSL,SC,governo,camara,Dep. Fabio Schiochet (PSL/SC),1,1204368
 4839b5a3f686ddf44656bbd496066403,160535,Dep. Marcon,PT,RS,oposição,camara,Dep. Marcon (PT/RS),1,1160535
@@ -607,6 +744,10 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 4cbe7d4e6fb481207dd9529dde0ae6f8,204383,Dep. Professor Israel Batista,PV,DF,governo,camara,Dep. Professor Israel Batista (PV/DF),1,1204383
 4cbe7d4e6fb481207dd9529dde0ae6f8,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 4cd67206f15b7a52c3495adab039cbfc,178871,Dep. Evair Vieira De Melo,PP,ES,governo,camara,Dep. Evair Vieira De Melo (PP/ES),1,1178871
+4cee2938cb403453dac5b077c5a3b148,204356,Dep. Amaro Neto,PRB,ES,governo,camara,Dep. Amaro Neto (PRB/ES),2,1204356
+4cee2938cb403453dac5b077c5a3b148,204366,Dep. Rodrigo Coelho,PSB,SC,oposição,camara,Dep. Rodrigo Coelho (PSB/SC),1.5,1204366
+4cee2938cb403453dac5b077c5a3b148,81297,Dep. Dra. Soraya Manato,PSL,ES,governo,camara,Dep. Dra. Soraya Manato (PSL/ES),1,181297
+4cee2938cb403453dac5b077c5a3b148,204566,Dep. Marreca Filho,PATRIOTA,MA,governo,camara,Dep. Marreca Filho (PATRIOTA/MA),0.5,1204566
 4cf25fcc5dc651c0dbc7ed2994895dfd,5988,Sen. Soraya Thronicke,PSL,MS,governo,senado,Sen. Soraya Thronicke (PSL/MS),1,25988
 4cff5d87af376b0d5ef9f4f03b9460e0,160570,Dep. Jerônimo Goergen,PP,RS,governo,camara,Dep. Jerônimo Goergen (PP/RS),1,1160570
 4cff5d87af376b0d5ef9f4f03b9460e0,73486,Dep. Pompeo De Mattos,PDT,RS,oposição,camara,Dep. Pompeo De Mattos (PDT/RS),2,173486
@@ -650,9 +791,11 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 5183c1921472592dc6499c780f571796,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 52098ae3b1c88eecc13d3d47b3db9181,141523,Dep. Raul Henry,MDB,PE,governo,camara,Dep. Raul Henry (MDB/PE),1,1141523
 52098ae3b1c88eecc13d3d47b3db9181,204468,Dep. Joenia Wapichana,REDE,RR,oposição,camara,Dep. Joenia Wapichana (REDE/RR),1,1204468
+524eed1226081efb4448b9e0e38f93dd,178993,Dep. Carlos Henrique Gaguim,DEM,TO,governo,camara,Dep. Carlos Henrique Gaguim (DEM/TO),0.5,1178993
+524eed1226081efb4448b9e0e38f93dd,204359,Dep. Léo Moraes,PODE,RO,governo,camara,Dep. Léo Moraes (PODE/RO),0.5,1204359
 525ce85eda2628ca2dc45781ab2d3250,205865,Dep. Reinhold Stephanes Junior,PSD,PR,governo,camara,Dep. Reinhold Stephanes Junior (PSD/PR),1,1205865
 528b129ac1078010f36741d9c81eed63,3806,Sen. Zequinha Marinho,PSC,PA,governo,senado,Sen. Zequinha Marinho (PSC/PA),1,23806
-528b129ac1078010f36741d9c81eed63,5529,Sen. Antonio Anastasia,PSD,MG,governo,senado,Sen. Antonio Anastasia (PSD/MG),1,25529
+528b129ac1078010f36741d9c81eed63,5529,Sen. Antonio Anastasia,PSDB,MG,governo,senado,Sen. Antonio Anastasia (PSDB/MG),1,25529
 528b129ac1078010f36741d9c81eed63,5748,Sen. Veneziano Vital do Rêgo,PSB,PB,oposição,senado,Sen. Veneziano Vital do Rêgo (PSB/PB),2,25748
 528b129ac1078010f36741d9c81eed63,825,Sen. Paulo Paim,PT,RS,oposição,senado,Sen. Paulo Paim (PT/RS),1,2825
 529f5b79017039276e19442b56fb302d,141470,Dep. José Guimarães,PT,CE,oposição,camara,Dep. José Guimarães (PT/CE),1,1141470
@@ -675,6 +818,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 53b4585f954ff88798c1da5ab7265d3c,5352,Sen. Rogério Carvalho,PT,SE,oposição,senado,Sen. Rogério Carvalho (PT/SE),2,25352
 53b4585f954ff88798c1da5ab7265d3c,5502,Sen. Plínio Valério,PSDB,AM,governo,senado,Sen. Plínio Valério (PSDB/AM),3,25502
 53b4585f954ff88798c1da5ab7265d3c,204398,Dep. Felipe Francischini,PSL,PR,governo,camara,Dep. Felipe Francischini (PSL/PR),0.8,1204398
+53dba7f16d685152071f0c8823722a81,160570,Dep. Jerônimo Goergen,PP,RS,governo,camara,Dep. Jerônimo Goergen (PP/RS),1,1160570
 53df1e1339179011e99f6ce87fd06dee,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),2,1204488
 53df1e1339179011e99f6ce87fd06dee,205865,Dep. Reinhold Stephanes Junior,PSD,PR,governo,camara,Dep. Reinhold Stephanes Junior (PSD/PR),1,1205865
 5423bd8b1679b30a1b30e752d2e47602,141428,Dep. Fábio Faria,PSD,RN,governo,camara,Dep. Fábio Faria (PSD/RN),1,1141428
@@ -714,12 +858,14 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 558afde1d19415eca8b1cdae6e641693,178986,Dep. Nilto Tatto,PT,SP,oposição,camara,Dep. Nilto Tatto (PT/SP),0.6666666666666666,1178986
 56739211e3645e751445ad5e47eccada,204542,Dep. Denis Bezerra,PSB,CE,oposição,camara,Dep. Denis Bezerra (PSB/CE),1,1204542
 56acb1439d22956944d381fee1084de6,204517,Dep. Zé Vitor,PL,MG,governo,camara,Dep. Zé Vitor (PL/MG),1,1204517
+573488b3c78e22ddbb9e4f2a1a4dd616,178954,Dep. Lucio Mosquini,MDB,RO,governo,camara,Dep. Lucio Mosquini (MDB/RO),1,1178954
 57787c5911fa085b010161fe1ce8d620,5352,Sen. Rogério Carvalho,PT,SE,oposição,senado,Sen. Rogério Carvalho (PT/SE),1,25352
 57787c5911fa085b010161fe1ce8d620,5976,Sen. Eduardo Girão,PODEMOS,CE,governo,senado,Sen. Eduardo Girão (PODEMOS/CE),1,25976
 57dfc735ed9cc1875ad7af98ec8525de,178933,Dep. Sergio Souza,MDB,PR,governo,camara,Dep. Sergio Souza (MDB/PR),1,1178933
 57fbdab47ccd4833335158287f22a7de,73466,Dep. Rubens Bueno,CIDADANIA,PR,governo,camara,Dep. Rubens Bueno (CIDADANIA/PR),1,173466
+5810e2d51e5041bc58ca52ece6a7c4dd,204449,Dep. Nelson Barbudo,PSL,MT,governo,camara,Dep. Nelson Barbudo (PSL/MT),1,1204449
 582c54768cf6ec22e5f4a24b6cb56ab3,204544,Dep. Alexandre Frota,PSL,SP,governo,camara,Dep. Alexandre Frota (PSL/SP),1,1204544
-5a4a116465040efd1246bf4612a8e02e,5529,Sen. Antonio Anastasia,PSD,MG,governo,senado,Sen. Antonio Anastasia (PSD/MG),1,25529
+5a4a116465040efd1246bf4612a8e02e,5529,Sen. Antonio Anastasia,PSDB,MG,governo,senado,Sen. Antonio Anastasia (PSDB/MG),1,25529
 5a93e8c684b8fdd913beea646f010480,204483,Dep. Vilson Da Fetaemg,PSB,MG,oposição,camara,Dep. Vilson Da Fetaemg (PSB/MG),1,1204483
 5ad48ef3efba6be6675e07fa36373340,160758,Dep. Domingos Sávio,PSDB,MG,governo,camara,Dep. Domingos Sávio (PSDB/MG),1,1160758
 5b383a40703b786a7f8ecb47cff02477,160541,Dep. Arthur Lira,PP,AL,governo,camara,Dep. Arthur Lira (PP/AL),1,1160541
@@ -744,11 +890,11 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 5c610a6965db08a8fc04c88f1675f379,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 5c610a6965db08a8fc04c88f1675f379,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),1,1204494
 5cac96aedc0b54d81d882b0b429e758b,204544,Dep. Alexandre Frota,PSL,SP,governo,camara,Dep. Alexandre Frota (PSL/SP),1,1204544
-5cebec781257056025f9e6692e0a81bc,1249,Sen. Kátia Abreu,PP,TO,governo,senado,Sen. Kátia Abreu (PP/TO),3,21249
+5cd45a5038311877d079915dac713cb6,205476,Dep. Charles Fernandes,PSD,BA,governo,camara,Dep. Charles Fernandes (PSD/BA),1,1205476
 5d3a2322559958c920a00a702b55d6f3,204572,Dep. Capitão Alberto Neto,PRB,AM,governo,camara,Dep. Capitão Alberto Neto (PRB/AM),1,1204572
 5d53ed595fcc142cc3a70279a866f11c,4770,Sen. Izalci Lucas,PSDB,DF,governo,senado,Sen. Izalci Lucas (PSDB/DF),1,24770
+5d57c17461c0e205edcb5de074eee067,204538,Dep. Paulo Bengtson,PTB,PA,governo,camara,Dep. Paulo Bengtson (PTB/PA),1,1204538
 5d80d09e75ddf85adc68e64e93ca764d,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),1,1204494
-5ea0f1d5f611a41c2aee6183a4e0d454,751,Sen. Arolde de Oliveira,PSD,RJ,governo,senado,Sen. Arolde de Oliveira (PSD/RJ),1,2751
 5fa8e03f45699c755f33e2be315f244b,178964,Dep. Heitor Schuch,PSB,RS,oposição,camara,Dep. Heitor Schuch (PSB/RS),1,1178964
 5fcef66ce06a14a74cdcb0920a62ce82,204389,Dep. Elias Vaz,PSB,GO,oposição,camara,Dep. Elias Vaz (PSB/GO),1,1204389
 5fd9eaa5866450d61187aeeece44333f,204440,Dep. Christino Aureo,PP,RJ,governo,camara,Dep. Christino Aureo (PP/RJ),1,1204440
@@ -778,6 +924,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 651733347c223e2084e3c1edf5ac0b52,72442,Dep. Felipe Carreras,PSB,PE,oposição,camara,Dep. Felipe Carreras (PSB/PE),1,172442
 654fff472982e1f93d85281dccaf5193,204530,Dep. Rodrigo Agostinho,PSB,SP,oposição,camara,Dep. Rodrigo Agostinho (PSB/SP),1,1204530
 6593c77ef8b3faad174a2daa225d067c,204570,Dep. Pastor Gildenemyr,PMN,MA,governo,camara,Dep. Pastor Gildenemyr (PMN/MA),1,1204570
+65bf9f042f6b98b0df79bca6c20d2a97,137070,Dep. Vicentinho Júnior,PL,TO,governo,camara,Dep. Vicentinho Júnior (PL/TO),1,1137070
 65ced50aef5733e0af22dedcdbe5d459,178832,Dep. Leandre,PV,PR,governo,camara,Dep. Leandre (PV/PR),1,1178832
 65ced50aef5733e0af22dedcdbe5d459,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 65f6d31e1f51ad9bbf222b0bde1b32f0,204418,Dep. Luizão Goulart,PRB,PR,governo,camara,Dep. Luizão Goulart (PRB/PR),7,1204418
@@ -848,6 +995,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 6ca119cd90139946049c113136bef565,5535,Sen. Telmário Mota,PROS,RR,governo,senado,Sen. Telmário Mota (PROS/RR),1,25535
 6ca119cd90139946049c113136bef565,6027,Sen. Mecias de Jesus,REPUBLICANOS,RR,governo,senado,Sen. Mecias de Jesus (REPUBLICANOS/RR),1,26027
 6d0aabd1c472d4673c66f1223435a42d,204391,Dep. José Nelto,PODE,GO,governo,camara,Dep. José Nelto (PODE/GO),1,1204391
+6d0c2ebaec27dadb7dbdfa69c0966d09,204538,Dep. Paulo Bengtson,PTB,PA,governo,camara,Dep. Paulo Bengtson (PTB/PA),1,1204538
 6d2bbca6eb76e7411882054a60839644,160511,Dep. Alessandro Molon,PSB,RJ,oposição,camara,Dep. Alessandro Molon (PSB/RJ),0.9,1160511
 6d2bbca6eb76e7411882054a60839644,160528,Dep. Danilo Cabral,PSB,PE,oposição,camara,Dep. Danilo Cabral (PSB/PE),0.9,1160528
 6d2bbca6eb76e7411882054a60839644,160556,Dep. Padre João,PT,MG,oposição,camara,Dep. Padre João (PT/MG),8,1160556
@@ -912,11 +1060,6 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 70ee1907e769e62166026399b4c611a2,204544,Dep. Alexandre Frota,PSL,SP,governo,camara,Dep. Alexandre Frota (PSL/SP),1,1204544
 71f60940e7154b4c4f11fa2e9a10b79b,204489,Dep. Robério Monteiro,PDT,CE,oposição,camara,Dep. Robério Monteiro (PDT/CE),1,1204489
 71f60940e7154b4c4f11fa2e9a10b79b,204495,Dep. Airton Faleiro,PT,PA,oposição,camara,Dep. Airton Faleiro (PT/PA),1,1204495
-7244a7ad51170286dcf62a6de789db2a,5411,Sen. Weverton,PDT,MA,oposição,senado,Sen. Weverton (PDT/MA),1,25411
-7244a7ad51170286dcf62a6de789db2a,5523,Sen. Otto Alencar,PSD,BA,governo,senado,Sen. Otto Alencar (PSD/BA),3,25523
-7244a7ad51170286dcf62a6de789db2a,5529,Sen. Antonio Anastasia,PSD,MG,governo,senado,Sen. Antonio Anastasia (PSD/MG),4,25529
-7244a7ad51170286dcf62a6de789db2a,5718,Sen. Eliziane Gama,CIDADANIA,MA,governo,senado,Sen. Eliziane Gama (CIDADANIA/MA),1,25718
-7244a7ad51170286dcf62a6de789db2a,945,Sen. Alvaro Dias,PODEMOS,PR,governo,senado,Sen. Alvaro Dias (PODEMOS/PR),2,2945
 7266e644a2e6036456a8b5a588fa87b7,204393,Dep. Frei Anastacio Ribeiro,PT,PB,oposição,camara,Dep. Frei Anastacio Ribeiro (PT/PB),1,1204393
 728a798ba1378ded9898fc9696dedabe,122974,Dep. Pedro Lucas Fernandes,PTB,MA,governo,camara,Dep. Pedro Lucas Fernandes (PTB/MA),1,1122974
 728e3259f5fc67358b5af336cf70c81e,160655,Dep. Ricardo Izar,PP,SP,governo,camara,Dep. Ricardo Izar (PP/SP),1,1160655
@@ -949,7 +1092,9 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 745da316604ade7bac85f6375b7a4623,141464,Dep. José Airton Félix Cirilo,PT,CE,oposição,camara,Dep. José Airton Félix Cirilo (PT/CE),1,1141464
 74a59c48b1cd5947280dcd1c7fbbafaf,204566,Dep. Marreca Filho,PATRIOTA,MA,governo,camara,Dep. Marreca Filho (PATRIOTA/MA),1,1204566
 74ae4e0c9883afea658c2bd830f7fb04,204572,Dep. Capitão Alberto Neto,PRB,AM,governo,camara,Dep. Capitão Alberto Neto (PRB/AM),1,1204572
-74d85c5078076bc8f5c03a2e2610e1e9,1186,Sen. Luis Carlos Heinze,PP,RS,governo,senado,Sen. Luis Carlos Heinze (PP/RS),1,21186
+74dbee5272804176a03850c295c1aa54,204360,Dep. Silvia Cristina,PDT,RO,oposição,camara,Dep. Silvia Cristina (PDT/RO),1,1204360
+74dbee5272804176a03850c295c1aa54,204572,Dep. Capitão Alberto Neto,PRB,AM,governo,camara,Dep. Capitão Alberto Neto (PRB/AM),2,1204572
+74dbee5272804176a03850c295c1aa54,74356,Dep. Silas Câmara,PRB,AM,governo,camara,Dep. Silas Câmara (PRB/AM),1,174356
 74fe3601c4658ea3b504612a1d9e3d36,133810,Dep. Marcelo Moraes,PTB,RS,governo,camara,Dep. Marcelo Moraes (PTB/RS),2,1133810
 75f60888c2d90329aeb6c7f400eb43b9,122974,Dep. Pedro Lucas Fernandes,PTB,MA,governo,camara,Dep. Pedro Lucas Fernandes (PTB/MA),1,1122974
 75f8f0e82ea3cd2bf81a44349b715026,178908,Dep. Delegado Éder Mauro,PSD,PA,governo,camara,Dep. Delegado Éder Mauro (PSD/PA),1,1178908
@@ -966,6 +1111,9 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 76f22462d789f1efdef980b4161602a7,74158,Dep. Mário Heringer,PDT,MG,oposição,camara,Dep. Mário Heringer (PDT/MG),1,174158
 7705006c68d8b906d7ea235a1db23210,160976,Dep. Tiririca,PL,SP,governo,camara,Dep. Tiririca (PL/SP),1,1160976
 770887c85936d1cdb5fc32e165c15819,204411,Dep. Filipe Barros,PSL,PR,governo,camara,Dep. Filipe Barros (PSL/PR),1,1204411
+77b38623aa86a7b8a72afb407f622e95,160559,Dep. Alceu Moreira,MDB,,governo,camara,Dep. Alceu Moreira (MDB/-),2,1160559
+77b38623aa86a7b8a72afb407f622e95,160610,Dep. Valmir Assunção,PT,BA,oposição,camara,Dep. Valmir Assunção (PT/BA),1,1160610
+77b38623aa86a7b8a72afb407f622e95,178916,Dep. Daniel Coelho,CIDADANIA,PE,governo,camara,Dep. Daniel Coelho (CIDADANIA/PE),1,1178916
 77e3633a970e9bd4f286f09242fe000c,204511,Dep. David Soares,DEM,SP,governo,camara,Dep. David Soares (DEM/SP),1,1204511
 787b90cdbc371525728eb762d5eef6b4,160511,Dep. Alessandro Molon,PSB,RJ,oposição,camara,Dep. Alessandro Molon (PSB/RJ),1,1160511
 78960e8a00f72339c9272513f4d5dfb2,204544,Dep. Alexandre Frota,PSL,SP,governo,camara,Dep. Alexandre Frota (PSL/SP),1,1204544
@@ -979,11 +1127,19 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 78ef6174adf2443e3d776a6ab6ebad48,74305,Dep. Roberto Pessoa,PSDB,CE,governo,camara,Dep. Roberto Pessoa (PSDB/CE),1,174305
 79080cbe69b69361af3f19954e6684ca,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 79ab10ceeef22a4d992754921bbc4a7c,74371,Dep. Rubens Otoni,PT,GO,oposição,camara,Dep. Rubens Otoni (PT/GO),1,174371
+79ed1f21250d33e4199ffda273d36271,141488,Dep. Paulo Teixeira,PT,SP,oposição,camara,Dep. Paulo Teixeira (PT/SP),2,1141488
+79ed1f21250d33e4199ffda273d36271,160610,Dep. Valmir Assunção,PT,BA,oposição,camara,Dep. Valmir Assunção (PT/BA),1,1160610
+79ed1f21250d33e4199ffda273d36271,204453,Dep. Natália Bonavides,PT,RN,oposição,camara,Dep. Natália Bonavides (PT/RN),1,1204453
+79ed1f21250d33e4199ffda273d36271,204501,Dep. Alencar Santana Braga,PT,SP,oposição,camara,Dep. Alencar Santana Braga (PT/SP),1,1204501
 7a2c566a8a1a8ac455dbe438a8556392,204455,Dep. Luiz Lima,PSL,RJ,governo,camara,Dep. Luiz Lima (PSL/RJ),1,1204455
 7a2c566a8a1a8ac455dbe438a8556392,204490,Dep. Charlles Evangelista,PSL,MG,governo,camara,Dep. Charlles Evangelista (PSL/MG),2,1204490
 7a2c566a8a1a8ac455dbe438a8556392,204541,Dep. Eduardo Bismarck,PDT,CE,oposição,camara,Dep. Eduardo Bismarck (PDT/CE),1,1204541
 7a4c71b4575c1791d0ae391ba135d759,204542,Dep. Denis Bezerra,PSB,CE,oposição,camara,Dep. Denis Bezerra (PSB/CE),1,1204542
 7a9508af5c5a98a2a3bd0976b6548cff,157130,Dep. Túlio Gadêlha,PDT,PE,oposição,camara,Dep. Túlio Gadêlha (PDT/PE),2,1157130
+7ad75fb2c7bd1990cb00e35481347458,132504,Dep. Enio Verri,PT,,oposição,camara,Dep. Enio Verri (PT/-),1,1132504
+7ad75fb2c7bd1990cb00e35481347458,160559,Dep. Alceu Moreira,MDB,,governo,camara,Dep. Alceu Moreira (MDB/-),3,1160559
+7ad75fb2c7bd1990cb00e35481347458,178884,Dep. Hildo Rocha,MDB,MA,governo,camara,Dep. Hildo Rocha (MDB/MA),2,1178884
+7ad75fb2c7bd1990cb00e35481347458,470,Sen. Chico Rodrigues,DEM,RR,governo,senado,Sen. Chico Rodrigues (DEM/RR),3,2470
 7affdd4f24b95c26b89d9280fb2fa1dd,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),1,1204494
 7b170818bde0895d4e600bdc9e822feb,160587,Dep. Fábio Trad,PSD,MS,governo,camara,Dep. Fábio Trad (PSD/MS),1,1160587
 7c3cefa785d1a3a6679bade2e7b98ba3,160528,Dep. Danilo Cabral,PSB,PE,oposição,camara,Dep. Danilo Cabral (PSB/PE),0.75,1160528
@@ -1004,6 +1160,34 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 7daedbd24681280c7a8df5a50648ab70,178889,Dep. Zé Carlos,PT,MA,oposição,camara,Dep. Zé Carlos (PT/MA),1,1178889
 7db2799740c7bddb7f4701db47ad25e7,204517,Dep. Zé Vitor,PL,MG,governo,camara,Dep. Zé Vitor (PL/MG),1,1204517
 7db2799740c7bddb7f4701db47ad25e7,204550,Dep. Júnior Mano,PL,CE,governo,camara,Dep. Júnior Mano (PL/CE),1,1204550
+7e2d10f2e304c958e03cece4491239f6,133439,Dep. André Figueiredo,PDT,CE,oposição,camara,Dep. André Figueiredo (PDT/CE),1,1133439
+7e2d10f2e304c958e03cece4491239f6,134812,Dep. Edmilson Rodrigues,PSOL,PA,oposição,camara,Dep. Edmilson Rodrigues (PSOL/PA),6,1134812
+7e2d10f2e304c958e03cece4491239f6,151208,Dep. Laercio Oliveira,PP,SE,governo,camara,Dep. Laercio Oliveira (PP/SE),2,1151208
+7e2d10f2e304c958e03cece4491239f6,157130,Dep. Túlio Gadêlha,PDT,PE,oposição,camara,Dep. Túlio Gadêlha (PDT/PE),2,1157130
+7e2d10f2e304c958e03cece4491239f6,178916,Dep. Daniel Coelho,CIDADANIA,PE,governo,camara,Dep. Daniel Coelho (CIDADANIA/PE),4,1178916
+7e2d10f2e304c958e03cece4491239f6,178986,Dep. Nilto Tatto,PT,SP,oposição,camara,Dep. Nilto Tatto (PT/SP),7,1178986
+7e2d10f2e304c958e03cece4491239f6,204371,Dep. Felipe Rigoni,PSB,ES,oposição,camara,Dep. Felipe Rigoni (PSB/ES),8,1204371
+7e2d10f2e304c958e03cece4491239f6,204386,Dep. Jose Mario Schreiner,DEM,GO,governo,camara,Dep. Jose Mario Schreiner (DEM/GO),1,1204386
+7e2d10f2e304c958e03cece4491239f6,204389,Dep. Elias Vaz,PSB,GO,oposição,camara,Dep. Elias Vaz (PSB/GO),1,1204389
+7e2d10f2e304c958e03cece4491239f6,204407,Dep. Fernanda Melchionna,PSOL,RS,oposição,camara,Dep. Fernanda Melchionna (PSOL/RS),6,1204407
+7e2d10f2e304c958e03cece4491239f6,204461,Dep. Paulo Ganime,NOVO,RJ,governo,camara,Dep. Paulo Ganime (NOVO/RJ),2,1204461
+7e2d10f2e304c958e03cece4491239f6,204464,Dep. Talíria Petrone,PSOL,RJ,oposição,camara,Dep. Talíria Petrone (PSOL/RJ),6,1204464
+7e2d10f2e304c958e03cece4491239f6,204468,Dep. Joenia Wapichana,REDE,RR,oposição,camara,Dep. Joenia Wapichana (REDE/RR),1,1204468
+7e2d10f2e304c958e03cece4491239f6,204495,Dep. Airton Faleiro,PT,PA,oposição,camara,Dep. Airton Faleiro (PT/PA),5,1204495
+7e2d10f2e304c958e03cece4491239f6,204509,Dep. Áurea Carolina,PSOL,MG,oposição,camara,Dep. Áurea Carolina (PSOL/MG),5,1204509
+7e2d10f2e304c958e03cece4491239f6,35,Sen. Jader Barbalho,MDB,PA,governo,senado,Sen. Jader Barbalho (MDB/PA),2,235
+7e2d10f2e304c958e03cece4491239f6,374,Sen. Paulo Rocha,PT,PA,oposição,senado,Sen. Paulo Rocha (PT/PA),1,2374
+7e2d10f2e304c958e03cece4491239f6,4770,Sen. Izalci Lucas,PSDB,DF,governo,senado,Sen. Izalci Lucas (PSDB/DF),1,24770
+7e2d10f2e304c958e03cece4491239f6,5012,Sen. Randolfe Rodrigues,REDE,AP,oposição,senado,Sen. Randolfe Rodrigues (REDE/AP),8,25012
+7e2d10f2e304c958e03cece4491239f6,5352,Sen. Rogério Carvalho,PT,SE,oposição,senado,Sen. Rogério Carvalho (PT/SE),4,25352
+7e2d10f2e304c958e03cece4491239f6,5718,Sen. Eliziane Gama,CIDADANIA,MA,governo,senado,Sen. Eliziane Gama (CIDADANIA/MA),3,25718
+7e2d10f2e304c958e03cece4491239f6,581,Sen. Jaques Wagner,PT,BA,oposição,senado,Sen. Jaques Wagner (PT/BA),8,2581
+7e2d10f2e304c958e03cece4491239f6,5982,Sen. Alessandro Vieira,CIDADANIA,SE,governo,senado,Sen. Alessandro Vieira (CIDADANIA/SE),2,25982
+7e2d10f2e304c958e03cece4491239f6,73531,Dep. Ivan Valente,PSOL,SP,oposição,camara,Dep. Ivan Valente (PSOL/SP),6,173531
+7e2d10f2e304c958e03cece4491239f6,74158,Dep. Mário Heringer,PDT,MG,oposição,camara,Dep. Mário Heringer (PDT/MG),1,174158
+7e2d10f2e304c958e03cece4491239f6,76874,Dep. Marcelo Freixo,PSOL,RJ,oposição,camara,Dep. Marcelo Freixo (PSOL/RJ),6,176874
+7e2d10f2e304c958e03cece4491239f6,945,Sen. Alvaro Dias,PODEMOS,PR,governo,senado,Sen. Alvaro Dias (PODEMOS/PR),2,2945
+7e3d7d8e64b41545ed59de1dd5039743,204563,Dep. Josimar Maranhãozinho,PL,MA,governo,camara,Dep. Josimar Maranhãozinho (PL/MA),1,1204563
 7e43c009872e194c5b1221e32cc4aa20,204534,Dep. Tabata Amaral,PDT,SP,oposição,camara,Dep. Tabata Amaral (PDT/SP),1,1204534
 7eae540ac6a8476360a2065af6495e11,74585,Dep. Lincoln Portela,PL,MG,governo,camara,Dep. Lincoln Portela (PL/MG),1,174585
 7ef9a245638bf643a4aafe7bdb59fce3,1186,Sen. Luis Carlos Heinze,PP,RS,governo,senado,Sen. Luis Carlos Heinze (PP/RS),1,21186
@@ -1018,7 +1202,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 80e0b61f9aedc241f002c936ffe90eea,204386,Dep. Jose Mario Schreiner,DEM,GO,governo,camara,Dep. Jose Mario Schreiner (DEM/GO),1,1204386
 8199e2a23c94d71e5668d0d90941226a,204565,Dep. Professora Dayane Pimentel,PSL,BA,governo,camara,Dep. Professora Dayane Pimentel (PSL/BA),1,1204565
 81b01fcc8c2a6e441b0b8be59a68e9d4,160518,Dep. Weliton Prado,PROS,MG,governo,camara,Dep. Weliton Prado (PROS/MG),1.5,1160518
-81b01fcc8c2a6e441b0b8be59a68e9d4,160655,Dep. Ricardo Izar,PP,SP,governo,camara,Dep. Ricardo Izar (PP/SP),0.5,1160655
+81b01fcc8c2a6e441b0b8be59a68e9d4,160655,Dep. Ricardo Izar,PP,SP,governo,camara,Dep. Ricardo Izar (PP/SP),1.5,1160655
 823deaf3071873a32968ba63608d542c,204400,Dep. Aline Sleutjes,PSL,PR,governo,camara,Dep. Aline Sleutjes (PSL/PR),1,1204400
 8257571ac8a49dddd8d582108170a08f,581,Sen. Jaques Wagner,PT,BA,oposição,senado,Sen. Jaques Wagner (PT/BA),1,2581
 826978a4a6119ef3625f8f655abaa1f5,285,Sen. Marcio Bittar,MDB,AC,governo,senado,Sen. Marcio Bittar (MDB/AC),2,2285
@@ -1075,6 +1259,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 88fb2ea703a6c1834865ccc4d1b0f89d,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 88fb2ea703a6c1834865ccc4d1b0f89d,204505,Dep. Vavá Martins,PRB,PA,governo,camara,Dep. Vavá Martins (PRB/PA),1,1204505
 894b644825e997da706eecce45587bfd,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
+89803e5c47b26854fe0407478a5e4eba,204397,Dep. Boca Aberta,PROS,PR,governo,camara,Dep. Boca Aberta (PROS/PR),1,1204397
 8a779033a5bbe77224ada9dcb090a932,178986,Dep. Nilto Tatto,PT,SP,oposição,camara,Dep. Nilto Tatto (PT/SP),1,1178986
 8a779033a5bbe77224ada9dcb090a932,204572,Dep. Capitão Alberto Neto,PRB,AM,governo,camara,Dep. Capitão Alberto Neto (PRB/AM),1,1204572
 8a779033a5bbe77224ada9dcb090a932,74090,Dep. Átila Lins,PP,AM,governo,camara,Dep. Átila Lins (PP/AM),1,174090
@@ -1102,11 +1287,26 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 8d5bde9685558fe7ae3b9036b693248b,204527,Dep. Geninho Zuliani,DEM,SP,governo,camara,Dep. Geninho Zuliani (DEM/SP),0.5,1204527
 8dcb1e198c7cf960b11c60e00208b8dc,178954,Dep. Lucio Mosquini,MDB,RO,governo,camara,Dep. Lucio Mosquini (MDB/RO),1,1178954
 8dcb1e198c7cf960b11c60e00208b8dc,204352,Dep. Camilo Capiberibe,PSB,AP,oposição,camara,Dep. Camilo Capiberibe (PSB/AP),1,1204352
+8e61e17190b60d13c8f2f29b1d84c38d,204358,Dep. Beto Pereira,PSDB,MS,governo,camara,Dep. Beto Pereira (PSDB/MS),1,1204358
+8e8514724c8d7024d889f4bd1ca06d67,135054,Dep. Cristiano Vale,PL,PA,governo,camara,Dep. Cristiano Vale (PL/PA),2,1135054
+8e8514724c8d7024d889f4bd1ca06d67,204495,Dep. Airton Faleiro,PT,PA,oposição,camara,Dep. Airton Faleiro (PT/PA),1,1204495
 8efed77eab146608e9f8fafa2208371d,204536,Dep. Kim Kataguiri,DEM,SP,governo,camara,Dep. Kim Kataguiri (DEM/SP),2,1204536
 8f2747639dcffdb1b25f06fd8604e056,204421,Dep. Edna Henrique,PSDB,PB,governo,camara,Dep. Edna Henrique (PSDB/PB),1,1204421
 8f3016283633594609291d175cdb76ab,178858,Dep. Mário Negromonte Jr.,PP,BA,governo,camara,Dep. Mário Negromonte Jr. (PP/BA),1,1178858
 8f69c2618b4037192043f01e20052383,133439,Dep. André Figueiredo,PDT,CE,oposição,camara,Dep. André Figueiredo (PDT/CE),1,1133439
 8f77140002b2c752fc00029894085851,5012,Sen. Randolfe Rodrigues,REDE,AP,oposição,senado,Sen. Randolfe Rodrigues (REDE/AP),1,25012
+8f7e86d3feb94a434b529c72db29d8ea,141422,Dep. Efraim Filho,DEM,,governo,camara,Dep. Efraim Filho (DEM/-),0.857142857142857,1141422
+8f7e86d3feb94a434b529c72db29d8ea,141458,Dep. João Carlos Bacelar,PL,BA,governo,camara,Dep. João Carlos Bacelar (PL/BA),1,1141458
+8f7e86d3feb94a434b529c72db29d8ea,160527,Dep. Aguinaldo Ribeiro,PP,PB,governo,camara,Dep. Aguinaldo Ribeiro (PP/PB),0.8571428571428571,1160527
+8f7e86d3feb94a434b529c72db29d8ea,160541,Dep. Arthur Lira,PP,AL,governo,camara,Dep. Arthur Lira (PP/AL),0.8571428571428571,1160541
+8f7e86d3feb94a434b529c72db29d8ea,160632,Dep. Zé Silva,SOLIDARIEDADE,MG,governo,camara,Dep. Zé Silva (SOLIDARIEDADE/MG),1,1160632
+8f7e86d3feb94a434b529c72db29d8ea,204479,Dep. Nicoletti,PSL,RR,governo,camara,Dep. Nicoletti (PSL/RR),1,1204479
+8f7e86d3feb94a434b529c72db29d8ea,204497,Dep. Júnior Ferrari,PSD,PA,governo,camara,Dep. Júnior Ferrari (PSD/PA),0.8571428571428571,1204497
+8f7e86d3feb94a434b529c72db29d8ea,204506,Dep. Marcos Pereira,PRB,SP,governo,camara,Dep. Marcos Pereira (PRB/SP),1,1204506
+8f7e86d3feb94a434b529c72db29d8ea,204546,Dep. Joice Hasselmann,PSL,SP,governo,camara,Dep. Joice Hasselmann (PSL/SP),0.857142857142857,1204546
+8f7e86d3feb94a434b529c72db29d8ea,74060,Dep. Daniel Almeida,PCdoB,BA,oposição,camara,Dep. Daniel Almeida (PCdoB/BA),1,174060
+8f7e86d3feb94a434b529c72db29d8ea,74439,Dep. Wolney Queiroz,PDT,PE,oposição,camara,Dep. Wolney Queiroz (PDT/PE),0.8571428571428571,174439
+8f7e86d3feb94a434b529c72db29d8ea,204556,Dep. Marcelo Ramos,PL,AM,governo,camara,Dep. Marcelo Ramos (PL/AM),0.8571428571428571,1204556
 8ff34d79d8743d54f2e2b42d5b494afe,581,Sen. Jaques Wagner,PT,BA,oposição,senado,Sen. Jaques Wagner (PT/BA),1,2581
 904bbffdfd865d6687974bfc488cc6be,160632,Dep. Zé Silva,SOLIDARIEDADE,MG,governo,camara,Dep. Zé Silva (SOLIDARIEDADE/MG),0.8888888888888888,1160632
 904bbffdfd865d6687974bfc488cc6be,178910,Dep. Joaquim Passarinho,PSD,PA,governo,camara,Dep. Joaquim Passarinho (PSD/PA),0.8888888888888888,1178910
@@ -1118,6 +1318,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 904bbffdfd865d6687974bfc488cc6be,74090,Dep. Átila Lins,PP,AM,governo,camara,Dep. Átila Lins (PP/AM),0.8888888888888888,174090
 904bbffdfd865d6687974bfc488cc6be,204557,Dep. Sidney Leite,PSD,AM,governo,camara,Dep. Sidney Leite (PSD/AM),0.8888888888888888,1204557
 90aa7f96ef7d19436c81a41b549c2b89,5012,Sen. Randolfe Rodrigues,REDE,AP,oposição,senado,Sen. Randolfe Rodrigues (REDE/AP),2,25012
+90f4508a1b60d37b5881e304ca64b71e,160588,Dep. Diego Andrade,PSD,MG,governo,camara,Dep. Diego Andrade (PSD/MG),1,1160588
 91221c629c992a78527e99ad35f6f06b,204415,Dep. Nereu Crispim,PSL,RS,governo,camara,Dep. Nereu Crispim (PSL/RS),1,1204415
 91223a8f8656506811b60b70e889d5f9,1186,Sen. Luis Carlos Heinze,PP,RS,governo,senado,Sen. Luis Carlos Heinze (PP/RS),1,21186
 91223a8f8656506811b60b70e889d5f9,5012,Sen. Randolfe Rodrigues,REDE,AP,oposição,senado,Sen. Randolfe Rodrigues (REDE/AP),1,25012
@@ -1128,6 +1329,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 91b7b11ec7327d9036ead1b63bd4dd3c,205863,Dep. Marcelo Brum,PSL,RS,governo,camara,Dep. Marcelo Brum (PSL/RS),1,1205863
 9273a3c1a2a082128d4a31da60b99690,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 9273a3c1a2a082128d4a31da60b99690,204505,Dep. Vavá Martins,PRB,PA,governo,camara,Dep. Vavá Martins (PRB/PA),1,1204505
+92861aeefdfb1d7b3c3ec20a137cdc48,204391,Dep. José Nelto,PODE,GO,governo,camara,Dep. José Nelto (PODE/GO),1,1204391
 92acb771640660fb06bcfa40d7e382bc,141555,Dep. Vinicius Carvalho,PRB,SP,governo,camara,Dep. Vinicius Carvalho (PRB/SP),1,1141555
 92acb771640660fb06bcfa40d7e382bc,162332,Dep. Luiz Nishimori,PL,PR,governo,camara,Dep. Luiz Nishimori (PL/PR),1,1162332
 92acb771640660fb06bcfa40d7e382bc,204395,Dep. Pedro Lupion,DEM,PR,governo,camara,Dep. Pedro Lupion (DEM/PR),2,1204395
@@ -1181,6 +1383,7 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 95a3ca957f9109c578c17f6a23a471e1,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),0.6666666666666666,1204488
 963a6871c9f37f04d1ca81482fd60c72,204544,Dep. Alexandre Frota,PSL,SP,governo,camara,Dep. Alexandre Frota (PSL/SP),1,1204544
 963e4604ed0b5590596d69880ff30b80,204544,Dep. Alexandre Frota,PSL,SP,governo,camara,Dep. Alexandre Frota (PSL/SP),1,1204544
+96687da86f07d9b40906afdfb0dc556b,141508,Dep. Mauro Nazif,PSB,RO,oposição,camara,Dep. Mauro Nazif (PSB/RO),1,1141508
 967b8a10cd3d6916f3c4c1e79c169c30,141470,Dep. José Guimarães,PT,CE,oposição,camara,Dep. José Guimarães (PT/CE),2,1141470
 9691c5966cca049801359fe89b5166a0,475,Sen. Confúcio Moura,MDB,RO,governo,senado,Sen. Confúcio Moura (MDB/RO),1,2475
 9691c5966cca049801359fe89b5166a0,5953,Sen. Fabiano Contarato,REDE,ES,oposição,senado,Sen. Fabiano Contarato (REDE/ES),1,25953
@@ -1204,9 +1407,13 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 98975d5e4ca443291e7683faf3dc19ab,204395,Dep. Pedro Lupion,DEM,PR,governo,camara,Dep. Pedro Lupion (DEM/PR),1,1204395
 991ff1274e2f294db918b31a8f4773aa,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 993ef0e756b19e1a5f2364c9703b5a9f,178986,Dep. Nilto Tatto,PT,SP,oposição,camara,Dep. Nilto Tatto (PT/SP),1,1178986
-997ae89110b988183db3a929f89dab1d,5979,Sen. Leila Barros,PSB,DF,oposição,senado,Sen. Leila Barros (PSB/DF),1,25979
 998f62cc2325d045e3665449dc7fe3f7,205863,Dep. Marcelo Brum,PSL,RS,governo,camara,Dep. Marcelo Brum (PSL/RS),1,1205863
 99c00942c44387bc143eee10b956ed1c,90842,Dep. Santini,PTB,RS,governo,camara,Dep. Santini (PTB/RS),1,190842
+99c577bdfe03d40ae7e3cb4c63467664,160758,Dep. Domingos Sávio,PSDB,MG,governo,camara,Dep. Domingos Sávio (PSDB/MG),1,1160758
+99c577bdfe03d40ae7e3cb4c63467664,74262,Dep. Carlos Sampaio,PSDB,SP,governo,camara,Dep. Carlos Sampaio (PSDB/SP),1,174262
+99c577bdfe03d40ae7e3cb4c63467664,204486,Dep. Mauro Benevides Filho,PDT,CE,oposição,camara,Dep. Mauro Benevides Filho (PDT/CE),1,1204486
+99c577bdfe03d40ae7e3cb4c63467664,2331,Sen. Rose de Freitas,PODEMOS,ES,governo,senado,Sen. Rose de Freitas (PODEMOS/ES),1,22331
+99c577bdfe03d40ae7e3cb4c63467664,5990,Sen. Carlos Viana,PSD,MG,governo,senado,Sen. Carlos Viana (PSD/MG),1,25990
 99da4c897f087ff611abdaeb5259ffe4,1186,Sen. Luis Carlos Heinze,PP,RS,governo,senado,Sen. Luis Carlos Heinze (PP/RS),1,21186
 99da4c897f087ff611abdaeb5259ffe4,5502,Sen. Plínio Valério,PSDB,AM,governo,senado,Sen. Plínio Valério (PSDB/AM),1,25502
 99da4c897f087ff611abdaeb5259ffe4,5953,Sen. Fabiano Contarato,REDE,ES,oposição,senado,Sen. Fabiano Contarato (REDE/ES),1,25953
@@ -1258,6 +1465,13 @@ a0c420b144c600634a5e258c2a94a1f5,5411,Sen. Weverton,PDT,MA,oposição,senado,Sen
 a0c420b144c600634a5e258c2a94a1f5,5533,Sen. Lasier Martins,PODEMOS,RS,governo,senado,Sen. Lasier Martins (PODEMOS/RS),1,25533
 a139b6870a4bd23fc137dc341b27b0f1,204570,Dep. Pastor Gildenemyr,PMN,MA,governo,camara,Dep. Pastor Gildenemyr (PMN/MA),1,1204570
 a14c5550cecd5108dd35293fca18aa0b,204497,Dep. Júnior Ferrari,PSD,PA,governo,camara,Dep. Júnior Ferrari (PSD/PA),1,1204497
+a175c8bda7e2631cc1e9736d566c123a,160535,Dep. Marcon,PT,RS,oposição,camara,Dep. Marcon (PT/RS),0.857142857142857,1160535
+a175c8bda7e2631cc1e9736d566c123a,160610,Dep. Valmir Assunção,PT,BA,oposição,camara,Dep. Valmir Assunção (PT/BA),0.8571428571428571,1160610
+a175c8bda7e2631cc1e9736d566c123a,178970,Dep. João Daniel,PT,SE,oposição,camara,Dep. João Daniel (PT/SE),0.8571428571428571,1178970
+a175c8bda7e2631cc1e9736d566c123a,178986,Dep. Nilto Tatto,PT,SP,oposição,camara,Dep. Nilto Tatto (PT/SP),0.8571428571428571,1178986
+a175c8bda7e2631cc1e9736d566c123a,204370,Dep. Célio Moura,PT,TO,oposição,camara,Dep. Célio Moura (PT/TO),0.857142857142857,1204370
+a175c8bda7e2631cc1e9736d566c123a,74160,Dep. Patrus Ananias,PT,MG,oposição,camara,Dep. Patrus Ananias (PT/MG),0.8571428571428571,174160
+a175c8bda7e2631cc1e9736d566c123a,204467,Dep. Professora Rosa Neide,PT,MT,oposição,camara,Dep. Professora Rosa Neide (PT/MT),0.8571428571428571,1204467
 a2fb06e44cb548d95fa3144ce7a6c2ba,5533,Sen. Lasier Martins,PODEMOS,RS,governo,senado,Sen. Lasier Martins (PODEMOS/RS),1,25533
 a2ff9643323350760f35690a2745a8c3,160642,Dep. Pastor Eurico,PATRIOTA,PE,governo,camara,Dep. Pastor Eurico (PATRIOTA/PE),1,1160642
 a331696cf3af45ca9139424c07a5445c,178839,Dep. Jéssica Sales,MDB,AC,governo,camara,Dep. Jéssica Sales (MDB/AC),1,1178839
@@ -1337,7 +1551,7 @@ aac8cbadb7d6109935376ead1503e24d,178874,Dep. Sergio Vidigal,PDT,ES,oposição,ca
 ab2d10c0a65bdb4b323ac2a4c252d80b,204500,Dep. Eduardo Costa,PTB,PA,governo,camara,Dep. Eduardo Costa (PTB/PA),1,1204500
 ab5ab2b3e890e3b80b2c0d86f717fa59,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 ab69381f8f9725611efb4d33fb30dbf8,178858,Dep. Mário Negromonte Jr.,PP,BA,governo,camara,Dep. Mário Negromonte Jr. (PP/BA),1,1178858
-ab7c44749de98a6d60b967a27755fac2,5985,Sen. Nelsinho Trad,PSD,MS,governo,senado,Sen. Nelsinho Trad (PSD/MS),2,25985
+ab7942259ef008be00aba3bcd4d095b1,160758,Dep. Domingos Sávio,PSDB,MG,governo,camara,Dep. Domingos Sávio (PSDB/MG),1,1160758
 aba7a0647180a3b37c576f07cf8de76b,160632,Dep. Zé Silva,SOLIDARIEDADE,MG,governo,camara,Dep. Zé Silva (SOLIDARIEDADE/MG),1,1160632
 aba7a0647180a3b37c576f07cf8de76b,74161,Dep. Reginaldo Lopes,PT,MG,oposição,camara,Dep. Reginaldo Lopes (PT/MG),7,174161
 aba7a0647180a3b37c576f07cf8de76b,3806,Sen. Zequinha Marinho,PSC,PA,governo,senado,Sen. Zequinha Marinho (PSC/PA),1,23806
@@ -1376,6 +1590,7 @@ aee869ac22101da1ca80553ef1b48ce7,4981,Sen. Acir Gurgacz,PDT,RO,oposição,senado
 aee869ac22101da1ca80553ef1b48ce7,5967,Sen. Angelo Coronel,PSD,BA,governo,senado,Sen. Angelo Coronel (PSD/BA),1,25967
 af225c67ea7815ee73d793302020b7fc,204570,Dep. Pastor Gildenemyr,PMN,MA,governo,camara,Dep. Pastor Gildenemyr (PMN/MA),1,1204570
 af958ff89519c7dcdacba4a84db760e1,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
+afb2c0b14ca5f287a443e576c1ae25a8,204538,Dep. Paulo Bengtson,PTB,PA,governo,camara,Dep. Paulo Bengtson (PTB/PA),1,1204538
 afbcf1dc6a34e71e8b4c54100ea479f0,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 afce104a0cfa16808d45df263c64fa3e,72442,Dep. Felipe Carreras,PSB,PE,oposição,camara,Dep. Felipe Carreras (PSB/PE),1,172442
 b01ac60ee5bcbb5eb36e0bde06e348bc,178873,Dep. Helder Salomão,PT,ES,oposição,camara,Dep. Helder Salomão (PT/ES),2,1178873
@@ -1429,6 +1644,14 @@ b53eab4b004fe7ace5033b50a090760a,204414,Dep. Aroldo Martins,PRB,PR,governo,camar
 b5538ce6f5ee64cbc724580efe60b347,5718,Sen. Eliziane Gama,CIDADANIA,MA,governo,senado,Sen. Eliziane Gama (CIDADANIA/MA),1,25718
 b5538ce6f5ee64cbc724580efe60b347,5982,Sen. Alessandro Vieira,CIDADANIA,SE,governo,senado,Sen. Alessandro Vieira (CIDADANIA/SE),1,25982
 b5b3a11cc57cf3ec141d4e1de49f7057,74371,Dep. Rubens Otoni,PT,GO,oposição,camara,Dep. Rubens Otoni (PT/GO),1,174371
+b5c62f3d5e5ab27c2496359855ce8b4e,160535,Dep. Marcon,PT,RS,oposição,camara,Dep. Marcon (PT/RS),0.8,1160535
+b5c62f3d5e5ab27c2496359855ce8b4e,160610,Dep. Valmir Assunção,PT,BA,oposição,camara,Dep. Valmir Assunção (PT/BA),0.8,1160610
+b5c62f3d5e5ab27c2496359855ce8b4e,178871,Dep. Evair Vieira De Melo,PP,ES,governo,camara,Dep. Evair Vieira De Melo (PP/ES),1,1178871
+b5c62f3d5e5ab27c2496359855ce8b4e,178970,Dep. João Daniel,PT,SE,oposição,camara,Dep. João Daniel (PT/SE),0.8,1178970
+b5c62f3d5e5ab27c2496359855ce8b4e,178986,Dep. Nilto Tatto,PT,SP,oposição,camara,Dep. Nilto Tatto (PT/SP),0.8,1178986
+b5c62f3d5e5ab27c2496359855ce8b4e,204393,Dep. Frei Anastacio Ribeiro,PT,PB,oposição,camara,Dep. Frei Anastacio Ribeiro (PT/PB),1,1204393
+b5c62f3d5e5ab27c2496359855ce8b4e,204395,Dep. Pedro Lupion,DEM,PR,governo,camara,Dep. Pedro Lupion (DEM/PR),1,1204395
+b5c62f3d5e5ab27c2496359855ce8b4e,204426,Dep. Carlos Veras,PT,PE,oposição,camara,Dep. Carlos Veras (PT/PE),0.8,1204426
 b6623595facee83a19d1004c11957b9b,5718,Sen. Eliziane Gama,CIDADANIA,MA,governo,senado,Sen. Eliziane Gama (CIDADANIA/MA),1,25718
 b663e98d91ebbd27f109830aefc9ac41,74160,Dep. Patrus Ananias,PT,MG,oposição,camara,Dep. Patrus Ananias (PT/MG),0.5,174160
 b663e98d91ebbd27f109830aefc9ac41,178986,Dep. Nilto Tatto,PT,SP,oposição,camara,Dep. Nilto Tatto (PT/SP),0.5,1178986
@@ -1461,11 +1684,96 @@ b88c3ec0bfac9a0ac5720756f215f320,160655,Dep. Ricardo Izar,PP,SP,governo,camara,D
 b88c3ec0bfac9a0ac5720756f215f320,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 b8aaeaaf5faa2cfe4aaf4b75f0803e64,204385,Dep. Valdevan Noventa,PSC,SE,governo,camara,Dep. Valdevan Noventa (PSC/SE),1,1204385
 b8b7b29c9cec9e90d28283d2e14e674d,285,Sen. Marcio Bittar,MDB,AC,governo,senado,Sen. Marcio Bittar (MDB/AC),1,2285
-b8b7b29c9cec9e90d28283d2e14e674d,5529,Sen. Antonio Anastasia,PSD,MG,governo,senado,Sen. Antonio Anastasia (PSD/MG),1,25529
+b8b7b29c9cec9e90d28283d2e14e674d,5529,Sen. Antonio Anastasia,PSDB,MG,governo,senado,Sen. Antonio Anastasia (PSDB/MG),1,25529
 b8b7b29c9cec9e90d28283d2e14e674d,5953,Sen. Fabiano Contarato,REDE,ES,oposição,senado,Sen. Fabiano Contarato (REDE/ES),1,25953
 b8b7b29c9cec9e90d28283d2e14e674d,677,Sen. Roberto Rocha,PSDB,MA,governo,senado,Sen. Roberto Rocha (PSDB/MA),1,2677
 b8b7b29c9cec9e90d28283d2e14e674d,5894,Sen. Flávio Bolsonaro,PSL,RJ,governo,senado,Sen. Flávio Bolsonaro (PSL/RJ),1,25894
 b901f66941d8c43d9b4f020261fa2977,92102,Dep. Leur Lomanto Júnior,DEM,BA,governo,camara,Dep. Leur Lomanto Júnior (DEM/BA),1,192102
+b939dbc513955298c09d86f0c11f2421,132504,Dep. Enio Verri,PT,,oposição,camara,Dep. Enio Verri (PT/-),4.25,1132504
+b939dbc513955298c09d86f0c11f2421,160632,Dep. Zé Silva,SOLIDARIEDADE,MG,governo,camara,Dep. Zé Silva (SOLIDARIEDADE/MG),6,1160632
+b939dbc513955298c09d86f0c11f2421,178909,Dep. Hélio Leite,DEM,PA,governo,camara,Dep. Hélio Leite (DEM/PA),2,1178909
+b939dbc513955298c09d86f0c11f2421,178954,Dep. Lucio Mosquini,MDB,RO,governo,camara,Dep. Lucio Mosquini (MDB/RO),24,1178954
+b939dbc513955298c09d86f0c11f2421,178997,Dep. Moses Rodrigues,MDB,CE,governo,camara,Dep. Moses Rodrigues (MDB/CE),1,1178997
+b939dbc513955298c09d86f0c11f2421,204479,Dep. Nicoletti,PSL,RR,governo,camara,Dep. Nicoletti (PSL/RR),0.6666666666666666,1204479
+b939dbc513955298c09d86f0c11f2421,204497,Dep. Júnior Ferrari,PSD,PA,governo,camara,Dep. Júnior Ferrari (PSD/PA),1,1204497
+b939dbc513955298c09d86f0c11f2421,204506,Dep. Marcos Pereira,PRB,SP,governo,camara,Dep. Marcos Pereira (PRB/SP),1,1204506
+b939dbc513955298c09d86f0c11f2421,204530,Dep. Rodrigo Agostinho,PSB,SP,oposição,camara,Dep. Rodrigo Agostinho (PSB/SP),14,1204530
+b939dbc513955298c09d86f0c11f2421,66828,Dep. Fausto Pinato,PP,SP,governo,camara,Dep. Fausto Pinato (PP/SP),1,166828
+b939dbc513955298c09d86f0c11f2421,73943,Dep. Perpétua Almeida,PCdoB,AC,oposição,camara,Dep. Perpétua Almeida (PCdoB/AC),2.25,173943
+b939dbc513955298c09d86f0c11f2421,74043,Dep. Wellington Roberto,PL,PB,governo,camara,Dep. Wellington Roberto (PL/PB),1.1666666666666665,174043
+b939dbc513955298c09d86f0c11f2421,74439,Dep. Wolney Queiroz,PDT,PE,oposição,camara,Dep. Wolney Queiroz (PDT/PE),4.25,174439
+b939dbc513955298c09d86f0c11f2421,108338,Dep. Jaqueline Cassol,PP,RO,governo,camara,Dep. Jaqueline Cassol (PP/RO),1,1108338
+b939dbc513955298c09d86f0c11f2421,1173,Sen. Wellington Fagundes,PL,MT,governo,senado,Sen. Wellington Fagundes (PL/MT),2,21173
+b939dbc513955298c09d86f0c11f2421,133439,Dep. André Figueiredo,PDT,CE,oposição,camara,Dep. André Figueiredo (PDT/CE),2,1133439
+b939dbc513955298c09d86f0c11f2421,134812,Dep. Edmilson Rodrigues,PSOL,PA,oposição,camara,Dep. Edmilson Rodrigues (PSOL/PA),13,1134812
+b939dbc513955298c09d86f0c11f2421,141391,Dep. Arnaldo Jardim,CIDADANIA,SP,governo,camara,Dep. Arnaldo Jardim (CIDADANIA/SP),1,1141391
+b939dbc513955298c09d86f0c11f2421,141508,Dep. Mauro Nazif,PSB,RO,oposição,camara,Dep. Mauro Nazif (PSB/RO),2,1141508
+b939dbc513955298c09d86f0c11f2421,152605,Dep. Glauber Braga,PSOL,RJ,oposição,camara,Dep. Glauber Braga (PSOL/RJ),13,1152605
+b939dbc513955298c09d86f0c11f2421,157130,Dep. Túlio Gadêlha,PDT,PE,oposição,camara,Dep. Túlio Gadêlha (PDT/PE),5,1157130
+b939dbc513955298c09d86f0c11f2421,160535,Dep. Marcon,PT,RS,oposição,camara,Dep. Marcon (PT/RS),18,1160535
+b939dbc513955298c09d86f0c11f2421,160556,Dep. Padre João,PT,MG,oposição,camara,Dep. Padre João (PT/MG),5,1160556
+b939dbc513955298c09d86f0c11f2421,160610,Dep. Valmir Assunção,PT,BA,oposição,camara,Dep. Valmir Assunção (PT/BA),24,1160610
+b939dbc513955298c09d86f0c11f2421,160641,Dep. Professora Marcivania,PCdoB,AP,oposição,camara,Dep. Professora Marcivania (PCdoB/AP),8,1160641
+b939dbc513955298c09d86f0c11f2421,160651,Dep. Rogério Peninha Mendonça,MDB,SC,governo,camara,Dep. Rogério Peninha Mendonça (MDB/SC),2,1160651
+b939dbc513955298c09d86f0c11f2421,160653,Dep. Roberto de Lucena,PODEMOS,SP,governo,camara,Dep. Roberto de Lucena (PODEMOS/SP),1,1160653
+b939dbc513955298c09d86f0c11f2421,177282,Dep. Subtenente Gonzaga,PDT,MG,oposição,camara,Dep. Subtenente Gonzaga (PDT/MG),1,1177282
+b939dbc513955298c09d86f0c11f2421,178874,Dep. Sergio Vidigal,PDT,ES,oposição,camara,Dep. Sergio Vidigal (PDT/ES),2,1178874
+b939dbc513955298c09d86f0c11f2421,178889,Dep. Zé Carlos,PT,MA,oposição,camara,Dep. Zé Carlos (PT/MA),7,1178889
+b939dbc513955298c09d86f0c11f2421,178896,Dep. Newton Cardoso Jr,MDB,MG,governo,camara,Dep. Newton Cardoso Jr (MDB/MG),1,1178896
+b939dbc513955298c09d86f0c11f2421,178916,Dep. Daniel Coelho,CIDADANIA,PE,governo,camara,Dep. Daniel Coelho (CIDADANIA/PE),4,1178916
+b939dbc513955298c09d86f0c11f2421,178964,Dep. Heitor Schuch,PSB,RS,oposição,camara,Dep. Heitor Schuch (PSB/RS),7,1178964
+b939dbc513955298c09d86f0c11f2421,178970,Dep. João Daniel,PT,SE,oposição,camara,Dep. João Daniel (PT/SE),8,1178970
+b939dbc513955298c09d86f0c11f2421,178986,Dep. Nilto Tatto,PT,SP,oposição,camara,Dep. Nilto Tatto (PT/SP),5,1178986
+b939dbc513955298c09d86f0c11f2421,178987,Dep. Orlando Silva,PCdoB,SP,oposição,camara,Dep. Orlando Silva (PCdoB/SP),10,1178987
+b939dbc513955298c09d86f0c11f2421,204352,Dep. Camilo Capiberibe,PSB,AP,oposição,camara,Dep. Camilo Capiberibe (PSB/AP),14,1204352
+b939dbc513955298c09d86f0c11f2421,204370,Dep. Célio Moura,PT,TO,oposição,camara,Dep. Célio Moura (PT/TO),6,1204370
+b939dbc513955298c09d86f0c11f2421,204378,Dep. Coronel Chrisóstomo,PSL,RO,governo,camara,Dep. Coronel Chrisóstomo (PSL/RO),4,1204378
+b939dbc513955298c09d86f0c11f2421,204380,Dep. Celina Leão,PP,DF,governo,camara,Dep. Celina Leão (PP/DF),1,1204380
+b939dbc513955298c09d86f0c11f2421,204381,Dep. Luis Miranda,DEM,DF,governo,camara,Dep. Luis Miranda (DEM/DF),3,1204381
+b939dbc513955298c09d86f0c11f2421,204386,Dep. Jose Mario Schreiner,DEM,GO,governo,camara,Dep. Jose Mario Schreiner (DEM/GO),14,1204386
+b939dbc513955298c09d86f0c11f2421,204393,Dep. Frei Anastacio Ribeiro,PT,PB,oposição,camara,Dep. Frei Anastacio Ribeiro (PT/PB),8,1204393
+b939dbc513955298c09d86f0c11f2421,204407,Dep. Fernanda Melchionna,PSOL,RS,oposição,camara,Dep. Fernanda Melchionna (PSOL/RS),13,1204407
+b939dbc513955298c09d86f0c11f2421,204426,Dep. Carlos Veras,PT,PE,oposição,camara,Dep. Carlos Veras (PT/PE),10,1204426
+b939dbc513955298c09d86f0c11f2421,204439,Dep. Dr. Leonardo,SOLIDARIEDADE,MT,governo,camara,Dep. Dr. Leonardo (SOLIDARIEDADE/MT),2,1204439
+b939dbc513955298c09d86f0c11f2421,204464,Dep. Talíria Petrone,PSOL,RJ,oposição,camara,Dep. Talíria Petrone (PSOL/RJ),13,1204464
+b939dbc513955298c09d86f0c11f2421,204483,Dep. Vilson da Fetaemg,PSB,MG,oposição,camara,Dep. Vilson da Fetaemg (PSB/MG),10,1204483
+b939dbc513955298c09d86f0c11f2421,204500,Dep. Eduardo Costa,PTB,PA,governo,camara,Dep. Eduardo Costa (PTB/PA),7,1204500
+b939dbc513955298c09d86f0c11f2421,204517,Dep. Zé Vitor,PL,MG,governo,camara,Dep. Zé Vitor (PL/MG),1,1204517
+b939dbc513955298c09d86f0c11f2421,204532,Dep. Vinicius Poit,NOVO,SP,governo,camara,Dep. Vinicius Poit (NOVO/SP),1,1204532
+b939dbc513955298c09d86f0c11f2421,204534,Dep. Tabata Amaral,PDT,SP,oposição,camara,Dep. Tabata Amaral (PDT/SP),8,1204534
+b939dbc513955298c09d86f0c11f2421,204535,Dep. Sâmia Bomfim,PSOL,SP,oposição,camara,Dep. Sâmia Bomfim (PSOL/SP),13,1204535
+b939dbc513955298c09d86f0c11f2421,204555,Dep. José Ricardo,PT,AM,oposição,camara,Dep. José Ricardo (PT/AM),8,1204555
+b939dbc513955298c09d86f0c11f2421,204561,Dep. Bira do Pindaré,PSB,MA,oposição,camara,Dep. Bira do Pindaré (PSB/MA),15,1204561
+b939dbc513955298c09d86f0c11f2421,204576,Dep. João Roma,REPUBLICANOS,BA,governo,camara,Dep. João Roma (REPUBLICANOS/BA),1,1204576
+b939dbc513955298c09d86f0c11f2421,205548,Dep. David Miranda,PSOL,RJ,oposição,camara,Dep. David Miranda (PSOL/RJ),12,1205548
+b939dbc513955298c09d86f0c11f2421,374,Sen. Paulo Rocha,PT,PA,oposição,senado,Sen. Paulo Rocha (PT/PA),14,2374
+b939dbc513955298c09d86f0c11f2421,475,Sen. Confúcio Moura,MDB,RO,governo,senado,Sen. Confúcio Moura (MDB/RO),25,2475
+b939dbc513955298c09d86f0c11f2421,4770,Sen. Izalci Lucas,PSDB,DF,governo,senado,Sen. Izalci Lucas (PSDB/DF),13,24770
+b939dbc513955298c09d86f0c11f2421,4981,Sen. Acir Gurgacz,PDT,RO,oposição,senado,Sen. Acir Gurgacz (PDT/RO),11,24981
+b939dbc513955298c09d86f0c11f2421,5012,Sen. Randolfe Rodrigues,REDE,AP,oposição,senado,Sen. Randolfe Rodrigues (REDE/AP),10,25012
+b939dbc513955298c09d86f0c11f2421,5352,Sen. Rogério Carvalho,PT,SE,oposição,senado,Sen. Rogério Carvalho (PT/SE),5,25352
+b939dbc513955298c09d86f0c11f2421,5385,Sen. Irajá,PSD,TO,governo,senado,Sen. Irajá (PSD/TO),5,25385
+b939dbc513955298c09d86f0c11f2421,5411,Sen. Weverton,PDT,MA,oposição,senado,Sen. Weverton (PDT/MA),8,25411
+b939dbc513955298c09d86f0c11f2421,5422,Sen. Marcos Rogério,DEM,RO,governo,senado,Sen. Marcos Rogério (DEM/RO),6,25422
+b939dbc513955298c09d86f0c11f2421,5535,Sen. Telmário Mota,PROS,RR,governo,senado,Sen. Telmário Mota (PROS/RR),1,25535
+b939dbc513955298c09d86f0c11f2421,5718,Sen. Eliziane Gama,CIDADANIA,MA,governo,senado,Sen. Eliziane Gama (CIDADANIA/MA),4,25718
+b939dbc513955298c09d86f0c11f2421,581,Sen. Jaques Wagner,PT,BA,oposição,senado,Sen. Jaques Wagner (PT/BA),8,2581
+b939dbc513955298c09d86f0c11f2421,5899,Sen. Vanderlan Cardoso,PP,GO,governo,senado,Sen. Vanderlan Cardoso (PP/GO),7,25899
+b939dbc513955298c09d86f0c11f2421,5953,Sen. Fabiano Contarato,REDE,ES,oposição,senado,Sen. Fabiano Contarato (REDE/ES),4,25953
+b939dbc513955298c09d86f0c11f2421,5982,Sen. Alessandro Vieira,CIDADANIA,SE,governo,senado,Sen. Alessandro Vieira (CIDADANIA/SE),7,25982
+b939dbc513955298c09d86f0c11f2421,6027,Sen. Mecias de Jesus,REPUBLICANOS,RR,governo,senado,Sen. Mecias de Jesus (REPUBLICANOS/RR),3,26027
+b939dbc513955298c09d86f0c11f2421,677,Sen. Roberto Rocha,PSDB,MA,governo,senado,Sen. Roberto Rocha (PSDB/MA),2,2677
+b939dbc513955298c09d86f0c11f2421,73531,Dep. Ivan Valente,PSOL,SP,oposição,camara,Dep. Ivan Valente (PSOL/SP),13,173531
+b939dbc513955298c09d86f0c11f2421,73801,Dep. Renildo Calheiros,PCdoB,PE,oposição,camara,Dep. Renildo Calheiros (PCdoB/PE),7,173801
+b939dbc513955298c09d86f0c11f2421,74057,Dep. Alice Portugal,PCdoB,BA,oposição,camara,Dep. Alice Portugal (PCdoB/BA),11,174057
+b939dbc513955298c09d86f0c11f2421,74060,Dep. Daniel Almeida,PCdoB,BA,oposição,camara,Dep. Daniel Almeida (PCdoB/BA),10,174060
+b939dbc513955298c09d86f0c11f2421,74160,Dep. Patrus Ananias,PT,MG,oposição,camara,Dep. Patrus Ananias (PT/MG),20,174160
+b939dbc513955298c09d86f0c11f2421,74848,Dep. Jandira Feghali,PCdoB,RJ,oposição,camara,Dep. Jandira Feghali (PCdoB/RJ),6,174848
+b939dbc513955298c09d86f0c11f2421,76874,Dep. Marcelo Freixo,PSOL,RJ,oposição,camara,Dep. Marcelo Freixo (PSOL/RJ),13,176874
+b939dbc513955298c09d86f0c11f2421,825,Sen. Paulo Paim,PT,RS,oposição,senado,Sen. Paulo Paim (PT/RS),3,2825
+b939dbc513955298c09d86f0c11f2421,160511,Dep. Alessandro Molon,PSB,RJ,oposição,camara,Dep. Alessandro Molon (PSB/RJ),4.25,1160511
+b939dbc513955298c09d86f0c11f2421,204546,Dep. Joice Hasselmann,PSL,SP,governo,camara,Dep. Joice Hasselmann (PSL/SP),0.6666666666666666,1204546
+b939dbc513955298c09d86f0c11f2421,160531,Dep. Jhonatan De Jesus,PRB,RR,governo,camara,Dep. Jhonatan De Jesus (PRB/RR),0.5,1160531
 b972ef03b54228885002f030879506ce,204544,Dep. Alexandre Frota,PSL,SP,governo,camara,Dep. Alexandre Frota (PSL/SP),1,1204544
 b9ab38644284c34d9528cb1e4ed10b2d,204384,Dep. Ney Leprevost,PSD,,governo,camara,Dep. Ney Leprevost (PSD/-),1,1204384
 b9e03f28c77a11bb229f68afb0902211,204527,Dep. Geninho Zuliani,DEM,SP,governo,camara,Dep. Geninho Zuliani (DEM/SP),1,1204527
@@ -1516,7 +1824,6 @@ bc025de5ba01592fefde244210779020,204457,Dep. Juninho Do Pneu,DEM,RJ,governo,cama
 bc2805ca8e5cae102975e472d121a44f,160600,Dep. Arthur Oliveira Maia,DEM,BA,governo,camara,Dep. Arthur Oliveira Maia (DEM/BA),2,1160600
 bcdb027b6def7d08761a0e977d11d390,160559,Dep. Alceu Moreira,MDB,,governo,camara,Dep. Alceu Moreira (MDB/-),1,1160559
 bdc4510bae7c10f94bfb4fb25667b229,178951,Dep. Rafael Motta,PSB,RN,oposição,camara,Dep. Rafael Motta (PSB/RN),1,1178951
-bddfa2d0a0bccaf4030f275e55c844c9,5990,Sen. Carlos Viana,PSD,MG,governo,senado,Sen. Carlos Viana (PSD/MG),1,25990
 be307815893ecf17dd0647c6130e1d43,160570,Dep. Jerônimo Goergen,PP,RS,governo,camara,Dep. Jerônimo Goergen (PP/RS),1,1160570
 be5fb3873319aedcbcedf8559ad48347,160588,Dep. Diego Andrade,PSD,MG,governo,camara,Dep. Diego Andrade (PSD/MG),0.5,1160588
 be5fb3873319aedcbcedf8559ad48347,178871,Dep. Evair Vieira De Melo,PP,ES,governo,camara,Dep. Evair Vieira De Melo (PP/ES),2,1178871
@@ -1535,9 +1842,9 @@ c0be709a2a9f30a179fd93d3d4dbfbeb,160535,Dep. Marcon,PT,RS,oposição,camara,Dep.
 c0c62d7e4b8998071688758c0c754c64,160758,Dep. Domingos Sávio,PSDB,MG,governo,camara,Dep. Domingos Sávio (PSDB/MG),2,1160758
 c0c62d7e4b8998071688758c0c754c64,204361,Dep. Carlos Chiodini,MDB,SC,governo,camara,Dep. Carlos Chiodini (MDB/SC),1,1204361
 c0c62d7e4b8998071688758c0c754c64,204567,Dep. Raimundo Costa,PL,BA,governo,camara,Dep. Raimundo Costa (PL/BA),1,1204567
+c1349b4a1b0518dec25e2767b74fb153,204479,Dep. Nicoletti,PSL,RR,governo,camara,Dep. Nicoletti (PSL/RR),3,1204479
 c159d8cdad0febdc9cb6b2821831803d,205863,Dep. Marcelo Brum,PSL,RS,governo,camara,Dep. Marcelo Brum (PSL/RS),1,1205863
 c1bf6ad46de6caad5f67655847f4774b,204372,Dep. Julio Cesar Ribeiro,PRB,DF,governo,camara,Dep. Julio Cesar Ribeiro (PRB/DF),1,1204372
-c20da5fe61863159a382e7454add4e99,5979,Sen. Leila Barros,PSB,DF,oposição,senado,Sen. Leila Barros (PSB/DF),3,25979
 c24b8b200550424de77ad6c4ee695544,134812,Dep. Edmilson Rodrigues,PSOL,PA,oposição,camara,Dep. Edmilson Rodrigues (PSOL/PA),0.9000000000000001,1134812
 c24b8b200550424de77ad6c4ee695544,152605,Dep. Glauber Braga,PSOL,RJ,oposição,camara,Dep. Glauber Braga (PSOL/RJ),0.9,1152605
 c24b8b200550424de77ad6c4ee695544,160511,Dep. Alessandro Molon,PSB,RJ,oposição,camara,Dep. Alessandro Molon (PSB/RJ),1,1160511
@@ -1585,7 +1892,7 @@ c3ffb2d938e9cf73197d8731aa6c3255,73586,Dep. Júlio Delgado,PSB,MG,oposição,cam
 c3ffb2d938e9cf73197d8731aa6c3255,74262,Dep. Carlos Sampaio,PSDB,SP,governo,camara,Dep. Carlos Sampaio (PSDB/SP),0.8,174262
 c3ffb2d938e9cf73197d8731aa6c3255,74439,Dep. Wolney Queiroz,PDT,PE,oposição,camara,Dep. Wolney Queiroz (PDT/PE),3.2000000000000006,174439
 c3ffb2d938e9cf73197d8731aa6c3255,5352,Sen. Rogério Carvalho,PT,SE,oposição,senado,Sen. Rogério Carvalho (PT/SE),1,25352
-c3ffb2d938e9cf73197d8731aa6c3255,5529,Sen. Antonio Anastasia,PSD,MG,governo,senado,Sen. Antonio Anastasia (PSD/MG),2,25529
+c3ffb2d938e9cf73197d8731aa6c3255,5529,Sen. Antonio Anastasia,PSDB,MG,governo,senado,Sen. Antonio Anastasia (PSDB/MG),2,25529
 c3ffb2d938e9cf73197d8731aa6c3255,5718,Sen. Eliziane Gama,CIDADANIA,MA,governo,senado,Sen. Eliziane Gama (CIDADANIA/MA),1,25718
 c3ffb2d938e9cf73197d8731aa6c3255,177282,Dep. Subtenente Gonzaga,PDT,MG,oposição,camara,Dep. Subtenente Gonzaga (PDT/MG),0.8,1177282
 c3ffb2d938e9cf73197d8731aa6c3255,178873,Dep. Helder Salomão,PT,ES,oposição,camara,Dep. Helder Salomão (PT/ES),2.4000000000000004,1178873
@@ -1596,6 +1903,7 @@ c4f7298afbdba0577b1ca549376e74f8,107283,Dep. Gleisi Hoffmann,PT,PR,oposição,ca
 c4f7298afbdba0577b1ca549376e74f8,74400,Dep. Paulo Pimenta,PT,RS,oposição,camara,Dep. Paulo Pimenta (PT/RS),0.6666666666666666,174400
 c4f7298afbdba0577b1ca549376e74f8,160508,Dep. Afonso Florence,PT,BA,oposição,camara,Dep. Afonso Florence (PT/BA),0.6666666666666666,1160508
 c609ab7799bffb9e2bdf140417e9df22,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
+c746ee925159a6e93fcba7c6c79ab309,160559,Dep. Alceu Moreira,MDB,,governo,camara,Dep. Alceu Moreira (MDB/-),1,1160559
 c7579353cc58eebc84297830213b2383,141470,Dep. José Guimarães,PT,CE,oposição,camara,Dep. José Guimarães (PT/CE),1,1141470
 c762460bda71f05cf90c0791de803174,204544,Dep. Alexandre Frota,PSL,SP,governo,camara,Dep. Alexandre Frota (PSL/SP),1,1204544
 c7b6bcd6022b6818e3f8314d05ce2afb,374,Sen. Paulo Rocha,PT,PA,oposição,senado,Sen. Paulo Rocha (PT/PA),1.75,2374
@@ -1604,6 +1912,17 @@ c7b6bcd6022b6818e3f8314d05ce2afb,5352,Sen. Rogério Carvalho,PT,SE,oposição,se
 c7b6bcd6022b6818e3f8314d05ce2afb,581,Sen. Jaques Wagner,PT,BA,oposição,senado,Sen. Jaques Wagner (PT/BA),0.75,2581
 c7dc28978eab22881f9d7b457e8d3453,204566,Dep. Marreca Filho,PATRIOTA,MA,governo,camara,Dep. Marreca Filho (PATRIOTA/MA),1,1204566
 c7de4dc6e57dd07844953985bf0330ed,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),2,1204494
+c7e7eeb00c32ed1c6405e37584142e45,141417,Dep. Edio Lopes,PL,RR,governo,camara,Dep. Edio Lopes (PL/RR),2,1141417
+c7e7eeb00c32ed1c6405e37584142e45,160531,Dep. Jhonatan de Jesus,REPUBLICANOS,RR,governo,camara,Dep. Jhonatan de Jesus (REPUBLICANOS/RR),1,1160531
+c7e7eeb00c32ed1c6405e37584142e45,178986,Dep. Nilto Tatto,PT,SP,oposição,camara,Dep. Nilto Tatto (PT/SP),1,1178986
+c7e7eeb00c32ed1c6405e37584142e45,204352,Dep. Camilo Capiberibe,PSB,AP,oposição,camara,Dep. Camilo Capiberibe (PSB/AP),1,1204352
+c7e7eeb00c32ed1c6405e37584142e45,204389,Dep. Elias Vaz,PSB,GO,oposição,camara,Dep. Elias Vaz (PSB/GO),1,1204389
+c7e7eeb00c32ed1c6405e37584142e45,285,Sen. Marcio Bittar,MDB,AC,governo,senado,Sen. Marcio Bittar (MDB/AC),3,2285
+c7e7eeb00c32ed1c6405e37584142e45,5411,Sen. Weverton,PDT,MA,oposição,senado,Sen. Weverton (PDT/MA),1,25411
+c7e7eeb00c32ed1c6405e37584142e45,5535,Sen. Telmário Mota,PROS,RR,governo,senado,Sen. Telmário Mota (PROS/RR),2,25535
+c7e7eeb00c32ed1c6405e37584142e45,5926,Sen. Lucas Barreto,PSD,AP,governo,senado,Sen. Lucas Barreto (PSD/AP),2,25926
+c7e7eeb00c32ed1c6405e37584142e45,6027,Sen. Mecias de Jesus,REPUBLICANOS,RR,governo,senado,Sen. Mecias de Jesus (REPUBLICANOS/RR),6,26027
+c7e7eeb00c32ed1c6405e37584142e45,677,Sen. Roberto Rocha,PSDB,MA,governo,senado,Sen. Roberto Rocha (PSDB/MA),1,2677
 c84c3e2ed489c7b85962846667866c72,74158,Dep. Mário Heringer,PDT,MG,oposição,camara,Dep. Mário Heringer (PDT/MG),1,174158
 c85f1dfeeebb0ebb62ab7f1650d3250a,178986,Dep. Nilto Tatto,PT,SP,oposição,camara,Dep. Nilto Tatto (PT/SP),1,1178986
 c878fbbccfc73631ab7b5c92643be240,160559,Dep. Alceu Moreira,MDB,,governo,camara,Dep. Alceu Moreira (MDB/-),1,1160559
@@ -1768,7 +2087,6 @@ d38333af16f69b8e09f87e770f217c58,204573,Dep. Otto Alencar Filho,PSD,BA,governo,c
 d38a42e5b9dc85be2c516be9bd91db34,178986,Dep. Nilto Tatto,PT,SP,oposição,camara,Dep. Nilto Tatto (PT/SP),1,1178986
 d3bd29d499f1a91c94dbb10ef569a0b0,160655,Dep. Ricardo Izar,PP,SP,governo,camara,Dep. Ricardo Izar (PP/SP),1,1160655
 d3bd29d499f1a91c94dbb10ef569a0b0,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
-d450fe4457ccf95699d47d7065b6f90d,475,Sen. Confúcio Moura,MDB,RO,governo,senado,Sen. Confúcio Moura (MDB/RO),1,2475
 d470af4984c9df98e373fbc8ee708503,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),2,1204494
 d483992b49eecf0734b983ede7367cf5,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 d491c298e6dbe81779c191f6b90eb22f,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
@@ -1794,6 +2112,16 @@ d70799e549b1bede858756d104748613,160655,Dep. Ricardo Izar,PP,SP,governo,camara,D
 d70799e549b1bede858756d104748613,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1.3333333333333333,1204488
 d70799e549b1bede858756d104748613,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),1.3333333333333333,1204494
 d70d58b5c9c0e417a0806bcc58055936,160570,Dep. Jerônimo Goergen,PP,RS,governo,camara,Dep. Jerônimo Goergen (PP/RS),2,1160570
+d72583530a979d60b7f6ae6ccd1a5587,134812,Dep. Edmilson Rodrigues,PSOL,PA,oposição,camara,Dep. Edmilson Rodrigues (PSOL/PA),1.7888888888888888,1134812
+d72583530a979d60b7f6ae6ccd1a5587,152605,Dep. Glauber Braga,PSOL,RJ,oposição,camara,Dep. Glauber Braga (PSOL/RJ),1.7888888888888888,1152605
+d72583530a979d60b7f6ae6ccd1a5587,204407,Dep. Fernanda Melchionna,PSOL,RS,oposição,camara,Dep. Fernanda Melchionna (PSOL/RS),1.788888888888889,1204407
+d72583530a979d60b7f6ae6ccd1a5587,204464,Dep. Talíria Petrone,PSOL,RJ,oposição,camara,Dep. Talíria Petrone (PSOL/RJ),0.9000000000000001,1204464
+d72583530a979d60b7f6ae6ccd1a5587,204509,Dep. Áurea Carolina,PSOL,MG,oposição,camara,Dep. Áurea Carolina (PSOL/MG),1.788888888888889,1204509
+d72583530a979d60b7f6ae6ccd1a5587,204535,Dep. Sâmia Bomfim,PSOL,SP,oposição,camara,Dep. Sâmia Bomfim (PSOL/SP),1.7888888888888888,1204535
+d72583530a979d60b7f6ae6ccd1a5587,73531,Dep. Ivan Valente,PSOL,SP,oposição,camara,Dep. Ivan Valente (PSOL/SP),1.788888888888889,173531
+d72583530a979d60b7f6ae6ccd1a5587,74784,Dep. Luiza Erundina,PSOL,SP,oposição,camara,Dep. Luiza Erundina (PSOL/SP),1.7888888888888888,174784
+d72583530a979d60b7f6ae6ccd1a5587,76874,Dep. Marcelo Freixo,PSOL,RJ,oposição,camara,Dep. Marcelo Freixo (PSOL/RJ),1.788888888888889,176874
+d72583530a979d60b7f6ae6ccd1a5587,205548,Dep. David Miranda,PSOL,RJ,oposição,camara,Dep. David Miranda (PSOL/RJ),1.788888888888889,1205548
 d77b232a1b1d83cac9b8fb35bd62f2a2,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 d77b232a1b1d83cac9b8fb35bd62f2a2,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),1,1204494
 d787d363f48216eb3464e5e21a9f93dd,204499,Dep. Cássio Andrade,PSB,PA,oposição,camara,Dep. Cássio Andrade (PSB/PA),1,1204499
@@ -1874,31 +2202,30 @@ daa56dae713f27b1143ea567d69fbaef,5666,Sen. Major Olimpio,PSL,SP,governo,senado,S
 daa59903f1e77b7f0fd75a4ae4c16d19,160655,Dep. Ricardo Izar,PP,SP,governo,camara,Dep. Ricardo Izar (PP/SP),1,1160655
 daa59903f1e77b7f0fd75a4ae4c16d19,204444,Dep. Helio Lopes,PSL,RJ,governo,camara,Dep. Helio Lopes (PSL/RJ),1,1204444
 dafbc3ee8c2e52ad98942a340d6289ce,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
-dafbc3ee8c2e52ad98942a340d6289ce,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),1,1204494
-db8bbb739b0ec0cdaf70fa39f50f6568,1249,Sen. Kátia Abreu,PP,TO,governo,senado,Sen. Kátia Abreu (PP/TO),1,21249
-db8bbb739b0ec0cdaf70fa39f50f6568,4994,Sen. Eduardo Braga,MDB,AM,governo,senado,Sen. Eduardo Braga (MDB/AM),2,24994
-db8bbb739b0ec0cdaf70fa39f50f6568,5959,Sen. Styvenson Valentim,PODEMOS,RN,governo,senado,Sen. Styvenson Valentim (PODEMOS/RN),1,25959
+dafbc3ee8c2e52ad98942a340d6289ce,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),2,1204494
 dbfc721ee563c0b8aa8045b2b0b52d7f,162332,Dep. Luiz Nishimori,PL,PR,governo,camara,Dep. Luiz Nishimori (PL/PR),1,1162332
 dbfe518b5c78cc36fe8a42fdc31188ed,739,Sen. Ciro Nogueira,PP,PI,governo,senado,Sen. Ciro Nogueira (PP/PI),1,2739
 dc200f8e766bc880de5e527d8c093444,204495,Dep. Airton Faleiro,PT,PA,oposição,camara,Dep. Airton Faleiro (PT/PA),1,1204495
 dca5e4da46decd283b996b5f144d9304,72442,Dep. Felipe Carreras,PSB,PE,oposição,camara,Dep. Felipe Carreras (PSB/PE),1,172442
 dcae3025d373dc20229970a30906f231,204532,Dep. Vinicius Poit,NOVO,SP,governo,camara,Dep. Vinicius Poit (NOVO/SP),1,1204532
 dcbb134bc747b578d68f5bcfe5b4e287,204421,Dep. Edna Henrique,PSDB,PB,governo,camara,Dep. Edna Henrique (PSDB/PB),1,1204421
-dd8ba24fd52965cd3ebe089c525b981d,132504,Dep. Enio Verri,PT,,oposição,camara,Dep. Enio Verri (PT/-),0.6666666666666666,1132504
-dd8ba24fd52965cd3ebe089c525b981d,141391,Dep. Arnaldo Jardim,CIDADANIA,SP,governo,camara,Dep. Arnaldo Jardim (CIDADANIA/SP),1,1141391
-dd8ba24fd52965cd3ebe089c525b981d,141422,Dep. Efraim Filho,DEM,,governo,camara,Dep. Efraim Filho (DEM/-),0.875,1141422
-dd8ba24fd52965cd3ebe089c525b981d,160531,Dep. Jhonatan De Jesus,PRB,RR,governo,camara,Dep. Jhonatan De Jesus (PRB/RR),0.875,1160531
-dd8ba24fd52965cd3ebe089c525b981d,160541,Dep. Arthur Lira,PP,AL,governo,camara,Dep. Arthur Lira (PP/AL),0.875,1160541
-dd8ba24fd52965cd3ebe089c525b981d,160559,Dep. Alceu Moreira,MDB,,governo,camara,Dep. Alceu Moreira (MDB/-),0.5,1160559
-dd8ba24fd52965cd3ebe089c525b981d,178871,Dep. Evair Vieira De Melo,PP,ES,governo,camara,Dep. Evair Vieira De Melo (PP/ES),1.375,1178871
-dd8ba24fd52965cd3ebe089c525b981d,178975,Dep. Baleia Rossi,MDB,SP,governo,camara,Dep. Baleia Rossi (MDB/SP),0.875,1178975
-dd8ba24fd52965cd3ebe089c525b981d,204395,Dep. Pedro Lupion,DEM,PR,governo,camara,Dep. Pedro Lupion (DEM/PR),0.875,1204395
-dd8ba24fd52965cd3ebe089c525b981d,204398,Dep. Felipe Francischini,PSL,PR,governo,camara,Dep. Felipe Francischini (PSL/PR),0.875,1204398
-dd8ba24fd52965cd3ebe089c525b981d,204440,Dep. Christino Aureo,PP,RJ,governo,camara,Dep. Christino Aureo (PP/RJ),10,1204440
-dd8ba24fd52965cd3ebe089c525b981d,74439,Dep. Wolney Queiroz,PDT,PE,oposição,camara,Dep. Wolney Queiroz (PDT/PE),0.6666666666666666,174439
-dd8ba24fd52965cd3ebe089c525b981d,160511,Dep. Alessandro Molon,PSB,RJ,oposição,camara,Dep. Alessandro Molon (PSB/RJ),0.6666666666666666,1160511
-dd8ba24fd52965cd3ebe089c525b981d,204449,Dep. Nelson Barbudo,PSL,MT,governo,camara,Dep. Nelson Barbudo (PSL/MT),0.875,1204449
 ddcf29758528b140118b6054030a025e,2331,Sen. Rose de Freitas,PODEMOS,ES,governo,senado,Sen. Rose de Freitas (PODEMOS/ES),1,22331
+ddd9fc5799e62b5bd5f94c9843f16ab0,132504,Dep. Enio Verri,PT,,oposição,camara,Dep. Enio Verri (PT/-),2,1132504
+ddd9fc5799e62b5bd5f94c9843f16ab0,141508,Dep. Mauro Nazif,PSB,RO,oposição,camara,Dep. Mauro Nazif (PSB/RO),1,1141508
+ddd9fc5799e62b5bd5f94c9843f16ab0,160511,Dep. Alessandro Molon,PSB,RJ,oposição,camara,Dep. Alessandro Molon (PSB/RJ),4,1160511
+ddd9fc5799e62b5bd5f94c9843f16ab0,160531,Dep. Jhonatan De Jesus,PRB,RR,governo,camara,Dep. Jhonatan De Jesus (PRB/RR),1.8,1160531
+ddd9fc5799e62b5bd5f94c9843f16ab0,178959,Dep. Hiran Gonçalves,PP,RR,governo,camara,Dep. Hiran Gonçalves (PP/RR),1.8,1178959
+ddd9fc5799e62b5bd5f94c9843f16ab0,178961,Dep. Shéridan,PSDB,RR,governo,camara,Dep. Shéridan (PSDB/RR),0.8,1178961
+ddd9fc5799e62b5bd5f94c9843f16ab0,178993,Dep. Carlos Henrique Gaguim,DEM,TO,governo,camara,Dep. Carlos Henrique Gaguim (DEM/TO),1,1178993
+ddd9fc5799e62b5bd5f94c9843f16ab0,204352,Dep. Camilo Capiberibe,PSB,AP,oposição,camara,Dep. Camilo Capiberibe (PSB/AP),2,1204352
+ddd9fc5799e62b5bd5f94c9843f16ab0,204353,Dep. Aline Gurgel,PRB,AP,governo,camara,Dep. Aline Gurgel (PRB/AP),0.8,1204353
+ddd9fc5799e62b5bd5f94c9843f16ab0,204379,Dep. Acácio Favacho,PROS,AP,governo,camara,Dep. Acácio Favacho (PROS/AP),6,1204379
+ddd9fc5799e62b5bd5f94c9843f16ab0,74693,Dep. Rodrigo Maia,DEM,RJ,governo,camara,Dep. Rodrigo Maia (DEM/RJ),1,174693
+ddd9fc5799e62b5bd5f94c9843f16ab0,5718,Sen. Eliziane Gama,CIDADANIA,MA,governo,senado,Sen. Eliziane Gama (CIDADANIA/MA),7,25718
+ddd9fc5799e62b5bd5f94c9843f16ab0,5926,Sen. Lucas Barreto,PSD,AP,governo,senado,Sen. Lucas Barreto (PSD/AP),4,25926
+ddd9fc5799e62b5bd5f94c9843f16ab0,5953,Sen. Fabiano Contarato,REDE,ES,oposição,senado,Sen. Fabiano Contarato (REDE/ES),4,25953
+ddd9fc5799e62b5bd5f94c9843f16ab0,825,Sen. Paulo Paim,PT,RS,oposição,senado,Sen. Paulo Paim (PT/RS),4,2825
+ddd9fc5799e62b5bd5f94c9843f16ab0,204475,Dep. Otaci Nascimento,SOLIDARIEDADE,RR,governo,camara,Dep. Otaci Nascimento (SOLIDARIEDADE/RR),0.8,1204475
 de1feaba6ef76577fb80a7cbc7aa452f,204530,Dep. Rodrigo Agostinho,PSB,SP,oposição,camara,Dep. Rodrigo Agostinho (PSB/SP),1,1204530
 de3f5ea41b23d966b9a59c20a29ed2c8,204566,Dep. Marreca Filho,PATRIOTA,MA,governo,camara,Dep. Marreca Filho (PATRIOTA/MA),1,1204566
 de9b739549ae4977723266c8dc7876a1,204539,Dep. Hercílio Coelho Diniz,MDB,MG,governo,camara,Dep. Hercílio Coelho Diniz (MDB/MG),1,1204539
@@ -1943,6 +2270,8 @@ e306a8f54c526233b4379e2bf6a1c398,194260,Dep. Nivaldo Albuquerque,PTB,AL,governo,
 e306a8f54c526233b4379e2bf6a1c398,204548,Dep. Heitor Freire,PSL,CE,governo,camara,Dep. Heitor Freire (PSL/CE),1,1204548
 e31804469e768e45e9f65369586ae643,204436,Dep. Isnaldo Bulhões Jr.,MDB,AL,governo,camara,Dep. Isnaldo Bulhões Jr. (MDB/AL),1,1204436
 e31804469e768e45e9f65369586ae643,74371,Dep. Rubens Otoni,PT,GO,oposição,camara,Dep. Rubens Otoni (PT/GO),1,174371
+e333427710591a4b476a4e2b6949e623,204429,Dep. João H. Campos,PSB,PE,oposição,camara,Dep. João H. Campos (PSB/PE),1,1204429
+e333427710591a4b476a4e2b6949e623,5627,Sen. Jean Paul Prates,PT,RN,oposição,senado,Sen. Jean Paul Prates (PT/RN),1,25627
 e3436d6d90e4e28d587e69c63d0b6cbf,74439,Dep. Wolney Queiroz,PDT,PE,oposição,camara,Dep. Wolney Queiroz (PDT/PE),1,174439
 e3a46b96ce7809440a326cd436ac3fc2,160673,Dep. Giovani Cherini,PL,RS,governo,camara,Dep. Giovani Cherini (PL/RS),1,1160673
 e3a46b96ce7809440a326cd436ac3fc2,178871,Dep. Evair Vieira De Melo,PP,ES,governo,camara,Dep. Evair Vieira De Melo (PP/ES),1,1178871
@@ -1987,14 +2316,16 @@ e704ce2b880ae8638c4f6269984a0c21,160575,Dep. Erika Kokay,PT,DF,oposição,camara
 e704f19ad8e1d37b58459db33bb195bf,204369,Dep. Caroline De Toni,PSL,SC,governo,camara,Dep. Caroline De Toni (PSL/SC),1,1204369
 e716ed0a9fc1cb4120e82220fef1aea0,72442,Dep. Felipe Carreras,PSB,PE,oposição,camara,Dep. Felipe Carreras (PSB/PE),1,172442
 e727e187e03bb56486ab7c1973489cdb,204566,Dep. Marreca Filho,PATRIOTA,MA,governo,camara,Dep. Marreca Filho (PATRIOTA/MA),1,1204566
+e78aab05a10d710886691c8ff19f81e4,204555,Dep. José Ricardo,PT,AM,oposição,camara,Dep. José Ricardo (PT/AM),1,1204555
 e7ed0cf5a317d76a8ff1ff522f61812e,1173,Sen. Wellington Fagundes,PL,MT,governo,senado,Sen. Wellington Fagundes (PL/MT),1,21173
 e7ed0cf5a317d76a8ff1ff522f61812e,5502,Sen. Plínio Valério,PSDB,AM,governo,senado,Sen. Plínio Valério (PSDB/AM),1,25502
-e7ed0cf5a317d76a8ff1ff522f61812e,5529,Sen. Antonio Anastasia,PSD,MG,governo,senado,Sen. Antonio Anastasia (PSD/MG),1,25529
+e7ed0cf5a317d76a8ff1ff522f61812e,5529,Sen. Antonio Anastasia,PSDB,MG,governo,senado,Sen. Antonio Anastasia (PSDB/MG),1,25529
 e88dc154bce9488c88c18a47513c4549,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),1,1204494
 e930c2f9ea803cca320833675408d71f,5523,Sen. Otto Alencar,PSD,BA,governo,senado,Sen. Otto Alencar (PSD/BA),2,25523
-e930c2f9ea803cca320833675408d71f,5529,Sen. Antonio Anastasia,PSD,MG,governo,senado,Sen. Antonio Anastasia (PSD/MG),2,25529
+e930c2f9ea803cca320833675408d71f,5529,Sen. Antonio Anastasia,PSDB,MG,governo,senado,Sen. Antonio Anastasia (PSDB/MG),2,25529
 e930c2f9ea803cca320833675408d71f,5990,Sen. Carlos Viana,PSD,MG,governo,senado,Sen. Carlos Viana (PSD/MG),1,25990
 e939756b4c75bf1a9eb60cae55933b44,72442,Dep. Felipe Carreras,PSB,PE,oposição,camara,Dep. Felipe Carreras (PSB/PE),1,172442
+e9709845ccdcebfe990ab315229dcf59,204415,Dep. Nereu Crispim,PSL,RS,governo,camara,Dep. Nereu Crispim (PSL/RS),1,1204415
 ea2f2a742e6a30b9ef3476eb883cee96,204495,Dep. Airton Faleiro,PT,PA,oposição,camara,Dep. Airton Faleiro (PT/PA),1,1204495
 ea73fba30edcd077f0dd3f5054095e25,204544,Dep. Alexandre Frota,PSL,SP,governo,camara,Dep. Alexandre Frota (PSL/SP),1,1204544
 ea98709b05d2f3841109fd213aff624c,204415,Dep. Nereu Crispim,PSL,RS,governo,camara,Dep. Nereu Crispim (PSL/RS),1,1204415
@@ -2023,10 +2354,19 @@ ead928bfae6c8e119576a76b369a1b6a,178986,Dep. Nilto Tatto,PT,SP,oposição,camara
 eae067d2aade07c3eea353a034ec096c,204564,Dep. Igor Kannário,PHS,BA,governo,camara,Dep. Igor Kannário (PHS/BA),1,1204564
 eae75b38a5ac9318ddcb7f3e9cc51692,74283,Dep. Vicentinho,PT,SP,oposição,camara,Dep. Vicentinho (PT/SP),1,174283
 eb2ff3b832fa3df8711a5ec3762c8a08,204572,Dep. Capitão Alberto Neto,PRB,AM,governo,camara,Dep. Capitão Alberto Neto (PRB/AM),1,1204572
+ebddd18c7c99e4be2ebb7a8f0d349d09,178954,Dep. Lucio Mosquini,MDB,RO,governo,camara,Dep. Lucio Mosquini (MDB/RO),4,1178954
+ebddd18c7c99e4be2ebb7a8f0d349d09,178874,Dep. Sergio Vidigal,PDT,ES,oposição,camara,Dep. Sergio Vidigal (PDT/ES),1,1178874
+ebddd18c7c99e4be2ebb7a8f0d349d09,204514,Dep. Coronel Tadeu,PSL,SP,governo,camara,Dep. Coronel Tadeu (PSL/SP),1,1204514
+ebddd18c7c99e4be2ebb7a8f0d349d09,204539,Dep. Hercílio Coelho Diniz,MDB,MG,governo,camara,Dep. Hercílio Coelho Diniz (MDB/MG),8,1204539
+ebddd18c7c99e4be2ebb7a8f0d349d09,5585,Sen. Luiz do Carmo,MDB,GO,governo,senado,Sen. Luiz do Carmo (MDB/GO),1,25585
+ebddd18c7c99e4be2ebb7a8f0d349d09,5732,Sen. Rodrigo Pacheco,DEM,MG,governo,senado,Sen. Rodrigo Pacheco (DEM/MG),1,25732
+ebddd18c7c99e4be2ebb7a8f0d349d09,5990,Sen. Carlos Viana,PSD,MG,governo,senado,Sen. Carlos Viana (PSD/MG),2,25990
+ebe4a974cc21f914dbf019a2946a9449,133968,Dep. Paulo Ramos,PDT,RJ,oposição,camara,Dep. Paulo Ramos (PDT/RJ),1,1133968
 ebe97139131a8f0a67187f643abbfc3a,204544,Dep. Alexandre Frota,PSL,SP,governo,camara,Dep. Alexandre Frota (PSL/SP),1,1204544
 ebee2b6b39cb39d04b3668ee4177987b,178964,Dep. Heitor Schuch,PSB,RS,oposição,camara,Dep. Heitor Schuch (PSB/RS),1,1178964
 ec3dbed2d3301d16b28eea24b99ee293,3806,Sen. Zequinha Marinho,PSC,PA,governo,senado,Sen. Zequinha Marinho (PSC/PA),1,23806
 ec3dbed2d3301d16b28eea24b99ee293,5718,Sen. Eliziane Gama,CIDADANIA,MA,governo,senado,Sen. Eliziane Gama (CIDADANIA/MA),1,25718
+ec5b4e053246060881812586d25755ad,141508,Dep. Mauro Nazif,PSB,RO,oposição,camara,Dep. Mauro Nazif (PSB/RO),2,1141508
 ec91f098cf1f5c453b0f55c047bd5f63,156190,Dep. Marcel Van Hattem,NOVO,RS,governo,camara,Dep. Marcel Van Hattem (NOVO/RS),0.8571428571428571,1156190
 ec91f098cf1f5c453b0f55c047bd5f63,204461,Dep. Paulo Ganime,NOVO,RJ,governo,camara,Dep. Paulo Ganime (NOVO/RJ),0.857142857142857,1204461
 ec91f098cf1f5c453b0f55c047bd5f63,204516,Dep. Alexis Fonteyne,NOVO,SP,governo,camara,Dep. Alexis Fonteyne (NOVO/SP),0.8571428571428571,1204516
@@ -2052,6 +2392,7 @@ ed9625d263ffd1af3c92ca6cf7325475,204511,Dep. David Soares,DEM,SP,governo,camara,
 ed9625d263ffd1af3c92ca6cf7325475,204527,Dep. Geninho Zuliani,DEM,SP,governo,camara,Dep. Geninho Zuliani (DEM/SP),0.5,1204527
 edc39113335be8db9cde28f3d7e3e8ab,160632,Dep. Zé Silva,SOLIDARIEDADE,MG,governo,camara,Dep. Zé Silva (SOLIDARIEDADE/MG),2,1160632
 edc39113335be8db9cde28f3d7e3e8ab,74585,Dep. Lincoln Portela,PL,MG,governo,camara,Dep. Lincoln Portela (PL/MG),1,174585
+edff37cfeae338b253e9ec13fb8ab6a5,66828,Dep. Fausto Pinato,PP,SP,governo,camara,Dep. Fausto Pinato (PP/SP),1,166828
 eeae8e7e3f20388f3208fa9261f360de,204421,Dep. Edna Henrique,PSDB,PB,governo,camara,Dep. Edna Henrique (PSDB/PB),1,1204421
 eeae8e7e3f20388f3208fa9261f360de,204499,Dep. Cássio Andrade,PSB,PA,oposição,camara,Dep. Cássio Andrade (PSB/PA),1,1204499
 eeae8e7e3f20388f3208fa9261f360de,205865,Dep. Reinhold Stephanes Junior,PSD,PR,governo,camara,Dep. Reinhold Stephanes Junior (PSD/PR),1,1205865
@@ -2065,6 +2406,34 @@ eecc73a15f65cbc6666459377e24da97,204360,Dep. Silvia Cristina,PDT,RO,oposição,c
 eecc73a15f65cbc6666459377e24da97,204575,Dep. Gil Cutrim,PDT,MA,oposição,camara,Dep. Gil Cutrim (PDT/MA),1,1204575
 eedf2f7e172a0534c8eeed806eef9164,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 eedf2f7e172a0534c8eeed806eef9164,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),1,1204494
+ef18c399be7c7d245418add5b0d3cd67,178970,Dep. João Daniel,PT,SE,oposição,camara,Dep. João Daniel (PT/SE),5,1178970
+ef18c399be7c7d245418add5b0d3cd67,133439,Dep. André Figueiredo,PDT,CE,oposição,camara,Dep. André Figueiredo (PDT/CE),2,1133439
+ef18c399be7c7d245418add5b0d3cd67,134812,Dep. Edmilson Rodrigues,PSOL,PA,oposição,camara,Dep. Edmilson Rodrigues (PSOL/PA),8,1134812
+ef18c399be7c7d245418add5b0d3cd67,141464,Dep. José Airton Félix Cirilo,PT,CE,oposição,camara,Dep. José Airton Félix Cirilo (PT/CE),2,1141464
+ef18c399be7c7d245418add5b0d3cd67,141518,Dep. Paulo Pereira da Silva,SOLIDARIEDADE,SP,governo,camara,Dep. Paulo Pereira da Silva (SOLIDARIEDADE/SP),1,1141518
+ef18c399be7c7d245418add5b0d3cd67,157130,Dep. Túlio Gadêlha,PDT,PE,oposição,camara,Dep. Túlio Gadêlha (PDT/PE),2,1157130
+ef18c399be7c7d245418add5b0d3cd67,159237,Dep. Assis Carvalho,PT,PI,oposição,camara,Dep. Assis Carvalho (PT/PI),1,1159237
+ef18c399be7c7d245418add5b0d3cd67,178858,Dep. Mário Negromonte Jr.,PP,BA,governo,camara,Dep. Mário Negromonte Jr. (PP/BA),1,1178858
+ef18c399be7c7d245418add5b0d3cd67,178866,Dep. Luizianne Lins,PT,CE,oposição,camara,Dep. Luizianne Lins (PT/CE),7,1178866
+ef18c399be7c7d245418add5b0d3cd67,178925,Dep. Rejane Dias,PT,PI,oposição,camara,Dep. Rejane Dias (PT/PI),2,1178925
+ef18c399be7c7d245418add5b0d3cd67,178987,Dep. Orlando Silva,PCdoB,SP,oposição,camara,Dep. Orlando Silva (PCdoB/SP),1,1178987
+ef18c399be7c7d245418add5b0d3cd67,204407,Dep. Fernanda Melchionna,PSOL,RS,oposição,camara,Dep. Fernanda Melchionna (PSOL/RS),3,1204407
+ef18c399be7c7d245418add5b0d3cd67,204426,Dep. Carlos Veras,PT,PE,oposição,camara,Dep. Carlos Veras (PT/PE),2,1204426
+ef18c399be7c7d245418add5b0d3cd67,204464,Dep. Talíria Petrone,PSOL,RJ,oposição,camara,Dep. Talíria Petrone (PSOL/RJ),8,1204464
+ef18c399be7c7d245418add5b0d3cd67,204495,Dep. Airton Faleiro,PT,PA,oposição,camara,Dep. Airton Faleiro (PT/PA),1,1204495
+ef18c399be7c7d245418add5b0d3cd67,204509,Dep. Áurea Carolina,PSOL,MG,oposição,camara,Dep. Áurea Carolina (PSOL/MG),5,1204509
+ef18c399be7c7d245418add5b0d3cd67,204541,Dep. Eduardo Bismarck,PDT,CE,oposição,camara,Dep. Eduardo Bismarck (PDT/CE),2,1204541
+ef18c399be7c7d245418add5b0d3cd67,204567,Dep. Raimundo Costa,PL,BA,governo,camara,Dep. Raimundo Costa (PL/BA),3,1204567
+ef18c399be7c7d245418add5b0d3cd67,205548,Dep. David Miranda,PSOL,RJ,oposição,camara,Dep. David Miranda (PSOL/RJ),8,1205548
+ef18c399be7c7d245418add5b0d3cd67,5008,Sen. Humberto Costa,PT,PE,oposição,senado,Sen. Humberto Costa (PT/PE),2,25008
+ef18c399be7c7d245418add5b0d3cd67,5012,Sen. Randolfe Rodrigues,REDE,AP,oposição,senado,Sen. Randolfe Rodrigues (REDE/AP),5,25012
+ef18c399be7c7d245418add5b0d3cd67,5352,Sen. Rogério Carvalho,PT,SE,oposição,senado,Sen. Rogério Carvalho (PT/SE),2,25352
+ef18c399be7c7d245418add5b0d3cd67,5718,Sen. Eliziane Gama,CIDADANIA,MA,governo,senado,Sen. Eliziane Gama (CIDADANIA/MA),1,25718
+ef18c399be7c7d245418add5b0d3cd67,73531,Dep. Ivan Valente,PSOL,SP,oposição,camara,Dep. Ivan Valente (PSOL/SP),8,173531
+ef18c399be7c7d245418add5b0d3cd67,73801,Dep. Renildo Calheiros,PCdoB,PE,oposição,camara,Dep. Renildo Calheiros (PCdoB/PE),1,173801
+ef18c399be7c7d245418add5b0d3cd67,74057,Dep. Alice Portugal,PCdoB,BA,oposição,camara,Dep. Alice Portugal (PCdoB/BA),2,174057
+ef18c399be7c7d245418add5b0d3cd67,74060,Dep. Daniel Almeida,PCdoB,BA,oposição,camara,Dep. Daniel Almeida (PCdoB/BA),1,174060
+ef18c399be7c7d245418add5b0d3cd67,76874,Dep. Marcelo Freixo,PSOL,RJ,oposição,camara,Dep. Marcelo Freixo (PSOL/RJ),5,176874
 ef28d472202af98f348b44dba7f26af7,178993,Dep. Carlos Henrique Gaguim,DEM,TO,governo,camara,Dep. Carlos Henrique Gaguim (DEM/TO),2,1178993
 ef4b03e54bcc1e1180bbd5e1d1c23b1a,204407,Dep. Fernanda Melchionna,PSOL,RS,oposição,camara,Dep. Fernanda Melchionna (PSOL/RS),1,1204407
 ef4b03e54bcc1e1180bbd5e1d1c23b1a,204472,Dep. José Medeiros,PODE,MT,governo,camara,Dep. José Medeiros (PODE/MT),1,1204472
@@ -2077,6 +2446,9 @@ f010675baa43871f8bd41f5e4ac95412,204488,Dep. Célio Studart,PV,CE,governo,camara
 f01807424ee1b2202e3a5c61e1fc70f4,74371,Dep. Rubens Otoni,PT,GO,oposição,camara,Dep. Rubens Otoni (PT/GO),1,174371
 f02a8744647412fe39b66e5a36e8dd77,194260,Dep. Nivaldo Albuquerque,PTB,AL,governo,camara,Dep. Nivaldo Albuquerque (PTB/AL),1,1194260
 f02ad43ae0a52cbb1ee67d53495d6ca9,178986,Dep. Nilto Tatto,PT,SP,oposição,camara,Dep. Nilto Tatto (PT/SP),1,1178986
+f02ed5004d566b7e5d8bd12026e7348a,133439,Dep. André Figueiredo,PDT,CE,oposição,camara,Dep. André Figueiredo (PDT/CE),1,1133439
+f02ed5004d566b7e5d8bd12026e7348a,178912,Dep. Pedro Cunha Lima,PSDB,PB,governo,camara,Dep. Pedro Cunha Lima (PSDB/PB),3,1178912
+f02ed5004d566b7e5d8bd12026e7348a,204533,Dep. Idilvan Alencar,PDT,CE,oposição,camara,Dep. Idilvan Alencar (PDT/CE),1,1204533
 f069f3b7a64a1125a6607488ad645f39,4770,Sen. Izalci Lucas,PSDB,DF,governo,senado,Sen. Izalci Lucas (PSDB/DF),1,24770
 f069f3b7a64a1125a6607488ad645f39,5385,Sen. Irajá,PSD,TO,governo,senado,Sen. Irajá (PSD/TO),2,25385
 f069f3b7a64a1125a6607488ad645f39,5926,Sen. Lucas Barreto,PSD,AP,governo,senado,Sen. Lucas Barreto (PSD/AP),1,25926
@@ -2101,10 +2473,6 @@ f332dc9e617eb8b52d11d70337b93df2,74585,Dep. Lincoln Portela,PL,MG,governo,camara
 f34ed6c6f60901ec42ec4d4a101c9086,72442,Dep. Felipe Carreras,PSB,PE,oposição,camara,Dep. Felipe Carreras (PSB/PE),1,172442
 f374e765783d1c11d8b66139eedf2346,204527,Dep. Geninho Zuliani,DEM,SP,governo,camara,Dep. Geninho Zuliani (DEM/SP),1,1204527
 f384236c5aaab0662af3fa08076c3069,133439,Dep. André Figueiredo,PDT,CE,oposição,camara,Dep. André Figueiredo (PDT/CE),1,1133439
-f3b1afad92fe998dbf96ca3593caa74d,204536,Dep. Kim Kataguiri,DEM,SP,governo,camara,Dep. Kim Kataguiri (DEM/SP),1,1204536
-f3b1afad92fe998dbf96ca3593caa74d,207176,Dep. Bia Cavassa,PSDB,MS,governo,camara,Dep. Bia Cavassa (PSDB/MS),2,1207176
-f3b1afad92fe998dbf96ca3593caa74d,1173,Sen. Wellington Fagundes,PL,MT,governo,senado,Sen. Wellington Fagundes (PL/MT),1,21173
-f3b1afad92fe998dbf96ca3593caa74d,5953,Sen. Fabiano Contarato,REDE,ES,oposição,senado,Sen. Fabiano Contarato (REDE/ES),1,25953
 f3bdb232dad3575315eae54dca75159e,204514,Dep. Coronel Tadeu,PSL,SP,governo,camara,Dep. Coronel Tadeu (PSL/SP),1,1204514
 f4324e686036af26c9d1f60ef233b048,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),1,1204494
 f44686db1e4e5ba32cc2684cc3b214f7,160570,Dep. Jerônimo Goergen,PP,RS,governo,camara,Dep. Jerônimo Goergen (PP/RS),1,1160570
@@ -2120,6 +2488,66 @@ f52222e2100883e5a1b8ddaaa3480971,204530,Dep. Rodrigo Agostinho,PSB,SP,oposição
 f5665bf9ad2bdbb061322c721c77165c,204478,Dep. Vinicius Farah,MDB,RJ,governo,camara,Dep. Vinicius Farah (MDB/RJ),1,1204478
 f57192757d29464dc6c46911cc05e19b,197438,Dep. Tito,AVANTE,BA,governo,camara,Dep. Tito (AVANTE/BA),1,1197438
 f57192757d29464dc6c46911cc05e19b,74371,Dep. Rubens Otoni,PT,GO,oposição,camara,Dep. Rubens Otoni (PT/GO),1,174371
+f5a9a945227292b83cb390bd0395f48b,116379,Dep. Darci De Matos,PSD,SC,governo,camara,Dep. Darci De Matos (PSD/SC),4,1116379
+f5a9a945227292b83cb390bd0395f48b,204395,Dep. Pedro Lupion,DEM,PR,governo,camara,Dep. Pedro Lupion (DEM/PR),7,1204395
+f5a9a945227292b83cb390bd0395f48b,1173,Sen. Wellington Fagundes,PL,MT,governo,senado,Sen. Wellington Fagundes (PL/MT),1,21173
+f5a9a945227292b83cb390bd0395f48b,1186,Sen. Luis Carlos Heinze,PP,RS,governo,senado,Sen. Luis Carlos Heinze (PP/RS),28,21186
+f5a9a945227292b83cb390bd0395f48b,133439,Dep. André Figueiredo,PDT,CE,oposição,camara,Dep. André Figueiredo (PDT/CE),1,1133439
+f5a9a945227292b83cb390bd0395f48b,141391,Dep. Arnaldo Jardim,CIDADANIA,SP,governo,camara,Dep. Arnaldo Jardim (CIDADANIA/SP),12,1141391
+f5a9a945227292b83cb390bd0395f48b,141405,Dep. Celso Maldaner,MDB,SC,governo,camara,Dep. Celso Maldaner (MDB/SC),3,1141405
+f5a9a945227292b83cb390bd0395f48b,146307,Dep. Neri Geller,PP,MT,governo,camara,Dep. Neri Geller (PP/MT),11,1146307
+f5a9a945227292b83cb390bd0395f48b,151208,Dep. Laercio Oliveira,PP,SE,governo,camara,Dep. Laercio Oliveira (PP/SE),6,1151208
+f5a9a945227292b83cb390bd0395f48b,160538,Dep. Bohn Gass,PT,RS,oposição,camara,Dep. Bohn Gass (PT/RS),1,1160538
+f5a9a945227292b83cb390bd0395f48b,160559,Dep. Alceu Moreira,MDB,RS,governo,camara,Dep. Alceu Moreira (MDB/RS),1,1160559
+f5a9a945227292b83cb390bd0395f48b,160570,Dep. Jerônimo Goergen,PP,RS,governo,camara,Dep. Jerônimo Goergen (PP/RS),32,1160570
+f5a9a945227292b83cb390bd0395f48b,160632,Dep. Zé Silva,SOLIDARIEDADE,MG,governo,camara,Dep. Zé Silva (SOLIDARIEDADE/MG),3,1160632
+f5a9a945227292b83cb390bd0395f48b,160635,Dep. Ruy Carneiro,PSDB,PB,governo,camara,Dep. Ruy Carneiro (PSDB/PB),5,1160635
+f5a9a945227292b83cb390bd0395f48b,160666,Dep. Félix Mendonça Júnior,PDT,BA,oposição,camara,Dep. Félix Mendonça Júnior (PDT/BA),1,1160666
+f5a9a945227292b83cb390bd0395f48b,160758,Dep. Domingos Sávio,PSDB,MG,governo,camara,Dep. Domingos Sávio (PSDB/MG),6,1160758
+f5a9a945227292b83cb390bd0395f48b,178871,Dep. Evair Vieira de Melo,PP,ES,governo,camara,Dep. Evair Vieira de Melo (PP/ES),18,1178871
+f5a9a945227292b83cb390bd0395f48b,178874,Dep. Sergio Vidigal,PDT,ES,oposição,camara,Dep. Sergio Vidigal (PDT/ES),1,1178874
+f5a9a945227292b83cb390bd0395f48b,178879,Dep. Lucas Vergilio,SOLIDARIEDADE,GO,governo,camara,Dep. Lucas Vergilio (SOLIDARIEDADE/GO),2,1178879
+f5a9a945227292b83cb390bd0395f48b,178889,Dep. Zé Carlos,PT,MA,oposição,camara,Dep. Zé Carlos (PT/MA),4,1178889
+f5a9a945227292b83cb390bd0395f48b,178933,Dep. Sergio Souza,MDB,PR,governo,camara,Dep. Sergio Souza (MDB/PR),21,1178933
+f5a9a945227292b83cb390bd0395f48b,178970,Dep. João Daniel,PT,SE,oposição,camara,Dep. João Daniel (PT/SE),5,1178970
+f5a9a945227292b83cb390bd0395f48b,178993,Dep. Carlos Henrique Gaguim,DEM,TO,governo,camara,Dep. Carlos Henrique Gaguim (DEM/TO),1,1178993
+f5a9a945227292b83cb390bd0395f48b,204358,Dep. Beto Pereira,PSDB,MS,governo,camara,Dep. Beto Pereira (PSDB/MS),1,1204358
+f5a9a945227292b83cb390bd0395f48b,204383,Dep. Professor Israel Batista,PV,DF,governo,camara,Dep. Professor Israel Batista (PV/DF),5,1204383
+f5a9a945227292b83cb390bd0395f48b,204386,Dep. Jose Mario Schreiner,DEM,GO,governo,camara,Dep. Jose Mario Schreiner (DEM/GO),7,1204386
+f5a9a945227292b83cb390bd0395f48b,204389,Dep. Elias Vaz,PSB,GO,oposição,camara,Dep. Elias Vaz (PSB/GO),3,1204389
+f5a9a945227292b83cb390bd0395f48b,204393,Dep. Frei Anastacio Ribeiro,PT,PB,oposição,camara,Dep. Frei Anastacio Ribeiro (PT/PB),5,1204393
+f5a9a945227292b83cb390bd0395f48b,204400,Dep. Aline Sleutjes,PSL,PR,governo,camara,Dep. Aline Sleutjes (PSL/PR),12,1204400
+f5a9a945227292b83cb390bd0395f48b,204410,Dep. Luisa Canziani,PTB,PR,governo,camara,Dep. Luisa Canziani (PTB/PR),6,1204410
+f5a9a945227292b83cb390bd0395f48b,204438,Dep. Sergio Toledo,PL,AL,governo,camara,Dep. Sergio Toledo (PL/AL),5,1204438
+f5a9a945227292b83cb390bd0395f48b,204449,Dep. Nelson Barbudo,PSL,MT,governo,camara,Dep. Nelson Barbudo (PSL/MT),17,1204449
+f5a9a945227292b83cb390bd0395f48b,204471,Dep. Mara Rocha,PSDB,AC,governo,camara,Dep. Mara Rocha (PSDB/AC),5,1204471
+f5a9a945227292b83cb390bd0395f48b,204472,Dep. José Medeiros,PODEMOS,MT,governo,camara,Dep. José Medeiros (PODEMOS/MT),2,1204472
+f5a9a945227292b83cb390bd0395f48b,204495,Dep. Airton Faleiro,PT,PA,oposição,camara,Dep. Airton Faleiro (PT/PA),5,1204495
+f5a9a945227292b83cb390bd0395f48b,204516,Dep. Alexis Fonteyne,NOVO,SP,governo,camara,Dep. Alexis Fonteyne (NOVO/SP),4,1204516
+f5a9a945227292b83cb390bd0395f48b,204517,Dep. Zé Vitor,PL,MG,governo,camara,Dep. Zé Vitor (PL/MG),17,1204517
+f5a9a945227292b83cb390bd0395f48b,204527,Dep. Geninho Zuliani,DEM,SP,governo,camara,Dep. Geninho Zuliani (DEM/SP),1,1204527
+f5a9a945227292b83cb390bd0395f48b,204532,Dep. Vinicius Poit,NOVO,SP,governo,camara,Dep. Vinicius Poit (NOVO/SP),4,1204532
+f5a9a945227292b83cb390bd0395f48b,204538,Dep. Paulo Bengtson,PTB,PA,governo,camara,Dep. Paulo Bengtson (PTB/PA),4,1204538
+f5a9a945227292b83cb390bd0395f48b,204539,Dep. Hercílio Coelho Diniz,MDB,MG,governo,camara,Dep. Hercílio Coelho Diniz (MDB/MG),5,1204539
+f5a9a945227292b83cb390bd0395f48b,204542,Dep. Denis Bezerra,PSB,CE,oposição,camara,Dep. Denis Bezerra (PSB/CE),7,1204542
+f5a9a945227292b83cb390bd0395f48b,204548,Dep. Heitor Freire,PSL,CE,governo,camara,Dep. Heitor Freire (PSL/CE),6,1204548
+f5a9a945227292b83cb390bd0395f48b,204556,Dep. Marcelo Ramos,PL,AM,governo,camara,Dep. Marcelo Ramos (PL/AM),4,1204556
+f5a9a945227292b83cb390bd0395f48b,204576,Dep. João Roma,REPUBLICANOS,BA,governo,camara,Dep. João Roma (REPUBLICANOS/BA),2,1204576
+f5a9a945227292b83cb390bd0395f48b,345,Sen. Flávio Arns,REDE,PR,oposição,senado,Sen. Flávio Arns (REDE/PR),1,2345
+f5a9a945227292b83cb390bd0395f48b,35,Sen. Jader Barbalho,MDB,PA,governo,senado,Sen. Jader Barbalho (MDB/PA),1,235
+f5a9a945227292b83cb390bd0395f48b,4560,Sen. Sérgio Petecão,PSD,AC,governo,senado,Sen. Sérgio Petecão (PSD/AC),2,24560
+f5a9a945227292b83cb390bd0395f48b,470,Sen. Chico Rodrigues,DEM,RR,governo,senado,Sen. Chico Rodrigues (DEM/RR),8,2470
+f5a9a945227292b83cb390bd0395f48b,4770,Sen. Izalci Lucas,PSDB,DF,governo,senado,Sen. Izalci Lucas (PSDB/DF),8,24770
+f5a9a945227292b83cb390bd0395f48b,4981,Sen. Acir Gurgacz,PDT,RO,oposição,senado,Sen. Acir Gurgacz (PDT/RO),8,24981
+f5a9a945227292b83cb390bd0395f48b,5012,Sen. Randolfe Rodrigues,REDE,AP,oposição,senado,Sen. Randolfe Rodrigues (REDE/AP),1,25012
+f5a9a945227292b83cb390bd0395f48b,5352,Sen. Rogério Carvalho,PT,SE,oposição,senado,Sen. Rogério Carvalho (PT/SE),1,25352
+f5a9a945227292b83cb390bd0395f48b,5411,Sen. Weverton,PDT,MA,oposição,senado,Sen. Weverton (PDT/MA),3,25411
+f5a9a945227292b83cb390bd0395f48b,5422,Sen. Marcos Rogério,DEM,RO,governo,senado,Sen. Marcos Rogério (DEM/RO),3,25422
+f5a9a945227292b83cb390bd0395f48b,5523,Sen. Otto Alencar,PSD,BA,governo,senado,Sen. Otto Alencar (PSD/BA),1,25523
+f5a9a945227292b83cb390bd0395f48b,5529,Sen. Antonio Anastasia,PSDB,MG,governo,senado,Sen. Antonio Anastasia (PSDB/MG),1,25529
+f5a9a945227292b83cb390bd0395f48b,5905,Sen. Rodrigo Cunha,PSDB,AL,governo,senado,Sen. Rodrigo Cunha (PSDB/AL),6,25905
+f5a9a945227292b83cb390bd0395f48b,74052,Dep. Bosco Costa,PL,SE,governo,camara,Dep. Bosco Costa (PL/SE),1,174052
+f5a9a945227292b83cb390bd0395f48b,74317,Dep. Júlio Cesar,PSD,PI,governo,camara,Dep. Júlio Cesar (PSD/PI),15,174317
 f5b930143c313d75bd771bea8241a831,141470,Dep. José Guimarães,PT,CE,oposição,camara,Dep. José Guimarães (PT/CE),1,1141470
 f5b930143c313d75bd771bea8241a831,204566,Dep. Marreca Filho,PATRIOTA,MA,governo,camara,Dep. Marreca Filho (PATRIOTA/MA),1,1204566
 f5c69f40da5fbc0034542cd58d106732,160511,Dep. Alessandro Molon,PSB,RJ,oposição,camara,Dep. Alessandro Molon (PSB/RJ),1,1160511
@@ -2175,11 +2603,33 @@ fad9f9b739cc2bd58fce57262adc8f19,204576,Dep. João Roma,PRB,BA,governo,camara,De
 fad9f9b739cc2bd58fce57262adc8f19,204492,Dep. Paulo Guedes,PT,MG,oposição,camara,Dep. Paulo Guedes (PT/MG),1,1204492
 fae8fabfb44b3dfc27b65dd71ef592ef,204563,Dep. Josimar Maranhãozinho,PL,MA,governo,camara,Dep. Josimar Maranhãozinho (PL/MA),1,1204563
 fafa231dac1d74709d5d54829f26de7b,108338,Dep. Jaqueline Cassol,PP,RO,governo,camara,Dep. Jaqueline Cassol (PP/RO),1,1108338
+fb54530698d8c881b7c58be78f2337c0,204367,Dep. Daniel Freitas,PSL,SC,governo,camara,Dep. Daniel Freitas (PSL/SC),1,1204367
 fb9a2d84dfd8bacbdc85c6a5d9998fa6,73604,Dep. Rui Falcão,PT,SP,oposição,camara,Dep. Rui Falcão (PT/SP),1,173604
 fbd0a17e5a30634697e18220294e2a7b,204440,Dep. Christino Aureo,PP,RJ,governo,camara,Dep. Christino Aureo (PP/RJ),1,1204440
+fbda2cc7ad5314e28849d2ec737d6fee,141508,Dep. Mauro Nazif,PSB,RO,oposição,camara,Dep. Mauro Nazif (PSB/RO),1,1141508
 fc5673b898073f5dd47fefa92f36e1b0,204400,Dep. Aline Sleutjes,PSL,PR,governo,camara,Dep. Aline Sleutjes (PSL/PR),1,1204400
 fc5673b898073f5dd47fefa92f36e1b0,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),1,1204494
 fcdc79a55d780d14b0434e2e6df5fd11,178951,Dep. Rafael Motta,PSB,RN,oposição,camara,Dep. Rafael Motta (PSB/RN),1,1178951
+fcded076be31aa7f99cd59ee38e8095c,204449,Dep. Nelson Barbudo,PSL,MT,governo,camara,Dep. Nelson Barbudo (PSL/MT),1,1204449
+fcded076be31aa7f99cd59ee38e8095c,1186,Sen. Luis Carlos Heinze,PP,RS,governo,senado,Sen. Luis Carlos Heinze (PP/RS),13,21186
+fcded076be31aa7f99cd59ee38e8095c,141398,Dep. Carlos Zarattini,PT,SP,oposição,camara,Dep. Carlos Zarattini (PT/SP),2,1141398
+fcded076be31aa7f99cd59ee38e8095c,141508,Dep. Mauro Nazif,PSB,RO,oposição,camara,Dep. Mauro Nazif (PSB/RO),1,1141508
+fcded076be31aa7f99cd59ee38e8095c,178916,Dep. Daniel Coelho,CIDADANIA,PE,governo,camara,Dep. Daniel Coelho (CIDADANIA/PE),1,1178916
+fcded076be31aa7f99cd59ee38e8095c,178933,Dep. Sergio Souza,MDB,PR,governo,camara,Dep. Sergio Souza (MDB/PR),6,1178933
+fcded076be31aa7f99cd59ee38e8095c,178954,Dep. Lucio Mosquini,MDB,RO,governo,camara,Dep. Lucio Mosquini (MDB/RO),2,1178954
+fcded076be31aa7f99cd59ee38e8095c,204391,Dep. José Nelto,PODEMOS,GO,governo,camara,Dep. José Nelto (PODEMOS/GO),1,1204391
+fcded076be31aa7f99cd59ee38e8095c,204396,Dep. Vermelho,PSD,PR,governo,camara,Dep. Vermelho (PSD/PR),1,1204396
+fcded076be31aa7f99cd59ee38e8095c,204530,Dep. Rodrigo Agostinho,PSB,SP,oposição,camara,Dep. Rodrigo Agostinho (PSB/SP),1,1204530
+fcded076be31aa7f99cd59ee38e8095c,345,Sen. Flávio Arns,REDE,PR,oposição,senado,Sen. Flávio Arns (REDE/PR),1,2345
+fcded076be31aa7f99cd59ee38e8095c,3806,Sen. Zequinha Marinho,PSC,PA,governo,senado,Sen. Zequinha Marinho (PSC/PA),1,23806
+fcded076be31aa7f99cd59ee38e8095c,5012,Sen. Randolfe Rodrigues,REDE,AP,oposição,senado,Sen. Randolfe Rodrigues (REDE/AP),1,25012
+fcded076be31aa7f99cd59ee38e8095c,5385,Sen. Irajá,PSD,TO,governo,senado,Sen. Irajá (PSD/TO),3,25385
+fcded076be31aa7f99cd59ee38e8095c,5718,Sen. Eliziane Gama,CIDADANIA,MA,governo,senado,Sen. Eliziane Gama (CIDADANIA/MA),1,25718
+fcded076be31aa7f99cd59ee38e8095c,5959,Sen. Styvenson Valentim,PODEMOS,RN,governo,senado,Sen. Styvenson Valentim (PODEMOS/RN),1,25959
+fcded076be31aa7f99cd59ee38e8095c,74131,Dep. João Carlos Bacelar,PL,BA,governo,camara,Dep. João Carlos Bacelar (PL/BA),0.5,174131
+fcded076be31aa7f99cd59ee38e8095c,74400,Dep. Paulo Pimenta,PT,RS,oposição,camara,Dep. Paulo Pimenta (PT/RS),1,174400
+fcded076be31aa7f99cd59ee38e8095c,141458,Dep. João Carlos Bacelar,PL,BA,governo,camara,Dep. João Carlos Bacelar (PL/BA),0.5,1141458
+fd04d06cb2bd11bc6d64ac4d0a9fd03a,204502,Dep. Júnior Bozzella,PSL,SP,governo,camara,Dep. Júnior Bozzella (PSL/SP),1,1204502
 fd413bbecb633683a6761f80be9181f0,204573,Dep. Otto Alencar Filho,PSD,BA,governo,camara,Dep. Otto Alencar Filho (PSD/BA),1,1204573
 fd91e219410c99797253583155372fc3,5748,Sen. Veneziano Vital do Rêgo,PSB,PB,oposição,senado,Sen. Veneziano Vital do Rêgo (PSB/PB),1,25748
 fdc801c17a40b93a7509cacc5f5edbcc,204479,Dep. Nicoletti,PSL,RR,governo,camara,Dep. Nicoletti (PSL/RR),1,1204479
