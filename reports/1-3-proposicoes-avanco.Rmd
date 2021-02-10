@@ -55,18 +55,42 @@ situacao = proposicoes %>%
 
 
 ```{r}
-situacao %>% 
-  filter(!(situacao %in% c("Ativa", "Sem urgência", "Ainda no início")), 
-         !is.na(situacao), 
-         !is.na(classificacao_ambientalismo)) %>% 
-  count(aspecto, situacao, classificacao_ambientalismo) %>% 
-  ggplot(aes(x = situacao, y = n, fill =  classificacao_ambientalismo)) + 
-  facet_grid(reorder(aspecto, -n) ~ ., scales = "free") + 
-  geom_chicklet() + 
-  escala_sinais + 
-  coord_flip()
+situacao %>%
+  filter(
+    !(situacao %in% c("Ativa", "Sem urgência", "Ainda no início")),
+    !is.na(situacao)) %>%
+  count(aspecto, situacao, classificacao_ambientalismo) %>%
+  ggplot(aes(x = situacao, y = n, fill =  classificacao_ambientalismo)) +
+  facet_grid(reorder(aspecto,-n) ~ ., scales = "free") +
+  geom_chicklet() +
+  escala_sinais +
+  coord_flip() +
+  labs(
+    title = "Situação de avanço das proposições",
+    subtitle = "Características de avanço do Parlametria. Mostrando apenas proposições que avançaram.",
+    x = "",
+    fill = "Efeito",
+    y = "Proposições"
+  )
 ```
-
+```{r}
+situacao %>%
+  filter(
+    !(situacao %in% c("Ativa", "Sem urgência", "Ainda no início")),
+    !is.na(situacao)) %>%
+  count(aspecto, situacao, sigla_tipo) %>%
+  ggplot(aes(x = situacao, y = n, fill =  sigla_tipo)) +
+  facet_grid(reorder(aspecto,-n) ~ ., scales = "free") +
+  geom_chicklet() +
+  coord_flip() +
+  labs(
+    title = "Situação de avanço das proposições",
+    subtitle = "Características de avanço do Parlametria. Mostrando apenas proposições que avançaram.",
+    x = "",
+    fill = "Tipo",
+    y = "Proposições"
+  )
+```
 
 ```{r}
 prop_situacao = situacao %>% 
@@ -104,12 +128,15 @@ situacao %>%
 ```
 
 
-## Proposições transformadas em lei
+## Proposições aprovadas
 
 ```{r}
 aprovadas = proposicoes %>%
-  filter(status == "Lei") %>%
-  select(nome_proposicao, data_apresentacao, casa_origem, ementa)
+  filter(status == "Aprovada") %>%
+  select(`Proposição` =nome_proposicao, 
+         `Apresentada em` = data_apresentacao, 
+         `Casa de origem` = casa_origem, 
+         Ementa = ementa)
 
 aprovadas %>% reactable()
 ```
@@ -118,7 +145,7 @@ Eis seus autores:
 
 ```{r}
 detalhes_autorias %>% 
-  filter(proposicao %in% aprovadas$nome_proposicao) %>% 
+  filter(proposicao %in% aprovadas$`Proposição`) %>% 
   mutate(governismo = round(governismo, 1)) %>% 
   select(proposicao, proposicao, nome, partido, uf, casa, governismo) %>%
   reactable()
@@ -126,7 +153,9 @@ detalhes_autorias %>%
 
 ```{r}
 detalhes_autorias %>%
-  filter(proposicao %in% aprovadas$nome_proposicao) %>%
+  filter(proposicao %in% aprovadas$`Proposição`, 
+         sigla_tipo != 'MPV', 
+         nome != 'Poder Executivo') %>%
   ggplot(aes(y = governismo, x = reorder(proposicao, governismo))) +
   geom_quasirandom() + 
   coord_flip() + 

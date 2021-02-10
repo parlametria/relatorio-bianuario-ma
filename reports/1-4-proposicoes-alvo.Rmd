@@ -71,7 +71,7 @@ Proposições apresentadas e aprovadas no período 2019-2020.
 
 ```{r}
 leis %>% 
-  filter(status == "Lei") %>% 
+  filter(status == "Aprovada") %>% 
   select(aprovada = nome_proposicao, 
          efeito = classificacao_ambientalismo, 
          menciona = lei) %>% 
@@ -82,7 +82,7 @@ As ementas das proposições aprovadas:
 
 ```{r}
 leis %>% 
-  filter(status == "Lei") %>% 
+  filter(status == "Aprovada") %>% 
   select(aprovada = nome_proposicao, ementa) %>% 
   distinct() %>% 
   reactable()

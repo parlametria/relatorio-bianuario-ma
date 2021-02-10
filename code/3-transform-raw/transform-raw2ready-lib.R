@@ -31,7 +31,8 @@ transform_proposicoes <-
     proposicoes_tudo = proposicoes_leggo %>%
       inner_join(pi_long, by = c("id_ext")) %>%
       rename(nome_proposicao = proposicao) %>%
-      filter(lubridate::year(data_apresentacao) >= 2019)
+      filter(lubridate::year(data_apresentacao) >= 2019) %>% 
+      mutate(status = if_else(status == "Lei", "Aprovada", status))
     
     n_cruzado = proposicoes_tudo %>% pull(id_leggo) %>% n_distinct()
     flog.info(str_glue("{n_cruzado} proposições após cruzar input e leggo"))
@@ -220,4 +221,8 @@ cruza_destaques_tramitacao <- function(props,
   flog.info(str_glue("{n_faltantes} proposiçòes com destaques NA"))
   
   destaques
+}
+
+transform_votacoes <- function(acontecidas, rotuladas){
+  
 }
