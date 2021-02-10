@@ -40,6 +40,20 @@ relatorias = read_relatoria()
 
 Temos `r sum(!is.na(relatorias$relator_id_parlametria))` relatorias identificadas. 
 
+## Relatores mais comuns
+
+```{r}
+relatorias %>% 
+  filter(!is.na(nome)) %>% 
+  count(nome, casa, partido, uf, sort = T, name = "relatorias") %>% 
+  group_by(casa) %>% 
+  top_n(10, relatorias) %>% 
+  reactable()
+```
+
+
+### Detalhes por relatoria
+
 ```{r}
 escala_governismo = cria_paleta(c(-10, 10), to = "#ffffcc", from = "#41b6c4")
 escala_peso = cria_paleta(c(0,1), from = "#edf8fb", to = "#8c96c6")
@@ -110,19 +124,30 @@ relatorias %>%
 
 ```{r}
 relatorias %>%
-  filter(!is.na(governismo)) %>%
-  count(governismo, casa) %>% 
-  ggplot(aes(y = governismo, x = casa, size = n)) +
-  scale_color_discrete(name = NULL) +
-  coord_flip() +
-  geom_point(alpha = .6, color = "darkorange4") +
+  filter(!is.na(governismo),!is.na(nome), !is.na(classificacao_ambientalismo)) %>%
+  group_by(nome, casa) %>%
+  summarise(
+    governismo = mean(governismo),
+    efeito = (
+      sum(classificacao_ambientalismo == "Positivo") - sum(classificacao_ambientalismo == "Negativo")
+    ) / n(),
+    quantidade = n()
+  )  %>%
+  ggplot(aes(
+    x = governismo,
+    y = efeito,
+    color = efeito,
+    size = quantidade
+  )) +
+  facet_wrap( ~ casa) +
+  scale_color_viridis_c() +
+  geom_point(alpha = .6) +
   labs(
-    y = "Governismo (neg. sign. oposição)",
-    x = "",
+    x = "Governismo (neg. sign. oposição)",
+    y = "Projetos mais positivos/negativos",
     title = "Governismo entre relatores das proposições",
     subtitle = "Cada ponto é um(a) parlamentar. Maiores relataram mais."
-  ) +
-  theme(legend.position = "None")
+  ) 
 ```
 
 ```{r}

@@ -58,9 +58,12 @@ resumo_atuacao  %>%
   group_by(nome_autor) %>% 
   mutate(acoes_total = sum(acoes)) %>% 
   ungroup() %>% 
-  filter(acoes_total > 20) %>% 
+  # filter((casa == "camara" & acoes_total > 25) | 
+  #          (casa == "senado" & acoes_total > 10)) %>%
+  filter(acoes_total > 40) %>% 
+  group_by(casa) %>% 
   ggplot(aes(
-    x = reorder(nome_autor, acoes, sum),
+    x = reorder(nome_autor, acoes_total, sum),
     y = acoes,
     fill = tipo_generico
   )) +
