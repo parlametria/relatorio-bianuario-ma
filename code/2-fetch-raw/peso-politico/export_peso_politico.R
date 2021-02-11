@@ -17,7 +17,7 @@ option_list = list(
   make_option(
     c("-o", "--out"),
     type = "character",
-    default = here::here("data/2-fetch-raw/peso_politico/peso_politico.csv"),
+    default = here::here("data/raw/peso_politico/peso_politico.csv"),
     help = "nome do arquivo de saída [default= %default]",
     metavar = "character"
   )
