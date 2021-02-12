@@ -4,7 +4,7 @@ source(here::here("code/utils/check_packages.R"))
 #' @title Recupera dados dos votos para um conjunto de votações.
 #' @description Recebe um caminho para o dataframe de votações e retorna todos os
 #' votos relacionados.
-#' @param votacoes_datapath Caminho para o csv de votações
+#' @param votacoes_datapath Caminho para o csv de votações do Senado
 #' @return Datafrane com os votos.
 fetch_votos_senado <- function(
   votacoes_datapath = here::here("data/inputs/1-create-pre-input/votacoes/votacoes_senado.csv")) {
