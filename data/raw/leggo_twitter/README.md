@@ -9,3 +9,5 @@ Para ter acesso aos dados já processados. Siga os passos:
 2. Extraia .zip neste diretório (`data/leggo_twitter`).
 
 Agora é só dá uma conferida nos CSVs!
+
+[bd.zip](https://drive.google.com/file/d/1Rfdb5SKx9PaeYUpoTGzhg-5VX1ICAlaB/view?usp=sharing)
