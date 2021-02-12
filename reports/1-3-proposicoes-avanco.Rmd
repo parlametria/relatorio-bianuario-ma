@@ -73,6 +73,48 @@ situacao %>%
     y = "Proposições"
   )
 ```
+
+### Proposições de efeito negativo que tiveram tramitação avançada
+
+```{r}
+situacao %>%
+  filter(
+    situacao %in% c(
+      "Avançou em uma casa",
+      "Aprovada",
+      "Avançou em comissões",
+      "Urgência aprovada", 
+      "Urgência apresentada"
+    ),!is.na(situacao),
+    classificacao_ambientalismo == "Negativo"
+  ) %>%
+  arrange(situacao) %>% 
+  select(Proposição = nome_proposicao, situacao, ementa) %>% 
+  reactable(searchable = T)
+```
+
+### Proposições de efeito POSITIVO que tiveram tramitação avançada
+
+```{r}
+situacao %>%
+  filter(
+    situacao %in% c(
+      "Avançou em uma casa",
+      "Aprovada",
+      "Avançou em comissões",
+      "Urgência aprovada", 
+      "Arquivada",
+      "Urgência apresentada"
+    ),!is.na(situacao),
+    classificacao_ambientalismo == "Positivo"
+  ) %>%
+  arrange(situacao) %>% 
+  select(Proposição = nome_proposicao, situacao, ementa) %>% 
+  reactable(searchable = T)
+```
+
+
+
 ```{r}
 situacao %>%
   filter(
@@ -118,17 +160,8 @@ prop_situacao %>%
   )
 ```
 
-```{r}
-situacao %>% 
-  filter(!(situacao %in% c("Ativa", "Sem urgência", "Ainda no início")), 
-         !is.na(situacao), 
-         !is.na(classificacao_ambientalismo)) %>% 
-  select(nome_proposicao, situacao) %>% 
-  reactable()
-```
 
-
-## Proposições aprovadas
+### Proposições aprovadas
 
 ```{r}
 aprovadas = proposicoes %>%

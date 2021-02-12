@@ -32,6 +32,7 @@ theme_set(theme_ipsum_rc())
 
 source(here::here("code/read_ready.R"))
 source(here::here("reports/autorias.R"))
+source(here::here("reports/escalas.R"))
 ```
 
 ```{r}
@@ -39,18 +40,26 @@ proposicoes = read_proposicoes()
 ```
 
 ```{r}
+extrai_leis = function(ementas){
+  ementas %>%
+    str_remove_all(regex("Decreto.*[\\d]+\\.[\\d]+", ignore_case = TRUE)) %>%
+    str_extract_all(regex("[\\d]+\\.[\\d]+.+?[\\d]{4}", ignore_case = TRUE))
+}
+
 leis = proposicoes %>%
   transmute(
     nome_proposicao,
     classificacao_ambientalismo,
     ementa = ementa,
     status,
-    lei = str_extract_all(ementa, regex("Lei....[\\d\\.]+", ignore_case = TRUE))
+    lei_raw = extrai_leis(ementa)
   ) %>%
-  unnest(lei) %>% 
+  unnest(lei_raw) %>% 
+  filter(!is.na(lei_raw)) %>% 
   distinct() %>% 
-  mutate(lei = str_to_sentence(lei)) %>% 
-  filter(!is.na(lei))
+  mutate(num_lei = lei_raw %>% str_extract("[\\d]+\\.[\\d]+"), 
+         ano_lei = str_extract(lei_raw, "[12][\\d]{3}"), 
+         lei = str_glue("{num_lei}, de {ano_lei}")) 
 ```
 
 Considerando as leis mencionadas **nas ementas** das proposições, podemos ver que normas mais foram alvo de modificação pelos parlamentares.
@@ -61,9 +70,42 @@ Considerando as `r n_distinct(proposicoes$nome_proposicao)` proposições **apre
 
 ```{r}
 leis %>% 
-  count(lei, sort = T, name = "menções") %>% 
-  reactable()
+  count(lei, sort = T) %>% 
+  top_n(20, n) %>% 
+  ggplot(aes(x = reorder(lei, n), y = n)) + 
+  geom_chicklet(fill = "steelblue") + 
+  coord_flip() + 
+  labs(
+    title = "Leis mais mencionadas nas ementas",
+    x = "", 
+    y = "Ementas"
+  )
 ```
+
+## Leis mais mencionadas em poposições positivas e negativas
+
+```{r}
+leis %>% 
+  filter(!is.na(classificacao_ambientalismo)) %>% 
+  count(classificacao_ambientalismo, lei, sort = T) %>% 
+  group_by(lei) %>% 
+  mutate(n_total = sum(n)) %>% 
+  ungroup() %>% 
+  group_by(classificacao_ambientalismo) %>% 
+  top_n(10, n_total) %>% 
+  ggplot(aes(x = reorder(lei, n), y = n, fill = classificacao_ambientalismo)) + 
+  geom_chicklet() + 
+  escala_sinais + 
+  coord_flip() + 
+  labs(
+    title = "Leis mais mencionadas nas ementas",
+    subtitle = "Cor indica efeito da proposição que menciona a lei",
+    x = "", 
+    y = "Ementas", 
+    fill = "Efeito"
+  )
+```
+
 
 ## Leis mencionadas nas ementas das proposições aprovadas
 
@@ -74,17 +116,7 @@ leis %>%
   filter(status == "Aprovada") %>% 
   select(aprovada = nome_proposicao, 
          efeito = classificacao_ambientalismo, 
-         menciona = lei) %>% 
-  reactable()
+         menciona = lei, 
+         ementa) %>% 
+  reactable(searchable = T)
 ```
-
-As ementas das proposições aprovadas: 
-
-```{r}
-leis %>% 
-  filter(status == "Aprovada") %>% 
-  select(aprovada = nome_proposicao, ementa) %>% 
-  distinct() %>% 
-  reactable()
-```
-

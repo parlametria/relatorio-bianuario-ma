@@ -50,6 +50,7 @@ resumo_autorias = read_autorias_res() %>%  select(-situacao,
 
 ```{r}
 proposicoes %>%
+  filter(!is.na(classificacao_ambientalismo)) %>% 
   count(classificacao_ambientalismo) %>%
   ggplot(aes(x = classificacao_ambientalismo, y = n, fill = classificacao_ambientalismo)) +
   geom_chicklet() +
@@ -105,6 +106,7 @@ proposicoes %>%
 
 ```{r}
 proposicoes %>% 
+  filter(!is.na(classificacao_ambientalismo)) %>% 
   filter(lubridate::year(data_apresentacao) >= 2019) %>% 
   mutate(mes = lubridate::floor_date(data_apresentacao, "months")) %>% 
   count(mes, classificacao_ambientalismo) %>% 
@@ -134,12 +136,14 @@ participacao = detalhes_autorias %>%
 mais_autores = participacao %>% 
   filter(classificacao_ambientalismo != "Neutro") %>% 
   group_by(classificacao_ambientalismo) %>% 
-  slice_max(autores, n = 10, with_ties = F)
+  slice_max(autores, n = 10, with_ties = F) %>% 
+  ungroup()
 
 mais_partidos = participacao %>% 
   filter(classificacao_ambientalismo != "Neutro") %>% 
   group_by(classificacao_ambientalismo) %>% 
-  slice_max(partidos, n = 10, with_ties = F)
+  slice_max(partidos, n = 10, with_ties = F) %>% 
+  ungroup()
 ```
 
 ```{r}
@@ -159,22 +163,39 @@ mais_autores %>%
 ```{r}
 mais_autores %>% 
   select(proposicao, autores) %>% 
+  left_join(proposicoes %>% select(nome_proposicao, ementa), 
+            by = c("proposicao" = "nome_proposicao")) %>% 
   arrange(-autores) %>% 
-  reactable()
+  reactable(searchable = T)
 ```
 
 
 ```{r}
-mais_partidos %>% 
-  ggplot(aes(x = reorder(proposicao, partidos), y = partidos, fill = classificacao_ambientalismo)) + 
+mais_partidos %>%
+  ggplot(aes(
+    x = reorder(proposicao, partidos),
+    y = partidos,
+    fill = classificacao_ambientalismo
+  )) +
   geom_chicklet(width = .75) +
-  facet_grid(reorder(classificacao_ambientalismo, -autores) ~ ., scales = "free") + 
-  escala_sinais + 
-  coord_flip() + 
-  labs(x = "", 
-       title = "Proposições de cada efeito com mais partidos entre autores", 
-       subtitle = "10 proposições com efeito positivo/negativo com mais partidos",
-       fill = "Efeito") + 
+  facet_grid(reorder(classificacao_ambientalismo,-autores) ~ ., scales = "free") +
+  escala_sinais +
+  coord_flip() +
+  labs(
+    x = "",
+    title = "Proposições de cada efeito com mais partidos entre autores",
+    subtitle = "10 proposições com efeito positivo/negativo com mais partidos",
+    fill = "Efeito"
+  ) +
   theme(legend.position = "None")
+```
+
+```{r}
+mais_partidos %>% 
+  select(proposicao, partidos) %>% 
+  left_join(proposicoes %>% select(nome_proposicao, ementa), 
+            by = c("proposicao" = "nome_proposicao")) %>% 
+  arrange(-partidos) %>% 
+  reactable(searchable = T)
 ```
 

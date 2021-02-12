@@ -109,7 +109,7 @@ resumo_autorias_todos %>%
   ggplot(aes(y = peso_politico, x = governismo, color = assinou)) + 
   facet_grid(casa ~ .) + 
   geom_point(alpha = .4) + 
-  scale_color_manual(values = c("brown", "#969696")) + 
+  scale_color_manual(values = c("brown", "blue")) + 
   labs(y = "Peso político no parlametria", 
        x = "Governismo", 
        title = "Peso político entre autores das PDLs", 
@@ -132,7 +132,10 @@ autorias_partidos =
 autorias_partidos %>%
   filter(!is.na(partido)) %>% 
   count(partido, classificacao_ambientalismo) %>%
-  ggplot(aes(x = reorder(partido, n), y = n, fill = classificacao_ambientalismo)) +
+  group_by(partido) %>% 
+  mutate(total = sum(n)) %>% 
+  ungroup() %>% 
+  ggplot(aes(x = reorder(partido, total), y = n, fill = classificacao_ambientalismo)) +
   geom_chicklet() +
   escala_sinais + 
   coord_flip() +
@@ -149,6 +152,6 @@ autorias_partidos %>%
   filter(!is.na(partido)) %>% 
   count(partido, classificacao_ambientalismo, sort = T, name = "Proposições") %>%
   select(Partido = partido, Efeito = classificacao_ambientalismo, `Proposições`) %>% 
-  reactable()
+  reactable(searchable = T)
 ```
 

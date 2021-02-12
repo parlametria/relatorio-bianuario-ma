@@ -144,7 +144,9 @@ participacao %>%
 participacao %>% 
   select(proposicao, autores) %>% 
   arrange(-autores) %>% 
-  reactable()
+  left_join(proposicoes %>% select(nome_proposicao, ementa), 
+            by = c("proposicao" = "nome_proposicao")) %>% 
+  reactable(searchable = T)
 ```
 
 
