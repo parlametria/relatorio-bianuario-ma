@@ -7,7 +7,7 @@ Para gerar a tabela de votos, siga as seguintes etapas:
 1. Execute o script que processa os dados dos votos. Para isto execute o seguinte comando:
 
 ```
-Rscript export_votos_camara.R --o <parlamentares_datapath> 
+Rscript export_votos_camara.R --o <votos_camara_datapath> 
 ```
 
 Com o seguinte argumento:
