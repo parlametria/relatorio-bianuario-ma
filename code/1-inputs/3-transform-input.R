@@ -1,5 +1,6 @@
 library(tidyverse)
 library(here)
+library(futile.logger)
 
 #' @title Processa a planilha de entrada
 #' @description Processa a planilha de entrada da lista de proposições para o formato de entrada do parlametria
@@ -10,7 +11,8 @@ library(here)
 transform_input_proposicoes <-
   function(planilha_path = here::here("data/inputs/2-fetch-input/proposicoes/proposicoes_preenchidas.csv")) {
     
-    proposicoes_selecao <- read_csv(planilha_path)
+    proposicoes_selecao <- read_csv(planilha_path, 
+                                    col_types = cols(.default = col_character()))
     
     proposicoes_camara <- proposicoes_selecao %>%
       filter(casa == "camara") %>%
@@ -42,6 +44,8 @@ transform_input_proposicoes <-
       distinct(id_camara, id_senado, .keep_all = TRUE) %>% 
       rowwise()
 
+    flog.info("Buscando ids das proposições na câmara e senado")
+    
     proposicoes_id <- purrr::pmap_dfr(
       list(
       proposicoes_merge$sigla_tipo,
@@ -90,7 +94,7 @@ transform_input_proposicoes <-
     
     proposicoes_input %>%
       write_csv(here::here(out_proposicoes))
-    message("Proposições processadas em ", out_proposicoes)
+    flog.info("Proposições processadas em ", out_proposicoes)
     
     return(proposicoes_input)
   }
@@ -106,7 +110,7 @@ transform_input_proposicoes <-
 #' @examples
 #' process_id_proposicao(tipo = "PEC", numero = "6", ano = "2019", id_camara = NA, id_senado = NA)
 process_id_proposicao <- function(tipo = "PEC", numero = "6", ano = "2019", id_camara = NA, id_senado = NA) {
-  print(paste0("Proposição: ", id_camara, " - ", id_senado))
+  flog.trace(str_glue("Buscando ids para {tipo} {numero} / {ano}. Temos: câmara {id_camara}, senado {id_senado}"))
 
   if (is.na(id_camara)) {
     id_camara <- rcongresso::fetch_id_proposicao_camara(tipo, numero, ano)
@@ -120,6 +124,8 @@ process_id_proposicao <- function(tipo = "PEC", numero = "6", ano = "2019", id_c
     }
   }
   
+  flog.info(str_glue("Resultado dos ids  {tipo} {numero} / {ano}: câmara {id_camara}, senado {id_senado}"))
+  
   data <- tibble(
     tipo = tipo,
     numero = numero,
@@ -131,4 +137,5 @@ process_id_proposicao <- function(tipo = "PEC", numero = "6", ano = "2019", id_c
   return(data)
 }
 
+flog.threshold(TRACE)
 transform_input_proposicoes()
