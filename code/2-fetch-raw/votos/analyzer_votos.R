@@ -27,7 +27,8 @@ process_votos_senado <- function(
   
   votos_alt <-
     perfilparlamentar::mapeia_nome_eleitoral_to_id_senado(parlamentares, votos) %>%
-    select(id_votacao, id_parlamentar = id, voto)
+    select(id_votacao, id_parlamentar = id, voto) %>% 
+    distinct()
   
   return(votos_alt)
 }

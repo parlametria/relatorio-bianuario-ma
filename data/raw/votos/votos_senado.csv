@@ -22,7 +22,6 @@ id_votacao,id_parlamentar,voto
 5971,5953,Sim
 5971,5540,Não
 5971,345,Sim
-5971,345,Sim
 5971,5894,Não
 5971,5008,Sim
 5971,5385,AP
@@ -34,7 +33,6 @@ id_votacao,id_parlamentar,voto
 5971,5627,Sim
 5971,5895,Sim
 5971,5350,Não
-5971,3361,Sim
 5971,3361,Sim
 5971,90,Sim
 5971,5929,Não
@@ -105,7 +103,6 @@ id_votacao,id_parlamentar,voto
 6082,5540,Sim
 6082,4525,Sim
 6082,345,Sim
-6082,345,Sim
 6082,5894,Sim
 6082,5008,Sim
 6082,5385,Sim
@@ -117,7 +114,6 @@ id_votacao,id_parlamentar,voto
 6082,5627,Sim
 6082,5895,Sim
 6082,5350,Sim
-6082,3361,Sim
 6082,3361,Sim
 6082,90,Sim
 6082,5929,Impedido (art.306 RISF)
@@ -189,7 +185,6 @@ id_votacao,id_parlamentar,voto
 6121,5540,Sim
 6121,4525,Sim
 6121,345,Sim
-6121,345,Sim
 6121,5894,P-NRV
 6121,5008,Sim
 6121,5385,P-NRV
@@ -201,7 +196,6 @@ id_votacao,id_parlamentar,voto
 6121,5627,Sim
 6121,5895,Sim
 6121,5350,Sim
-6121,3361,Sim
 6121,3361,Sim
 6121,90,Sim
 6121,1249,Sim
@@ -272,7 +266,6 @@ id_votacao,id_parlamentar,voto
 6144,5540,Sim
 6144,4525,Sim
 6144,345,Sim
-6144,345,Sim
 6144,5894,Sim
 6144,5008,Não
 6144,5385,Sim
@@ -284,7 +277,6 @@ id_votacao,id_parlamentar,voto
 6144,5627,Não
 6144,5895,Sim
 6144,5350,Sim
-6144,3361,Sim
 6144,3361,Sim
 6144,90,Sim
 6144,1249,Sim
@@ -354,7 +346,6 @@ id_votacao,id_parlamentar,voto
 6257,5540,Sim
 6257,4525,Sim
 6257,345,Sim
-6257,345,Sim
 6257,5894,Não
 6257,5008,Sim
 6257,5385,Sim
@@ -366,7 +357,6 @@ id_votacao,id_parlamentar,voto
 6257,5627,Sim
 6257,5895,Sim
 6257,5350,Sim
-6257,3361,LS
 6257,3361,LS
 6257,90,Sim
 6257,1249,Sim
@@ -385,7 +375,6 @@ id_votacao,id_parlamentar,voto
 6257,1023,Sim
 6257,6027,Sim
 6257,5985,Sim
-6257,63,Sim
 6257,63,Sim
 6257,5525,Sim
 6257,5924,Sim
@@ -437,7 +426,6 @@ id_votacao,id_parlamentar,voto
 6264,5540,Não
 6264,4525,Não
 6264,345,Sim
-6264,345,Sim
 6264,5894,Não
 6264,5008,Sim
 6264,5385,Não
@@ -449,7 +437,6 @@ id_votacao,id_parlamentar,voto
 6264,5627,Sim
 6264,5895,Não
 6264,5350,Não
-6264,3361,LS
 6264,3361,LS
 6264,90,Sim
 6264,1249,Não
@@ -468,7 +455,6 @@ id_votacao,id_parlamentar,voto
 6264,1023,P-NRV
 6264,6027,Não
 6264,5985,P-NRV
-6264,63,AP
 6264,63,AP
 6264,5525,P-NRV
 6264,5924,Sim
