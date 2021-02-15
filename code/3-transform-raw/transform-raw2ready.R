@@ -55,7 +55,7 @@ main <- function(argv = NULL) {
   flog.info(str_glue("Relatorias salvas em {out_relatorias}"))
   
   # ATUAÇÃO
-  atuacao = transform_atuacao("data/raw/leggo_data/atuacao.csv",
+  atuacao = transform_atuacao("data/raw/leggo_data/autorias.csv",
                               parlamentares)
   atuacao %>%
     write_csv(here::here(out_atuacao))

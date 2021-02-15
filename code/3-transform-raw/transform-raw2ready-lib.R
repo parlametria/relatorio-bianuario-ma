@@ -155,15 +155,20 @@ resume_autorias = function(data) {
 }
 
 transform_atuacao <-
-  function(atuacao_file = "data/raw/leggo_data/atuacao.csv",
+  function(atuacao_file = "data/raw/leggo_data/autorias.csv",
            parlamentares) {
     atuacao = read_atuacao_raw(atuacao_file)
     parlamentares = parlamentares %>%
-      select(id_entidade_parlametria, governismo, peso_politico)
+      select(id_entidade_parlametria, partido, uf, governismo, peso_politico)
     
     atuacao %>%
       left_join(parlamentares,
-                by = c("id_autor_parlametria" = "id_entidade_parlametria"))
+                by = c("id_autor_parlametria" = "id_entidade_parlametria")) %>% 
+      mutate(ano_apresentacao = lubridate::year(data)) %>% 
+      filter(ano_apresentacao >= 2019, ano_apresentacao <= 2020) %>% 
+      select(id_leggo, id_principal, casa, id_documento, sigla, descricao_tipo_documento, 
+             data, id_autor_parlametria, partido, uf, nome_eleitoral, casa_autor, 
+             tipo_documento, tipo_acao, peso_autor_documento, governismo, peso_politico)
   }
 
 transform_relatorias <-

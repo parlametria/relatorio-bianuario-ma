@@ -84,14 +84,13 @@ read_proposicoes_input_raw <- function(arquivo) {
 }
 
 read_atuacao_raw <-
-  function(arquivo = "data/raw/leggo_data/atuacao.csv") {
+  function(arquivo = "data/raw/leggo_data/autorias.csv") {
     read_csv(
       here::here(arquivo),
       col_types = cols(
         .default = col_character(),
-        peso_total_documentos = col_double(),
-        num_documentos = col_double(),
-        is_important = col_logical()
+        peso_autor_documento = col_double(),
+        data = col_datetime()
       )
     )
   }
