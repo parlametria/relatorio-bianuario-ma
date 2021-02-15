@@ -1,7 +1,7 @@
 library(tidyverse)
 library(here)
 
-source(here::here("code/2-fetch-raw/votos/fetcher_votos_senado.R"))
+source(here::here("code/2-fetch-raw/votos/analyzer_votos.R"))
 
 if(!require(optparse)){
   install.packages("optparse")
@@ -24,7 +24,7 @@ opt = parse_args(opt_parser)
 saida <- opt$out
 
 message("Baixando dados de votos no Senado...")
-votos <- fetch_votos_senado()
+votos <- process_votos_senado()
 
 message(paste0("Salvando o resultado em ", saida))
 

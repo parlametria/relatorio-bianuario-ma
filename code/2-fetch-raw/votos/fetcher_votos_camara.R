@@ -8,7 +8,7 @@ source(here::here("code/utils/check_packages.R"))
 #' @return Dataframe com os votos.
 fetch_votos_camara <- function(
   votacoes_datapath = here::here("data/inputs/1-create-pre-input/votacoes/votacoes_camara.csv")) {
-library(tidyverse)  
+  library(tidyverse)  
   
   votacoes <- read_csv(votacoes_datapath, col_types=cols(.default = "c")) %>% 
     select(id_votacao)
