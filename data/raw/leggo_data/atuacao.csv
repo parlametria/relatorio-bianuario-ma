@@ -1862,6 +1862,7 @@ e9709845ccdcebfe990ab315229dcf59,1204415,2259950,camara,204415,Nereu Crispim,PSL
 690d61f97d075c34fcd0101f0a2a2de0,1205548,2260412,camara,205548,David Miranda,PSOL,RJ,Deputado,camara,Prop. Original / Apensada,CCP,0.1111111111111111,1,FALSE,oposição,Proposição
 6bf74b7491c8e3a714bbf95ae92311c4,1160653,2260427,camara,160653,Roberto De Lucena,PODE,SP,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição
 ad5bdd0e4858471b97f42ab3b5d1305e,1204494,2260458,camara,204494,Fred Costa,PATRIOTA,MG,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,governo,Proposição
+ad5bdd0e4858471b97f42ab3b5d1305e,1204494,2260458,camara,204494,Fred Costa,PATRIOTA,MG,Deputado,camara,Requerimento,NAJUR(SGM),1,1,FALSE,governo,Proposição
 fcdc79a55d780d14b0434e2e6df5fd11,1178951,2260475,camara,178951,Rafael Motta,PSB,RN,Deputado,camara,Prop. Original / Apensada,CCP,1,1,FALSE,oposição,Proposição
 7d82970a5fa5c0d734b94812e4595868,1160570,2260478,camara,160570,Jerônimo Goergen,PP,RS,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição
 7d82970a5fa5c0d734b94812e4595868,1160570,2260478,camara,160570,Jerônimo Goergen,PP,RS,Deputado,camara,Requerimento,PLEN,1,1,TRUE,governo,Proposição
@@ -2260,7 +2261,7 @@ d9b9082c373d2f75f68cd2d3432af830,1204496,2266317,camara,204496,Celso Sabino,PSDB
 cee73bdfc1de1b4e8bb761606afa2f41,1141408,2266605,camara,141408,Cleber Verde,REPUBLICANOS,MA,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição
 b0be6c7750b560a1fe4ad145dc89e102,1204538,2266686,camara,204538,Paulo Bengtson,PTB,PA,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição
 a925ea885aa1e324956d41ff9ec8e458,1204494,2266762,camara,204494,Fred Costa,PATRIOTA,MG,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição
-43c63b9f26c97da7a15f453f5935b47a,1204352,2266845,camara,204352,Camilo Capiberibe,PSB,AP,Deputado,camara,Requerimento,NAJUR(SGM),2.5,3,FALSE,oposição,Proposição
+43c63b9f26c97da7a15f453f5935b47a,1204352,2266845,camara,204352,Camilo Capiberibe,PSB,AP,Deputado,camara,Requerimento,NAJUR(SGM),2.75,4,FALSE,oposição,Proposição
 43c63b9f26c97da7a15f453f5935b47a,1204352,2266845,camara,204352,Camilo Capiberibe,PSB,AP,Deputado,camara,Requerimento,MESA,1,2,FALSE,oposição,Proposição
 43c63b9f26c97da7a15f453f5935b47a,1204467,2266845,camara,204467,Professora Rosa Neide,PT,MT,Deputado,camara,Requerimento,NAJUR(SGM),0.5,1,FALSE,oposição,Proposição
 43c63b9f26c97da7a15f453f5935b47a,1204488,2266845,camara,204488,Célio Studart,PV,CE,Deputado,camara,Requerimento,MESA,0.5,1,FALSE,governo,Proposição
@@ -2268,6 +2269,9 @@ a925ea885aa1e324956d41ff9ec8e458,1204494,2266762,camara,204494,Fred Costa,PATRIO
 43c63b9f26c97da7a15f453f5935b47a,1204352,2266845,camara,204352,Camilo Capiberibe,PSB,AP,Deputado,camara,Prop. Original / Apensada,MESA,0.3333333333333333,1,FALSE,oposição,Proposição
 43c63b9f26c97da7a15f453f5935b47a,1204488,2266845,camara,204488,Célio Studart,PV,CE,Deputado,camara,Prop. Original / Apensada,MESA,0.3333333333333333,1,FALSE,governo,Proposição
 43c63b9f26c97da7a15f453f5935b47a,1204536,2266845,camara,204536,Kim Kataguiri,DEM,SP,Deputado,camara,Prop. Original / Apensada,MESA,0.3333333333333333,1,FALSE,governo,Proposição
+43c63b9f26c97da7a15f453f5935b47a,1160511,2266845,camara,160511,Alessandro Molon,PSB,RJ,Deputado,camara,Requerimento,NAJUR(SGM),0.25,1,FALSE,oposição,Proposição
+43c63b9f26c97da7a15f453f5935b47a,1204488,2266845,camara,204488,Célio Studart,PV,CE,Deputado,camara,Requerimento,NAJUR(SGM),0.25,1,FALSE,governo,Proposição
+43c63b9f26c97da7a15f453f5935b47a,1204536,2266845,camara,204536,Kim Kataguiri,DEM,SP,Deputado,camara,Requerimento,NAJUR(SGM),0.25,1,FALSE,governo,Proposição
 06aead1b3802865bf997d1f809ee0673,1136811,2266848,camara,136811,Afonso Hamm,PP,RS,Deputado,camara,Prop. Original / Apensada,PLEN,1,1,TRUE,governo,Proposição
 06aead1b3802865bf997d1f809ee0673,1136811,2266848,camara,136811,Afonso Hamm,PP,RS,Deputado,camara,Requerimento,NAJUR(SGM),1,1,FALSE,governo,Proposição
 072d0a5f5d656086740b218e290d584e,1204372,2266883,camara,204372,Julio Cesar Ribeiro,REPUBLICANOS,DF,Deputado,camara,Prop. Original / Apensada,MESA,1,1,FALSE,governo,Proposição
@@ -3165,4 +3169,13 @@ d06af397c36c095c5231c2122fc6f7b5,25953,145420,senado,5953,Fabiano Contarato,REDE
 8588e01c3feef42549da06eab598f5d3,24531,145560,senado,4531,Jayme Campos,DEM,MT,senador,senado,Prop. Original / Apensada,Plenário,1,1,TRUE,governo,Proposição
 d8ca90757e4d915b2c048ec921d41ce7,290,145626,senado,90,José Serra,PSDB,SP,senador,senado,Prop. Original / Apensada,Plenário,1,1,TRUE,governo,Proposição
 6ef66f861e22202de3ce51fcb6a05d27,25953,145734,senado,5953,Fabiano Contarato,REDE,ES,senador,senado,Prop. Original / Apensada,Plenário,1,1,TRUE,oposição,Proposição
-401155d203eb228705feed831c2340b9,22331,146362,senado,2331,Rose de Freitas,PODEMOS,ES,senador,senado,Emenda,Plenário,1,1,TRUE,governo,Proposição
+401155d203eb228705feed831c2340b9,22331,146362,senado,2331,Rose de Freitas,PODEMOS,ES,senador,senado,Emenda,Plenário,3,3,TRUE,governo,Proposição
+401155d203eb228705feed831c2340b9,25953,146362,senado,5953,Fabiano Contarato,REDE,ES,senador,senado,Emenda,Plenário,3,3,TRUE,oposição,Proposição
+401155d203eb228705feed831c2340b9,25012,146362,senado,5012,Randolfe Rodrigues,REDE,AP,senador,senado,Emenda,Plenário,2,2,TRUE,oposição,Proposição
+401155d203eb228705feed831c2340b9,2374,146362,senado,374,Paulo Rocha,PT,PA,senador,senado,Emenda,Plenário,1,1,TRUE,oposição,Proposição
+401155d203eb228705feed831c2340b9,2374,146362,senado,374,Paulo Rocha,PT,PA,senador,senado,Requerimento,Plenário,1,1,TRUE,oposição,Proposição
+401155d203eb228705feed831c2340b9,2581,146362,senado,581,Jaques Wagner,PT,BA,senador,senado,Emenda,Plenário,1,1,TRUE,oposição,Proposição
+401155d203eb228705feed831c2340b9,21173,146362,senado,1173,Wellington Fagundes,PL,MT,senador,senado,Emenda,Plenário,1,1,TRUE,governo,Proposição
+401155d203eb228705feed831c2340b9,24994,146362,senado,4994,Eduardo Braga,MDB,AM,senador,senado,Requerimento,Plenário,1,1,TRUE,governo,Proposição
+401155d203eb228705feed831c2340b9,25585,146362,senado,5585,,,,senador,senado,Emenda,Plenário,1,1,TRUE,governo,Proposição
+401155d203eb228705feed831c2340b9,25905,146362,senado,5905,Rodrigo Cunha,PSDB,AL,senador,senado,Emenda,Plenário,1,1,TRUE,governo,Proposição
