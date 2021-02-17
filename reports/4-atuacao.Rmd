@@ -39,6 +39,8 @@ TO DO incluir parlamentares com zero ações
 proposicoes = read_proposicoes()
 detalhes_atuacao = read_atuacao()
 resumo_atuacao = detalhes_atuacao %>%
+  rename(nome_autor = nome_eleitoral,
+         tipo_generico = tipo_acao) %>% 
   group_by(casa,
            nome_autor,
            partido,
@@ -46,21 +48,21 @@ resumo_atuacao = detalhes_atuacao %>%
            governismo,
            peso_politico,
            tipo_generico) %>%
-  summarise(acoes = sum(num_documentos), 
+  summarise(acoes = n_distinct(id_principal, casa, id_documento), 
             .groups = "drop")
 ```
 
 Considerando e ignorando proposições apensadas
 
 ```{r}
-resumo_atuacao  %>%
+resumo_atuacao %>%
   filter(!is.na(nome_autor), tipo_generico != "Outros") %>% 
   group_by(nome_autor) %>% 
   mutate(acoes_total = sum(acoes)) %>% 
   ungroup() %>% 
   # filter((casa == "camara" & acoes_total > 25) | 
   #          (casa == "senado" & acoes_total > 10)) %>%
-  filter(acoes_total > 40) %>% 
+  filter(acoes_total > 100) %>% 
   group_by(casa) %>% 
   ggplot(aes(
     x = reorder(nome_autor, acoes_total, sum),
@@ -73,10 +75,10 @@ resumo_atuacao  %>%
   scale_fill_brewer(palette = "Accent") +
   labs(
     x = "",
-    y = "Açòes",
+    y = "Ações",
     fill = "Tipo da ação",
     title = "Parlamentares mais atuantes",
-    subtitle = "Com ao menos 5 ações"
+    subtitle = "Com ao menos 100 ações"
   )
 ```
 

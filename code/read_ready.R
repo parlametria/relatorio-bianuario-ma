@@ -46,11 +46,10 @@ read_atuacao <- function() {
     here::here("data/ready/atuacao.csv"),
     col_types = cols(
       .default = col_character(),
-      peso_total_documentos = col_double(),
-      num_documentos = col_double(),
+      data = col_datetime(),
+      peso_autor_documento = col_double(),
       governismo = col_double(),
-      peso_politico = col_double(),
-      is_important = col_logical()
+      peso_politico = col_double()
     )
   )
 }
