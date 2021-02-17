@@ -613,7 +613,15 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 401155d203eb228705feed831c2340b9,204398,Dep. Felipe Francischini,PSL,PR,governo,camara,Dep. Felipe Francischini (PSL/PR),0.875,1204398
 401155d203eb228705feed831c2340b9,204440,Dep. Christino Aureo,PP,RJ,governo,camara,Dep. Christino Aureo (PP/RJ),10,1204440
 401155d203eb228705feed831c2340b9,74439,Dep. Wolney Queiroz,PDT,PE,oposição,camara,Dep. Wolney Queiroz (PDT/PE),0.6666666666666666,174439
-401155d203eb228705feed831c2340b9,2331,Sen. Rose de Freitas,PODEMOS,ES,governo,senado,Sen. Rose de Freitas (PODEMOS/ES),1,22331
+401155d203eb228705feed831c2340b9,1173,Sen. Wellington Fagundes,PL,MT,governo,senado,Sen. Wellington Fagundes (PL/MT),1,21173
+401155d203eb228705feed831c2340b9,2331,Sen. Rose de Freitas,PODEMOS,ES,governo,senado,Sen. Rose de Freitas (PODEMOS/ES),3,22331
+401155d203eb228705feed831c2340b9,374,Sen. Paulo Rocha,PT,PA,oposição,senado,Sen. Paulo Rocha (PT/PA),2,2374
+401155d203eb228705feed831c2340b9,4994,Sen. Eduardo Braga,MDB,AM,governo,senado,Sen. Eduardo Braga (MDB/AM),1,24994
+401155d203eb228705feed831c2340b9,5012,Sen. Randolfe Rodrigues,REDE,AP,oposição,senado,Sen. Randolfe Rodrigues (REDE/AP),2,25012
+401155d203eb228705feed831c2340b9,5585,Sen. Luiz do Carmo,MDB,GO,governo,senado,Sen. Luiz do Carmo (MDB/GO),1,25585
+401155d203eb228705feed831c2340b9,581,Sen. Jaques Wagner,PT,BA,oposição,senado,Sen. Jaques Wagner (PT/BA),1,2581
+401155d203eb228705feed831c2340b9,5905,Sen. Rodrigo Cunha,PSDB,AL,governo,senado,Sen. Rodrigo Cunha (PSDB/AL),1,25905
+401155d203eb228705feed831c2340b9,5953,Sen. Fabiano Contarato,REDE,ES,oposição,senado,Sen. Fabiano Contarato (REDE/ES),3,25953
 401155d203eb228705feed831c2340b9,160511,Dep. Alessandro Molon,PSB,RJ,oposição,camara,Dep. Alessandro Molon (PSB/RJ),0.6666666666666666,1160511
 401155d203eb228705feed831c2340b9,204449,Dep. Nelson Barbudo,PSL,MT,governo,camara,Dep. Nelson Barbudo (PSL/MT),0.875,1204449
 404f6c4f573e815e22349d2eece0cbba,178901,Dep. Tereza Cristina,DEM,,governo,camara,Dep. Tereza Cristina (DEM/-),2,1178901
@@ -663,10 +671,11 @@ id_leggo,id_autor,nome,partido,uf,bancada,casa_autor,nome_eleitoral,node_size,id
 431c027eb9b1a9755ee05e55685b049d,160535,Dep. Marcon,PT,RS,oposição,camara,Dep. Marcon (PT/RS),1,1160535
 434f77fd413d28c5c711f6d07a2cda8d,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1,1204488
 438b1cecb3dd026c3397fbe5d5e28a86,178970,Dep. João Daniel,PT,SE,oposição,camara,Dep. João Daniel (PT/SE),1,1178970
-43c63b9f26c97da7a15f453f5935b47a,204352,Dep. Camilo Capiberibe,PSB,AP,oposição,camara,Dep. Camilo Capiberibe (PSB/AP),4.166666666666666,1204352
-43c63b9f26c97da7a15f453f5935b47a,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1.1666666666666665,1204488
+43c63b9f26c97da7a15f453f5935b47a,160511,Dep. Alessandro Molon,PSB,RJ,oposição,camara,Dep. Alessandro Molon (PSB/RJ),0.75,1160511
+43c63b9f26c97da7a15f453f5935b47a,204352,Dep. Camilo Capiberibe,PSB,AP,oposição,camara,Dep. Camilo Capiberibe (PSB/AP),4.916666666666666,1204352
+43c63b9f26c97da7a15f453f5935b47a,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),1.9166666666666665,1204488
+43c63b9f26c97da7a15f453f5935b47a,204536,Dep. Kim Kataguiri,DEM,SP,governo,camara,Dep. Kim Kataguiri (DEM/SP),1.9166666666666665,1204536
 43c63b9f26c97da7a15f453f5935b47a,204467,Dep. Professora Rosa Neide,PT,MT,oposição,camara,Dep. Professora Rosa Neide (PT/MT),0.5,1204467
-43c63b9f26c97da7a15f453f5935b47a,204536,Dep. Kim Kataguiri,DEM,SP,governo,camara,Dep. Kim Kataguiri (DEM/SP),1.1666666666666665,1204536
 44110c21998fb82b7dd39b42acb092a1,141411,Dep. Dagoberto Nogueira,PDT,MS,oposição,camara,Dep. Dagoberto Nogueira (PDT/MS),2,1141411
 444df3df507f78ab1e222d379afb484f,204383,Dep. Professor Israel Batista,PV,DF,governo,camara,Dep. Professor Israel Batista (PV/DF),0.5,1204383
 444df3df507f78ab1e222d379afb484f,204488,Dep. Célio Studart,PV,CE,governo,camara,Dep. Célio Studart (PV/CE),0.5,1204488
@@ -1573,7 +1582,7 @@ ac53697f4326dbc437b7e5047c3f666b,73531,Dep. Ivan Valente,PSOL,SP,oposição,cama
 ac53697f4326dbc437b7e5047c3f666b,74784,Dep. Luiza Erundina,PSOL,SP,oposição,camara,Dep. Luiza Erundina (PSOL/SP),2.677777777777777,174784
 ac53697f4326dbc437b7e5047c3f666b,76874,Dep. Marcelo Freixo,PSOL,RJ,oposição,camara,Dep. Marcelo Freixo (PSOL/RJ),2.6777777777777776,176874
 ac53697f4326dbc437b7e5047c3f666b,205548,Dep. David Miranda,PSOL,RJ,oposição,camara,Dep. David Miranda (PSOL/RJ),2.6777777777777776,1205548
-ad5bdd0e4858471b97f42ab3b5d1305e,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),1,1204494
+ad5bdd0e4858471b97f42ab3b5d1305e,204494,Dep. Fred Costa,PATRIOTA,MG,governo,camara,Dep. Fred Costa (PATRIOTA/MG),2,1204494
 ad774590679da5e89af10b88a6a11e41,204426,Dep. Carlos Veras,PT,PE,oposição,camara,Dep. Carlos Veras (PT/PE),1,1204426
 ad9a166563c2b6a16683d400807968cd,5535,Sen. Telmário Mota,PROS,RR,governo,senado,Sen. Telmário Mota (PROS/RR),1,25535
 ad9a166563c2b6a16683d400807968cd,5666,Sen. Major Olimpio,PSL,SP,governo,senado,Sen. Major Olimpio (PSL/SP),1,25666

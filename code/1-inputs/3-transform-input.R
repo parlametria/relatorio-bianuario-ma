@@ -58,7 +58,9 @@ transform_input_proposicoes <-
     )
       
     proposicoes_input <- proposicoes_merge %>% 
-      left_join(proposicoes_id,
+      left_join(proposicoes_id %>% 
+                  mutate(id_camara = as.character(id_camara),
+                         id_senado = as.character(id_senado)),
                 by = c("sigla_tipo"="tipo",
                        "numero", 
                        "ano")) %>% 
@@ -94,7 +96,7 @@ transform_input_proposicoes <-
     
     proposicoes_input %>%
       write_csv(here::here(out_proposicoes))
-    flog.info("Proposições processadas em ", out_proposicoes)
+    flog.info(paste0("Proposições processadas em ", out_proposicoes))
     
     return(proposicoes_input)
   }

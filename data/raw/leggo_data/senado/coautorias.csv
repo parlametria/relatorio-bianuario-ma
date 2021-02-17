@@ -209,7 +209,15 @@ id_leggo,id_principal,casa,id_autor.x,id_autor.y,peso_arestas,num_coautorias,nom
 375ef8c5e25da01d57a22f8a33fa4bb1,140613,senado,677,677,1,1,Sen. Roberto Rocha,PSDB,MA,senado,governo,Sen. Roberto Rocha,PSDB,MA,senado,governo
 3b5600a471a8a8963f871d84d12ecab0,135240,senado,470,470,1,1,Sen. Chico Rodrigues,DEM,RR,senado,governo,Sen. Chico Rodrigues,DEM,RR,senado,governo
 3b5600a471a8a8963f871d84d12ecab0,135240,senado,5535,5535,1,1,Sen. Telmário Mota,PROS,RR,senado,governo,Sen. Telmário Mota,PROS,RR,senado,governo
-401155d203eb228705feed831c2340b9,146362,senado,2331,2331,1,1,Sen. Rose de Freitas,PODEMOS,ES,senado,governo,Sen. Rose de Freitas,PODEMOS,ES,senado,governo
+401155d203eb228705feed831c2340b9,146362,senado,1173,1173,1,1,Sen. Wellington Fagundes,PL,MT,senado,governo,Sen. Wellington Fagundes,PL,MT,senado,governo
+401155d203eb228705feed831c2340b9,146362,senado,2331,2331,3,3,Sen. Rose de Freitas,PODEMOS,ES,senado,governo,Sen. Rose de Freitas,PODEMOS,ES,senado,governo
+401155d203eb228705feed831c2340b9,146362,senado,374,374,2,2,Sen. Paulo Rocha,PT,PA,senado,oposição,Sen. Paulo Rocha,PT,PA,senado,oposição
+401155d203eb228705feed831c2340b9,146362,senado,4994,4994,1,1,Sen. Eduardo Braga,MDB,AM,senado,governo,Sen. Eduardo Braga,MDB,AM,senado,governo
+401155d203eb228705feed831c2340b9,146362,senado,5012,5012,2,2,Sen. Randolfe Rodrigues,REDE,AP,senado,oposição,Sen. Randolfe Rodrigues,REDE,AP,senado,oposição
+401155d203eb228705feed831c2340b9,146362,senado,5585,5585,1,1,Sen. Luiz do Carmo,MDB,GO,senado,governo,Sen. Luiz do Carmo,MDB,GO,senado,governo
+401155d203eb228705feed831c2340b9,146362,senado,581,581,1,1,Sen. Jaques Wagner,PT,BA,senado,oposição,Sen. Jaques Wagner,PT,BA,senado,oposição
+401155d203eb228705feed831c2340b9,146362,senado,5905,5905,1,1,Sen. Rodrigo Cunha,PSDB,AL,senado,governo,Sen. Rodrigo Cunha,PSDB,AL,senado,governo
+401155d203eb228705feed831c2340b9,146362,senado,5953,5953,3,3,Sen. Fabiano Contarato,REDE,ES,senado,oposição,Sen. Fabiano Contarato,REDE,ES,senado,oposição
 40ccf3c29d8d8c799dd114d48ab95c6b,144719,senado,2331,2331,3,3,Sen. Rose de Freitas,PODEMOS,ES,senado,governo,Sen. Rose de Freitas,PODEMOS,ES,senado,governo
 40ccf3c29d8d8c799dd114d48ab95c6b,144719,senado,5012,5012,1,1,Sen. Randolfe Rodrigues,REDE,AP,senado,oposição,Sen. Randolfe Rodrigues,REDE,AP,senado,oposição
 40ccf3c29d8d8c799dd114d48ab95c6b,144719,senado,5376,5376,1,1,Sen. Mara Gabrilli,PSDB,SP,senado,governo,Sen. Mara Gabrilli,PSDB,SP,senado,governo

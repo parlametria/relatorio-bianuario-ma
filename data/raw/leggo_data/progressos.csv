@@ -8964,17 +8964,6 @@ camara,2263588,Revisão II,Comissões,NA,NA,camara,FALSE
 camara,2263588,Revisão II,Plenário,NA,NA,camara,FALSE
 camara,2263588,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
 camara,2263588,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
-camara,2263589,Pré-Construção,,NA,NA,camara,FALSE
-camara,2263589,Construção,Comissões,NA,NA,camara,FALSE
-camara,2263589,Construção,Plenário,NA,NA,camara,FALSE
-camara,2263589,Pré-Revisão I,,NA,NA,camara,FALSE
-camara,2263589,Revisão I,Comissões,NA,NA,camara,FALSE
-camara,2263589,Revisão I,Plenário,NA,NA,camara,FALSE
-camara,2263589,Pré-Revisão II,,NA,NA,camara,FALSE
-camara,2263589,Revisão II,Comissões,NA,NA,camara,FALSE
-camara,2263589,Revisão II,Plenário,NA,NA,camara,FALSE
-camara,2263589,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
-camara,2263589,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
 camara,2263619,Pré-Construção,,NA,NA,camara,FALSE
 camara,2263619,Construção,Comissões,NA,NA,camara,FALSE
 camara,2263619,Construção,Plenário,NA,NA,camara,FALSE
@@ -9536,17 +9525,17 @@ camara,2265242,Revisão II,Comissões,NA,NA,camara,FALSE
 camara,2265242,Revisão II,Plenário,NA,NA,camara,FALSE
 camara,2265242,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
 camara,2265242,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
-camara,2265295,Construção,Plenário,2020-11-18T15:28:00Z,NA,camara,FALSE
-camara,2265295,Pré-Construção,,NA,NA,camara,FALSE
-camara,2265295,Construção,Comissões,NA,NA,camara,FALSE
-camara,2265295,Pré-Revisão I,,NA,NA,camara,FALSE
-camara,2265295,Revisão I,Comissões,NA,NA,senado,FALSE
-camara,2265295,Revisão I,Plenário,NA,NA,senado,FALSE
-camara,2265295,Pré-Revisão II,,NA,NA,camara,FALSE
-camara,2265295,Revisão II,Comissões,NA,NA,camara,FALSE
-camara,2265295,Revisão II,Plenário,NA,NA,camara,FALSE
-camara,2265295,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
-camara,2265295,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2265295,Construção,Plenário,2020-11-18T15:28:00Z,2020-12-22T00:00:00Z,camara,FALSE
+senado,146362,Revisão I,Plenário,2021-02-09T17:38:10Z,NA,senado,FALSE
+senado,146362,Pré-Construção,,NA,NA,senado,FALSE
+senado,146362,Construção,Comissões,NA,NA,senado,FALSE
+senado,146362,Pré-Revisão I,,NA,NA,senado,FALSE
+senado,146362,Revisão I,Comissões,NA,NA,senado,FALSE
+senado,146362,Pré-Revisão II,,NA,NA,senado,FALSE
+senado,146362,Revisão II,Comissões,NA,NA,camara,FALSE
+senado,146362,Revisão II,Plenário,NA,NA,camara,FALSE
+senado,146362,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+senado,146362,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
 camara,2265315,Construção,Plenário,2020-11-18T18:04:00Z,2021-02-02T00:00:00Z,camara,FALSE
 camara,2265315,Pré-Construção,,NA,NA,camara,FALSE
 camara,2265315,Construção,Comissões,NA,NA,camara,FALSE
@@ -9800,7 +9789,7 @@ camara,2266762,Revisão II,Comissões,NA,NA,camara,FALSE
 camara,2266762,Revisão II,Plenário,NA,NA,camara,FALSE
 camara,2266762,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
 camara,2266762,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
-camara,2266845,Construção,Plenário,2020-12-11T15:14:00Z,2021-02-04T18:49:00Z,camara,FALSE
+camara,2266845,Construção,Plenário,2020-12-11T15:14:00Z,2021-02-10T16:44:00Z,camara,FALSE
 camara,2266845,Pré-Construção,,NA,NA,camara,FALSE
 camara,2266845,Construção,Comissões,NA,NA,camara,FALSE
 camara,2266845,Pré-Revisão I,,NA,NA,camara,FALSE
@@ -12192,3 +12181,14 @@ senado,140347,Revisão II,Comissões,NA,NA,senado,FALSE
 senado,140347,Revisão II,Plenário,NA,NA,senado,FALSE
 senado,140347,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
 senado,140347,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
+camara,2263589,Pré-Construção,,NA,NA,camara,FALSE
+camara,2263589,Construção,Comissões,NA,NA,camara,FALSE
+camara,2263589,Construção,Plenário,NA,NA,camara,FALSE
+camara,2263589,Pré-Revisão I,,NA,NA,camara,FALSE
+camara,2263589,Revisão I,Comissões,NA,NA,camara,FALSE
+camara,2263589,Revisão I,Plenário,NA,NA,camara,FALSE
+camara,2263589,Pré-Revisão II,,NA,NA,camara,FALSE
+camara,2263589,Revisão II,Comissões,NA,NA,camara,FALSE
+camara,2263589,Revisão II,Plenário,NA,NA,camara,FALSE
+camara,2263589,Sanção/Veto,Presidência da República,NA,NA,presidência da república,FALSE
+camara,2263589,Avaliação dos Vetos,Congresso,NA,NA,congresso,FALSE
