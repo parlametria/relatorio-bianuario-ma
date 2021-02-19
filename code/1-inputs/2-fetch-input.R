@@ -26,7 +26,7 @@ fetch_input_proposicoes <-
     proposicoes_camara <- fetch_aba(planilha_camara_url,
                                     .URL_PLANILHA_PROPOSICAO_CAMARA,
                                     aba = "Proposições")
-    a
+    
     proposicoes_senado <- fetch_aba(planilha_senado_url,
                                     .URL_PLANILHA_PROPOSICAO_SENADO,
                                     aba = "Proposições")
