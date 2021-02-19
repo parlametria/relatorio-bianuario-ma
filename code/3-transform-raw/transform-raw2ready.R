@@ -28,6 +28,7 @@ main <- function(argv = NULL) {
     parlamentares_file = "data/raw/leggo_data/entidades.csv",
     "data/externo/governismo/governismo-ideal-deputados.csv",
     "data/externo/governismo/governismo-ideal-senadores.csv",
+    "data/raw/governismo/governismo_ma.csv",
     "data/raw/peso_politico/peso_politico.csv"
   )
   

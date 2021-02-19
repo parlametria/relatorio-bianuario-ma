@@ -102,14 +102,18 @@ parlamentares_data <-
   function(parlamentares_file,
            governismo_deps_file,
            governismo_sens_file,
+           governismo_ma_file,
            peso_file) {
     parlamentares_raw = read_parlamentares_raw(parlamentares_file)
     governismo = read_governismo_raw(governismo_deps_file, governismo_sens_file)
+    governismo_ma <- read_governismo_ma_raw(governismo_ma_file)
     peso = read_peso_raw(peso_file)
     
     parlamentares_raw %>%
       left_join(governismo,
                 by = c("id_entidade" = "id_parlamentar")) %>%
+      left_join(governismo_ma,
+                by = c("id_entidade" = "id_parlamentar")) %>% 
       left_join(peso,
                 by = c("id_entidade_parlametria" = "id_parlamentar_parlametria"))
   }
@@ -131,7 +135,8 @@ detalha_autorias = function(data) {
       proposicao = nome_proposicao,
       classificacao_ambientalismo,
       autores,
-      governismo
+      governismo,
+      governismo_ma
     ) %>%
     mutate(
       assinadas = 1,
@@ -159,7 +164,7 @@ transform_atuacao <-
            parlamentares) {
     atuacao = read_atuacao_raw(atuacao_file)
     parlamentares = parlamentares %>%
-      select(id_entidade_parlametria, partido, uf, governismo, peso_politico)
+      select(id_entidade_parlametria, partido, uf, governismo, governismo_ma, peso_politico)
     
     atuacao %>%
       left_join(parlamentares,
@@ -168,7 +173,8 @@ transform_atuacao <-
       filter(ano_apresentacao >= 2019, ano_apresentacao <= 2020) %>% 
       select(id_leggo, id_principal, casa, id_documento, sigla, descricao_tipo_documento, 
              data, id_autor_parlametria, partido, uf, nome_eleitoral, casa_autor, 
-             tipo_documento, tipo_acao, peso_autor_documento, governismo, peso_politico)
+             tipo_documento, tipo_acao, peso_autor_documento, governismo, governismo_ma,
+             peso_politico)
   }
 
 transform_relatorias <-

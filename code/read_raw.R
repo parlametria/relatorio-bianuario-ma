@@ -41,6 +41,28 @@ read_governismo_raw <-
       select(-casa)
   }
 
+read_governismo_ma_raw <-
+  function(governismo_ma_file = "data/raw/governismo/governismo_ma.csv") {
+    governismo_ma_raw = read_csv(here::here(governismo_ma_file),
+                                 col_types = "cddc")
+    
+    governismo_ma_camara = governismo_ma_raw %>% 
+      filter(casa == "camara") %>% 
+      select(id_parlamentar, casa, governismo_ma = D1) %>% 
+      mutate(governismo_ma = -governismo_ma)
+    
+    governismo_ma_senado = governismo_ma_raw %>% 
+      filter(casa == "senado") %>% 
+      select(id_parlamentar, casa, governismo_ma = D1) %>% 
+      mutate(governismo_ma = -governismo_ma)
+    
+    bind_rows(governismo_ma_camara, governismo_ma_senado) %>%
+      group_by(casa) %>%
+      mutate(governismo_ma = scales::rescale(governismo_ma, to = c(-10, 10))) %>%
+      ungroup() %>%
+      select(-casa)
+  }
+
 read_peso_raw <- function(peso_file) {
   read_csv(here::here(peso_file),
            col_types = "cd")
@@ -113,6 +135,15 @@ read_destaques_raw <- function(arquivo) {
       data_aprovacao = col_datetime(format = ""),
       data_req_urgencia_apresentado = col_datetime(format = ""),
       data_req_urgencia_aprovado = col_datetime(format = "")
+    )
+  )
+}
+
+read_votos_raw <- function(arquivo) {
+  read_csv(
+    here::here(arquivo),
+    col_types = cols(
+      .default = col_character()
     )
   )
 }
