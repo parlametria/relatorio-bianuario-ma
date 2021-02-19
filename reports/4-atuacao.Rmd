@@ -37,62 +37,118 @@ TO DO incluir parlamentares com zero ações
 
 ```{r}
 proposicoes = read_proposicoes()
-detalhes_atuacao = read_atuacao()
+detalhes_atuacao = read_atuacao() %>%
+  filter(
+    tipo_documento %in% c("Prop. Original / Apensada", "Emenda", "Requerimento", "Parecer")
+  ) %>%
+  left_join(proposicoes, by = "id_leggo")
+
 resumo_atuacao = detalhes_atuacao %>%
-  rename(nome_autor = nome_eleitoral,
-         tipo_generico = tipo_acao) %>% 
-  group_by(casa,
+  rename(nome_autor = nome_eleitoral) %>% 
+  filter(!is.na(nome_autor)) %>% 
+  group_by(casa_autor,
            nome_autor,
            partido,
            uf,
            governismo,
            peso_politico,
-           tipo_generico) %>%
-  summarise(acoes = n_distinct(id_principal, casa, id_documento), 
-            .groups = "drop")
-```
-
-Considerando e ignorando proposições apensadas
-
-```{r}
-resumo_atuacao %>%
-  filter(!is.na(nome_autor), tipo_generico != "Outros") %>% 
+           tipo_documento) %>%
+  summarise(acoes = n(), 
+            .groups = "drop") %>% 
   group_by(nome_autor) %>% 
   mutate(acoes_total = sum(acoes)) %>% 
-  ungroup() %>% 
-  # filter((casa == "camara" & acoes_total > 25) | 
-  #          (casa == "senado" & acoes_total > 10)) %>%
-  filter(acoes_total > 100) %>% 
-  group_by(casa) %>% 
-  ggplot(aes(
+  ungroup()
+
+# Testar resumo de atuação por efeito da proposição? 
+```
+
+
+```{r}
+detalhes_atuacao %>% 
+  count(tipo_acao, tipo_documento, sort = T)
+```
+
+
+```{r fig.width=8}
+min_acoes = 60
+resumo_atuacao %>%
+  filter((casa_autor == "camara" & acoes_total > min_acoes)) %>%
+  ggplot() +
+  facet_grid(casa_autor ~ ., scales = "free") +
+  geom_chicklet(aes(
     x = reorder(nome_autor, acoes_total, sum),
     y = acoes,
-    fill = tipo_generico
+    fill = tipo_documento
   )) +
-  facet_grid(casa ~ ., scales = "free") +
-  geom_chicklet() +
+  geom_point(aes(x = nome_autor, color = governismo), y = -5, size = 3) + 
+  scale_color_distiller(palette = "Spectral", limits = c(-10, 10), direction = 1) + 
   coord_flip() +
   scale_fill_brewer(palette = "Accent") +
   labs(
     x = "",
     y = "Ações",
     fill = "Tipo da ação",
-    title = "Parlamentares mais atuantes",
-    subtitle = "Com ao menos 100 ações"
+    title = "Deputados/as mais atuantes", 
+    subtitle = "Círculos indicam governismo", 
+    color = "Governismo\n(no círculo)"
+  )
+```
+```{r fig.width=8}
+governistas_selecao = resumo_atuacao %>%
+  filter(casa_autor == "camara", governismo > 5, acoes_total > 10)
+
+governistas_selecao %>%
+  ggplot() +
+  facet_grid(casa_autor ~ ., scales = "free") +
+  geom_chicklet(aes(
+    x = reorder(nome_autor, acoes_total, sum),
+    y = acoes,
+    fill = tipo_documento
+  )) +
+  geom_point(aes(x = nome_autor, color = governismo), y = -1, size = 3) + 
+  scale_color_distiller(palette = "Spectral", limits = c(-10, 10), direction = 1) + 
+  coord_flip() +
+  scale_fill_brewer(palette = "Accent") +
+  labs(
+    x = "",
+    y = "Ações",
+    fill = "Tipo da ação",
+    title = "Deputado/as governistas mais atuantes", 
+    subtitle = "Círculos indicam governismo", 
+    color = "Governismo\n(no círculo)"
   )
 ```
 
 ```{r}
+detalhes_atuacao %>%
+  filter(nome_eleitoral %in% governistas_selecao$nome_autor) %>%
+  group_by(nome_eleitoral,
+           nome_proposicao,
+           tipo_documento,
+           descricao_tipo_documento,
+           classificacao_ambientalismo,
+           ementa) %>%
+  count() %>%
+  rename(
+    Parlamentar = nome_eleitoral,
+    Propsição = nome_proposicao,
+    Ação = tipo_documento,
+    `Descrição da ação` = descricao_tipo_documento,
+    Quantidade = n,
+    Efeito = classificacao_ambientalismo,
+    `Ementa da prop.` = ementa
+  ) %>% 
+reactable(searchable = T)
+```
+
+
+```{r}
 resumo_atuacao %>% 
-  group_by(casa,
-           nome_autor,
-           partido,
-           uf,
-           governismo,
-           peso_politico) %>% 
-  summarise(acoes = sum(acoes)) %>% 
-  ggplot(aes(x = governismo, y = acoes)) + 
-  geom_point()
+  filter(!is.na(governismo), !is.na(acoes_total)) %>% 
+  distinct(nome_autor, governismo, acoes_total) %>% 
+  ggplot(aes(x = governismo, y = acoes_total)) + 
+  geom_point(alpha = .6) + 
+  scale_y_log10()
   
 ```
 
