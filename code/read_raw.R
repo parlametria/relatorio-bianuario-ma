@@ -1,9 +1,5 @@
 
 
-
-
-
-
 #' Lê dados raw de detalhes dos parlamentares
 #'
 read_parlamentares_raw <-
@@ -13,12 +9,37 @@ read_parlamentares_raw <-
       col_types = cols(
         .default = col_character(),
         em_exercicio = col_double(),
-        is_parlamentar = col_double()
+        is_parlamentar = col_double(), 
+        legislatura = col_double()
       )
     ) %>%
-      select(-legislatura) %>%
-      distinct()
+      filter(is_parlamentar == 1, em_exercicio == 1) %>% 
+      select(-em_exercicio, -situacao) %>%
+      group_by(id_entidade,id_entidade_parlametria,casa,nome,sexo,partido,uf) %>% 
+      summarise(legislatura = max(legislatura), .groups = "drop") %>% 
+      distinct() %>% 
+      select(-legislatura)
   }
+# read_parlamentares_raw <-
+#   function(parlamentares_file = "data/raw/parlamentares/parlamentares.csv") {
+#     read_csv(
+#       here::here(parlamentares_file),
+#       col_types = cols(
+#         .default = col_character(),
+#         data_nascimento = col_date(format = "")
+#       )
+#     ) %>% 
+#       select(-ultima_legislatura,
+#              -em_exercicio,
+#              -cpf,
+#              -nome_civil,
+#              -condicao_eleitoral) %>%
+#       rename(id_entidade = id,
+#              nome = nome_eleitoral,
+#              partido = sg_partido,) %>%
+#       mutate(id_entidade_parlametria = paste0(if_else(casa == "camara", 1, 2), id_entidade)) %>%
+#       distinct()
+#   }
 
 
 read_governismo_raw <-

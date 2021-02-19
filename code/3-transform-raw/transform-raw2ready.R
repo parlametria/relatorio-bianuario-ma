@@ -12,6 +12,10 @@ main <- function(argv = NULL) {
   out_autorias_resumo = "data/ready/autorias-resumo.csv"
   out_relatorias = "data/ready/relatorias.csv"
   out_atuacao = "data/ready/atuacao.csv"
+  out_votos_cam_detalhes = "data/ready/votos-camara-detalhes.csv"
+  out_votos_sen_detalhes = "data/ready/votos-senado-detalhes.csv"
+  out_votos_cam_resumo = "data/ready/votos-camara-resumo.csv"
+  out_votos_sen_resumo = "data/ready/votos-senado-resumo.csv"
   
   # PROPOSIÇÕES
   props = transform_proposicoes(
@@ -26,9 +30,9 @@ main <- function(argv = NULL) {
   # PARLAMENTARES
   parlamentares = parlamentares_data(
     parlamentares_file = "data/raw/leggo_data/entidades.csv",
-    "data/externo/governismo/governismo-ideal-deputados.csv",
-    "data/externo/governismo/governismo-ideal-senadores.csv",
-    "data/raw/peso_politico/peso_politico.csv"
+    governismo_deps_file = "data/externo/governismo/governismo-ideal-deputados.csv",
+    governismo_sens_file = "data/externo/governismo/governismo-ideal-senadores.csv",
+    peso_file = "data/raw/peso_politico/peso_politico.csv"
   )
   
   # AUTORIAS
@@ -61,6 +65,48 @@ main <- function(argv = NULL) {
     write_csv(here::here(out_atuacao))
   flog.info(str_glue("Atuação salva em {out_atuacao}"))
   
+  # VOTOS
+  votos_c_detalhes = transform_votacoes_detalhes(
+    acontecidas_file = "data/raw/votos/votos_camara.csv",
+    rotuladas_file = "data/raw/votos/votos-referencia.csv",
+    parlamentares,
+    casa_votacoes = "camara"
+  )
+  
+  votos_s_detalhes = transform_votacoes_detalhes(
+    acontecidas_file = "data/raw/votos/votos_senado.csv",
+    rotuladas_file = "data/raw/votos/votos-referencia.csv",
+    parlamentares,
+    casa_votacoes = "senado"
+  )
+  
+  votos_c_detalhes %>% write_csv(here::here(out_votos_cam_detalhes))
+  votos_s_detalhes %>% write_csv(here::here(out_votos_sen_detalhes))
+  flog.info(
+    str_glue(
+      "Votos detalhados ready em {out_votos_cam_detalhes} e {out_votos_sen_detalhes}"
+    )
+  )
+  
+  votos_c_resumo = transform_votacoes_resumo(
+    acontecidas_file = "data/raw/votos/votos_camara.csv",
+    rotuladas_file = "data/raw/votos/votos-referencia.csv",
+    parlamentares,
+    casa_votacoes = "camara"
+  )
+  
+  votos_c_resumo %>%
+    write_csv(here::here(out_votos_cam_resumo))
+  flog.info(str_glue("Votos resumidos ready em {out_votos_cam_resumo}"))
+  
+  flog.info(str_glue("SEM votos resumidos do senado por hora"))
+  # Não temos votações suficientes do senado por enquanto
+  # votos_s_resumo = transform_votacoes_resumo(
+  #   acontecidas_file = "data/raw/votos/votos_senado.csv",
+  #   rotuladas_file = "data/raw/votos/votos-referencia.csv",
+  #   parlamentares,
+  #   casa_votacoes = "senado"
+  # )
 }
 
 if (!interactive()) {

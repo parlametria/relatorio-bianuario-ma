@@ -73,11 +73,13 @@ fetch_input_votacoes <-
     
     senado_mdc = votos_senado %>%
       select(-votacao_secreta,-cod_sessao,-hora, -data_apresentacao_proposicao) %>% 
-      mutate(id_votacao = as.character(id_votacao))
+      mutate(id_votacao = as.character(id_votacao), 
+             casa = "senado")
     
     camara_mdc = votos_camara %>%
       select(-indexacao_proposicao,-descricao_efeitos, -data_apresentacao_proposicao) %>%
-      mutate(data = lubridate::dmy_hms(data))
+      mutate(data = lubridate::dmy_hms(data), 
+             casa = "camara")
     
     votos <- camara_mdc %>% 
       bind_rows(senado_mdc) %>%
