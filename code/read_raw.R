@@ -1,9 +1,5 @@
 
 
-
-
-
-
 #' Lê dados raw de detalhes dos parlamentares
 #'
 read_parlamentares_raw <-
@@ -13,13 +9,17 @@ read_parlamentares_raw <-
       col_types = cols(
         .default = col_character(),
         em_exercicio = col_double(),
-        is_parlamentar = col_double()
+        is_parlamentar = col_double(), 
+        legislatura = col_double()
       )
     ) %>%
-      select(-legislatura) %>%
-      distinct()
+      filter(is_parlamentar == 1, em_exercicio == 1, legislatura == 56) %>% 
+      select(-em_exercicio, -situacao) %>%
+      group_by(id_entidade,id_entidade_parlametria,casa,nome,sexo,partido,uf) %>% 
+      summarise(legislatura = max(legislatura), .groups = "drop") %>% 
+      distinct() %>% 
+      select(-legislatura)
   }
-
 
 read_governismo_raw <-
   function(deputados_file = "data/externo/governismo/governismo-ideal-deputados.csv",
