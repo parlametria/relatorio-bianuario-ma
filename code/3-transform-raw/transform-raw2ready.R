@@ -30,9 +30,10 @@ main <- function(argv = NULL) {
   # PARLAMENTARES
   parlamentares = parlamentares_data(
     parlamentares_file = "data/raw/leggo_data/entidades.csv",
-    governismo_deps_file = "data/externo/governismo/governismo-ideal-deputados.csv",
-    governismo_sens_file = "data/externo/governismo/governismo-ideal-senadores.csv",
-    peso_file = "data/raw/peso_politico/peso_politico.csv"
+    "data/externo/governismo/governismo-ideal-deputados.csv",
+    "data/externo/governismo/governismo-ideal-senadores.csv",
+    "data/raw/governismo/governismo_ma.csv",
+    "data/raw/peso_politico/peso_politico.csv"
   )
   
   # AUTORIAS
