@@ -22,17 +22,17 @@ read_parlamentares_raw <-
 
 
 read_governismo_raw <-
-  function(deputados_file = "data/externo/governismo-ideal-deputados.csv",
-           senadores_file = "data/externo/governismo-ideal-senadores.csv") {
+  function(deputados_file = "data/externo/governismo/governismo-ideal-deputados.csv",
+           senadores_file = "data/externo/governismo/governismo-ideal-senadores.csv") {
     ideal_deputados = read_csv(here::here(deputados_file),
                                col_types = "cdd") %>%
-      select(id_parlamentar = id, governismo = d1) %>%
+      select(id_parlamentar, governismo = D1) %>%
       mutate(casa = "camara", governismo = -governismo)
     
-    ideal_senadores = read_csv2(here::here(senadores_file),
-                                col_types = "cccccdddd") %>%
-      select(id_parlamentar = id, governismo = ideal) %>%
-      mutate(casa = "senado")
+    ideal_senadores = read_csv(here::here(senadores_file),
+                                col_types = "cdd") %>%
+      select(id_parlamentar, governismo = D1) %>%
+      mutate(casa = "senado", governismo = -governismo)
     
     bind_rows(ideal_deputados, ideal_senadores) %>%
       group_by(casa) %>%
