@@ -39,10 +39,7 @@ source(here::here("reports/escalas.R"))
 proposicoes = read_proposicoes()
 detalhes_autorias = read_autorias_det()
 resumo_autorias = read_autorias_res() %>%  
-  select(-situacao,
-         -em_exercicio,
-         -is_parlamentar,
-         -sexo,
+  select(-sexo,
          -starts_with("id"))
 ```
 
@@ -189,10 +186,12 @@ detalhes_autorias %>%
   filter(proposicao %in% aprovadas$`Proposição`, 
          sigla_tipo != 'MPV', 
          nome != 'Poder Executivo') %>%
-  ggplot(aes(y = governismo, x = reorder(proposicao, governismo))) +
-  geom_quasirandom() + 
+  ggplot(aes(y = governismo, x = reorder(proposicao, governismo), color = classificacao_ambientalismo)) +
+  geom_quasirandom(size = 2) + 
+  escala_cor_sinais + 
   coord_flip() + 
   labs(title = "Governismo dos autores de proposições aprovadas", 
        x = "", 
-       subtitle = "Cada ponto é um autor")
+       subtitle = "Cada ponto é um autor",
+       color = "Efeito")
 ```

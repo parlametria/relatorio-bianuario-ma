@@ -112,7 +112,7 @@ parlamentares_data <-
       left_join(governismo,
                 by = c("id_entidade" = "id_parlamentar")) %>%
       left_join(governismo_ma,
-                by = c("id_entidade" = "id_parlamentar")) %>% 
+                by = c("id_entidade" = "id_parlamentar")) %>%
       left_join(peso,
                 by = c("id_entidade_parlametria" = "id_parlamentar_parlametria"))
   }
@@ -163,17 +163,38 @@ transform_atuacao <-
            parlamentares) {
     atuacao = read_atuacao_raw(atuacao_file)
     parlamentares = parlamentares %>%
-      select(id_entidade_parlametria, partido, uf, governismo, governismo_ma, peso_politico)
+      select(id_entidade_parlametria,
+             partido,
+             uf,
+             governismo,
+             governismo_ma,
+             peso_politico)
     
     atuacao %>%
       left_join(parlamentares,
-                by = c("id_autor_parlametria" = "id_entidade_parlametria")) %>% 
-      mutate(ano_apresentacao = lubridate::year(data)) %>% 
-      filter(ano_apresentacao >= 2019, ano_apresentacao <= 2020) %>% 
-      select(id_leggo, id_principal, casa, id_documento, sigla, descricao_tipo_documento, 
-             data, id_autor_parlametria, partido, uf, nome_eleitoral, casa_autor, 
-             tipo_documento, tipo_acao, peso_autor_documento, governismo, governismo_ma,
-             peso_politico)
+                by = c("id_autor_parlametria" = "id_entidade_parlametria")) %>%
+      mutate(ano_apresentacao = lubridate::year(data)) %>%
+      filter(ano_apresentacao >= 2019, ano_apresentacao <= 2020) %>%
+      select(
+        id_leggo,
+        id_principal,
+        casa,
+        id_documento,
+        sigla,
+        descricao_tipo_documento,
+        data,
+        id_autor_parlametria,
+        partido,
+        uf,
+        nome_eleitoral,
+        casa_autor,
+        tipo_documento,
+        tipo_acao,
+        peso_autor_documento,
+        governismo,
+        governismo_ma,
+        peso_politico
+      )
   }
 
 transform_relatorias <-
@@ -188,7 +209,7 @@ transform_relatorias <-
           "casa",
           "relator_id" = "id_entidade"
         )
-      ) 
+      )
     
     props %>%
       left_join(t, by = "id_leggo")
@@ -276,14 +297,23 @@ transform_votacoes_resumo <-
           if_else((orientacao_ma == voto), "apoio", "contra"),
           "indefinido"
         )
-      )  %>% 
-      group_by(nome, id_entidade_parlametria, partido, uf) %>%
+      )  %>%
+      group_by( 
+        nome,
+        id_entidade_parlametria,
+        partido,
+        uf,
+        casa,
+        governismo,
+        governismo_ma,
+        peso_politico
+      ) %>%
       summarise(
         votos_favoraveis = sum(apoiou == "apoio"),
         votos_contra = sum(apoiou == "contra"),
         votos_indef = sum(apoiou == "indefinido"),
         votos_sim_nao = votos_favoraveis + votos_contra,
-        apoio = votos_favoraveis / (votos_favoraveis + votos_contra), 
+        apoio = votos_favoraveis / (votos_favoraveis + votos_contra),
         .groups = "drop"
-      ) 
+      )
   }

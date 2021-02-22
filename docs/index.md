@@ -12,3 +12,7 @@
   * [Quem autorou as proposições](./2-autores-props.html)
   * [Relatores das proposições](./3-relatorias.html)
   * [Atuação (emendas, requerimentos, etc) dos parlamentares](./4-atuacao.html)
+  
+## Votações
+
+  * [Governismo e apoio ao MA](./5-governismo-e-apoio.html)

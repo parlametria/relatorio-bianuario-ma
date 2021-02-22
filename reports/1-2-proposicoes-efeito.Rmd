@@ -40,10 +40,7 @@ As proposições foram rotuladas como tendo efeito positivo, negativo ou sem cla
 ```{r}
 proposicoes = read_proposicoes()
 detalhes_autorias = read_autorias_det()
-resumo_autorias = read_autorias_res() %>%  select(-situacao,
-                                                  -em_exercicio,
-                                                  -is_parlamentar,
-                                                  -sexo,
+resumo_autorias = read_autorias_res() %>%  select(-sexo,
                                                   -starts_with("id"))
 ```
 
