@@ -67,14 +67,14 @@ main <- function(argv = NULL) {
   flog.info(str_glue("Atuação salva em {out_atuacao}"))
   
   # VOTOS
-  votos_cam_detalhes = transform_votacoes_detalhes(
+  votos_cam_detalhes = transform_votos_detalhes(
     acontecidas_file = "data/raw/votos/votos_camara.csv",
     rotuladas_file = "data/raw/votos/votos-referencia.csv",
     parlamentares,
     casa_votacoes = "camara"
   )
   
-  votos_sen_detalhes = transform_votacoes_detalhes(
+  votos_sen_detalhes = transform_votos_detalhes(
     acontecidas_file = "data/raw/votos/votos_senado.csv",
     rotuladas_file = "data/raw/votos/votos-referencia.csv",
     parlamentares,
@@ -89,7 +89,7 @@ main <- function(argv = NULL) {
     )
   )
   
-  votos_cam_resumo = transform_votacoes_resumo(
+  votos_cam_resumo = transform_votos_resumo(
     acontecidas_file = "data/raw/votos/votos_camara.csv",
     rotuladas_file = "data/raw/votos/votos-referencia.csv",
     parlamentares,

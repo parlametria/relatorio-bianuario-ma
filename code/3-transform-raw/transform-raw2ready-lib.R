@@ -253,7 +253,7 @@ cruza_destaques_tramitacao <- function(props,
   destaques
 }
 
-transform_votacoes_detalhes <-
+transform_votos_detalhes <-
   function(acontecidas_file = "data/raw/votos/votos_camara.csv",
            rotuladas_file = "data/raw/votos/votos-referencia.csv",
            parlamentares,
@@ -279,7 +279,7 @@ transform_votacoes_detalhes <-
     votos
   }
 
-transform_votacoes_resumo <-
+transform_votos_resumo <-
   function(acontecidas_file = "data/raw/votos/votos_camara.csv",
            rotuladas_file = "data/raw/votos/votos-referencia.csv",
            parlamentares,
