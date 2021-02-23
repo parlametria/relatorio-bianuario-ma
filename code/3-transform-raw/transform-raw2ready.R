@@ -29,11 +29,11 @@ main <- function(argv = NULL) {
   
   # PARLAMENTARES
   parlamentares = parlamentares_data(
-    parlamentares_file = "data/raw/leggo_data/entidades.csv",
-    "data/externo/governismo/governismo-ideal-deputados.csv",
-    "data/externo/governismo/governismo-ideal-senadores.csv",
-    "data/raw/governismo/governismo_ma.csv",
-    "data/raw/peso_politico/peso_politico.csv"
+    parlamentares_file = "data/raw/leggo_data/entidades.csv", 
+    governismo_deps_file = "data/externo/governismo/governismo-ideal-deputados.csv",
+    governismo_sens_file = "data/externo/governismo/governismo-ideal-senadores.csv",
+    governismo_ma_file = "data/raw/governismo/governismo_ma.csv",
+    peso_file = "data/raw/peso_politico/peso_politico.csv"
   )
   
   # AUTORIAS
@@ -67,36 +67,36 @@ main <- function(argv = NULL) {
   flog.info(str_glue("Atuação salva em {out_atuacao}"))
   
   # VOTOS
-  votos_c_detalhes = transform_votacoes_detalhes(
+  votos_cam_detalhes = transform_votacoes_detalhes(
     acontecidas_file = "data/raw/votos/votos_camara.csv",
     rotuladas_file = "data/raw/votos/votos-referencia.csv",
     parlamentares,
     casa_votacoes = "camara"
   )
   
-  votos_s_detalhes = transform_votacoes_detalhes(
+  votos_sen_detalhes = transform_votacoes_detalhes(
     acontecidas_file = "data/raw/votos/votos_senado.csv",
     rotuladas_file = "data/raw/votos/votos-referencia.csv",
     parlamentares,
     casa_votacoes = "senado"
   )
   
-  votos_c_detalhes %>% write_csv(here::here(out_votos_cam_detalhes))
-  votos_s_detalhes %>% write_csv(here::here(out_votos_sen_detalhes))
+  votos_cam_detalhes %>% write_csv(here::here(out_votos_cam_detalhes))
+  votos_sen_detalhes %>% write_csv(here::here(out_votos_sen_detalhes))
   flog.info(
     str_glue(
       "Votos detalhados ready em {out_votos_cam_detalhes} e {out_votos_sen_detalhes}"
     )
   )
   
-  votos_c_resumo = transform_votacoes_resumo(
+  votos_cam_resumo = transform_votacoes_resumo(
     acontecidas_file = "data/raw/votos/votos_camara.csv",
     rotuladas_file = "data/raw/votos/votos-referencia.csv",
     parlamentares,
     casa_votacoes = "camara"
   )
   
-  votos_c_resumo %>%
+  votos_cam_resumo %>%
     write_csv(here::here(out_votos_cam_resumo))
   flog.info(str_glue("Votos resumidos ready em {out_votos_cam_resumo}"))
   

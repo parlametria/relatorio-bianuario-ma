@@ -1,0 +1,163 @@
+---
+title: "Governismos"
+output:
+  html_document:
+    theme: paper
+    css: styles.css
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  # message = FALSE,
+  # warning = FALSE,
+  # fig.cap = '',
+  # fig.align = 'center',
+  fig.width = 6,
+  fig.height = 5
+)
+
+Sys.setenv(LANGUAGE="pt-br")
+Sys.setlocale("LC_TIME", "pt_BR")
+options(scipen = 999)
+```
+
+```{r warning=FALSE, message=FALSE}
+library(tidyverse)
+library(reactable)
+library(ggchicklet)
+library(ggbeeswarm)
+library(hrbrthemes)
+theme_set(theme_ipsum_rc())
+
+source(here::here("code/read_ready.R"))
+```
+
+[Planilha com detalhes de todos os votos](https://docs.google.com/spreadsheets/d/1vwSEPmk9AXFtkkBGajgREhIWKNfg0OosccQwk-7tiGM/edit#gid=0).
+
+```{r}
+votos_resumo = read_votos_resumo() %>% 
+  rename(apoio_ma = apoio) 
+
+votos_detalhe = read_votos_detalhe()
+```
+
+```{r}
+tabela_governismo = function(d, ...) {
+  d %>%
+    select(nome,
+           partido,
+           uf,
+           governismo,
+           apoio_ma,
+           peso_politico,
+           votos_sim_nao) %>%
+    reactable(
+      searchable = T,
+      defaultSortOrder = "desc",
+      defaultSorted = c("governismo"),
+      defaultColDef = colDef(
+        header = function(value)
+          gsub("_", " ", value, fixed = TRUE) %>% str_to_sentence(),
+        cell = function(value)
+          format(value, nsmall = 1, digits = 2),
+        na = "-"
+      ),
+      striped = T,
+      columns = list(
+        votos_sim_nao =
+          colDef(
+            cell = function(value)
+              format(value, digits = 0)
+          ),
+        apoio_ma = colDef(
+          cell = function(value)
+            scales::percent(value)
+        )
+      ),
+      ...
+    )
+}
+```
+
+
+## Governismo em geral vs governismo MA
+
+```{r}
+votos_resumo %>%
+  filter(!is.na(governismo)) %>%
+  tabela_governismo()  # overrides the default))
+```
+
+```{r}
+votos_resumo %>% 
+  filter(!is.na(governismo), !is.na(apoio_ma)) %>% 
+  ggplot(aes(x = governismo, y = apoio_ma, size = votos_sim_nao)) + 
+  geom_point(alpha = .6, color = "brown") + 
+  theme(legend.position = "None") + 
+  labs(title = "Governismo x Apoio ao MA")
+```
+
+### Parlamentares atuantes, algo alinhados e neutros/governistas
+
+```{r}
+votos_c_destaque = votos_resumo %>% 
+  filter(!is.na(governismo), !is.na(apoio_ma)) %>% 
+  mutate(zona_cinza = apoio_ma > .5 & votos_sim_nao > 10 & governismo > -1)
+
+votos_c_destaque %>% 
+  ggplot(aes(x = governismo, y = apoio_ma, size = votos_sim_nao, color = zona_cinza)) + 
+  scale_color_manual(values = c("gray", "brown")) + 
+  geom_point(alpha = .6) + 
+  theme(legend.position = "None")
+```
+
+```{r}
+votos_c_destaque %>% 
+  filter(zona_cinza) %>% 
+  tabela_governismo()
+```
+
+
+## As votações
+
+```{r}
+resultados = votos_detalhe %>%
+  mutate(
+    apoio = case_when(
+      orientacao_ma == "SIM" & voto == "Sim" ~ "Apoio",
+      orientacao_ma == "NÃO" & voto == "Não" ~ "Apoio",
+      orientacao_ma == "SIM" & voto == "Não" ~ "Contrário",
+      orientacao_ma == "NÃO" & voto == "Sim" ~ "Contrário",
+      voto == "Abstenção" ~ "Contrário",
+      TRUE ~ "Indef.",
+    )
+  ) %>%
+  group_by(id_votacao, nome_proposicao, ementa_proposicao, obj_votacao, apoio, data) %>%
+  summarise(votos = n(), 
+            .groups = "drop") %>% 
+  mutate(
+    texto_obj = if_else(is.na(obj_votacao), "?", paste0(str_sub(obj_votacao, 1, 25), "...")),
+    objeto = str_glue("{nome_proposicao} - {id_votacao} ({texto_obj})"))
+  # mutate(objeto = if_else(is.na(obj_votacao), 
+  #                         str_glue("{nome_proposicao} - Indefinido ({id_votacao})"), 
+  #                         str_glue("{nome_proposicao} - {str_sub(obj_votacao, 1, 20)}...")))
+  
+```
+
+```{r fig.height=8, fig.width=10}
+resultados %>% 
+  mutate(apoio = factor(apoio, levels = c("Apoio", "Indef.", "Contrário"), ordered = T)) %>% 
+  ggplot(aes(x = reorder(objeto, data), y = votos, fill = apoio)) + 
+  geom_chicklet() + 
+  scale_fill_manual(values = c("Apoio" = "#91cf60",
+    "Contrário" = "#fc8d59",
+    "Indef." = "#ffff8a")) + 
+  coord_flip() + 
+  labs(
+    title = "Resultado de votações nominais", 
+    subtitle = "Votações com resultado publicado e orientação de MA", 
+    x = "",
+    fill = "Voto"
+  )
+```

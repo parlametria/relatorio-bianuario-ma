@@ -75,7 +75,7 @@ plot_atuacao = function(dados, titulo, offset_circulos) {
     ggplot() +
     facet_grid(casa_autor ~ ., scales = "free") +
     geom_chicklet(aes(
-      x = reorder(nome_autor, acoes_total, sum),
+      x = reorder(nome_autor, acoes_total),
       y = acoes,
       fill = tipo_documento
     )) +
@@ -123,12 +123,14 @@ governistas_selecao %>%
 ```{r}
 detalhes_atuacao %>%
   filter(nome_eleitoral %in% governistas_selecao$nome_autor) %>%
-  group_by(nome_eleitoral,
-           nome_proposicao,
-           tipo_documento,
-           descricao_tipo_documento,
-           classificacao_ambientalismo,
-           ementa) %>%
+  group_by(
+    nome_eleitoral,
+    nome_proposicao,
+    tipo_documento,
+    descricao_tipo_documento,
+    classificacao_ambientalismo,
+    ementa
+  ) %>%
   count() %>%
   rename(
     Parlamentar = nome_eleitoral,
@@ -138,8 +140,8 @@ detalhes_atuacao %>%
     Quantidade = n,
     Efeito = classificacao_ambientalismo,
     `Ementa da prop.` = ementa
-  ) %>% 
-reactable(searchable = T)
+  ) %>%
+  reactable(searchable = T)
 ```
 
 ## Senado
@@ -161,7 +163,7 @@ resumo_atuacao %>%
   ggplot(aes(x = governismo, y = acoes_total)) + 
   facet_grid(casa_autor ~ .) + 
   geom_point(alpha = .6, color = "coral", size = 2) + 
-  scale_y_log10() + 
+  # scale_y_log10() + 
   labs(
     title = "Atuação x Governismo", 
     subtitle = "Cada ponto é um/a parlamentar", 
