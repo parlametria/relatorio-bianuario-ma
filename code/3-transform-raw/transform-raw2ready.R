@@ -16,6 +16,7 @@ main <- function(argv = NULL) {
   out_votos_sen_detalhes = "data/ready/votos-senado-detalhes.csv"
   out_votos_cam_resumo = "data/ready/votos-camara-resumo.csv"
   out_votos_sen_resumo = "data/ready/votos-senado-resumo.csv"
+  out_votacoes = "data/ready/votacoes.csv"
   
   # PROPOSIÇÕES
   props = transform_proposicoes(
@@ -29,7 +30,7 @@ main <- function(argv = NULL) {
   
   # PARLAMENTARES
   parlamentares = parlamentares_data(
-    parlamentares_file = "data/raw/leggo_data/entidades.csv", 
+    parlamentares_file = "data/raw/leggo_data/entidades.csv",
     governismo_deps_file = "data/externo/governismo/governismo-ideal-deputados.csv",
     governismo_sens_file = "data/externo/governismo/governismo-ideal-senadores.csv",
     governismo_ma_file = "data/raw/governismo/governismo_ma.csv",
@@ -67,14 +68,14 @@ main <- function(argv = NULL) {
   flog.info(str_glue("Atuação salva em {out_atuacao}"))
   
   # VOTOS
-  votos_cam_detalhes = transform_votacoes_detalhes(
+  votos_cam_detalhes = transform_votos_detalhes(
     acontecidas_file = "data/raw/votos/votos_camara.csv",
     rotuladas_file = "data/raw/votos/votos-referencia.csv",
     parlamentares,
     casa_votacoes = "camara"
   )
   
-  votos_sen_detalhes = transform_votacoes_detalhes(
+  votos_sen_detalhes = transform_votos_detalhes(
     acontecidas_file = "data/raw/votos/votos_senado.csv",
     rotuladas_file = "data/raw/votos/votos-referencia.csv",
     parlamentares,
@@ -89,7 +90,7 @@ main <- function(argv = NULL) {
     )
   )
   
-  votos_cam_resumo = transform_votacoes_resumo(
+  votos_cam_resumo = transform_votos_resumo(
     acontecidas_file = "data/raw/votos/votos_camara.csv",
     rotuladas_file = "data/raw/votos/votos-referencia.csv",
     parlamentares,
@@ -108,6 +109,18 @@ main <- function(argv = NULL) {
   #   parlamentares,
   #   casa_votacoes = "senado"
   # )
+  
+  # VOTAÇÕES
+  votacoes = transform_votacoes(
+    rotuladas_file = "data/raw/votos/votos-referencia.csv",
+    acontecidas_camara = "data/raw/votos/votos_camara.csv",
+    acontecidas_senado = "data/raw/votos/votos_senado.csv"
+  )
+  
+  votacoes %>% 
+    write_csv(out_votacoes)
+  
+  flog.info(str_glue("Votações escritas em {out_votacoes}"))
 }
 
 if (!interactive()) {

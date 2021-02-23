@@ -253,7 +253,7 @@ cruza_destaques_tramitacao <- function(props,
   destaques
 }
 
-transform_votacoes_detalhes <-
+transform_votos_detalhes <-
   function(acontecidas_file = "data/raw/votos/votos_camara.csv",
            rotuladas_file = "data/raw/votos/votos-referencia.csv",
            parlamentares,
@@ -279,26 +279,17 @@ transform_votacoes_detalhes <-
     votos
   }
 
-transform_votacoes_resumo <-
+transform_votos_resumo <-
   function(acontecidas_file = "data/raw/votos/votos_camara.csv",
            rotuladas_file = "data/raw/votos/votos-referencia.csv",
            parlamentares,
            casa_votacoes = "camara") {
-    detalhes = transform_votacoes_detalhes(acontecidas_file,
-                                           rotuladas_file,
-                                           parlamentares,
-                                           casa_votacoes)
+    detalhes = transform_votos_detalhes(acontecidas_file,
+                                        rotuladas_file,
+                                        parlamentares,
+                                        casa_votacoes)
     detalhes %>%
-      mutate(
-        orientacao_ma = stringr::str_to_lower(orientacao_ma),
-        voto = stringr::str_to_lower(voto),
-        apoiou = if_else(
-          voto %in% c("sim", "não"),
-          if_else((orientacao_ma == voto), "apoio", "contra"),
-          "indefinido"
-        )
-      )  %>%
-      group_by( 
+      group_by(
         nome,
         id_entidade_parlametria,
         partido,
@@ -308,12 +299,85 @@ transform_votacoes_resumo <-
         governismo_ma,
         peso_politico
       ) %>%
-      summarise(
-        votos_favoraveis = sum(apoiou == "apoio"),
-        votos_contra = sum(apoiou == "contra"),
-        votos_indef = sum(apoiou == "indefinido"),
-        votos_sim_nao = votos_favoraveis + votos_contra,
-        apoio = votos_favoraveis / (votos_favoraveis + votos_contra),
-        .groups = "drop"
-      )
+      .resume_votos()
   }
+
+
+#' Transforma votações rotuladas em arquivo sobre as votações (e não votos).
+#'
+#' @param rotuladas_file Votações rotuladas raw.
+#'
+#' @return Df ready com as votações
+#'
+transform_votacoes <-
+  function(rotuladas_file = "data/raw/votos/votos-referencia.csv",
+           acontecidas_camara = "data/raw/votos/votos_camara.csv",
+           acontecidas_senado = "data/raw/votos/votos_senado.csv") {
+    rotuladas_raw = read_csv(
+      here::here(rotuladas_file),
+      col_types = cols(.default = col_character(),
+                       data = col_datetime(format = ""))
+    )
+    
+    acontecidas = read_csv(here::here(acontecidas_camara),
+                           col_types = "ccc") %>%
+      bind_rows(read_csv(here::here(acontecidas_senado),
+                         col_types = "ccc"))
+    
+    n_rotulos = rotuladas_raw %>%
+      count(orientacao_ma) %>%
+      pivot_wider(names_from = orientacao_ma, values_from = n)
+    
+    flog.info(
+      str_glue(
+        "{sum(n_rotulos)} votações das planilhas, com {n_rotulos$`NA`} orientações NA"
+      )
+    )
+    
+    votos = rotuladas_raw %>%
+      left_join(acontecidas, by = "id_votacao")
+    
+    votacoes = votos %>%
+      group_by(
+        orientacao_ma,
+        nome_proposicao,
+        ementa_proposicao,
+        obj_votacao,
+        resumo,
+        data,
+        autor,
+        tema,
+        id_votacao,
+        casa
+      ) %>%
+      .resume_votos() %>%
+      mutate(consenso = abs(votos_sim - votos_nao) / (votos_sim_nao))
+    
+    votacoes
+  }
+
+.resume_votos <- function(votos) {
+  votos %>%
+    mutate(
+      orientacao_ma = stringr::str_to_title(orientacao_ma),
+      voto = stringr::str_to_title(voto),
+      apoiou = if_else(
+        voto %in% c("Sim", "Não"),
+        if_else((orientacao_ma == voto), "apoio", "contra"),
+        "indefinido"
+      )
+    )  %>%
+    summarise(
+      votos_capturados = sum(!is.na(id_parlamentar)),
+      votos_favoraveis = sum(apoiou == "apoio"),
+      votos_contra = sum(apoiou == "contra"),
+      votos_indef = sum(apoiou == "indefinido"),
+      apoio = votos_favoraveis / (votos_favoraveis + votos_contra),
+      votos_sim = sum(voto == "sim"),
+      votos_nao = sum(voto == "não"),
+      votos_sim_nao = votos_sim + votos_nao,
+      votos_outros = sum(!is.na(voto) &
+                           voto != "sim" & voto != "não"),
+      .groups = "drop"
+    )
+}
