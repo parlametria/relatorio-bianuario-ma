@@ -1,5 +1,5 @@
 ---
-title: "Governismos"
+title: "Governismo e apoio ao MA"
 output:
   html_document:
     theme: paper
@@ -89,7 +89,7 @@ votos_resumo %>%
   tabela_governismo()  # overrides the default))
 ```
 
-```{r}
+```{r fig.width=6}
 votos_resumo %>% 
   filter(!is.na(governismo), !is.na(apoio_ma)) %>% 
   ggplot(aes(x = governismo, y = apoio_ma, size = votos_sim_nao)) + 
@@ -100,7 +100,7 @@ votos_resumo %>%
 
 ### Parlamentares atuantes, algo alinhados e neutros/governistas
 
-```{r}
+```{r fig.width=6}
 votos_c_destaque = votos_resumo %>% 
   filter(!is.na(governismo), !is.na(apoio_ma)) %>% 
   mutate(zona_cinza = apoio_ma > .5 & votos_sim_nao > 10 & governismo > -1)
