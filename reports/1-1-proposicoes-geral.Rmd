@@ -33,6 +33,8 @@ theme_set(theme_ipsum_rc())
 source(here::here("code/read_ready.R"))
 source(here::here("reports/autorias.R"))
 source(here::here("reports/escalas.R"))
+source(here::here("code/4-use-ready/grafo-lib.R"))
+source(here::here("reports/grafo.R"))
 ```
 
 ```{r}
@@ -187,86 +189,43 @@ detalhes_autorias %>%
     y = ""
   )
 ```
+
+# Grafo de coautoria dos partidos
+
 ```{r}
-paste_cols <- function(x, y, sep = ":") {
-  stopifnot(length(x) == length(y))
-  return(lapply(1:length(x), function(i) {
-    paste0(sort(c(x[i], y[i])), collapse = ":")
-  }) %>%
-    unlist())
-}
-
-remove_duplicated_edges <- function(df) {
-  df %>%
-    mutate(col_pairs =
-             paste_cols(partido.x,
-                        partido.y,
-                        sep = ":")) %>%
-    group_by(col_pairs) %>%
-    tidyr::separate(col = col_pairs,
-                    c("partido.x",
-                      "partido.y"),
-                    sep = ":") %>%
-    group_by(partido.x, partido.y) %>%
-    distinct()
-}
-
-generate_graph <- function(nodes, edges) {
-library(networkD3)
-  
-  fn <- forceNetwork(
-    Links = edges, 
-    Nodes = nodes,
-    Source = "source", 
-    Target = "target",
-    Value = "peso_total_arestas", 
-    NodeID = "partido",
-    Group ="partido", 
-    zoom = T,
-    linkColour = "#bfbdbd",
-    fontFamily = "roboto",
-    fontSize = 6,
-    opacity = 0.8)
-  return(fn)
-}
 
 autorias_df <- detalhes_autorias %>%
-  filter(!is.na(partido), sigla_tipo != "PEC") %>% 
-  mutate(partido = if_else(partido == "PODE", "PODEMOS", partido)) %>% #Adicionei
-  distinct(proposicao, classificacao_ambientalismo, partido) %>%
-  filter(proposicao %in% (filter(participacao, partidos > 1) %>% pull(proposicao))) %>%
-  left_join(participacao, by = "proposicao") %>%
-  left_join(atividade_partido, by = "partido") %>% # Até aqui foi o que Naza fez
-  select(proposicao, partido, autores, partidos)
-
-coautorias_partidos <- autorias_df %>% 
-  # filter(partidos <= 5) %>% 
-  group_by(proposicao) %>% 
+  filter(!is.na(partido), sigla_tipo != "PEC") %>%
+  mutate(partido = if_else(partido == "PODE", "PODEMOS", partido)) %>% # Padroniza
+  group_by(proposicao) %>%
+  mutate(partidos = n_distinct(partido)) %>% 
+  distinct(proposicao, partido, partidos) %>% 
+  filter(partidos > 1) %>% 
   mutate(peso_aresta = 1/partidos) %>% 
-  ungroup()
+  ungroup() %>% 
+  select(-partidos)
 
-coautorias_partidos <- coautorias_partidos %>% 
-  full_join(coautorias_partidos, by = c("proposicao", "peso_aresta", "partidos", "autores")) %>% 
-   filter(partido.x != partido.y)
-
-coautorias <- coautorias_partidos %>% 
+coautorias_df <- autorias_df %>% 
+  full_join(autorias_df, 
+            by = c("proposicao", "peso_aresta")) %>% 
+   filter(partido.x != partido.y) %>% 
   remove_duplicated_edges() %>% 
   group_by(partido.x, partido.y) %>% 
   summarise(peso_total_arestas = sum(peso_aresta)) %>% 
-  ungroup()
+  ungroup() %>% 
+  filter(peso_total_arestas >= 0.1) # Filtra por peso mínimo
 
 nodes <- autorias_df %>% 
   distinct(partido) %>%
   rowid_to_column("index") %>% 
-  mutate(index = index - 1)
+  mutate(index = index - 1) # Índice deve começar em 0
 
-edges <- coautorias %>% 
+edges <- coautorias_df %>% 
   left_join(nodes, by=c("partido.x" = "partido")) %>% 
   left_join(nodes, by = c("partido.y" = "partido")) %>% 
   select(source = index.x, target = index.y, peso_total_arestas) 
 
-fn <- generate_graph(nodes, edges)
-fn
+generate_graph(nodes, edges)
 
 ```
 
