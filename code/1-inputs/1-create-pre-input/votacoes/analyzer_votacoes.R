@@ -137,15 +137,21 @@ processa_votacoes_camara <- function() {
     merge_votacoes_com_planilha_externa() %>% 
     adiciona_rotulos_existentes_camara() 
   
-  votos <- read_csv(here::here("data/raw/votos/votos_camara.csv")) %>% 
-    group_by(id_votacao) %>% 
-    summarise(num_votos = n()) %>% 
+  votos <- purrr::map_df(
+    votacoes_alt %>%
+      distinct(id_votacao) %>%
+      pull(id_votacao),
+    ~ fetch_votos_por_votacao_camara(.x)
+  ) %>%
+    group_by(id_votacao) %>%
+    summarise(num_votos = n()) %>%
     filter(num_votos >= 20)
   
-  votacoes_alt <- votacoes_alt %>% 
-    mutate(total_votos = str_extract(tolower(resumo), "total.*") %>% 
-             str_extract("(\\d)+")) %>% 
-    mutate(is_nominal = if_else(total_votos > 20 | id_votacao %in% votos$id_votacao, 1, 0)) %>% 
+  votacoes_alt <- votacoes_alt %>%
+    mutate(total_votos = str_extract(tolower(resumo), "total.*") %>%
+             str_extract("(\\d)+")) %>%
+    mutate(is_nominal = if_else(total_votos > 20 |
+                                  id_votacao %in% votos$id_votacao, 1, 0)) %>%
     select(-total_votos)
   
   return(votacoes_alt)
@@ -223,13 +229,17 @@ processa_votacoes_senado <- function() {
            autor,
            uri_tramitacao)
   
-  votos <- read_csv(here::here("data/raw/votos/votos_senado.csv")) %>% 
-    group_by(id_votacao) %>% 
-    summarise(num_votos = n()) %>% 
+  votos <- purrr::map_df(
+    votacoes_filtradas$id_proposicao,
+    votacoes_filtradas$id_votacao,
+    ~ fetch_votos_por_proposicao_votacao_senado(.x, .y)
+  ) %>%
+    group_by(id_votacao) %>%
+    summarise(num_votos = n()) %>%
     filter(num_votos >= 20)
   
-  votacoes_filtradas <- votacoes_filtradas %>% 
-    adiciona_rotulos_existentes_senado() %>% 
+  votacoes_filtradas <- votacoes_filtradas %>%
+    adiciona_rotulos_existentes_senado() %>%
     mutate(is_nominal = if_else(id_votacao %in% votos$id_votacao, 1, 0))
   
   return(votacoes_filtradas)
