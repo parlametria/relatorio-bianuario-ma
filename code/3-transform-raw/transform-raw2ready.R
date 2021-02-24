@@ -17,6 +17,8 @@ main <- function(argv = NULL) {
   out_votos_cam_resumo = "data/ready/votos-camara-resumo.csv"
   out_votos_sen_resumo = "data/ready/votos-senado-resumo.csv"
   out_votacoes = "data/ready/votacoes.csv"
+  out_nos = "data/ready/nos-partidos.csv"
+  out_arestas = "data/ready/arestas-partidos.csv"
   
   # PROPOSIÇÕES
   props = transform_proposicoes(
@@ -121,6 +123,16 @@ main <- function(argv = NULL) {
     write_csv(out_votacoes)
   
   flog.info(str_glue("Votações escritas em {out_votacoes}"))
+  
+  # NÓS E ARESTAS DE GRAFO DE PARTIDO
+  nos_arestas <- transform_nos_e_arestas(autorias)
+  
+  write_csv(nos_arestas$nos, out_nos)
+  flog.info(str_glue("Nós de coautorias dos partidos escritas em {out_nos}"))
+  
+  write_csv(nos_arestas$arestas, out_arestas)
+  flog.info(str_glue("Arestas de coautorias dos partidos escritas em {out_arestas}"))
+  
 }
 
 if (!interactive()) {

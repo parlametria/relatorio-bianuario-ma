@@ -109,3 +109,24 @@ read_votacoes <- function(arquivo = "data/ready/votacoes.csv"){
     )
   )
 }
+
+read_nos_partidos <- function(arquivo = "data/ready/nos-partidos.csv") {
+  read_csv(
+    here::here(arquivo), 
+    col_types = cols(
+      index = col_integer(),
+      partido = col_character()
+    )
+  )
+}
+
+read_arestas_partidos <- function(arquivo = "data/ready/arestas-partidos.csv") {
+  read_csv(
+    here::here(arquivo), 
+    col_types = cols(
+      source = col_integer(),
+      target = col_integer(),
+      peso_total_arestas = col_double()
+    )
+  )
+}

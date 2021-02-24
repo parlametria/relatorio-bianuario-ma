@@ -33,6 +33,7 @@ theme_set(theme_ipsum_rc())
 source(here::here("code/read_ready.R"))
 source(here::here("reports/autorias.R"))
 source(here::here("reports/escalas.R"))
+source(here::here("reports/grafo.R"))
 ```
 
 ```{r}
@@ -187,3 +188,13 @@ detalhes_autorias %>%
     y = ""
   )
 ```
+
+# Grafo de coautoria dos partidos
+
+```{r}
+nodes <- read_nos_partidos()
+edges <- read_arestas_partidos()
+
+generate_graph(nodes, edges)
+```
+
