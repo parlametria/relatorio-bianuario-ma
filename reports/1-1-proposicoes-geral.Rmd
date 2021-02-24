@@ -33,7 +33,6 @@ theme_set(theme_ipsum_rc())
 source(here::here("code/read_ready.R"))
 source(here::here("reports/autorias.R"))
 source(here::here("reports/escalas.R"))
-source(here::here("code/4-use-ready/grafo-lib.R"))
 source(here::here("reports/grafo.R"))
 ```
 
@@ -193,39 +192,9 @@ detalhes_autorias %>%
 # Grafo de coautoria dos partidos
 
 ```{r}
-
-autorias_df <- detalhes_autorias %>%
-  filter(!is.na(partido), sigla_tipo != "PEC") %>%
-  mutate(partido = if_else(partido == "PODE", "PODEMOS", partido)) %>% # Padroniza
-  group_by(proposicao) %>%
-  mutate(partidos = n_distinct(partido)) %>% 
-  distinct(proposicao, partido, partidos) %>% 
-  filter(partidos > 1) %>% 
-  mutate(peso_aresta = 1/partidos) %>% 
-  ungroup() %>% 
-  select(-partidos)
-
-coautorias_df <- autorias_df %>% 
-  full_join(autorias_df, 
-            by = c("proposicao", "peso_aresta")) %>% 
-   filter(partido.x != partido.y) %>% 
-  remove_duplicated_edges() %>% 
-  group_by(partido.x, partido.y) %>% 
-  summarise(peso_total_arestas = sum(peso_aresta)) %>% 
-  ungroup() %>% 
-  filter(peso_total_arestas >= 0.1) # Filtra por peso mínimo
-
-nodes <- autorias_df %>% 
-  distinct(partido) %>%
-  rowid_to_column("index") %>% 
-  mutate(index = index - 1) # Índice deve começar em 0
-
-edges <- coautorias_df %>% 
-  left_join(nodes, by=c("partido.x" = "partido")) %>% 
-  left_join(nodes, by = c("partido.y" = "partido")) %>% 
-  select(source = index.x, target = index.y, peso_total_arestas) 
+nodes <- read_nos_partidos()
+edges <- read_arestas_partidos()
 
 generate_graph(nodes, edges)
-
 ```
 

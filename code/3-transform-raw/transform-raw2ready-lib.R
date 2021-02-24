@@ -381,3 +381,79 @@ transform_votacoes <-
       .groups = "drop"
     )
 }
+
+#' @title Ordena valores
+#' @description Recebe dois valores e os retorna ordenados e
+#' separados por um separador
+#' @param x Primeiro valor a ser comparado
+#' @param y Segundo valor a ser comparado
+#' @param sep Character usado para ser o separador entre os valores
+#' @return Valores ordenados separados por um separador.
+.paste_cols <- function(x, y, sep = ":") {
+  stopifnot(length(x) == length(y))
+  return(lapply(1:length(x), function(i) {
+    paste0(sort(c(x[i], y[i])), collapse = ":")
+  }) %>%
+    unlist())
+}
+
+#' @title Remove relação duplicadas entre autores
+#' @description Recebe um dataframe e retira as linhas comutadas repetidas 
+#' de coautorias. Ex: em uma linha x e y autorou em z;
+#'  em outra linha y e x autorou em z.
+#' @param df Dataframe de coautorias
+#' @return Dataframe de coautorias sem relações repetidas para a mesma
+#' proposição.
+.remove_duplicated_edges <- function(df) {
+  df %>%
+    mutate(col_pairs =
+             .paste_cols(partido.x,
+                        partido.y,
+                        sep = ":")) %>%
+    group_by(col_pairs) %>%
+    tidyr::separate(col = col_pairs,
+                    c("partido.x",
+                      "partido.y"),
+                    sep = ":") %>%
+    group_by(partido.x, partido.y) %>%
+    distinct()
+}
+
+#' @title Transforma autorias detalhada das proposições 
+#' em nós e arestas de coautoria.
+#' @param autorias_detalhadas_df Dataframe de autorias detalhadas
+transform_nos_e_arestas <- function(autorias_detalhadas_df) {
+
+  autorias_df <- autorias_detalhadas_df %>%
+    filter(!is.na(partido), sigla_tipo != "PEC") %>%
+    mutate(partido = if_else(partido == "PODE", "PODEMOS", partido)) %>% # Padroniza
+    group_by(proposicao) %>%
+    mutate(partidos = n_distinct(partido)) %>% 
+    distinct(proposicao, partido, partidos) %>% 
+    filter(partidos > 1) %>% 
+    mutate(peso_aresta = 1/partidos) %>% 
+    ungroup() %>% 
+    select(-partidos)
+  
+  coautorias_df <- autorias_df %>% 
+    full_join(autorias_df, 
+              by = c("proposicao", "peso_aresta")) %>% 
+    filter(partido.x != partido.y) %>% 
+    .remove_duplicated_edges() %>% 
+    group_by(partido.x, partido.y) %>% 
+    summarise(peso_total_arestas = sum(peso_aresta)) %>% 
+    ungroup() %>% 
+    filter(peso_total_arestas >= 0.1) # Filtra por peso mínimo
+  
+  nodes <- autorias_df %>% 
+    distinct(partido) %>%
+    rowid_to_column("index") %>% 
+    mutate(index = index - 1) # Índice deve começar em 0
+  
+  edges <- coautorias_df %>% 
+    left_join(nodes, by=c("partido.x" = "partido")) %>% 
+    left_join(nodes, by = c("partido.y" = "partido")) %>% 
+    select(source = index.x, target = index.y, peso_total_arestas) 
+  
+  return(list(nos = nodes, arestas = edges))
+}
