@@ -15,8 +15,6 @@ read_autorias_res = function() {
     here::here("data/ready/autorias-resumo.csv"),
     col_types = cols(
       .default = col_character(),
-      em_exercicio = col_logical(),
-      is_parlamentar = col_logical(),
       governismo = col_double(),
       assinadas = col_double(),
       positivas = col_integer(),
@@ -46,11 +44,11 @@ read_atuacao <- function() {
     here::here("data/ready/atuacao.csv"),
     col_types = cols(
       .default = col_character(),
-      peso_total_documentos = col_double(),
-      num_documentos = col_double(),
+      data = col_datetime(),
+      peso_autor_documento = col_double(),
       governismo = col_double(),
-      peso_politico = col_double(),
-      is_important = col_logical()
+      governismo_ma = col_double(),
+      peso_politico = col_double()
     )
   )
 }
@@ -62,6 +60,52 @@ read_relatoria <- function() {
       .default = col_character(),
       governismo = col_double(),
       peso_politico = col_double()
+    )
+  )
+}
+
+read_votos_resumo <- function(arquivo = "data/ready/votos-camara-resumo.csv") {
+  read_csv(
+    here::here(arquivo),
+    col_types = cols(
+      .default = col_double(),
+      nome = col_character(),
+      casa = col_character(),
+      id_entidade_parlametria = col_character(),
+      partido = col_character(),
+      uf = col_character()
+    )
+  )
+}
+
+read_votos_detalhe <- function(arquivo = "data/ready/votos-camara-detalhes.csv") {
+  read_csv(
+    here::here(arquivo), 
+    col_types = cols(
+      .default = col_character(),
+      data = col_datetime(format = ""),
+      governismo = col_double(),
+      governismo_ma = col_double(),
+      peso_politico = col_double()
+    )
+  ) 
+}
+
+read_votacoes <- function(arquivo = "data/ready/votacoes.csv"){
+  read_csv(
+    here::here(arquivo), 
+    col_types = cols(
+      .default = col_double(),
+      orientacao_ma = col_character(),
+      nome_proposicao = col_character(),
+      ementa_proposicao = col_character(),
+      obj_votacao = col_character(),
+      resumo = col_character(),
+      data = col_datetime(format = ""),
+      autor = col_character(),
+      tema = col_character(),
+      id_votacao = col_character(),
+      casa = col_character()
     )
   )
 }

@@ -31,7 +31,7 @@ transform_proposicoes <-
     proposicoes_tudo = proposicoes_leggo %>%
       inner_join(pi_long, by = c("id_ext")) %>%
       rename(nome_proposicao = proposicao) %>%
-      filter(lubridate::year(data_apresentacao) >= 2019) %>% 
+      filter(lubridate::year(data_apresentacao) >= 2019) %>%
       mutate(status = if_else(status == "Lei", "Aprovada", status))
     
     n_cruzado = proposicoes_tudo %>% pull(id_leggo) %>% n_distinct()
@@ -90,7 +90,6 @@ transform_autorias_resumo <- function(proposicoes,
     resume_autorias()
   
   resumo_todos = parlamentares %>%
-    filter(em_exercicio == 1) %>%
     left_join(resumo_autores,
               by = c("casa", "nome", "partido", "uf", "governismo")) %>%
     mutate(across(assinadas:autorias_ponderadas, replace_na, 0))
@@ -102,13 +101,17 @@ parlamentares_data <-
   function(parlamentares_file,
            governismo_deps_file,
            governismo_sens_file,
+           governismo_ma_file,
            peso_file) {
     parlamentares_raw = read_parlamentares_raw(parlamentares_file)
     governismo = read_governismo_raw(governismo_deps_file, governismo_sens_file)
+    governismo_ma <- read_governismo_ma_raw(governismo_ma_file)
     peso = read_peso_raw(peso_file)
     
     parlamentares_raw %>%
       left_join(governismo,
+                by = c("id_entidade" = "id_parlamentar")) %>%
+      left_join(governismo_ma,
                 by = c("id_entidade" = "id_parlamentar")) %>%
       left_join(peso,
                 by = c("id_entidade_parlametria" = "id_parlamentar_parlametria"))
@@ -131,7 +134,8 @@ detalha_autorias = function(data) {
       proposicao = nome_proposicao,
       classificacao_ambientalismo,
       autores,
-      governismo
+      governismo,
+      governismo_ma
     ) %>%
     mutate(
       assinadas = 1,
@@ -155,15 +159,42 @@ resume_autorias = function(data) {
 }
 
 transform_atuacao <-
-  function(atuacao_file = "data/raw/leggo_data/atuacao.csv",
+  function(atuacao_file = "data/raw/leggo_data/autorias.csv",
            parlamentares) {
     atuacao = read_atuacao_raw(atuacao_file)
     parlamentares = parlamentares %>%
-      select(id_entidade_parlametria, governismo, peso_politico)
+      select(id_entidade_parlametria,
+             partido,
+             uf,
+             governismo,
+             governismo_ma,
+             peso_politico)
     
     atuacao %>%
       left_join(parlamentares,
-                by = c("id_autor_parlametria" = "id_entidade_parlametria"))
+                by = c("id_autor_parlametria" = "id_entidade_parlametria")) %>%
+      mutate(ano_apresentacao = lubridate::year(data)) %>%
+      filter(ano_apresentacao >= 2019, ano_apresentacao <= 2020) %>%
+      select(
+        id_leggo,
+        id_principal,
+        casa,
+        id_documento,
+        sigla,
+        descricao_tipo_documento,
+        data,
+        id_autor_parlametria,
+        partido,
+        uf,
+        nome_eleitoral,
+        casa_autor,
+        tipo_documento,
+        tipo_acao,
+        peso_autor_documento,
+        governismo,
+        governismo_ma,
+        peso_politico
+      )
   }
 
 transform_relatorias <-
@@ -178,8 +209,7 @@ transform_relatorias <-
           "casa",
           "relator_id" = "id_entidade"
         )
-      ) %>%
-      select(-situacao)
+      )
     
     props %>%
       left_join(t, by = "id_leggo")
@@ -223,6 +253,131 @@ cruza_destaques_tramitacao <- function(props,
   destaques
 }
 
-transform_votacoes <- function(acontecidas, rotuladas){
-  
+transform_votos_detalhes <-
+  function(acontecidas_file = "data/raw/votos/votos_camara.csv",
+           rotuladas_file = "data/raw/votos/votos-referencia.csv",
+           parlamentares,
+           casa_votacoes = "camara") {
+    rotuladas_raw = read_csv(
+      here::here(rotuladas_file),
+      col_types = cols(.default = col_character(),
+                       data = col_datetime(format = ""))
+    )
+    
+    acontecidas = read_csv(here::here(acontecidas_file),
+                           col_types = "ccc")
+    
+    rotuladas = rotuladas_raw %>%
+      filter(orientacao_ma %in% c("SIM", "NÃO"))
+    
+    votos = rotuladas %>%
+      filter(casa == casa_votacoes) %>%
+      left_join(acontecidas, by = "id_votacao") %>%
+      left_join(parlamentares,
+                by = c("id_parlamentar" = "id_entidade", "casa" = "casa"))
+    
+    votos
+  }
+
+transform_votos_resumo <-
+  function(acontecidas_file = "data/raw/votos/votos_camara.csv",
+           rotuladas_file = "data/raw/votos/votos-referencia.csv",
+           parlamentares,
+           casa_votacoes = "camara") {
+    detalhes = transform_votos_detalhes(acontecidas_file,
+                                        rotuladas_file,
+                                        parlamentares,
+                                        casa_votacoes)
+    detalhes %>%
+      group_by(
+        nome,
+        id_entidade_parlametria,
+        partido,
+        uf,
+        casa,
+        governismo,
+        governismo_ma,
+        peso_politico
+      ) %>%
+      .resume_votos()
+  }
+
+
+#' Transforma votações rotuladas em arquivo sobre as votações (e não votos).
+#'
+#' @param rotuladas_file Votações rotuladas raw.
+#'
+#' @return Df ready com as votações
+#'
+transform_votacoes <-
+  function(rotuladas_file = "data/raw/votos/votos-referencia.csv",
+           acontecidas_camara = "data/raw/votos/votos_camara.csv",
+           acontecidas_senado = "data/raw/votos/votos_senado.csv") {
+    rotuladas_raw = read_csv(
+      here::here(rotuladas_file),
+      col_types = cols(.default = col_character(),
+                       data = col_datetime(format = ""))
+    )
+    
+    acontecidas = read_csv(here::here(acontecidas_camara),
+                           col_types = "ccc") %>%
+      bind_rows(read_csv(here::here(acontecidas_senado),
+                         col_types = "ccc"))
+    
+    n_rotulos = rotuladas_raw %>%
+      count(orientacao_ma) %>%
+      pivot_wider(names_from = orientacao_ma, values_from = n)
+    
+    flog.info(
+      str_glue(
+        "{sum(n_rotulos)} votações das planilhas, com {n_rotulos$`NA`} orientações NA"
+      )
+    )
+    
+    votos = rotuladas_raw %>%
+      left_join(acontecidas, by = "id_votacao")
+    
+    votacoes = votos %>%
+      group_by(
+        orientacao_ma,
+        nome_proposicao,
+        ementa_proposicao,
+        obj_votacao,
+        resumo,
+        data,
+        autor,
+        tema,
+        id_votacao,
+        casa
+      ) %>%
+      .resume_votos() %>%
+      mutate(consenso = abs(votos_sim - votos_nao) / (votos_sim_nao))
+    
+    votacoes
+  }
+
+.resume_votos <- function(votos) {
+  votos %>%
+    mutate(
+      orientacao_ma = stringr::str_to_title(orientacao_ma),
+      voto = stringr::str_to_title(voto),
+      apoiou = if_else(
+        voto %in% c("Sim", "Não"),
+        if_else((orientacao_ma == voto), "apoio", "contra"),
+        "indefinido"
+      )
+    )  %>%
+    summarise(
+      votos_capturados = sum(!is.na(id_parlamentar)),
+      votos_favoraveis = sum(apoiou == "apoio"),
+      votos_contra = sum(apoiou == "contra"),
+      votos_indef = sum(apoiou == "indefinido"),
+      apoio = votos_favoraveis / (votos_favoraveis + votos_contra),
+      votos_sim = sum(voto == "Sim"),
+      votos_nao = sum(voto == "Não"),
+      votos_sim_nao = votos_sim + votos_nao,
+      votos_outros = sum(!is.na(voto) &
+                           voto != "Sim" & voto != "Não"),
+      .groups = "drop"
+    )
 }

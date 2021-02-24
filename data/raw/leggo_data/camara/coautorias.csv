@@ -730,11 +730,14 @@ id_leggo,id_principal,casa,id_autor.x,id_autor.y,peso_arestas,num_coautorias,nom
 431c027eb9b1a9755ee05e55685b049d,2246803,camara,160535,160535,1,1,Dep. Marcon,PT,RS,camara,oposição,Dep. Marcon,PT,RS,camara,oposição
 434f77fd413d28c5c711f6d07a2cda8d,2196952,camara,204488,204488,1,1,Dep. Célio Studart,PV,CE,camara,governo,Dep. Célio Studart,PV,CE,camara,governo
 438b1cecb3dd026c3397fbe5d5e28a86,2263425,camara,178970,178970,1,1,Dep. João Daniel,PT,SE,camara,oposição,Dep. João Daniel,PT,SE,camara,oposição
+43c63b9f26c97da7a15f453f5935b47a,2266845,camara,160511,204352,0.25,1,Dep. Alessandro Molon,PSB,RJ,camara,oposição,Dep. Camilo Capiberibe,PSB,AP,camara,oposição
+43c63b9f26c97da7a15f453f5935b47a,2266845,camara,160511,204488,0.25,1,Dep. Alessandro Molon,PSB,RJ,camara,oposição,Dep. Célio Studart,PV,CE,camara,governo
+43c63b9f26c97da7a15f453f5935b47a,2266845,camara,160511,204536,0.25,1,Dep. Alessandro Molon,PSB,RJ,camara,oposição,Dep. Kim Kataguiri,DEM,SP,camara,governo
 43c63b9f26c97da7a15f453f5935b47a,2266845,camara,204352,204352,2,2,Dep. Camilo Capiberibe,PSB,AP,camara,oposição,Dep. Camilo Capiberibe,PSB,AP,camara,oposição
 43c63b9f26c97da7a15f453f5935b47a,2266845,camara,204352,204467,0.5,1,Dep. Camilo Capiberibe,PSB,AP,camara,oposição,Dep. Professora Rosa Neide,PT,MT,camara,oposição
-43c63b9f26c97da7a15f453f5935b47a,2266845,camara,204352,204488,0.8333333333333333,2,Dep. Camilo Capiberibe,PSB,AP,camara,oposição,Dep. Célio Studart,PV,CE,camara,governo
-43c63b9f26c97da7a15f453f5935b47a,2266845,camara,204352,204536,0.8333333333333333,2,Dep. Camilo Capiberibe,PSB,AP,camara,oposição,Dep. Kim Kataguiri,DEM,SP,camara,governo
-43c63b9f26c97da7a15f453f5935b47a,2266845,camara,204488,204536,0.3333333333333333,1,Dep. Célio Studart,PV,CE,camara,governo,Dep. Kim Kataguiri,DEM,SP,camara,governo
+43c63b9f26c97da7a15f453f5935b47a,2266845,camara,204352,204488,1.0833333333333333,3,Dep. Camilo Capiberibe,PSB,AP,camara,oposição,Dep. Célio Studart,PV,CE,camara,governo
+43c63b9f26c97da7a15f453f5935b47a,2266845,camara,204352,204536,1.0833333333333333,3,Dep. Camilo Capiberibe,PSB,AP,camara,oposição,Dep. Kim Kataguiri,DEM,SP,camara,governo
+43c63b9f26c97da7a15f453f5935b47a,2266845,camara,204488,204536,0.5833333333333333,2,Dep. Célio Studart,PV,CE,camara,governo,Dep. Kim Kataguiri,DEM,SP,camara,governo
 44110c21998fb82b7dd39b42acb092a1,2259136,camara,141411,141411,2,2,Dep. Dagoberto Nogueira,PDT,MS,camara,oposição,Dep. Dagoberto Nogueira,PDT,MS,camara,oposição
 444df3df507f78ab1e222d379afb484f,2264352,camara,204383,204488,0.5,1,Dep. Professor Israel Batista,PV,DF,camara,governo,Dep. Célio Studart,PV,CE,camara,governo
 44e86d21ea623b627cd744f6cb8aede4,2191833,camara,204488,204488,1,1,Dep. Célio Studart,PV,CE,camara,governo,Dep. Célio Studart,PV,CE,camara,governo
@@ -2090,7 +2093,7 @@ ac53697f4326dbc437b7e5047c3f666b,2263463,camara,76874,204464,0.3222222222222222,
 ac53697f4326dbc437b7e5047c3f666b,2263463,camara,76874,204509,0.2111111111111111,2,Dep. Marcelo Freixo,PSOL,RJ,camara,oposição,Dep. Áurea Carolina,PSOL,MG,camara,oposição
 ac53697f4326dbc437b7e5047c3f666b,2263463,camara,76874,204535,0.3222222222222222,3,Dep. Marcelo Freixo,PSOL,RJ,camara,oposição,Dep. Sâmia Bomfim,PSOL,SP,camara,oposição
 ac53697f4326dbc437b7e5047c3f666b,2263463,camara,76874,205548,0.3222222222222222,3,Dep. Marcelo Freixo,PSOL,RJ,camara,oposição,Dep. David Miranda,PSOL,RJ,camara,oposição
-ad5bdd0e4858471b97f42ab3b5d1305e,2260458,camara,204494,204494,1,1,Dep. Fred Costa,PATRIOTA,MG,camara,governo,Dep. Fred Costa,PATRIOTA,MG,camara,governo
+ad5bdd0e4858471b97f42ab3b5d1305e,2260458,camara,204494,204494,2,2,Dep. Fred Costa,PATRIOTA,MG,camara,governo,Dep. Fred Costa,PATRIOTA,MG,camara,governo
 ad774590679da5e89af10b88a6a11e41,2242203,camara,204426,204426,1,1,Dep. Carlos Veras,PT,PE,camara,oposição,Dep. Carlos Veras,PT,PE,camara,oposição
 add8eb3734e4655be03a0bd732870f61,2198438,camara,204415,204415,1,1,Dep. Nereu Crispim,PSL,RS,camara,governo,Dep. Nereu Crispim,PSL,RS,camara,governo
 add8eb3734e4655be03a0bd732870f61,2198438,camara,204471,204471,1,1,Dep. Mara Rocha,PSDB,AC,camara,governo,Dep. Mara Rocha,PSDB,AC,camara,governo

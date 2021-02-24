@@ -32,6 +32,7 @@ theme_set(theme_ipsum_rc())
 
 source(here::here("code/read_ready.R"))
 source(here::here("reports/autorias.R"))
+source(here::here("reports/escalas.R"))
 ```
 
 ```{r}
@@ -43,11 +44,19 @@ Temos `r sum(!is.na(relatorias$relator_id_parlametria))` relatorias identificada
 ## Relatores mais comuns
 
 ```{r}
-relatorias %>% 
-  filter(!is.na(nome)) %>% 
-  count(nome, casa, partido, uf, sort = T, name = "relatorias") %>% 
-  group_by(casa) %>% 
-  top_n(10, relatorias) %>% 
+relatorias %>%
+  filter(!is.na(nome)) %>%
+  count(nome,
+        casa,
+        partido,
+        uf,
+        governismo,
+        peso_politico,
+        sort = T,
+        name = "relatorias") %>%
+  mutate(governismo = round(governismo, 1), peso_politico = round(peso_politico, 2)) %>% 
+  group_by(casa) %>%
+  top_n(10, relatorias) %>%
   reactable()
 ```
 
@@ -118,12 +127,30 @@ relatorias %>%
     )
   )
 ```
+## Relatorias nos partidos
 
-### Perfil dos relatores
 
+```{r fig.height=6}
+relatorias %>%
+  filter(!is.na(nome)) %>% 
+  select(nome_proposicao, classificacao_ambientalismo, partido) %>% 
+  count(partido, classificacao_ambientalismo) %>%
+  group_by(partido) %>% 
+  mutate(total = sum(n)) %>% 
+  ggplot(aes(x = reorder(partido, total), y = n, fill = classificacao_ambientalismo)) +
+  geom_chicklet() +
+  escala_sinais + 
+  coord_flip() +
+  labs(title = "Participação dos partidos na relatoria dos proposições",
+       x = "", y = "PDLs relatadas por parlamentar do partido", 
+       fill = "Efeito")
+```
+
+
+## Padrões no perfil dos relatores
 
 ```{r}
-relatorias %>%
+resumo_relatorias = relatorias %>%
   filter(!is.na(governismo),!is.na(nome), !is.na(classificacao_ambientalismo)) %>%
   group_by(nome, casa) %>%
   summarise(
@@ -132,7 +159,12 @@ relatorias %>%
       sum(classificacao_ambientalismo == "Positivo") - sum(classificacao_ambientalismo == "Negativo")
     ) / n(),
     quantidade = n()
-  )  %>%
+  )  
+```
+
+
+```{r}
+resumo_relatorias %>%
   ggplot(aes(
     x = governismo,
     y = efeito,
@@ -183,17 +215,3 @@ relatorias %>%
 ```
 
 
-## Relatorias nos partidos
-
-
-```{r fig.height=4}
-relatorias %>%
-  filter(!is.na(nome)) %>% 
-  select(nome_proposicao, partido) %>% 
-  count(partido) %>%
-  ggplot(aes(x = reorder(partido, n), y = n)) +
-  geom_chicklet(fill = "#21a6a0") +
-  coord_flip() +
-  labs(title = "Participação dos partidos na relatoria dos proposições",
-       x = "", y = "PDLs relatadas por parlamentar do partido")
-```

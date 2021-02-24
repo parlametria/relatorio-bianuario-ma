@@ -39,10 +39,7 @@ source(here::here("reports/escalas.R"))
 proposicoes = read_proposicoes()
 detalhes_autorias = read_autorias_det()
 resumo_autorias = read_autorias_res() %>%  
-  select(-situacao,
-         -em_exercicio,
-         -is_parlamentar,
-         -sexo,
+  select(-sexo,
          -starts_with("id"))
 ```
 
@@ -144,7 +141,9 @@ participacao %>%
 participacao %>% 
   select(proposicao, autores) %>% 
   arrange(-autores) %>% 
-  reactable()
+  left_join(proposicoes %>% select(nome_proposicao, ementa), 
+            by = c("proposicao" = "nome_proposicao")) %>% 
+  reactable(searchable = T)
 ```
 
 

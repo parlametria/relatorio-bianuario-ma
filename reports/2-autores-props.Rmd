@@ -39,10 +39,7 @@ source(here::here("reports/escalas.R"))
 proposicoes = read_proposicoes()
 detalhes_autorias = read_autorias_det()
 resumo_autorias_todos = read_autorias_res() %>%
-  select(-situacao,
-         -em_exercicio,
-         -is_parlamentar,
-         -sexo,
+  select(-sexo,
          -starts_with("id"))
 resumo_autorias = resumo_autorias_todos %>%
   filter(assinadas > 0)
@@ -53,6 +50,7 @@ resumo_autorias_todos = resumo_autorias_todos %>%
 
 ```{r}
 resumo_autorias %>%
+  select(-governismo_ma) %>% 
   tbl_autorias_resumida()
 ```
 
@@ -109,7 +107,7 @@ resumo_autorias_todos %>%
   ggplot(aes(y = peso_politico, x = governismo, color = assinou)) + 
   facet_grid(casa ~ .) + 
   geom_point(alpha = .4) + 
-  scale_color_manual(values = c("brown", "#969696")) + 
+  scale_color_manual(values = c("brown", "blue")) + 
   labs(y = "Peso político no parlametria", 
        x = "Governismo", 
        title = "Peso político entre autores das PDLs", 
@@ -132,7 +130,10 @@ autorias_partidos =
 autorias_partidos %>%
   filter(!is.na(partido)) %>% 
   count(partido, classificacao_ambientalismo) %>%
-  ggplot(aes(x = reorder(partido, n), y = n, fill = classificacao_ambientalismo)) +
+  group_by(partido) %>% 
+  mutate(total = sum(n)) %>% 
+  ungroup() %>% 
+  ggplot(aes(x = reorder(partido, total), y = n, fill = classificacao_ambientalismo)) +
   geom_chicklet() +
   escala_sinais + 
   coord_flip() +
@@ -149,6 +150,17 @@ autorias_partidos %>%
   filter(!is.na(partido)) %>% 
   count(partido, classificacao_ambientalismo, sort = T, name = "Proposições") %>%
   select(Partido = partido, Efeito = classificacao_ambientalismo, `Proposições`) %>% 
+  reactable(searchable = T)
+```
+
+## Proposições negativas apresentadas por REDE e PT
+
+```{r}
+autorias_partidos %>% 
+  filter(partido %in% c("PT", "REDE"), classificacao_ambientalismo == "Negativo") %>% 
+  left_join(proposicoes %>% select(proposicao = nome_proposicao, ementa), 
+            by = "proposicao") %>% 
+  rename(efeito = classificacao_ambientalismo) %>% 
   reactable()
 ```
 

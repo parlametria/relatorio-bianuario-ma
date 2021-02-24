@@ -33,64 +33,145 @@ theme_set(theme_ipsum_rc())
 source(here::here("code/read_ready.R"))
 ```
 
-TO DO incluir parlamentares com zero ações
-
 ```{r}
 proposicoes = read_proposicoes()
-detalhes_atuacao = read_atuacao()
+detalhes_atuacao = read_atuacao() %>%
+  filter(
+    tipo_documento %in% c("Prop. Original / Apensada", "Emenda", "Requerimento", "Parecer")
+  ) %>%
+  left_join(proposicoes, by = "id_leggo")
+
 resumo_atuacao = detalhes_atuacao %>%
-  group_by(casa,
+  rename(nome_autor = nome_eleitoral) %>% 
+  filter(!is.na(nome_autor)) %>% 
+  group_by(casa_autor,
            nome_autor,
            partido,
            uf,
            governismo,
            peso_politico,
-           tipo_generico) %>%
-  summarise(acoes = sum(num_documentos), 
-            .groups = "drop")
-```
-
-Considerando e ignorando proposições apensadas
-
-```{r}
-resumo_atuacao  %>%
-  filter(!is.na(nome_autor), tipo_generico != "Outros") %>% 
+           tipo_documento) %>%
+  summarise(acoes = n(), 
+            .groups = "drop") %>% 
   group_by(nome_autor) %>% 
   mutate(acoes_total = sum(acoes)) %>% 
-  ungroup() %>% 
-  # filter((casa == "camara" & acoes_total > 25) | 
-  #          (casa == "senado" & acoes_total > 10)) %>%
-  filter(acoes_total > 40) %>% 
-  group_by(casa) %>% 
-  ggplot(aes(
-    x = reorder(nome_autor, acoes_total, sum),
-    y = acoes,
-    fill = tipo_generico
-  )) +
-  facet_grid(casa ~ ., scales = "free") +
-  geom_chicklet() +
-  coord_flip() +
-  scale_fill_brewer(palette = "Accent") +
-  labs(
-    x = "",
-    y = "Açòes",
-    fill = "Tipo da ação",
-    title = "Parlamentares mais atuantes",
-    subtitle = "Com ao menos 5 ações"
-  )
+  ungroup()
+
+# Testar resumo de atuação por efeito da proposição? 
+```
+
+### Ações parlamentares nas proposições 2019-2020
+
+```{r}
+detalhes_atuacao %>% 
+  count(tipo_documento, sort = T) %>% 
+  select(`Ação parlamentar` = tipo_documento, Total = n) %>% 
+  reactable()
 ```
 
 ```{r}
+plot_atuacao = function(dados, titulo, offset_circulos) {
+  dados %>%
+    ggplot() +
+    facet_grid(casa_autor ~ ., scales = "free") +
+    geom_chicklet(aes(
+      x = reorder(nome_autor, acoes_total),
+      y = acoes,
+      fill = tipo_documento
+    )) +
+    geom_point(aes(x = nome_autor, color = governismo),
+               y = offset_circulos,
+               size = 4) +
+    scale_color_distiller(palette = "Spectral",
+                          limits = c(-10, 10),
+                          direction = 1) +
+    coord_flip() +
+    scale_fill_brewer(palette = "Set2") +
+    labs(
+      x = "",
+      y = "Ações",
+      fill = "Tipo da ação",
+      title = titulo,
+      subtitle = "Círculos indicam governismo",
+      color = "Governismo\n(no círculo)"
+    )
+}
+```
+
+
+## Mais atuantes na Câmara
+
+```{r fig.width=10, fig.height=8}
+min_acoes = 60
+resumo_atuacao %>%
+  filter((casa_autor == "camara" & acoes_total > min_acoes)) %>%
+  plot_atuacao( "Deputados/as mais atuantes", -5)
+```
+
+### E os governistas?
+
+```{r fig.width=10, fig.height=5}
+governistas_selecao = resumo_atuacao %>%
+  filter(casa_autor == "camara", governismo > 5, acoes_total > 10)
+
+governistas_selecao %>%
+  plot_atuacao("Deputado/as governistas mais atuantes", -1)
+```
+
+### Detalhes da atuação dos governistas
+
+```{r}
+detalhes_atuacao %>%
+  filter(nome_eleitoral %in% governistas_selecao$nome_autor) %>%
+  group_by(
+    nome_eleitoral,
+    nome_proposicao,
+    tipo_documento,
+    descricao_tipo_documento,
+    classificacao_ambientalismo,
+    ementa
+  ) %>%
+  count() %>%
+  rename(
+    Parlamentar = nome_eleitoral,
+    Propsição = nome_proposicao,
+    Ação = tipo_documento,
+    `Descrição da ação` = descricao_tipo_documento,
+    Quantidade = n,
+    Efeito = classificacao_ambientalismo,
+    `Ementa da prop.` = ementa
+  ) %>%
+  reactable(searchable = T, 
+            compact = T, 
+            striped = T)
+```
+
+## Senado
+
+```{r fig.width=10, fig.height=5}
+resumo_atuacao %>%
+  filter((casa_autor == "senado" & acoes_total > 25)) %>%
+  plot_atuacao( "Senadores/as mais atuantes", -2)
+```
+
+## Atuação em MA e Governismo
+
+Aqui não temos os parlamentares com zero ações
+
+```{r fig.height=8, fig.width=8}
 resumo_atuacao %>% 
-  group_by(casa,
-           nome_autor,
-           partido,
-           uf,
-           governismo,
-           peso_politico) %>% 
-  summarise(acoes = sum(acoes)) %>% 
-  ggplot(aes(x = governismo, y = acoes)) + 
-  geom_point()
+  filter(!is.na(governismo), !is.na(acoes_total)) %>% 
+  distinct(nome_autor, governismo, acoes_total, casa_autor) %>% 
+  ggplot(aes(x = governismo, y = acoes_total)) + 
+  facet_grid(casa_autor ~ .) + 
+  geom_point(alpha = .6, color = "coral", size = 2) + 
+  # scale_y_log10() + 
+  labs(
+    title = "Atuação x Governismo", 
+    subtitle = "Cada ponto é um/a parlamentar", 
+    x = "Governismo (10 é o mais governista)", 
+    y = "Ações parlamentares em MA"
+  )
   
 ```
 
