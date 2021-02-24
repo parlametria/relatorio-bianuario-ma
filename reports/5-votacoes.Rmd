@@ -62,7 +62,7 @@ votacoes = votacoes_todas %>%
 
 ## Visão geral das votações nominais
 
-Houve um total de 2309 votações na Câmara e 185 no Senado no biênio. Dessas, analisamos `r `NROW(votacoes_todas)` como sendo possivelmente de MA. Filtrando as que são nominais, eis as posições que temos: 
+Houve um total de 2309 votações na Câmara e 185 no Senado no biênio. Dessas, analisamos `r NROW(votacoes_todas)` como sendo possivelmente de MA. Filtrando as que são nominais, eis as posições que temos: 
 
 
 ```{r}

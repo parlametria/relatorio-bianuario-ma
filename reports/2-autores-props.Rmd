@@ -50,6 +50,7 @@ resumo_autorias_todos = resumo_autorias_todos %>%
 
 ```{r}
 resumo_autorias %>%
+  select(-governismo_ma) %>% 
   tbl_autorias_resumida()
 ```
 

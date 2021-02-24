@@ -141,7 +141,9 @@ detalhes_atuacao %>%
     Efeito = classificacao_ambientalismo,
     `Ementa da prop.` = ementa
   ) %>%
-  reactable(searchable = T)
+  reactable(searchable = T, 
+            compact = T, 
+            striped = T)
 ```
 
 ## Senado
