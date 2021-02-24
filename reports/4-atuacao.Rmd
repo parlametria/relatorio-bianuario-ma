@@ -81,7 +81,7 @@ plot_atuacao = function(dados, titulo, offset_circulos) {
     )) +
     geom_point(aes(x = nome_autor, color = governismo),
                y = offset_circulos,
-               size = 3) +
+               size = 4) +
     scale_color_distiller(palette = "Spectral",
                           limits = c(-10, 10),
                           direction = 1) +
@@ -141,7 +141,9 @@ detalhes_atuacao %>%
     Efeito = classificacao_ambientalismo,
     `Ementa da prop.` = ementa
   ) %>%
-  reactable(searchable = T)
+  reactable(searchable = T, 
+            compact = T, 
+            striped = T)
 ```
 
 ## Senado

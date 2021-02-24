@@ -12,6 +12,6 @@ escala_cor_sinais = scale_color_manual(
   values = c(
     "Positivo" = "#91cf60",
     "Negativo" = "#fc8d59",
-    "Neutro" = "#ffff8a"
+    "Neutro" = "#d9d975"
   ) 
 ) 

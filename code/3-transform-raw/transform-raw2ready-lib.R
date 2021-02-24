@@ -373,11 +373,11 @@ transform_votacoes <-
       votos_contra = sum(apoiou == "contra"),
       votos_indef = sum(apoiou == "indefinido"),
       apoio = votos_favoraveis / (votos_favoraveis + votos_contra),
-      votos_sim = sum(voto == "sim"),
-      votos_nao = sum(voto == "não"),
+      votos_sim = sum(voto == "Sim"),
+      votos_nao = sum(voto == "Não"),
       votos_sim_nao = votos_sim + votos_nao,
       votos_outros = sum(!is.na(voto) &
-                           voto != "sim" & voto != "não"),
+                           voto != "Sim" & voto != "Não"),
       .groups = "drop"
     )
 }

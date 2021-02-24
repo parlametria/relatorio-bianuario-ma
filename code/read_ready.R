@@ -64,9 +64,9 @@ read_relatoria <- function() {
   )
 }
 
-read_votos_resumo <- function(casa = "camara") {
+read_votos_resumo <- function(arquivo = "data/ready/votos-camara-resumo.csv") {
   read_csv(
-    here::here("data/ready/votos-camara-resumo.csv"),
+    here::here(arquivo),
     col_types = cols(
       .default = col_double(),
       nome = col_character(),
@@ -78,9 +78,9 @@ read_votos_resumo <- function(casa = "camara") {
   )
 }
 
-read_votos_detalhe <- function(casa = "camara") {
+read_votos_detalhe <- function(arquivo = "data/ready/votos-camara-detalhes.csv") {
   read_csv(
-    here::here("data/ready/votos-camara-detalhes.csv"), 
+    here::here(arquivo), 
     col_types = cols(
       .default = col_character(),
       data = col_datetime(format = ""),
@@ -89,4 +89,23 @@ read_votos_detalhe <- function(casa = "camara") {
       peso_politico = col_double()
     )
   ) 
+}
+
+read_votacoes <- function(arquivo = "data/ready/votacoes.csv"){
+  read_csv(
+    here::here(arquivo), 
+    col_types = cols(
+      .default = col_double(),
+      orientacao_ma = col_character(),
+      nome_proposicao = col_character(),
+      ementa_proposicao = col_character(),
+      obj_votacao = col_character(),
+      resumo = col_character(),
+      data = col_datetime(format = ""),
+      autor = col_character(),
+      tema = col_character(),
+      id_votacao = col_character(),
+      casa = col_character()
+    )
+  )
 }
