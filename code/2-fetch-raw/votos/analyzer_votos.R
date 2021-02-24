@@ -21,7 +21,8 @@ process_votos_senado <- function(
     mutate(nome_eleitoral = str_remove(nome_eleitoral, "^[:space:]*|[:space:]$"))
   
   parlamentares <- read_parlamentares_raw(parlamentares_datapath) %>%
-    filter(casa == 'senado', is_parlamentar == 1) %>%
+    ungroup() %>% 
+    filter(casa == 'senado') %>%
     select(id = id_entidade,
            nome_eleitoral = nome)
   
