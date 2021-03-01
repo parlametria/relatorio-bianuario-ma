@@ -135,9 +135,48 @@ processa_votacoes_camara <- function() {
   
   votacoes_alt <- votacoes %>% 
     merge_votacoes_com_planilha_externa() %>% 
-    adiciona_rotulos_existentes_camara()
+    adiciona_rotulos_existentes_camara() 
+  
+  votos <- purrr::map_df(
+    votacoes_alt %>%
+      distinct(id_votacao) %>%
+      pull(id_votacao),
+    ~ fetch_votos_por_votacao_camara(.x)
+  ) %>%
+    group_by(id_votacao) %>%
+    summarise(num_votos = n()) %>%
+    filter(num_votos >= 20)
+  
+  votacoes_alt <- votacoes_alt %>%
+    mutate(total_votos = str_extract(tolower(resumo), "total.*") %>%
+             str_extract("(\\d)+")) %>%
+    mutate(is_nominal = if_else(total_votos > 20 |
+                                  id_votacao %in% votos$id_votacao, 1, 0)) %>%
+    select(-total_votos)
   
   return(votacoes_alt)
+}
+
+#' @title Adiciona rótulos já preenchidos previamente na planilha do Senado
+#' @description Adiciona rótulos de orientação preenchidas na planilha para as votações
+#' já rotuladas previamente.
+#' @param votacoes_df Dataframe de votações a receber rótulos já preenchidos.
+#' @return Votações com 'Ambientalismo orienta SIM/NÃO/LIBERADO' adicionado
+adiciona_rotulos_existentes_senado <- function(votacoes_df) {
+  source(here("code/1-inputs/constants.R"))
+  
+  votacoes_rotuladas <-
+    read_csv(.URL_PLANILHA_VOTACAO_SENADO, col_types = cols(.default = "c")) 
+  
+  votacoes_rotuladas <- votacoes_rotuladas %>%
+    distinct(id_votacao,
+             `Ambientalismo orienta SIM/NÃO/LIBERADO`)
+  
+  votacoes <- votacoes_rotuladas %>% right_join(votacoes_df, by = c("id_votacao")) %>%
+    select(c(`Ambientalismo orienta SIM/NÃO/LIBERADO`, names(votacoes_df))) %>% 
+    distinct(id_votacao, .keep_all = T)
+  
+  return(votacoes)
 }
 
 
@@ -189,6 +228,19 @@ processa_votacoes_senado <- function() {
            data_apresentacao_proposicao = data_apresentacao,
            autor,
            uri_tramitacao)
+  
+  votos <- purrr::map_df(
+    votacoes_filtradas$id_proposicao,
+    votacoes_filtradas$id_votacao,
+    ~ fetch_votos_por_proposicao_votacao_senado(.x, .y)
+  ) %>%
+    group_by(id_votacao) %>%
+    summarise(num_votos = n()) %>%
+    filter(num_votos >= 20)
+  
+  votacoes_filtradas <- votacoes_filtradas %>%
+    adiciona_rotulos_existentes_senado() %>%
+    mutate(is_nominal = if_else(id_votacao %in% votos$id_votacao, 1, 0))
   
   return(votacoes_filtradas)
 }
