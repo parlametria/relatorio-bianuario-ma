@@ -75,6 +75,23 @@ proposicoes %>%
        title = "Quando as proposições foram apresentadas")
 ```
 
+Aqui o que foi apresentado em jan/19: 
+
+```{r}
+proposicoes %>%
+  filter(
+    lubridate::year(data_apresentacao) == 2019,
+    lubridate::month(data_apresentacao) == 2
+  ) %>% 
+  select(Proposicao = nome_proposicao, Apresentada = data_apresentacao, Ementa = ementa) %>% 
+  arrange(Apresentada) %>% 
+  reactable(
+    striped = T, searchable = T, compact = T
+  )
+```
+
+
+
 ```{r}
 temas = proposicoes %>%
   separate_rows(tema, sep = ";") %>%
@@ -108,8 +125,11 @@ temas %>%
 
 ## Números de autores
 
+Desconsideramos aqui as PECs. 
+
 ```{r}
 participacao = detalhes_autorias %>%
+  filter(!(sigla_tipo %in% c("PEC", "MPV"))) %>% 
   group_by(proposicao) %>% 
   filter(!is.na(partido)) %>% 
   summarise(autores = n(), 
@@ -159,41 +179,16 @@ participacao %>%
        title = "Número de partidos entre autores", 
        subtitle = "Proposições que mobilizaram mais partidos")
 ```
-```{r fig.width=16, fig.height=18}
-atividade_partido = detalhes_autorias %>% 
-  filter(!is.na(partido)) %>% 
-  group_by(partido) %>% 
-  summarise(proposicoes = n_distinct(proposicao), 
-            .groups = "drop")
-  
-detalhes_autorias %>%
-  filter(!is.na(partido), sigla_tipo != "PEC") %>% 
-  distinct(proposicao, classificacao_ambientalismo, partido) %>%
-  filter(proposicao %in% (filter(participacao, partidos > 1) %>% pull(proposicao))) %>%
-  left_join(participacao, by = "proposicao") %>%
-  left_join(atividade_partido, by = "partido") %>%
-  mutate(partido = str_sub(partido, 1, 5)) %>% 
-  ggplot(aes(
-    x = reorder(partido,-proposicoes),
-    y = reorder(proposicao, partidos), 
-    fill = classificacao_ambientalismo
-  )) +
-  escala_sinais +
-  scale_x_discrete(position = "top") + 
-  geom_tile(color = "black") +
-  labs(
-    title = "Colaborações entre partidos que coautoraram",
-    subtitle = "Células indicam se cada partido assinou cada proposição. Ignoramos PECs.",
-    x = "",
-    y = ""
-  )
-```
 
 # Grafo de coautoria dos partidos
 
 ```{r}
 nodes <- read_nos_partidos()
-edges <- read_arestas_partidos()
+edges <- read_arestas_partidos() 
+
+edges = edges %>% filter(peso_total_arestas >= .75)
+# nodes = nodes %>% 
+#   filter(index %in% edges$source | index %in% edges$target)
 
 generate_graph(nodes, edges)
 ```
