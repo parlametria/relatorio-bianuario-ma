@@ -123,7 +123,7 @@ proposicoes %>%
 
 ```{r}
 participacao = detalhes_autorias %>%
-  filter(!is.na(classificacao_ambientalismo)) %>% 
+  filter(!is.na(classificacao_ambientalismo), !(sigla_tipo %in% c("PEC", "MPV"))) %>% 
   group_by(proposicao, classificacao_ambientalismo) %>% 
   filter(!is.na(partido)) %>% 
   summarise(autores = n(), 
@@ -142,6 +142,19 @@ mais_partidos = participacao %>%
   slice_max(partidos, n = 10, with_ties = F) %>% 
   ungroup()
 ```
+
+```{r}
+participacao %>% 
+  filter(autores > 1) %>% 
+  ggplot(aes(x = classificacao_ambientalismo, y = autores, color = classificacao_ambientalismo)) + 
+  geom_quasirandom(show.legend = F) + 
+  escala_cor_sinais +
+  coord_flip() + 
+  labs(x = "", 
+       title = "Proposições de cada efeito com mais de 1 autor"
+       )
+```
+
 
 ```{r}
 mais_autores %>% 
@@ -166,6 +179,20 @@ mais_autores %>%
   reactable(searchable = T)
 ```
 
+```{r}
+participacao %>%
+  filter(partidos > 1) %>%
+  ggplot(
+    aes(x = classificacao_ambientalismo, y = partidos, color = classificacao_ambientalismo)
+  ) +
+  geom_quasirandom(show.legend = F) +
+  escala_cor_sinais +
+  coord_flip() +
+  scale_y_continuous(breaks = scales::pretty_breaks()) +
+  labs(x = "",
+       title = "Proposições de cada efeito com mais de 1 partido autor")
+```
+
 
 ```{r}
 mais_partidos %>%
@@ -180,7 +207,7 @@ mais_partidos %>%
   coord_flip() +
   labs(
     x = "",
-    title = "Proposições de cada efeito com mais partidos entre autores",
+    title = "Proposições de cada efeito com mais partidos autores",
     subtitle = "10 proposições com efeito positivo/negativo com mais partidos",
     fill = "Efeito"
   ) +

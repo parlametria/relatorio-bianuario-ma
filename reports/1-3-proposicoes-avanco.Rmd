@@ -54,6 +54,7 @@ situacao = proposicoes %>%
 ```{r}
 situacao %>%
   filter(
+    !(sigla_tipo %in% c("PEC", "MPV")),
     !(situacao %in% c("Ativa", "Sem urgência", "Ainda no início")),
     !is.na(situacao)) %>%
   count(aspecto, situacao, classificacao_ambientalismo) %>%
@@ -64,7 +65,48 @@ situacao %>%
   coord_flip() +
   labs(
     title = "Situação de avanço das proposições",
-    subtitle = "Características de avanço do Parlametria. Mostrando apenas proposições que avançaram.",
+    subtitle = "Características de avanço do Parlametria. Ignora PECs e MPVs.",
+    x = "",
+    fill = "Efeito",
+    y = "Proposições"
+  )
+```
+
+Progresso das PECs apresentadas em 2019 e 2020:
+
+```{r}
+situacao %>%
+  filter(sigla_tipo == "PEC",
+         aspecto != "urgencia") %>%
+  count(aspecto, situacao, classificacao_ambientalismo) %>%
+  ggplot(aes(x = situacao, y = n, fill =  classificacao_ambientalismo)) +
+  facet_grid(reorder(aspecto, -n) ~ ., scales = "free") +
+  geom_chicklet() +
+  escala_sinais +
+  coord_flip() +
+  labs(
+    title = "Situação de avanço das PECs",
+    subtitle = "PECs apresentadas em 2019-2020",
+    x = "",
+    fill = "Efeito",
+    y = "Proposições"
+  )
+```
+
+TO DO: As MPVs ativas abaixo não estão ativas. Falta corrigirmos isso. 
+
+```{r}
+situacao %>%
+  filter(sigla_tipo == "MPV",
+         aspecto == "status") %>% 
+  count(aspecto, situacao, classificacao_ambientalismo) %>%
+  ggplot(aes(x = situacao, y = n, fill =  classificacao_ambientalismo)) +
+  facet_grid(reorder(aspecto, -n) ~ ., scales = "free") +
+  geom_chicklet() +
+  escala_sinais +
+  coord_flip() +
+  labs(
+    title = "Situação de avanço das MPs",
     x = "",
     fill = "Efeito",
     y = "Proposições"
@@ -87,7 +129,7 @@ situacao %>%
   ) %>%
   arrange(situacao) %>% 
   select(Proposição = nome_proposicao, situacao, ementa) %>% 
-  reactable(searchable = T)
+  reactable(searchable = T, striped = T, compact = T)
 ```
 
 ### Proposições de efeito POSITIVO que tiveram tramitação avançada
@@ -107,7 +149,7 @@ situacao %>%
   ) %>%
   arrange(situacao) %>% 
   select(Proposição = nome_proposicao, situacao, ementa) %>% 
-  reactable(searchable = T)
+  reactable(searchable = T, striped = T, compact = T)
 ```
 
 
@@ -115,6 +157,7 @@ situacao %>%
 ```{r}
 situacao %>%
   filter(
+    !(sigla_tipo %in% c("PEC", "MPV")),
     !(situacao %in% c("Ativa", "Sem urgência", "Ainda no início")),
     !is.na(situacao)) %>%
   count(aspecto, situacao, sigla_tipo) %>%
@@ -133,7 +176,7 @@ situacao %>%
 
 ```{r}
 prop_situacao = situacao %>% 
-  filter(!is.na(situacao), !is.na(classificacao_ambientalismo)) %>% 
+  filter(!is.na(situacao), !is.na(classificacao_ambientalismo), !(sigla_tipo %in% c("PEC", "MPV"))) %>% 
   group_by(aspecto, classificacao_ambientalismo) %>% 
   mutate(total_classe = n()) %>% 
   group_by(aspecto, situacao, classificacao_ambientalismo) %>% 
@@ -168,7 +211,7 @@ aprovadas = proposicoes %>%
          `Casa de origem` = casa_origem, 
          Ementa = ementa)
 
-aprovadas %>% reactable()
+aprovadas %>% reactable(striped = T, compact = T, searchable = T)
 ```
 
 Eis seus autores:

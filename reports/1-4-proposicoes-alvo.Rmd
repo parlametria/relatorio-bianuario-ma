@@ -90,10 +90,8 @@ leis %>%
   count(classificacao_ambientalismo, lei, sort = T) %>% 
   group_by(lei) %>% 
   mutate(n_total = sum(n)) %>% 
-  ungroup() %>% 
-  group_by(classificacao_ambientalismo) %>% 
-  top_n(10, n_total) %>% 
-  ggplot(aes(x = reorder(lei, n), y = n, fill = classificacao_ambientalismo)) + 
+  filter(n_total > 7) %>% 
+  ggplot(aes(x = reorder(lei, n_total), y = n, fill = classificacao_ambientalismo)) + 
   geom_chicklet() + 
   escala_sinais + 
   coord_flip() + 
@@ -118,5 +116,5 @@ leis %>%
          efeito = classificacao_ambientalismo, 
          menciona = lei, 
          ementa) %>% 
-  reactable(searchable = T)
+  reactable(searchable = T, compact = T, striped = T)
 ```

@@ -137,16 +137,19 @@ participacao = detalhes_autorias %>%
             .groups = "drop")
 ```
 
+### Quantidade de proposições com por número de autores
+
 ```{r}
 participacao %>%
-  ggplot(aes(label = proposicao, x = autores)) +
-  # geom_quasirandom(color  = "#f7c74f", alpha = .7) +
-  geom_histogram(fill = "#f7c74f", color = "black", binwidth = 1) +
-  geom_rug(size = .4, alpha = .5) + 
-  labs(x = "Autores",
-       y = "Quantidade de PDLs",
-       title = "Número de parlamentares autores",
-       subtitle = "Considerando todos que assinaram a proposição")
+  mutate(
+    num_autores = if_else(autores >= 12, "12+", as.character(autores)),
+    x = if_else(autores >= 12, 12, round(autores))
+  ) %>%
+  count(num_autores, x) %>%
+  arrange(x) %>% 
+  select(Autores = num_autores, proposições = n) %>% 
+  reactable(compact = T,
+            striped = T)
 ```
 
 ```{r}
@@ -182,14 +185,19 @@ participacao %>%
 
 # Grafo de coautoria dos partidos
 
-```{r}
+Considerando a colaboração entre autores de diferentes partidos ao apresentar proposições (exceto PECs). As ligações são mais fortes se os partidos colaboraram mais, e excluímos ligações esporádicas. Os partidos são maiores se colaboraram mais no total. As cores mostram regiões da rede encontraaas via um algoritmo de agrupamento. 
+
+![Caption for the picture.](colaboracao-partidos.png)
+
+
+```{r warning=FALSE}
 nodes <- read_nos_partidos()
 edges <- read_arestas_partidos() 
 
-edges = edges %>% filter(peso_total_arestas >= .75)
-# nodes = nodes %>% 
-#   filter(index %in% edges$source | index %in% edges$target)
+edges = edges %>% filter(peso_total_arestas >= .6)
+# nodes = nodes %>%
+#   filter(Id %in% edges$source | Id %in% edges$target)
 
-generate_graph(nodes, edges)
+generate_graph(data.frame(nodes), data.frame(edges))
 ```
 

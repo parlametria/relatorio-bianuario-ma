@@ -441,7 +441,8 @@ transform_nos_e_arestas <- function(autorias_detalhadas_df) {
     filter(partido.x != partido.y) %>% 
     .remove_duplicated_edges() %>% 
     group_by(partido.x, partido.y) %>% 
-    summarise(peso_total_arestas = sum(peso_aresta)) %>% 
+    summarise(peso_total_arestas = sum(peso_aresta), 
+              .groups = "drop") %>% 
     ungroup() %>% 
     filter(peso_total_arestas >= 0.1) # Filtra por peso mínimo
   
@@ -449,11 +450,14 @@ transform_nos_e_arestas <- function(autorias_detalhadas_df) {
     distinct(partido) %>%
     rowid_to_column("index") %>% 
     mutate(index = index - 1) # Índice deve começar em 0
-  
+    
   edges <- coautorias_df %>% 
     left_join(nodes, by=c("partido.x" = "partido")) %>% 
     left_join(nodes, by = c("partido.y" = "partido")) %>% 
     select(source = index.x, target = index.y, peso_total_arestas) 
-  
+
+  nodes = nodes %>% 
+    rename(Id = index, Label = partido) # para o GEPHI
+    
   return(list(nos = nodes, arestas = edges))
 }
