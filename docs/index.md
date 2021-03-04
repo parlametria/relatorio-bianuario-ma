@@ -15,4 +15,6 @@
   
 ## Votações
 
-  * [Governismo e apoio ao MA](./5-governismo-e-apoio.html)
+  * [Panorama das votações](./5-votacoes.html)
+  * [Governismo e apoio ao MA](./6-governismo-e-apoio.html)
+  

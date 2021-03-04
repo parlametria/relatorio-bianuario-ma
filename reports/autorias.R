@@ -8,6 +8,14 @@ cria_paleta <- function(domain, from = "#ffe4cc", to = "#ff9500") {
   }
 }
 
+coluna_default = defaultColDef = colDef(
+  header = function(value)
+    gsub("_", " ", value, fixed = TRUE) %>% str_to_sentence(),
+  cell = function(value)
+    format(value, nsmall = 1, digits = 2),
+  na = "-"
+)
+
 tbl_autorias_resumida = function(data) {
   escala_assinadas = cria_paleta(data$assinadas, from = "#feebe2", to = "#f768a1")
   escala_ponderadas = cria_paleta(data$autorias_ponderadas, from = "#feebe2", to = "#f768a1")
@@ -141,6 +149,70 @@ tbl_detalhes_autorias = function(data) {
           format = colFormat(digits = 2)
         ),
         coautores = colDef(name = "Coautores")
+      )
+    )
+}
+
+
+tbl_relatorias = function(data) {
+  escala_assinadas = cria_paleta(data$relatorias, from = "#feebe2", to = "#f768a1")
+  escala_governismo = cria_paleta(data %>% filter(!is.na(governismo)) %>% pull(governismo),
+                                  from = "#ffffcc",
+                                  to = "#41b6c4")
+  escala_peso = cria_paleta(data %>% filter(!is.na(peso_politico)) %>% pull(peso_politico),
+                            from = "#f7f7f7",
+                            to = "#969696")
+
+  data %>%
+    mutate(
+      casa = if_else(casa == "camara", "dep", "sen"),
+      nome = str_glue("{nome} ({casa})")
+    ) %>%
+    reactable(
+      defaultPageSize = 15,
+      compact = TRUE,
+      searchable = T,
+      defaultSorted = "relatorias",
+      defaultColDef = colDef(
+        minWidth = 70,
+        defaultSortOrder = "desc",
+        header = function(value)
+          gsub("_", " ", value, fixed = TRUE) %>% str_to_sentence(),
+        cell = function(value)
+          format(value, nsmall = 1, digits = 2),
+        na = "-"
+      ),
+      columns = list(
+        nome = colDef(name = "Parlamentar", minWidth = 150),
+        casa = colDef(minWidth = 50),
+        partido = colDef(name = "Partido", minWidth = 75),
+        uf = colDef(name = "UF", minWidth = 50),
+        relatorias = colDef(
+          style = function(value) {
+            list(background = escala_assinadas(value))
+          }
+        ),
+        governismo = colDef(
+          name = "Governismo (-10 a 10)",
+          style = function(value) {
+            if (is.na(value)) {
+              list()
+            } else{
+              list(background = escala_governismo(value))
+            }
+          }
+        ),
+        peso_politico = colDef(
+          name = "Peso político",
+          format = colFormat(digits = 1),
+          style = function(value) {
+            if (is.na(value)) {
+              list()
+            } else{
+              list(background = escala_peso(value))
+            }
+          }
+        )
       )
     )
 }

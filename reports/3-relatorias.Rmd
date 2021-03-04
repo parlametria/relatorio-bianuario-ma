@@ -56,8 +56,8 @@ relatorias %>%
         name = "relatorias") %>%
   mutate(governismo = round(governismo, 1), peso_politico = round(peso_politico, 2)) %>% 
   group_by(casa) %>%
-  top_n(10, relatorias) %>%
-  reactable()
+  filter(!is.na(relatorias)) %>% 
+  tbl_relatorias()
 ```
 
 
@@ -127,6 +127,19 @@ relatorias %>%
     )
   )
 ```
+
+
+Projetos com Carlos Gomes
+
+```{r}
+relatorias %>% 
+  filter(relator_nome == "Carlos Gomes") %>% 
+  select(nome_proposicao, ementa) %>% 
+  reactable(defaultColDef = coluna_default, sortable = T, searchable = T, compact = T, striped = T)
+```
+
+
+
 ## Relatorias nos partidos
 
 
@@ -150,53 +163,21 @@ relatorias %>%
 ## Padrões no perfil dos relatores
 
 ```{r}
-resumo_relatorias = relatorias %>%
-  filter(!is.na(governismo),!is.na(nome), !is.na(classificacao_ambientalismo)) %>%
-  group_by(nome, casa) %>%
-  summarise(
-    governismo = mean(governismo),
-    efeito = (
-      sum(classificacao_ambientalismo == "Positivo") - sum(classificacao_ambientalismo == "Negativo")
-    ) / n(),
-    quantidade = n()
-  )  
-```
-
-
-```{r}
-resumo_relatorias %>%
-  ggplot(aes(
-    x = governismo,
-    y = efeito,
-    color = efeito,
-    size = quantidade
-  )) +
-  facet_wrap( ~ casa) +
-  scale_color_viridis_c() +
-  geom_point(alpha = .6) +
+relatorias %>% 
+  filter(!is.na(governismo), !is.na(classificacao_ambientalismo), classificacao_ambientalismo != "Neutro") %>%
+  ggplot(aes(x = governismo, fill = classificacao_ambientalismo)) + 
+  facet_grid(classificacao_ambientalismo ~ ., scales = "free" ) +
+  geom_histogram(binwidth = 1) + 
+  geom_rug() + 
+  theme(legend.position = "None") + 
   labs(
     x = "Governismo (neg. sign. oposição)",
-    y = "Projetos mais positivos/negativos",
+    y = "Projetos",
     title = "Governismo entre relatores das proposições",
-    subtitle = "Cada ponto é um(a) parlamentar. Maiores relataram mais."
-  ) 
+    subtitle = "Cada relatoria conta uma vez."
+  )
 ```
 
-```{r}
-relatorias %>% 
-  filter(!is.na(peso_politico)) %>% 
-  count(nome, peso_politico, casa) %>% 
-  ggplot(aes(y = peso_politico, x = casa, size = n)) + 
-  scale_color_discrete(name = NULL) + 
-  coord_flip() + 
-  geom_point(alpha = .7, color = "darkseagreen") + 
-  labs(y = "Peso político no parlametria", 
-       x = "", 
-       title = "Peso político entre relatores das proposições", 
-       subtitle = "Cada ponto é um(a) parlamentar. Maiores relataram mais.",
-       size = "Autorias poderadas") + 
-  theme(legend.position = "None")
-```
 
 
 ```{r}

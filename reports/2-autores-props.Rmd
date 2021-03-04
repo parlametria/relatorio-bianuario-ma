@@ -58,11 +58,45 @@ resumo_autorias %>%
 
 ```{r}
 detalhes_autorias %>% 
-  select(-id_entidade, -sigla_tipo) %>% 
+  select(-id_entidade, -sigla_tipo, -governismo_ma) %>% 
   tbl_detalhes_autorias()
 ```
 
+Proposições de Célio Studart
+
+
+```{r}
+detalhes_autorias %>% 
+  filter(nome == "Célio Studart") %>% 
+  select(proposicao) %>% 
+  left_join(proposicoes, by = c("proposicao" = "nome_proposicao")) %>% 
+  select(proposicao, urgencia, avanco, classificacao_ambientalismo, ementa) %>% 
+  reactable(defaultColDef = coluna_default, sortable = T, searchable = T)
+
+```
+
+
+
 ### Perfil dos autores
+
+
+```{r}
+resumo_autorias_todos %>% 
+  filter(!is.na(governismo)) %>%
+  ggplot(aes(
+    x = governismo,
+    fill = assinou
+  )) +
+  geom_histogram(binwidth = 1, boundary = 0) + 
+  scale_fill_brewer(palette = "Set2") +
+  facet_grid(casa ~ ., scales = "free") + 
+  labs(
+    x = "Governismo (neg. sign. oposição)",
+    y = "Parlamentares",
+    title = "Governismo e autoria de propostas",
+    size = "Apresentou/Não apresentou"
+  )
+```
 
 
 ```{r}
@@ -91,15 +125,20 @@ resumo_autorias_todos %>%
 ```{r}
 resumo_autorias_todos %>% 
   filter(!is.na(peso_politico)) %>% 
-  ggplot(aes(y = peso_politico, x = assinou, size = autorias_ponderadas, color = assinou)) + 
-  coord_flip() + 
-  facet_grid(casa ~ .) +
-  geom_quasirandom(alpha = .6) + 
-  labs(y = "Peso político no parlametria", 
-       x = "", 
-       title = "Peso político entre autores das propostas", 
-       subtitle = "Cada ponto é um(a) parlamentar. Maiores autoraram mais.") + 
-  theme(legend.position = "None")
+  ggplot(aes(
+    x = peso_politico,
+    fill = assinou
+  )) +
+  geom_histogram(binwidth = .05, boundary = 0) + 
+  scale_fill_brewer(palette = "Set2") +
+  facet_grid(casa ~ ., scales = "free") + 
+  labs(
+    x = "Governismo (neg. sign. oposição)",
+    y = "Parlamentares",
+    title = "Peso político e autoria de propostas",
+    fill = "Apresentou/Não apresentou"
+  )
+  
 ```
 ```{r}
 resumo_autorias_todos %>% 
@@ -143,6 +182,23 @@ autorias_partidos %>%
        fill = "Efeito")
 ```
 
+```{r fig.height=8}
+autorias_partidos %>%
+  filter(!is.na(partido)) %>% 
+  count(partido, classificacao_ambientalismo) %>%
+  group_by(partido) %>% 
+  mutate(total = sum(n)) %>% 
+  ungroup() %>% 
+  ggplot(aes(x = reorder(partido, total), y = n, fill = classificacao_ambientalismo)) +
+  geom_col(position = "fill") +
+  scale_y_percent() + 
+  escala_sinais + 
+  coord_flip() +
+  labs(title = "Participação dos partidos na autoria das proposições",
+       subtitle = "Pelo menos um(a) parlamentar do partido é autor(a)",
+       x = "", y = "PDLs autordas por parlamentar do partido", 
+       fill = "Efeito")
+```
 
 
 ```{r}

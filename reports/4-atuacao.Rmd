@@ -31,6 +31,7 @@ library(hrbrthemes)
 theme_set(theme_ipsum_rc())
 
 source(here::here("code/read_ready.R"))
+source(here::here("reports/autorias.R"))
 ```
 
 ```{r}
@@ -70,7 +71,7 @@ detalhes_atuacao %>%
 ```
 
 ```{r}
-plot_atuacao = function(dados, titulo, offset_circulos) {
+plot_atuacao = function(dados, titulo, offset_circulos, max_acoes = NA) {
   dados %>%
     ggplot() +
     facet_grid(casa_autor ~ ., scales = "free") +
@@ -85,6 +86,7 @@ plot_atuacao = function(dados, titulo, offset_circulos) {
     scale_color_distiller(palette = "Spectral",
                           limits = c(-10, 10),
                           direction = 1) +
+    ylim(0, max_acoes) + 
     coord_flip() +
     scale_fill_brewer(palette = "Set2") +
     labs(
@@ -103,9 +105,11 @@ plot_atuacao = function(dados, titulo, offset_circulos) {
 
 ```{r fig.width=10, fig.height=8}
 min_acoes = 60
-resumo_atuacao %>%
+plt = resumo_atuacao %>%
   filter((casa_autor == "camara" & acoes_total > min_acoes)) %>%
   plot_atuacao( "Deputados/as mais atuantes", -5)
+max_acoes = layer_scales(plt)$y$range$range[2]
+plt
 ```
 
 ### E os governistas?
@@ -115,7 +119,7 @@ governistas_selecao = resumo_atuacao %>%
   filter(casa_autor == "camara", governismo > 5, acoes_total > 10)
 
 governistas_selecao %>%
-  plot_atuacao("Deputado/as governistas mais atuantes", -1)
+  plot_atuacao("Deputado/as governistas mais atuantes", -5, max_acoes)
 ```
 
 ### Detalhes da atuação dos governistas
@@ -164,6 +168,7 @@ resumo_atuacao %>%
   distinct(nome_autor, governismo, acoes_total, casa_autor) %>% 
   ggplot(aes(x = governismo, y = acoes_total)) + 
   facet_grid(casa_autor ~ .) + 
+  geom_smooth(se = F, color = "gray") + 
   geom_point(alpha = .6, color = "coral", size = 2) + 
   # scale_y_log10() + 
   labs(
