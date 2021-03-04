@@ -84,6 +84,8 @@ leis %>%
 
 ## Leis mais mencionadas em poposições positivas e negativas
 
+Repare que temos várias proposições de efeito positivo focadas em aumentar a pena de algum crime relacionado ao MA. 
+
 ```{r}
 leis %>% 
   filter(!is.na(classificacao_ambientalismo)) %>% 
