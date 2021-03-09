@@ -1,5 +1,5 @@
 ---
-title: "Proposições positivas e negativas"
+title: "Proposições segundo a convergência com agenda ambientalista"
 output:
   html_document:
     theme: paper
@@ -35,26 +35,26 @@ source(here::here("reports/autorias.R"))
 source(here::here("reports/escalas.R"))
 ```
 
-As proposições foram rotuladas como tendo efeito positivo, negativo ou sem clara definição para a pauta da defesa do meio ambiente e clima. 
+As proposições foram rotuladas como tendo efeito convergente, divergente ou sem clara definição para a pauta da defesa do meio ambiente e clima. 
 
 ```{r}
-proposicoes = read_proposicoes()
+proposicoes = read_proposicoes() 
 detalhes_autorias = read_autorias_det()
 resumo_autorias = read_autorias_res() %>%  select(-sexo,
                                                   -starts_with("id"))
 ```
 
 
-```{r}
+```{r fig.height=4}
 proposicoes %>%
-  filter(!is.na(classificacao_ambientalismo)) %>% 
-  count(classificacao_ambientalismo) %>%
-  ggplot(aes(x = classificacao_ambientalismo, y = n, fill = classificacao_ambientalismo)) +
+  filter(!is.na(efeito)) %>% 
+  count(efeito) %>%
+  ggplot(aes(x = efeito, y = n, fill = efeito)) +
   geom_chicklet() +
   escala_sinais +
   coord_flip() +
   labs(
-    title = "Efeito estimado das Proposições no geral",
+    title = "Convergência das Proposições no geral",
     subtitle = "Todos os tipos e em ambas as casas",
     x = "",
     y = "Proposições"
@@ -62,18 +62,18 @@ proposicoes %>%
 ```
 
 
-```{r}
+```{r fig.height=4}
 proposicoes %>% 
   filter(!is.na(casa_origem)) %>% 
-  count(casa_origem, classificacao_ambientalismo) %>% 
-  ggplot(aes(x = classificacao_ambientalismo, y = n, fill = classificacao_ambientalismo)) + 
+  count(casa_origem, efeito) %>% 
+  ggplot(aes(x = efeito, y = n, fill = efeito)) + 
   facet_grid(. ~ casa_origem) + 
   geom_chicklet() +
   coord_flip() + 
   escala_sinais +
   theme(legend.position = 'none') + 
   labs(
-    title = "Efeito estimado das Proposições por casa de origem",
+    title = "Convergência das Proposições por casa de origem",
     subtitle = "Todos os tipos",
     x = "",
     y = "Proposições"
@@ -82,19 +82,19 @@ proposicoes %>%
 
 ```{r}
 proposicoes %>% 
-  filter(!is.na(classificacao_ambientalismo)) %>% 
-  count(sigla_tipo, classificacao_ambientalismo) %>% 
+  filter(!is.na(efeito)) %>% 
+  count(sigla_tipo, efeito) %>% 
   group_by(sigla_tipo) %>% 
   mutate(n_tipo = sum(n)) %>% 
   ungroup() %>% 
   mutate(sigla_tipo = str_glue("{sigla_tipo} ({n_tipo})")) %>% 
-  ggplot(aes(x = reorder(sigla_tipo, n, sum), y = n, fill = classificacao_ambientalismo)) + 
+  ggplot(aes(x = reorder(sigla_tipo, n, sum), y = n, fill = efeito)) + 
   geom_col(position = "fill") + 
   escala_sinais +
   scale_y_percent() + 
   coord_flip() + 
   labs(
-    title = "Efeito estimado das Proposições por tipo",
+    title = "Convergência das Proposições por tipo",
     subtitle = "Número entre parêntese mostra quantas temos classificadas do tipo",
     x = "",
     y = "% das Proposições"
@@ -103,14 +103,14 @@ proposicoes %>%
 
 ```{r}
 proposicoes %>% 
-  filter(!is.na(classificacao_ambientalismo)) %>% 
+  filter(!is.na(efeito)) %>% 
   filter(lubridate::year(data_apresentacao) >= 2019) %>% 
   mutate(mes = lubridate::floor_date(data_apresentacao, "months")) %>% 
-  count(mes, classificacao_ambientalismo) %>% 
-  ggplot(aes(x = mes, y = n, fill = classificacao_ambientalismo)) + 
+  count(mes, efeito) %>% 
+  ggplot(aes(x = mes, y = n, fill = efeito)) + 
   geom_col(color = "black") + 
   escala_sinais + 
-  facet_grid(classificacao_ambientalismo~ ., scales = "free") + 
+  facet_grid(efeito~ ., scales = "free") + 
   labs(
     title = "Proposições e sinal ao longo do tempo",
     subtitle = "Todos os tipos e em ambas as casas",
@@ -123,22 +123,22 @@ proposicoes %>%
 
 ```{r}
 participacao = detalhes_autorias %>%
-  filter(!is.na(classificacao_ambientalismo), !(sigla_tipo %in% c("PEC", "MPV"))) %>% 
-  group_by(proposicao, classificacao_ambientalismo) %>% 
+  filter(!is.na(efeito), !(sigla_tipo %in% c("PEC", "MPV"))) %>% 
+  group_by(proposicao, efeito) %>% 
   filter(!is.na(partido)) %>% 
   summarise(autores = n(), 
             partidos = n_distinct(partido), 
             .groups = "drop")
 
 mais_autores = participacao %>% 
-  filter(classificacao_ambientalismo != "Neutro") %>% 
-  group_by(classificacao_ambientalismo) %>% 
+  filter(efeito != "Neutro") %>% 
+  group_by(efeito) %>% 
   slice_max(autores, n = 10, with_ties = F) %>% 
   ungroup()
 
 mais_partidos = participacao %>% 
-  filter(classificacao_ambientalismo != "Neutro") %>% 
-  group_by(classificacao_ambientalismo) %>% 
+  filter(efeito != "Neutro") %>% 
+  group_by(efeito) %>% 
   slice_max(partidos, n = 10, with_ties = F) %>% 
   ungroup()
 ```
@@ -146,7 +146,7 @@ mais_partidos = participacao %>%
 ```{r}
 participacao %>% 
   filter(autores > 1) %>% 
-  ggplot(aes(x = classificacao_ambientalismo, y = autores, color = classificacao_ambientalismo)) + 
+  ggplot(aes(x = efeito, y = autores, color = efeito)) + 
   geom_quasirandom(show.legend = F) + 
   escala_cor_sinais +
   coord_flip() + 
@@ -158,14 +158,14 @@ participacao %>%
 
 ```{r}
 mais_autores %>% 
-  ggplot(aes(x = reorder(proposicao, autores), y = autores, fill = classificacao_ambientalismo)) + 
+  ggplot(aes(x = reorder(proposicao, autores), y = autores, fill = efeito)) + 
   geom_chicklet(width = .75) +
-  facet_grid(reorder(classificacao_ambientalismo, -autores) ~ ., scales = "free") + 
+  facet_grid(reorder(efeito, -autores) ~ ., scales = "free") + 
   escala_sinais + 
   coord_flip() + 
   labs(x = "", 
        title = "Proposições de cada efeito com mais autores",
-       subtitle = "10 proposições com efeito positivo/negativo com mais autores",
+       subtitle = "10 proposições com efeito convergente/divergente com mais autores",
        fill = "Efeito") + 
   theme(legend.position = "None")
 ```
@@ -183,7 +183,7 @@ mais_autores %>%
 participacao %>%
   filter(partidos > 1) %>%
   ggplot(
-    aes(x = classificacao_ambientalismo, y = partidos, color = classificacao_ambientalismo)
+    aes(x = efeito, y = partidos, color = efeito)
   ) +
   geom_quasirandom(show.legend = F) +
   escala_cor_sinais +
@@ -199,16 +199,16 @@ mais_partidos %>%
   ggplot(aes(
     x = reorder(proposicao, partidos),
     y = partidos,
-    fill = classificacao_ambientalismo
+    fill = efeito
   )) +
   geom_chicklet(width = .75) +
-  facet_grid(reorder(classificacao_ambientalismo,-autores) ~ ., scales = "free") +
+  facet_grid(reorder(efeito,-autores) ~ ., scales = "free") +
   escala_sinais +
   coord_flip() +
   labs(
     x = "",
     title = "Proposições de cada efeito com mais partidos autores",
-    subtitle = "10 proposições com efeito positivo/negativo com mais partidos",
+    subtitle = "10 proposições com efeito convergente/divergente com mais partidos",
     fill = "Efeito"
   ) +
   theme(legend.position = "None")
