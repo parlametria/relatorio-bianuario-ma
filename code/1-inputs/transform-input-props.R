@@ -25,6 +25,7 @@ transform_input_proposicoes <-
     
     proposicoes_merge <- proposicoes_camara %>%
       bind_rows(proposicoes_senado) %>% 
+      filter(classificacao_ambientalismo != "Fora do tema") %>% 
       mutate(classificacao_ambientalismo = 
                case_when(
                  str_detect(tolower(classificacao_ambientalismo), "negativo") ~ "Negativo",

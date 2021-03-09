@@ -12,6 +12,7 @@ transform_input_votos <-
     )
     
     votos %>% 
+      filter(orientacao_ma != "Fora do tema") %>% 
       write_csv(votos_raw_file)
     
     flog.info(str_glue("Votos referência (orientação MA) de input para raw em {votos_raw_file}"))

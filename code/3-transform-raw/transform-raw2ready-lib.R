@@ -15,9 +15,12 @@ transform_proposicoes <-
     n_leggo = proposicoes_leggo %>% pull(id_leggo) %>% n_distinct()
     flog.info(str_glue("{n_leggo} proposições nos dados do leggo"))
     
-    proposicoes_input = read_proposicoes_input_raw(arquivo_props_input)
-    n_input = proposicoes_input %>% pull(proposicao) %>% n_distinct()
+    proposicoes_input_tudo = read_proposicoes_input_raw(arquivo_props_input) 
+    n_input = proposicoes_input_tudo %>% pull(proposicao) %>% n_distinct()
     flog.info(str_glue("{n_input} proposições na planilha de input"))
+    proposicoes_input = proposicoes_input_tudo %>% 
+      filter(classificacao_ambientalismo != "Fora do tema")
+    flog.info(str_glue("{NROW(proposicoes_input)} proposições no tema segundo input"))
     
     pi_long = pivot_longer(
       proposicoes_input,
@@ -32,7 +35,14 @@ transform_proposicoes <-
       inner_join(pi_long, by = c("id_ext")) %>%
       rename(nome_proposicao = proposicao) %>%
       filter(lubridate::year(data_apresentacao) >= 2019) %>%
-      mutate(status = if_else(status == "Lei", "Aprovada", status))
+      rename(efeito = classificacao_ambientalismo) %>% 
+      mutate(status = if_else(status == "Lei", "Aprovada", status), 
+             efeito = case_when(
+               efeito == "Positivo" ~ "Convergente",
+               efeito == "Negativo" ~ "Divergente",
+               efeito == "Neutro" ~ "Neutro",
+               TRUE ~ NA_character_
+             )) 
     
     n_cruzado = proposicoes_tudo %>% pull(id_leggo) %>% n_distinct()
     flog.info(str_glue("{n_cruzado} proposições após cruzar input e leggo"))
@@ -132,7 +142,7 @@ detalha_autorias = function(data) {
       casa,
       sigla_tipo,
       proposicao = nome_proposicao,
-      classificacao_ambientalismo,
+      efeito,
       autores,
       governismo,
       governismo_ma
@@ -151,9 +161,9 @@ resume_autorias = function(data) {
     summarise(
       assinadas = sum(assinadas),
       autorias_ponderadas = sum(autorias_ponderadas),
-      positivas = sum(classificacao_ambientalismo == "Positivo", na.rm = T),
-      negativas = sum(classificacao_ambientalismo == "Negativo", na.rm = T),
-      neutras = sum(classificacao_ambientalismo == "Neutro", na.rm = T),
+      positivas = sum(efeito == "Positivo", na.rm = T),
+      negativas = sum(efeito == "Negativo", na.rm = T),
+      neutras = sum(efeito == "Neutro", na.rm = T),
       .groups = "drop"
     )
 }
@@ -325,14 +335,14 @@ transform_votacoes <-
                          col_types = "ccc"))
     
     n_rotulos = rotuladas_raw %>%
-      count(orientacao_ma) %>%
-      pivot_wider(names_from = orientacao_ma, values_from = n)
+      count(orientacao_ma) 
     
     flog.info(
       str_glue(
-        "{sum(n_rotulos)} votações das planilhas, com {n_rotulos$`NA`} orientações NA"
+        "{NROW(rotuladas_raw)} votações das planilhas. Orientações:"
       )
     )
+    flog.info(paste(n_rotulos$orientacao_ma, n_rotulos$n))
     
     votos = rotuladas_raw %>%
       left_join(acontecidas, by = "id_votacao")
