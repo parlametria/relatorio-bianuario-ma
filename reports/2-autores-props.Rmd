@@ -70,7 +70,7 @@ detalhes_autorias %>%
   filter(nome == "Célio Studart") %>% 
   select(proposicao) %>% 
   left_join(proposicoes, by = c("proposicao" = "nome_proposicao")) %>% 
-  select(proposicao, urgencia, avanco, classificacao_ambientalismo, ementa) %>% 
+  select(proposicao, urgencia, avanco, efeito, ementa) %>% 
   reactable(defaultColDef = coluna_default, sortable = T, searchable = T)
 
 ```
@@ -160,7 +160,7 @@ resumo_autorias_todos %>%
 ```{r}
 autorias_partidos = 
   detalhes_autorias %>% 
-  select(proposicao, partido, classificacao_ambientalismo) %>% 
+  select(proposicao, partido, efeito) %>% 
   distinct()
 ```
 
@@ -168,28 +168,29 @@ autorias_partidos =
 ```{r}
 autorias_partidos %>%
   filter(!is.na(partido)) %>% 
-  count(partido, classificacao_ambientalismo) %>%
+  count(partido, efeito) %>%
   group_by(partido) %>% 
   mutate(total = sum(n)) %>% 
   ungroup() %>% 
-  ggplot(aes(x = reorder(partido, total), y = n, fill = classificacao_ambientalismo)) +
+  ggplot(aes(x = reorder(partido, total), y = n, fill = efeito)) +
   geom_chicklet() +
   escala_sinais + 
   coord_flip() +
   labs(title = "Participação dos partidos na autoria das proposições",
        subtitle = "Pelo menos um(a) parlamentar do partido é autor(a)",
        x = "", y = "PDLs autordas por parlamentar do partido", 
-       fill = "Efeito")
+       fill = "Convergência")
 ```
 
 ```{r fig.height=8}
 autorias_partidos %>%
   filter(!is.na(partido)) %>% 
-  count(partido, classificacao_ambientalismo) %>%
+  count(partido, efeito) %>%
+  mutate(efeito = factor(efeito, levels = c("Convergente", "Neutro", "Divergente"), ordered = T)) %>% 
   group_by(partido) %>% 
   mutate(total = sum(n)) %>% 
   ungroup() %>% 
-  ggplot(aes(x = reorder(partido, total), y = n, fill = classificacao_ambientalismo)) +
+  ggplot(aes(x = reorder(partido, total), y = n, fill = efeito)) +
   geom_col(position = "fill") +
   scale_y_percent() + 
   escala_sinais + 
@@ -197,15 +198,15 @@ autorias_partidos %>%
   labs(title = "Participação dos partidos na autoria das proposições",
        subtitle = "Pelo menos um(a) parlamentar do partido é autor(a)",
        x = "", y = "PDLs autordas por parlamentar do partido", 
-       fill = "Efeito")
+       fill = "Convergência")
 ```
 
 
 ```{r}
 autorias_partidos %>%
   filter(!is.na(partido)) %>% 
-  count(partido, classificacao_ambientalismo, sort = T, name = "Proposições") %>%
-  select(Partido = partido, Efeito = classificacao_ambientalismo, `Proposições`) %>% 
+  count(partido, efeito, sort = T, name = "Proposições") %>%
+  select(Partido = partido, Efeito = efeito, `Proposições`) %>% 
   reactable(searchable = T)
 ```
 
@@ -213,10 +214,9 @@ autorias_partidos %>%
 
 ```{r}
 autorias_partidos %>% 
-  filter(partido %in% c("PT", "REDE"), classificacao_ambientalismo == "Negativo") %>% 
+  filter(partido %in% c("PT", "REDE"), efeito == "Divergente") %>% 
   left_join(proposicoes %>% select(proposicao = nome_proposicao, ementa), 
             by = "proposicao") %>% 
-  rename(efeito = classificacao_ambientalismo) %>% 
   reactable()
 ```
 

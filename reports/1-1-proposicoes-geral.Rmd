@@ -91,6 +91,25 @@ proposicoes %>%
 ```
 
 
+```{r fig.height=8, fig.width=6}
+proposicoes %>%
+  mutate(mes = lubridate::floor_date(data_apresentacao, "months")) %>%
+  count(mes, sigla_tipo) %>%
+  ggplot(aes(x = mes, y = n, fill = sigla_tipo)) +
+  facet_grid(reorder(sigla_tipo, n) ~ . , scales = "free") + 
+  geom_chicklet(show.legend = FALSE) +
+  scale_x_datetime(
+    date_minor_breaks = "1 month",
+    date_labels = "%b/%y", 
+    position = "top"
+  ) +
+  labs(x = "Mês",
+       y = "Proposições apresentadas",
+       title = "Quando as proposições foram apresentadas", 
+       subtitle = "Por tipo. Escalas verticais são diferentes.")
+```
+
+
 
 ```{r}
 temas = proposicoes %>%
@@ -147,7 +166,7 @@ participacao %>%
   ) %>%
   count(num_autores, x) %>%
   arrange(x) %>% 
-  select(Autores = num_autores, proposições = n) %>% 
+  select(`Quantidade de autores` = num_autores, Proposições = n) %>% 
   reactable(compact = T,
             striped = T)
 ```

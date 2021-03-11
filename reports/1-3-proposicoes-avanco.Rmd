@@ -57,8 +57,8 @@ situacao %>%
     !(sigla_tipo %in% c("PEC", "MPV")),
     !(situacao %in% c("Ativa", "Sem urgência", "Ainda no início")),
     !is.na(situacao)) %>%
-  count(aspecto, situacao, classificacao_ambientalismo) %>%
-  ggplot(aes(x = situacao, y = n, fill =  classificacao_ambientalismo)) +
+  count(aspecto, situacao, efeito) %>%
+  ggplot(aes(x = situacao, y = n, fill =  efeito)) +
   facet_grid(reorder(aspecto,-n) ~ ., scales = "free") +
   geom_chicklet() +
   escala_sinais +
@@ -78,8 +78,8 @@ Progresso das PECs apresentadas em 2019 e 2020:
 situacao %>%
   filter(sigla_tipo == "PEC",
          aspecto != "urgencia") %>%
-  count(aspecto, situacao, classificacao_ambientalismo) %>%
-  ggplot(aes(x = situacao, y = n, fill =  classificacao_ambientalismo)) +
+  count(aspecto, situacao, efeito) %>%
+  ggplot(aes(x = situacao, y = n, fill =  efeito)) +
   facet_grid(reorder(aspecto, -n) ~ ., scales = "free") +
   geom_chicklet() +
   escala_sinais +
@@ -99,8 +99,8 @@ TO DO: As MPVs ativas abaixo não estão ativas. Falta corrigirmos isso.
 situacao %>%
   filter(sigla_tipo == "MPV",
          aspecto == "status") %>% 
-  count(aspecto, situacao, classificacao_ambientalismo) %>%
-  ggplot(aes(x = situacao, y = n, fill =  classificacao_ambientalismo)) +
+  count(aspecto, situacao, efeito) %>%
+  ggplot(aes(x = situacao, y = n, fill =  efeito)) +
   facet_grid(reorder(aspecto, -n) ~ ., scales = "free") +
   geom_chicklet() +
   escala_sinais +
@@ -113,7 +113,7 @@ situacao %>%
   )
 ```
 
-### Proposições de efeito negativo que tiveram tramitação avançada
+### Proposições de efeito Divergente que tiveram tramitação avançada
 
 ```{r}
 situacao %>%
@@ -125,14 +125,14 @@ situacao %>%
       "Urgência aprovada", 
       "Urgência apresentada"
     ),!is.na(situacao),
-    classificacao_ambientalismo == "Negativo"
+    efeito == "Divergente"
   ) %>%
   arrange(situacao) %>% 
   select(Proposição = nome_proposicao, situacao, ementa) %>% 
   reactable(searchable = T, striped = T, compact = T)
 ```
 
-### Proposições de efeito POSITIVO que tiveram tramitação avançada
+### Proposições de efeito Convergente que tiveram tramitação avançada
 
 ```{r}
 situacao %>%
@@ -145,7 +145,7 @@ situacao %>%
       "Arquivada",
       "Urgência apresentada"
     ),!is.na(situacao),
-    classificacao_ambientalismo == "Positivo"
+    efeito == "Convergente"
   ) %>%
   arrange(situacao) %>% 
   select(Proposição = nome_proposicao, situacao, ementa) %>% 
@@ -176,16 +176,16 @@ situacao %>%
 
 ```{r}
 prop_situacao = situacao %>% 
-  filter(!is.na(situacao), !is.na(classificacao_ambientalismo), !(sigla_tipo %in% c("PEC", "MPV"))) %>% 
-  group_by(aspecto, classificacao_ambientalismo) %>% 
+  filter(!is.na(situacao), !is.na(efeito), !(sigla_tipo %in% c("PEC", "MPV"))) %>% 
+  group_by(aspecto, efeito) %>% 
   mutate(total_classe = n()) %>% 
-  group_by(aspecto, situacao, classificacao_ambientalismo) %>% 
-  filter(classificacao_ambientalismo != "Neutro") %>% 
+  group_by(aspecto, situacao, efeito) %>% 
+  filter(efeito != "Neutro") %>% 
   summarise(total = mean(total_classe), prop_situacao = n() / total, count_situacao = n())
 
 prop_situacao %>% 
   filter(!(situacao %in% c("Ativa", "Sem urgência", "Ainda no início"))) %>% 
-  ggplot(aes(x = situacao, y = prop_situacao, fill =  classificacao_ambientalismo)) + 
+  ggplot(aes(x = situacao, y = prop_situacao, fill =  efeito)) + 
   facet_grid(reorder(aspecto, -prop_situacao) ~ ., scales = "free") + 
   geom_chicklet(position = "dodge") + 
   escala_sinais + 
@@ -229,7 +229,7 @@ detalhes_autorias %>%
   filter(proposicao %in% aprovadas$`Proposição`, 
          sigla_tipo != 'MPV', 
          nome != 'Poder Executivo') %>%
-  ggplot(aes(y = governismo, x = reorder(proposicao, governismo), color = classificacao_ambientalismo)) +
+  ggplot(aes(y = governismo, x = reorder(proposicao, governismo), color = efeito)) +
   geom_quasirandom(size = 2) + 
   escala_cor_sinais + 
   coord_flip() + 

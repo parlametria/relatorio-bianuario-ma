@@ -1,7 +1,7 @@
-library(tidyverse)
+library(tidyverse, warn.conflicts = F, quietly = T)
 library(futile.logger)
 source(here::here("code/3-transform-raw/transform-raw2ready-lib.R"))
-flog.threshold(TRACE, "transform-raw")
+flog.threshold(TRACE)
 
 #' Main do script para uso em CLI.
 #' Para uso interativo, chame main() no console
@@ -69,18 +69,30 @@ main <- function(argv = NULL) {
     write_csv(here::here(out_atuacao))
   flog.info(str_glue("Atuação salva em {out_atuacao}"))
   
+  # VOTAÇÕES
+  votacoes = transform_votacoes(
+    rotuladas_file = "data/raw/votos/votos-referencia.csv",
+    acontecidas_camara = "data/raw/votos/votos_camara.csv",
+    acontecidas_senado = "data/raw/votos/votos_senado.csv"
+  )
+  
+  votacoes %>% 
+    write_csv(out_votacoes)
+  
+  flog.info(str_glue("Votações escritas em {out_votacoes}"))
+  
   # VOTOS
   votos_cam_detalhes = transform_votos_detalhes(
     acontecidas_file = "data/raw/votos/votos_camara.csv",
-    rotuladas_file = "data/raw/votos/votos-referencia.csv",
     parlamentares,
+    votacoes,
     casa_votacoes = "camara"
   )
   
   votos_sen_detalhes = transform_votos_detalhes(
     acontecidas_file = "data/raw/votos/votos_senado.csv",
-    rotuladas_file = "data/raw/votos/votos-referencia.csv",
     parlamentares,
+    votacoes,
     casa_votacoes = "senado"
   )
   
@@ -92,12 +104,7 @@ main <- function(argv = NULL) {
     )
   )
   
-  votos_cam_resumo = transform_votos_resumo(
-    acontecidas_file = "data/raw/votos/votos_camara.csv",
-    rotuladas_file = "data/raw/votos/votos-referencia.csv",
-    parlamentares,
-    casa_votacoes = "camara"
-  )
+  votos_cam_resumo = transform_votos_resumo(votos_cam_detalhes)
   
   votos_cam_resumo %>%
     write_csv(here::here(out_votos_cam_resumo))
@@ -112,17 +119,6 @@ main <- function(argv = NULL) {
   #   casa_votacoes = "senado"
   # )
   
-  # VOTAÇÕES
-  votacoes = transform_votacoes(
-    rotuladas_file = "data/raw/votos/votos-referencia.csv",
-    acontecidas_camara = "data/raw/votos/votos_camara.csv",
-    acontecidas_senado = "data/raw/votos/votos_senado.csv"
-  )
-  
-  votacoes %>% 
-    write_csv(out_votacoes)
-  
-  flog.info(str_glue("Votações escritas em {out_votacoes}"))
   
   # NÓS E ARESTAS DE GRAFO DE PARTIDO
   nos_arestas <- transform_nos_e_arestas(autorias)

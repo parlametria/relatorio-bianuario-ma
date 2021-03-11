@@ -129,7 +129,7 @@ relatorias %>%
 ```
 
 
-Projetos com Carlos Gomes
+### Projetos relatados por Carlos Gomes
 
 ```{r}
 relatorias %>% 
@@ -146,17 +146,17 @@ relatorias %>%
 ```{r fig.height=6}
 relatorias %>%
   filter(!is.na(nome)) %>% 
-  select(nome_proposicao, classificacao_ambientalismo, partido) %>% 
-  count(partido, classificacao_ambientalismo) %>%
+  select(nome_proposicao, efeito, partido) %>% 
+  count(partido, efeito) %>%
   group_by(partido) %>% 
   mutate(total = sum(n)) %>% 
-  ggplot(aes(x = reorder(partido, total), y = n, fill = classificacao_ambientalismo)) +
+  ggplot(aes(x = reorder(partido, total), y = n, fill = efeito)) +
   geom_chicklet() +
   escala_sinais + 
   coord_flip() +
   labs(title = "Participação dos partidos na relatoria dos proposições",
        x = "", y = "PDLs relatadas por parlamentar do partido", 
-       fill = "Efeito")
+       fill = "Convergência")
 ```
 
 
@@ -164,9 +164,9 @@ relatorias %>%
 
 ```{r}
 relatorias %>% 
-  filter(!is.na(governismo), !is.na(classificacao_ambientalismo), classificacao_ambientalismo != "Neutro") %>%
-  ggplot(aes(x = governismo, fill = classificacao_ambientalismo)) + 
-  facet_grid(classificacao_ambientalismo ~ ., scales = "free" ) +
+  filter(!is.na(governismo), !is.na(efeito), efeito != "Neutro") %>%
+  ggplot(aes(x = governismo, fill = efeito)) + 
+  facet_grid(efeito ~ ., scales = "free" ) +
   geom_histogram(binwidth = 1) + 
   geom_rug() + 
   theme(legend.position = "None") + 
@@ -177,22 +177,3 @@ relatorias %>%
     subtitle = "Cada relatoria conta uma vez."
   )
 ```
-
-
-
-```{r}
-relatorias %>% 
-  filter(!is.na(peso_politico + governismo)) %>% 
-  count(nome, casa, peso_politico, governismo) %>% 
-  ggplot(aes(y = peso_politico, x = governismo, size = n)) + 
-  facet_grid(casa ~ .) + 
-  scale_color_discrete(name = NULL) + 
-  geom_point(alpha = .6, color = "coral4") + 
-  labs(y = "Peso político no parlametria", 
-       x = "Governismo", 
-       title = "Peso político e governismo entre relatores das proposições", 
-       subtitle = "Cada ponto é um(a) parlamentar. Maiores relataram mais.") + 
-  theme(legend.position = "None")
-```
-
-

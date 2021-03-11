@@ -7,7 +7,12 @@ read_proposicoes = function() {
       .default = col_character(),
       data_apresentacao = col_datetime(format = "")
     )
-  )
+  ) %>%
+    mutate(efeito = factor(
+      efeito,
+      levels = c("Divergente", "Neutro", "Convergente"),
+      ordered = T
+    ))
 }
 
 read_autorias_res = function() {
@@ -64,36 +69,38 @@ read_relatoria <- function() {
   )
 }
 
-read_votos_resumo <- function(arquivo = "data/ready/votos-camara-resumo.csv") {
+read_votos_resumo <-
+  function(arquivo = "data/ready/votos-camara-resumo.csv") {
+    read_csv(
+      here::here(arquivo),
+      col_types = cols(
+        .default = col_double(),
+        nome = col_character(),
+        casa = col_character(),
+        id_entidade_parlametria = col_character(),
+        partido = col_character(),
+        uf = col_character()
+      )
+    )
+  }
+
+read_votos_detalhe <-
+  function(arquivo = "data/ready/votos-camara-detalhes.csv") {
+    read_csv(
+      here::here(arquivo),
+      col_types = cols(
+        .default = col_character(),
+        data = col_datetime(format = ""),
+        governismo = col_double(),
+        governismo_ma = col_double(),
+        peso_politico = col_double()
+      )
+    )
+  }
+
+read_votacoes <- function(arquivo = "data/ready/votacoes.csv") {
   read_csv(
     here::here(arquivo),
-    col_types = cols(
-      .default = col_double(),
-      nome = col_character(),
-      casa = col_character(),
-      id_entidade_parlametria = col_character(),
-      partido = col_character(),
-      uf = col_character()
-    )
-  )
-}
-
-read_votos_detalhe <- function(arquivo = "data/ready/votos-camara-detalhes.csv") {
-  read_csv(
-    here::here(arquivo), 
-    col_types = cols(
-      .default = col_character(),
-      data = col_datetime(format = ""),
-      governismo = col_double(),
-      governismo_ma = col_double(),
-      peso_politico = col_double()
-    )
-  ) 
-}
-
-read_votacoes <- function(arquivo = "data/ready/votacoes.csv"){
-  read_csv(
-    here::here(arquivo), 
     col_types = cols(
       .default = col_double(),
       orientacao_ma = col_character(),
@@ -105,28 +112,28 @@ read_votacoes <- function(arquivo = "data/ready/votacoes.csv"){
       autor = col_character(),
       tema = col_character(),
       id_votacao = col_character(),
-      casa = col_character()
+      casa = col_character(), 
+      vitoria = col_character(), 
+      significado_obstrucao = col_character()
     )
   )
 }
 
-read_nos_partidos <- function(arquivo = "data/ready/nos-partidos.csv") {
-  read_csv(
-    here::here(arquivo), 
-    col_types = cols(
-      index = col_integer(),
-      partido = col_character()
-    )
-  )
-}
+read_nos_partidos <-
+  function(arquivo = "data/ready/nos-partidos.csv") {
+    read_csv(here::here(arquivo),
+             col_types = cols(index = col_integer(),
+                              partido = col_character()))
+  }
 
-read_arestas_partidos <- function(arquivo = "data/ready/arestas-partidos.csv") {
-  read_csv(
-    here::here(arquivo), 
-    col_types = cols(
-      source = col_integer(),
-      target = col_integer(),
-      peso_total_arestas = col_double()
+read_arestas_partidos <-
+  function(arquivo = "data/ready/arestas-partidos.csv") {
+    read_csv(
+      here::here(arquivo),
+      col_types = cols(
+        source = col_integer(),
+        target = col_integer(),
+        peso_total_arestas = col_double()
+      )
     )
-  )
-}
+  }

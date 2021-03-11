@@ -53,10 +53,12 @@ votacoes_todas = read_votacoes() %>%
     orientacao_planilha = if_else(is.na(orientacao_ma), "Sem orientação", orientacao_ma)) 
 
 proposicoes = read_proposicoes() %>% 
-  select(nome_proposicao, efeito = classificacao_ambientalismo)
+  select(nome_proposicao, efeito)
 
-votacoes = votacoes_todas %>% 
-  filter(votos_capturados > 20) %>% 
+votacoes = votacoes_todas %>%
+  filter((casa == "camara" &
+            votos_capturados > 100) |
+           (casa == "senado" & votos_capturados > 30)) %>%
   left_join(proposicoes, by = c("nome_proposicao"))  
 ```
 
@@ -77,36 +79,25 @@ votacoes %>%
 
 ```{r}
 votacoes %>% 
-  filter(!is.na(efeito)) %>% 
-  count(efeito) %>% 
-  ggplot(aes(x = reorder(efeito, -n), 
-             y = n, 
-             fill = efeito)) + 
-  escala_sinais + 
-  geom_col(show.legend = F) + 
-  labs(
-    title = "O que vai a votação nominal?", 
-    subtitle = "Proposições com que tipo de efeito", 
-    x = "", 
-    y = "Votações"
-  )
+  filter(orientacao_ma != "Liberado") %>% 
+  count(vitoria, name = "Votações") %>% 
+  reactable()
 ```
 
 
 ```{r fig.height=9}
 votacoes %>% 
   ggplot(aes(x = reorder(nome_proposicao, consenso, min), y = consenso, 
-             color = orientacao_planilha)) + 
+             color = vitoria)) + 
   geom_point(alpha = .8, size = 3) + 
-  facet_grid(reorder(efeito, -consenso) ~ ., scales = "free") + 
   scale_y_continuous(position = "right") +  
   coord_flip() + 
   labs(
-    title = "Consenso nas votações nominais", 
+    title = "Consenso e resultado nas votações nominais", 
     subtitle = "De acordo com efeito das proposições", 
     x = "", 
     y = "Consenso (índice de Rice)", 
-    color = "Orientação"
+    color = "Resultado"
   ) + 
   theme(legend.position = "top")
 ```

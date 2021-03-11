@@ -49,9 +49,10 @@ extrai_leis = function(ementas){
 leis = proposicoes %>%
   transmute(
     nome_proposicao,
-    classificacao_ambientalismo,
+    efeito,
     ementa = ementa,
     status,
+    data_apresentacao,
     lei_raw = extrai_leis(ementa)
   ) %>%
   unnest(lei_raw) %>% 
@@ -88,21 +89,21 @@ Repare que temos várias proposições de efeito positivo focadas em aumentar a 
 
 ```{r}
 leis %>% 
-  filter(!is.na(classificacao_ambientalismo)) %>% 
-  count(classificacao_ambientalismo, lei, sort = T) %>% 
+  filter(!is.na(efeito)) %>% 
+  count(efeito, lei, sort = T) %>% 
   group_by(lei) %>% 
   mutate(n_total = sum(n)) %>% 
   filter(n_total > 7) %>% 
-  ggplot(aes(x = reorder(lei, n_total), y = n, fill = classificacao_ambientalismo)) + 
+  ggplot(aes(x = reorder(lei, n_total), y = n, fill = efeito)) + 
   geom_chicklet() + 
   escala_sinais + 
   coord_flip() + 
   labs(
     title = "Leis mais mencionadas nas ementas",
-    subtitle = "Cor indica efeito da proposição que menciona a lei",
+    # subtitle = "Cor indica efeito da proposição que menciona a lei",
     x = "", 
     y = "Ementas", 
-    fill = "Efeito"
+    fill = "Convergência"
   )
 ```
 
@@ -115,8 +116,30 @@ Proposições apresentadas e aprovadas no período 2019-2020.
 leis %>% 
   filter(status == "Aprovada") %>% 
   select(aprovada = nome_proposicao, 
-         efeito = classificacao_ambientalismo, 
+         efeito = efeito, 
          menciona = lei, 
          ementa) %>% 
   reactable(searchable = T, compact = T, striped = T)
 ```
+
+```{r}
+top_leis = leis %>% 
+  count(lei) %>% 
+  slice_max(n, n = 4)
+  
+leis %>% 
+  filter(lei %in% top_leis$lei) %>% 
+  mutate(mes = lubridate::floor_date(data_apresentacao, "months")) %>% 
+  count(lei, mes) %>% 
+  ggplot(aes(x = mes, y = n)) + 
+  facet_wrap(~ reorder(lei, -n, sum), ncol = 2) + 
+  geom_chicklet(fill = "brown") + 
+  labs(
+    title = "Proposições mencionando as leis mês a mês", 
+    subtitle = "Para as leis mais mencionadas", 
+    x = "Mês", 
+    y = "Proposições"
+  )
+
+```
+
