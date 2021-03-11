@@ -74,7 +74,7 @@ detalhes_atuacao %>%
 plot_atuacao = function(dados, titulo, offset_circulos, max_acoes = NA) {
   dados %>%
     ggplot() +
-    facet_grid(casa_autor ~ ., scales = "free") +
+    # facet_grid(casa_autor ~ ., scales = "free") +
     geom_chicklet(aes(
       x = reorder(nome_autor, acoes_total),
       y = acoes,
@@ -103,8 +103,8 @@ plot_atuacao = function(dados, titulo, offset_circulos, max_acoes = NA) {
 
 ## Mais atuantes na Câmara
 
-```{r fig.width=10, fig.height=8}
-min_acoes = 60
+```{r fig.width=10, fig.height=10}
+min_acoes = 40
 plt = resumo_atuacao %>%
   filter((casa_autor == "camara" & acoes_total > min_acoes)) %>%
   plot_atuacao( "Deputados/as mais atuantes", -5)
