@@ -174,8 +174,8 @@ participacao %>%
 ```{r}
 participacao %>% 
   top_n(15, autores) %>% 
-  ggplot(aes(x = reorder(proposicao, autores), y = autores, fill = sigla_)) + 
-  geom_chicklet(width = .5) +
+  ggplot(aes(x = reorder(proposicao, autores), y = autores)) + 
+  geom_chicklet(width = .5, fill = "#f7c74f") +
   coord_flip() + 
   labs(x = "", 
        title = "Proposições com mais autores")
