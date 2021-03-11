@@ -15,10 +15,10 @@ transform_proposicoes <-
     n_leggo = proposicoes_leggo %>% pull(id_leggo) %>% n_distinct()
     flog.info(str_glue("{n_leggo} proposições nos dados do leggo"))
     
-    proposicoes_input_tudo = read_proposicoes_input_raw(arquivo_props_input) 
+    proposicoes_input_tudo = read_proposicoes_input_raw(arquivo_props_input)
     n_input = proposicoes_input_tudo %>% pull(proposicao) %>% n_distinct()
     flog.info(str_glue("{n_input} proposições na planilha de input"))
-    proposicoes_input = proposicoes_input_tudo %>% 
+    proposicoes_input = proposicoes_input_tudo %>%
       filter(classificacao_ambientalismo != "Fora do tema")
     flog.info(str_glue("{NROW(proposicoes_input)} proposições no tema segundo input"))
     
@@ -35,14 +35,16 @@ transform_proposicoes <-
       inner_join(pi_long, by = c("id_ext")) %>%
       rename(nome_proposicao = proposicao) %>%
       filter(lubridate::year(data_apresentacao) >= 2019) %>%
-      rename(efeito = classificacao_ambientalismo) %>% 
-      mutate(status = if_else(status == "Lei", "Aprovada", status), 
-             efeito = case_when(
-               efeito == "Positivo" ~ "Convergente",
-               efeito == "Negativo" ~ "Divergente",
-               efeito == "Neutro" ~ "Neutro",
-               TRUE ~ NA_character_
-             )) 
+      rename(efeito = classificacao_ambientalismo) %>%
+      mutate(
+        status = if_else(status == "Lei", "Aprovada", status),
+        efeito = case_when(
+          efeito == "Positivo" ~ "Convergente",
+          efeito == "Negativo" ~ "Divergente",
+          efeito == "Neutro" ~ "Neutro",
+          TRUE ~ NA_character_
+        )
+      )
     
     n_cruzado = proposicoes_tudo %>% pull(id_leggo) %>% n_distinct()
     flog.info(str_glue("{n_cruzado} proposições após cruzar input e leggo"))
@@ -161,8 +163,8 @@ resume_autorias = function(data) {
     summarise(
       assinadas = sum(assinadas),
       autorias_ponderadas = sum(autorias_ponderadas),
-      positivas = sum(efeito == "Positivo", na.rm = T),
-      negativas = sum(efeito == "Negativo", na.rm = T),
+      positivas = sum(efeito == "Convergente", na.rm = T),
+      negativas = sum(efeito == "Divergente", na.rm = T),
       neutras = sum(efeito == "Neutro", na.rm = T),
       .groups = "drop"
     )
@@ -265,40 +267,39 @@ cruza_destaques_tramitacao <- function(props,
 
 transform_votos_detalhes <-
   function(acontecidas_file = "data/raw/votos/votos_camara.csv",
-           rotuladas_file = "data/raw/votos/votos-referencia.csv",
            parlamentares,
+           votacoes,
            casa_votacoes = "camara") {
-    rotuladas_raw = read_csv(
-      here::here(rotuladas_file),
-      col_types = cols(.default = col_character(),
-                       data = col_datetime(format = ""))
-    )
-    
     acontecidas = read_csv(here::here(acontecidas_file),
                            col_types = "ccc")
     
-    rotuladas = rotuladas_raw %>%
-      filter(orientacao_ma %in% c("SIM", "NÃO"))
-    
-    votos = rotuladas %>%
-      filter(casa == casa_votacoes) %>%
+    votos = votacoes %>%
+      filter(votos_capturados > 0, casa == casa_votacoes) %>%
       left_join(acontecidas, by = "id_votacao") %>%
       left_join(parlamentares,
-                by = c("id_parlamentar" = "id_entidade", "casa" = "casa"))
+                by = c("id_parlamentar" = "id_entidade", "casa" = "casa")) %>% 
+      mutate(apoiou = .apoiou(voto, orientacao_ma, significado_obstrucao)) %>% 
+      select(-starts_with("votos"))
     
     votos
   }
 
+.apoiou = function(voto,
+                   orientacao_ma,
+                   significado_obstrucao) {
+  case_when(
+    !(voto %in% c("Sim", "Não", "Obstrução")) ~ "indefinido",
+    voto %in% c("Sim", "Não") &
+      voto == orientacao_ma ~ "apoio",
+    voto == "Obstrução" &
+      significado_obstrucao == orientacao_ma ~ "apoio",
+    TRUE ~ "contra"
+  )
+}
+
 transform_votos_resumo <-
-  function(acontecidas_file = "data/raw/votos/votos_camara.csv",
-           rotuladas_file = "data/raw/votos/votos-referencia.csv",
-           parlamentares,
-           casa_votacoes = "camara") {
-    detalhes = transform_votos_detalhes(acontecidas_file,
-                                        rotuladas_file,
-                                        parlamentares,
-                                        casa_votacoes)
-    detalhes %>%
+  function(votos) {
+    votos %>%
       group_by(
         nome,
         id_entidade_parlametria,
@@ -309,7 +310,23 @@ transform_votos_resumo <-
         governismo_ma,
         peso_politico
       ) %>%
-      .resume_votos()
+      mutate(apoiou = .apoiou(voto, orientacao_ma, significado_obstrucao))  %>%
+      summarise(
+        votos_parlamentar = n(),
+        votos_favoraveis = sum(apoiou == "apoio"),
+        votos_contra = sum(apoiou == "contra"),
+        votos_abstencao = sum(voto == "Abstenção"),
+        votos_indef = sum(apoiou == "indefinido"),
+        apoio = votos_favoraveis / (votos_favoraveis + votos_contra),
+        apoio_estrito = votos_favoraveis / (votos_favoraveis + votos_contra + votos_abstencao),
+        votos_obstrucao = sum(voto == "Obstrução"),
+        votos_sim_nao = sum(voto %in% c("Sim", "Não")),
+        votos_outros = sum(!is.na(voto) &
+                             !(voto %in% c(
+                               "Sim", "Não", "Obstrução"
+                             ))),
+        .groups = "drop"
+      )
   }
 
 
@@ -335,19 +352,17 @@ transform_votacoes <-
                          col_types = "ccc"))
     
     n_rotulos = rotuladas_raw %>%
-      count(orientacao_ma) 
+      count(orientacao_ma)
     
-    flog.info(
-      str_glue(
-        "{NROW(rotuladas_raw)} votações das planilhas. Orientações:"
-      )
-    )
+    flog.info(str_glue("{NROW(rotuladas_raw)} votações das planilhas. Orientações:"))
     flog.info(paste(n_rotulos$orientacao_ma, n_rotulos$n))
     
     votos = rotuladas_raw %>%
       left_join(acontecidas, by = "id_votacao")
     
     votacoes = votos %>%
+      group_by(id_votacao, casa) %>%
+      mutate(significado_obstrucao = if_else(sum(voto == "Sim") > sum(voto == "Não"), "Não", "Sim")) %>%
       group_by(
         orientacao_ma,
         nome_proposicao,
@@ -358,10 +373,18 @@ transform_votacoes <-
         autor,
         tema,
         id_votacao,
-        casa
+        casa,
+        significado_obstrucao
       ) %>%
       .resume_votos() %>%
-      mutate(consenso = abs(votos_sim - votos_nao) / (votos_sim_nao))
+      mutate(
+        consenso = abs(votos_sim - votos_nao) / (votos_sim_nao),
+        vitoria = case_when(
+          orientacao_ma == "Liberado" ~ NA_character_,
+          votos_favoraveis > votos_contra + votos_indef ~ "vitória",
+          TRUE ~ "derrota"
+        )
+      )
     
     votacoes
   }
@@ -371,11 +394,7 @@ transform_votacoes <-
     mutate(
       orientacao_ma = stringr::str_to_title(orientacao_ma),
       voto = stringr::str_to_title(voto),
-      apoiou = if_else(
-        voto %in% c("Sim", "Não"),
-        if_else((orientacao_ma == voto), "apoio", "contra"),
-        "indefinido"
-      )
+      apoiou = .apoiou(voto, orientacao_ma, significado_obstrucao)
     )  %>%
     summarise(
       votos_capturados = sum(!is.na(id_parlamentar)),
@@ -385,9 +404,12 @@ transform_votacoes <-
       apoio = votos_favoraveis / (votos_favoraveis + votos_contra),
       votos_sim = sum(voto == "Sim"),
       votos_nao = sum(voto == "Não"),
+      votos_obstrucao = sum(voto == "Obstrução"),
       votos_sim_nao = votos_sim + votos_nao,
       votos_outros = sum(!is.na(voto) &
-                           voto != "Sim" & voto != "Não"),
+                           !(voto %in% c(
+                             "Sim", "Não", "Obstrução"
+                           ))),
       .groups = "drop"
     )
 }
@@ -408,7 +430,7 @@ transform_votacoes <-
 }
 
 #' @title Remove relação duplicadas entre autores
-#' @description Recebe um dataframe e retira as linhas comutadas repetidas 
+#' @description Recebe um dataframe e retira as linhas comutadas repetidas
 #' de coautorias. Ex: em uma linha x e y autorou em z;
 #'  em outra linha y e x autorou em z.
 #' @param df Dataframe de coautorias
@@ -418,8 +440,8 @@ transform_votacoes <-
   df %>%
     mutate(col_pairs =
              .paste_cols(partido.x,
-                        partido.y,
-                        sep = ":")) %>%
+                         partido.y,
+                         sep = ":")) %>%
     group_by(col_pairs) %>%
     tidyr::separate(col = col_pairs,
                     c("partido.x",
@@ -429,45 +451,44 @@ transform_votacoes <-
     distinct()
 }
 
-#' @title Transforma autorias detalhada das proposições 
+#' @title Transforma autorias detalhada das proposições
 #' em nós e arestas de coautoria.
 #' @param autorias_detalhadas_df Dataframe de autorias detalhadas
 transform_nos_e_arestas <- function(autorias_detalhadas_df) {
-
   autorias_df <- autorias_detalhadas_df %>%
     filter(!is.na(partido), sigla_tipo != "PEC") %>%
     mutate(partido = if_else(partido == "PODE", "PODEMOS", partido)) %>% # Padroniza
     group_by(proposicao) %>%
-    mutate(partidos = n_distinct(partido)) %>% 
-    distinct(proposicao, partido, partidos) %>% 
-    filter(partidos > 1) %>% 
-    mutate(peso_aresta = 1/partidos) %>% 
-    ungroup() %>% 
+    mutate(partidos = n_distinct(partido)) %>%
+    distinct(proposicao, partido, partidos) %>%
+    filter(partidos > 1) %>%
+    mutate(peso_aresta = 1 / partidos) %>%
+    ungroup() %>%
     select(-partidos)
   
-  coautorias_df <- autorias_df %>% 
-    full_join(autorias_df, 
-              by = c("proposicao", "peso_aresta")) %>% 
-    filter(partido.x != partido.y) %>% 
-    .remove_duplicated_edges() %>% 
-    group_by(partido.x, partido.y) %>% 
-    summarise(peso_total_arestas = sum(peso_aresta), 
-              .groups = "drop") %>% 
-    ungroup() %>% 
+  coautorias_df <- autorias_df %>%
+    full_join(autorias_df,
+              by = c("proposicao", "peso_aresta")) %>%
+    filter(partido.x != partido.y) %>%
+    .remove_duplicated_edges() %>%
+    group_by(partido.x, partido.y) %>%
+    summarise(peso_total_arestas = sum(peso_aresta),
+              .groups = "drop") %>%
+    ungroup() %>%
     filter(peso_total_arestas >= 0.1) # Filtra por peso mínimo
   
-  nodes <- autorias_df %>% 
+  nodes <- autorias_df %>%
     distinct(partido) %>%
-    rowid_to_column("index") %>% 
+    rowid_to_column("index") %>%
     mutate(index = index - 1) # Índice deve começar em 0
-    
-  edges <- coautorias_df %>% 
-    left_join(nodes, by=c("partido.x" = "partido")) %>% 
-    left_join(nodes, by = c("partido.y" = "partido")) %>% 
-    select(source = index.x, target = index.y, peso_total_arestas) 
-
-  nodes = nodes %>% 
+  
+  edges <- coautorias_df %>%
+    left_join(nodes, by = c("partido.x" = "partido")) %>%
+    left_join(nodes, by = c("partido.y" = "partido")) %>%
+    select(source = index.x, target = index.y, peso_total_arestas)
+  
+  nodes = nodes %>%
     rename(Id = index, Label = partido) # para o GEPHI
-    
+  
   return(list(nos = nodes, arestas = edges))
 }

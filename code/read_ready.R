@@ -112,7 +112,9 @@ read_votacoes <- function(arquivo = "data/ready/votacoes.csv") {
       autor = col_character(),
       tema = col_character(),
       id_votacao = col_character(),
-      casa = col_character()
+      casa = col_character(), 
+      vitoria = col_character(), 
+      significado_obstrucao = col_character()
     )
   )
 }
