@@ -132,7 +132,7 @@ detalhes_atuacao %>%
     nome_proposicao,
     tipo_documento,
     descricao_tipo_documento,
-    classificacao_ambientalismo,
+    efeito,
     ementa
   ) %>%
   count() %>%
@@ -142,7 +142,7 @@ detalhes_atuacao %>%
     Ação = tipo_documento,
     `Descrição da ação` = descricao_tipo_documento,
     Quantidade = n,
-    Efeito = classificacao_ambientalismo,
+    Convergência = efeito,
     `Ementa da prop.` = ementa
   ) %>%
   reactable(searchable = T, 

@@ -57,7 +57,7 @@ tbl_autorias_resumida = function(data) {
           }
         ),
         positivas = colDef(
-          name = "Prop. positivas",
+          name = "Prop. converg.",
           minWidth = 70,
           defaultSortOrder = "desc",
           style = function(value) {
@@ -65,7 +65,7 @@ tbl_autorias_resumida = function(data) {
           }
         ),
         negativas = colDef(
-          name = "Prop. negativas",
+          name = "Prop. diverg.",
           minWidth = 70,
           defaultSortOrder = "desc",
           style = function(value) {
@@ -121,8 +121,8 @@ tbl_detalhes_autorias = function(data) {
       defaultSorted = "assinadas",
       columns = list(
         nome = colDef(name = "Parlamentar", minWidth = 150),
-        classificacao_ambientalismo = colDef(
-          name = "Efeito", 
+        efeito = colDef(
+          name = "Convergência", 
           minWidth = 50
         ),
         governismo = colDef(

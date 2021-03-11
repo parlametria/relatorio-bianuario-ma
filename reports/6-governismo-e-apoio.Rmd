@@ -51,11 +51,12 @@ tabela_governismo = function(d, ...) {
            governismo,
            apoio_ma,
            peso_politico,
-           votos_sim_nao) %>%
+           votos_parlamentar, 
+           votos_abstencao) %>%
     reactable(
       searchable = T,
       defaultSortOrder = "desc",
-      defaultSorted = c("governismo"),
+      defaultSorted = c("apoio_ma"),
       defaultColDef = colDef(
         header = function(value)
           gsub("_", " ", value, fixed = TRUE) %>% str_to_sentence(),
@@ -93,22 +94,26 @@ votos_resumo %>%
 votos_resumo %>% 
   filter(!is.na(governismo), !is.na(apoio_ma)) %>% 
   ggplot(aes(x = governismo, y = apoio_ma, size = votos_sim_nao)) + 
-  geom_point(alpha = .6, color = "brown") + 
+  geom_point(alpha = .3, color = "brown") + 
   theme(legend.position = "None") + 
-  labs(title = "Governismo x Apoio ao MA")
+  scale_y_percent() + 
+  labs(title = "Governismo x Apoio ao MA", 
+       y = "Apoio ao MA em votações")
 ```
 
 ### Parlamentares atuantes, algo alinhados e neutros/governistas
 
+Pontos de corte atuais: apoio ao MA em 45% das votações, ao menos 10 votos, governismo 1 ou mais.
+
 ```{r fig.width=6}
 votos_c_destaque = votos_resumo %>% 
   filter(!is.na(governismo), !is.na(apoio_ma)) %>% 
-  mutate(zona_cinza = apoio_ma > .5 & votos_sim_nao > 10 & governismo > -1)
+  mutate(zona_cinza = apoio_ma > .45 & votos_parlamentar > 10 & governismo >= 1)
 
 votos_c_destaque %>% 
   ggplot(aes(x = governismo, y = apoio_ma, size = votos_sim_nao, color = zona_cinza)) + 
   scale_color_manual(values = c("gray", "brown")) + 
-  geom_point(alpha = .6) + 
+  geom_point(alpha = .3) + 
   theme(legend.position = "None")
 ```
 
