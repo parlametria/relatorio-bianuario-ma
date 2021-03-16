@@ -178,7 +178,8 @@ participacao %>%
   geom_chicklet(width = .5, fill = "#f7c74f") +
   coord_flip() + 
   labs(x = "", 
-       title = "Proposições com mais autores")
+       title = "Proposições com mais autores", 
+       subtitle = "Desconsideramos PECs")
 ```
 ```{r}
 participacao %>% 
@@ -199,7 +200,7 @@ participacao %>%
   coord_flip() + 
   labs(x = "", 
        title = "Número de partidos entre autores", 
-       subtitle = "Proposições que mobilizaram mais partidos")
+       subtitle = "Proposições que mobilizaram mais partidos, exceto PECs")
 ```
 
 # Grafo de coautoria dos partidos

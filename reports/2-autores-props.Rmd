@@ -37,6 +37,9 @@ source(here::here("reports/escalas.R"))
 
 ```{r}
 proposicoes = read_proposicoes()
+parlamentares = read_parlamentares() %>% 
+  filter(em_exercicio == 1) %>% 
+  select(-em_exercicio)
 detalhes_autorias = read_autorias_det()
 resumo_autorias_todos = read_autorias_res() %>%
   select(-sexo,
@@ -87,7 +90,26 @@ resumo_autorias_todos %>%
     x = governismo,
     fill = assinou
   )) +
-  geom_histogram(binwidth = 1, boundary = 0) + 
+  geom_histogram(binwidth = 2, boundary = 0) + 
+  scale_fill_brewer(palette = "Set2") +
+  facet_grid(casa ~ ., scales = "free") + 
+  labs(
+    x = "Governismo (neg. sign. oposição)",
+    y = "Parlamentares",
+    title = "Governismo e autoria de propostas",
+    size = "Apresentou/Não apresentou"
+  )
+```
+
+```{r}
+resumo_autorias_todos %>% 
+  filter(!is.na(governismo)) %>%
+  ggplot(aes(
+    x = governismo,
+    fill = assinou
+  )) +
+  geom_histogram(binwidth = 2, boundary = 0, position = "fill") + 
+  scale_y_percent() + 
   scale_fill_brewer(palette = "Set2") +
   facet_grid(casa ~ ., scales = "free") + 
   labs(
@@ -166,21 +188,58 @@ autorias_partidos =
 
 
 ```{r}
-autorias_partidos %>%
+autorias_efeito = autorias_partidos %>%
   filter(!is.na(partido)) %>% 
   count(partido, efeito) %>%
   group_by(partido) %>% 
   mutate(total = sum(n)) %>% 
-  ungroup() %>% 
+  ungroup() 
+
+autorias_efeito %>% 
   ggplot(aes(x = reorder(partido, total), y = n, fill = efeito)) +
   geom_chicklet() +
   escala_sinais + 
   coord_flip() +
   labs(title = "Participação dos partidos na autoria das proposições",
        subtitle = "Pelo menos um(a) parlamentar do partido é autor(a)",
-       x = "", y = "PDLs autordas por parlamentar do partido", 
+       x = "", y = "Proposições autoradas por parlamentar do partido", 
        fill = "Convergência")
 ```
+
+```{r}
+bancadas = parlamentares %>% 
+  count(partido, name = "bancada")
+
+autorias_media = autorias_efeito %>% 
+  left_join(bancadas, by = "partido") %>% 
+  mutate(n = n/bancada, total = total / bancada) 
+
+autorias_media %>% 
+  ggplot(aes(x = reorder(partido, total), y = n, fill = efeito)) +
+  geom_chicklet() +
+  escala_sinais + 
+  coord_flip() +
+  labs(title = "Participação ponderada dos partidos na autoria das proposições",
+       subtitle = "Número médio de proposições assinadas por parlamentar.",
+       x = "", y = "Proposições por parlamentar do partido (média)", 
+       fill = "Convergência")
+```
+
+Sem o PV, para facilitar a comparação dos demais.
+
+```{r}
+autorias_media %>% 
+  filter(partido != "PV") %>% 
+  ggplot(aes(x = reorder(partido, total), y = n, fill = efeito)) +
+  geom_chicklet() +
+  escala_sinais + 
+  coord_flip() +
+  labs(title = "Número médio de proposições por parlamentar",
+       subtitle = "Exceto PV. Número médio de proposições assinadas por parlamentar.",
+       x = "", y = "Proposições por parlamentar do partido (média)", 
+       fill = "Convergência")
+```
+
 
 ```{r fig.height=8}
 autorias_partidos %>%
@@ -208,15 +267,5 @@ autorias_partidos %>%
   count(partido, efeito, sort = T, name = "Proposições") %>%
   select(Partido = partido, Efeito = efeito, `Proposições`) %>% 
   reactable(searchable = T)
-```
-
-## Proposições negativas apresentadas por REDE e PT
-
-```{r}
-autorias_partidos %>% 
-  filter(partido %in% c("PT", "REDE"), efeito == "Divergente") %>% 
-  left_join(proposicoes %>% select(proposicao = nome_proposicao, ementa), 
-            by = "proposicao") %>% 
-  reactable()
 ```
 
