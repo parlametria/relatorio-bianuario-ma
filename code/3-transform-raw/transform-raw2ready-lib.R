@@ -68,7 +68,8 @@ le_cruza_autorias <- function(proposicoes,
   
   autorias = autores_leggo %>%
     left_join(parlamentares,
-              by = c("id_autor_parlametria" = "id_entidade_parlametria"))
+              by = c("id_autor_parlametria" = "id_entidade_parlametria")) %>% 
+    filter(sigla_tipo != "PEC")
   
   autorias
 }
@@ -131,7 +132,7 @@ parlamentares_data <-
 
 detalha_autorias = function(data) {
   data %>%
-    filter(!is.na(nome)) %>%
+    filter(!is.na(nome)) %>% 
     mutate(proposicao = str_glue("{sigla_tipo} {numero}")) %>%
     group_by(id_leggo, proposicao) %>%
     mutate(autores = n()) %>%

@@ -1,3 +1,4 @@
+#!/usr/bin/Rscript
 
 source(here::here("code/1-inputs/2-fetch-input.R"))
 source(here::here("code/1-inputs/3-transform-input.R"))

@@ -112,12 +112,21 @@ read_votacoes <- function(arquivo = "data/ready/votacoes.csv") {
       autor = col_character(),
       tema = col_character(),
       id_votacao = col_character(),
-      casa = col_character(), 
-      vitoria = col_character(), 
+      casa = col_character(),
+      vitoria = col_character(),
       significado_obstrucao = col_character()
     )
   )
 }
+
+read_parlamentares <-
+  function(arquivo = "data/ready/parlamentares.csv") {
+    read_csv(here::here(arquivo), 
+             col_types = cols(.default = col_character(), 
+                              governismo = col_double(), 
+                              governismo_ma = col_double(), 
+                              peso_politico = col_double())) 
+  }
 
 read_nos_partidos <-
   function(arquivo = "data/ready/nos-partidos.csv") {
