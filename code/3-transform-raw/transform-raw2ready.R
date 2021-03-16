@@ -17,6 +17,7 @@ main <- function(argv = NULL) {
   out_votos_cam_resumo = "data/ready/votos-camara-resumo.csv"
   out_votos_sen_resumo = "data/ready/votos-senado-resumo.csv"
   out_votacoes = "data/ready/votacoes.csv"
+  out_parlamentares = "data/ready/parlamentares.csv"
   out_nos = "data/ready/nos-partidos.csv"
   out_arestas = "data/ready/arestas-partidos.csv"
   
@@ -38,6 +39,9 @@ main <- function(argv = NULL) {
     governismo_ma_file = "data/raw/governismo/governismo_ma.csv",
     peso_file = "data/raw/peso_politico/peso_politico.csv"
   )
+  
+  parlamentares %>% 
+    write_csv(here::here(out_parlamentares))
   
   # AUTORIAS
   autorias = transform_autorias_detalhes(props,

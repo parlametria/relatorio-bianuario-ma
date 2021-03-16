@@ -14,8 +14,8 @@ read_parlamentares_raw <-
       )
     ) %>%
       filter(is_parlamentar == 1, legislatura == 56) %>% 
-      select(-em_exercicio, -situacao) %>%
-      group_by(id_entidade,id_entidade_parlametria,casa,nome,sexo,partido,uf) %>% 
+      select(-situacao) %>%
+      group_by(id_entidade,id_entidade_parlametria,casa,nome,sexo,partido,uf, em_exercicio) %>% 
       summarise(legislatura = max(legislatura), .groups = "drop") %>% 
       distinct() %>% 
       select(-legislatura)

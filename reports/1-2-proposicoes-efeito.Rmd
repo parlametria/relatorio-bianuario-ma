@@ -82,6 +82,32 @@ proposicoes %>%
 
 ```{r}
 proposicoes %>% 
+  filter(!is.na(casa_origem)) %>% 
+  separate_rows(tema, sep = ";") %>%
+  mutate(tema = case_when(
+    tema == "Meio ambiente" ~ "Meio Ambiente e Desenvolvimento Sustentável", 
+    tema == "Agricultura, pecuária e abastecimento" ~ "Agricultura, Pecuária, Pesca e Extrativismo", 
+    TRUE ~ tema 
+  )) %>% 
+  count(tema, casa_origem, efeito) %>% 
+  ggplot(aes(x = reorder(tema, n), y = n, fill = efeito)) + 
+  facet_grid(. ~ casa_origem) + 
+  geom_chicklet(position = "fill") +
+  coord_flip() + 
+  scale_y_percent() +
+  escala_sinais +
+  theme(legend.position = 'none') + 
+  labs(
+    title = "Convergência das Proposições",
+    subtitle = "Proporcional por tema",
+    x = "",
+    y = "Proposições"
+  ) + theme(legend.position = 'none')
+```
+
+
+```{r}
+proposicoes %>% 
   filter(!is.na(efeito)) %>% 
   count(sigla_tipo, efeito) %>% 
   group_by(sigla_tipo) %>% 

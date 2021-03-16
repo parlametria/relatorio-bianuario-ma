@@ -37,6 +37,11 @@ source(here::here("reports/escalas.R"))
 
 ```{r}
 relatorias = read_relatoria()
+parlamentares = read_parlamentares() %>% 
+  filter(em_exercicio == 1) %>% 
+  select(-em_exercicio)
+bancadas = parlamentares %>% 
+  count(partido, name = "bancada")
 ```
 
 Temos `r sum(!is.na(relatorias$relator_id_parlametria))` relatorias identificadas. 
@@ -144,17 +149,35 @@ relatorias %>%
 
 
 ```{r fig.height=6}
-relatorias %>%
+agregado_relatorias = relatorias %>%
   filter(!is.na(nome)) %>% 
   select(nome_proposicao, efeito, partido) %>% 
   count(partido, efeito) %>%
   group_by(partido) %>% 
   mutate(total = sum(n)) %>% 
+  ungroup()
+
+agregado_relatorias %>% 
   ggplot(aes(x = reorder(partido, total), y = n, fill = efeito)) +
   geom_chicklet() +
   escala_sinais + 
   coord_flip() +
   labs(title = "Participação dos partidos na relatoria dos proposições",
+       x = "", y = "PDLs relatadas", 
+       fill = "Convergência")
+```
+
+```{r}
+agregado_media = agregado_relatorias %>% 
+  left_join(bancadas, by = "partido") %>% 
+  mutate(n = n/bancada, total = total/bancada)
+
+agregado_media %>% 
+  ggplot(aes(x = reorder(partido, total), y = n, fill = efeito)) +
+  geom_chicklet() +
+  escala_sinais + 
+  coord_flip() +
+  labs(title = "Média de relatorias por parlamentar",
        x = "", y = "PDLs relatadas por parlamentar do partido", 
        fill = "Convergência")
 ```
