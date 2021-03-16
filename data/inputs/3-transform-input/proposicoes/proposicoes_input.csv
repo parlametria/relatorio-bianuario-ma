@@ -1,4 +1,10 @@
 proposicao,id_camara,id_senado,apelido,tema,prioridade,advocacy_link,keywords,tipo_agenda,explicacao_projeto,classificacao_ambientalismo,explicacao_ambientalismo
+PL 3714/2019,2209304,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
+PL 102/2020,2236499,,,Estrutura Fundiária,,,,,,NA,Complexo não posso dar parecer sem exame e consulta a 3o
+PL 963/2019,2192573,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
+PLP 263/2019,2231800,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
+PL 918/2019,2192438,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,NA,NÃO EXISTE PROFISSÃO AMBIENTALISTA]
+PL 618/2019,2191650,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 364/2019,2190986,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Negativo,Negativo
 PL 846/2019,2192259,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
 PDL 36/2019,2192263,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
@@ -32,7 +38,6 @@ PL 6085/2019,2230136,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Negat
 PL 6148/2019,2230578,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
 PL 6489/2019,2234475,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro - NÃO TENHO COMO JULGAR DEPENDE DE ANÁLISE MUITO MAIS DETALHADA
 PL 59/2019,2190498,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 148/2019,2190621,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 358/2019,2190945,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 1098/2019,2192985,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 1191/2019,2193297,140286,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
@@ -66,7 +71,6 @@ PL 3279/2019,2206303,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,
 PL 3326/2019,2206610,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 3336/2019,2206678,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4468/2019,2215109,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 5060/2019,2220199,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,NA,RETIRADA PELO AUTOR
 PL 5129/2019,2220695,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PDL 636/2019,2220973,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Negativo,Negativo
 PL 5202/2019,2221620,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
@@ -127,10 +131,8 @@ PL 567/2019,2191513,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo
 PL 570/2019,2191516,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 597/2019,2191621,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 608/2019,2191633,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 618/2019,2191650,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro - NÃO TENHO COMO JULGAR DEPENDE DE ANÁLISE MUITO MAIS DETALHADA
 PL 631/2019,2191671,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 649/2019,2191694,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PDL 29/2019,2191728,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 707/2019,2191833,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 710/2019,2191854,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 716/2019,2191876,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
@@ -140,7 +142,6 @@ PL 857/2019,2192313,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo
 PL 858/2019,2192314,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 890/2019,2192375,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 914/2019,2192427,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 918/2019,2192438,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,NA,NÃO EXISTE PROFISSÃO AMBIENTALISTA]
 PL 928/2019,2192484,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 948/2019,2192529,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 949/2019,2192530,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
@@ -233,23 +234,16 @@ PL 2609/2019,2199980,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positiv
 PL 2614/2019,2200103,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 2616/2019,2200109,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 2655/2019,2200397,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 2658/2019,2200403,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo - AL PAREOU REVISÃO AQUI EM 07/03 AS 15H
-PL 2667/2019,2200414,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
+PL 2658/2019,2200403,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 2727/2019,2200684,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 2775/2019,2200914,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 2782/2019,2201514,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 2790/2019,2201538,138126,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 2801/2019,2201751,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 2804/2019,2201754,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 2852/2019,2203128,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 2860/2019,2203150,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 2888/2019,2203390,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 2924/2019,2203574,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 2928/2019,2203624,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 348/2019,2204041,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3001/2019,2204062,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 3016/2019,2204113,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 3017/2019,2204115,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3021/2019,2204123,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3108/2019,2204560,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 294/2019,2204564,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
@@ -260,14 +254,11 @@ PDL 342/2019,2205373,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positiv
 PDL 340/2019,2205388,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3214/2019,2205470,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 341/2019,2205479,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 3226/2019,2205521,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PDL 345/2019,2205541,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3231/2019,2205603,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 3232/2019,2205604,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 353/2019,2205754,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 362/2019,2205833,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3276/2019,2206299,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 3278/2019,2206302,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 3285/2019,2206354,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3291/2019,2206396,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3306/2019,2206445,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
@@ -278,39 +269,28 @@ PL 3376/2019,2206973,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positiv
 PL 3386/2019,2207060,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 3403/2019,2207121,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3430/2019,2207429,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 3440/2019,2207498,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 3507/2019,2207825,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3557/2019,2208267,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PLP 160/2019,2208386,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3628/2019,2208657,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3629/2019,2208658,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 3630/2019,2208659,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3667/2019,2208912,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3710/2019,2209251,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 3714/2019,2209304,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3743/2019,2209593,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3744/2019,2209594,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3745/2019,2209603,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 3749/2019,2209663,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PLP 167/2019,2209791,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 3821/2019,2210165,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 3870/2019,2210751,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3887/2019,2210900,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 3889/2019,2210908,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 3891/2019,2210917,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 3892/2019,2210918,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 3893/2019,2210919,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3896/2019,2210922,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3900/2019,2210926,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3911/2019,2211133,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3930/2019,2211325,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 3932/2019,2211365,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 3954/2019,2211478,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 3994/2019,2211626,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4029/2019,2211880,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4036/2019,2211927,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4037/2019,2211929,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4083/2019,2212116,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 4088/2019,2212138,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4090/2019,2212148,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4093/2019,2212180,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
@@ -330,7 +310,6 @@ PL 4453/2019,2214946,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positiv
 PL 4461/2019,2215040,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4462/2019,2215041,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4463/2019,2215042,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4538/2019,2215691,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 4543/2019,2215723,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 516/2019,2216110,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4623/2019,2216597,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
@@ -338,35 +317,24 @@ PL 4650/2019,2216781,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positiv
 PL 4686/2019,2217178,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4689/2019,2217253,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 4690/2019,2217254,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4706/2019,2217357,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 4708/2019,2217369,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4778/2019,2217861,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 4780/2019,2217869,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 4782/2019,2217903,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4784/2019,2217912,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PDL 596/2019,2218177,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4838/2019,2218436,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 4861/2019,2218565,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4907/2019,2219094,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4920/2019,2219262,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 4942/2019,2219466,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4951/2019,2219523,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4952/2019,2219524,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PDL 616/2019,2219656,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 4964/2019,2219666,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 5000/2019,2219856,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 5087/2019,2220521,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5116/2019,2220654,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5117/2019,2220655,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 5124/2019,2220689,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 5125/2019,2220690,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 5167/2019,2221186,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5170/2019,2221268,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5204/2019,2221658,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 5215/2019,2221721,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PDL 641/2019,2221765,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5237/2019,2221943,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 5892/2019,2222076,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 5280/2019,2222507,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5284/2019,2222555,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5291/2019,2222610,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
@@ -375,18 +343,13 @@ PL 5391/2019,2224136,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,
 PL 5399/2019,2224224,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5401/2019,2224227,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 5406/2019,2224264,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 5435/2019,2224505,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 5436/2019,2224508,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 5442/2019,2224581,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5465/2019,2224656,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5467/2019,2224664,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5471/2019,2224719,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5472/2019,2224720,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PDL 658/2019,2225118,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 5525/2019,2225331,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 5574/2019,2225817,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5577/2019,2225894,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 5583/2019,2226027,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
+PL 5583/2019,2226027,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro - Não tenho condição de avaliar - Potencialmente Polêmico
 PL 5589/2019,2226165,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5607/2019,2226262,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5620/2019,2226382,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
@@ -394,16 +357,12 @@ PL 5626/2019,2226591,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura
 PL 5634/2019,2226717,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5689/2019,2227076,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5692/2019,2227140,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 5696/2019,2227181,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 5697/2019,2227182,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
+PL 5697/2019,2227182,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro - potencialmente polêmico
 PL 5702/2019,2227211,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5710/2019,2227268,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5722/2019,2227363,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5727/2019,2227394,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 5734/2019,2227443,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 5735/2019,2227445,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5765/2019,2227729,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 5856/2019,2228312,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5850/2019,2228402,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PDL 684/2019,2228776,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5920/2019,2229046,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
@@ -413,31 +372,19 @@ PL 5966/2019,2229410,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positiv
 PL 5967/2019,2229414,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 695/2019,2229475,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 553/2019,2229546,135108,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 6028/2019,2229763,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 1396/2019,2230022,135648,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 6079/2019,2230063,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PDL 707/2019,2230192,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 6120/2019,2230281,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 6132/2019,2230504,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 6150/2019,2230583,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PDL 710/2019,2230633,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 6161/2019,2230641,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 6187/2019,2230871,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 6222/2019,2231029,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 6246/2019,2231476,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 6251/2019,2231565,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PDL 718/2019,2231622,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 6263/2019,2231693,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PDL 719/2019,2231711,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 721/2019,2231771,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 6271/2019,2231774,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 6276/2019,2231836,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 6288/2019,2231929,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 6289/2019,2231979,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 744/2019,2233449,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 6414/2019,2233806,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 6424/2019,2233846,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PDL 759/2019,2234076,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 6447/2019,2234133,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 760/2019,2234294,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 6475/2019,2234382,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
@@ -448,32 +395,28 @@ PL 290/2020,2237082,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo
 PL 424/2020,2238100,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 615/2020,2238896,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 646/2020,2239119,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 735/2020,2239605,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PDL 220/2020,2252619,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 225/2020,2252799,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 235/2020,2253313,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 2853/2020,2253607,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PDL 369/2020,2260412,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 370/2020,2260423,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 963/2019,2192573,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1083/2019,2192939,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
+PL 1083/2019,2192939,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro - Não posso avaliar tem que comparar com os demais PLs sobre o assunto.
 PLP 241/2019,2227595,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
 PDL 686/2019,2228840,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PDL 691/2019,2229137,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PLP 263/2019,2231800,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PLP 265/2019,2232027,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 6472/2019,2234368,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 121/2020,2236587,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 123/2020,2236591,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 125/2020,2236598,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 131/2020,2236610,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 144/2020,2236649,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 162/2020,2236724,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 164/2020,2236726,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 165/2020,2236727,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 28/2020,2236761,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 191/2020,2236765,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Negativo,Negativo
 PL 194/2020,2236772,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
+PL 195/2020,2236773,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
+PL 202/2020,2236790,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 205/2020,2236823,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 32/2020,2236840,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 33/2020,2236893,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
@@ -482,11 +425,9 @@ PL 228/2020,2236922,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo
 PDL 39/2020,2236932,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 41/2020,2236958,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 42/2020,2236959,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 248/2020,2236960,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 251/2020,2236967,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 256/2020,2236972,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 257/2020,2236973,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 280/2020,2237026,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 292/2020,2237089,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
 PL 296/2020,2237146,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 44/2020,2237177,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
@@ -495,7 +436,6 @@ PDL 48/2020,2237205,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo
 PL 313/2020,2237320,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Negativo,Negativo
 PDL 51/2020,2237358,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 342/2020,2237659,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 344/2020,2237669,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 347/2020,2237684,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 348/2020,2237685,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 371/2020,2237751,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
@@ -504,87 +444,43 @@ PDL 58/2020,2237766,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo
 PDL 61/2020,2237825,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 431/2020,2238115,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 444/2020,2238128,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 448/2020,2238132,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PDL 65/2020,2238163,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 465/2020,2238198,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 469/2020,2238203,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 476/2020,2238259,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 506/2020,2238366,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 513/2020,2238395,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
+PL 513/2020,2238395,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro - INcineração POLEMICO
 PDL 71/2020,2238417,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 522/2020,2238422,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 527/2020,2238433,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 528/2020,2238434,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 531/2020,2238444,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 534/2020,2238455,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 572/2020,2238590,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 584/2020,2238632,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 588/2020,2238663,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 81/2020,2238675,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 624/2020,2238990,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 654/2020,2239357,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 700/2020,2239471,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Negativo,Negativo
-PL 701/2020,2239473,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 719/2020,2239513,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 787/2020,2241630,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 810/2020,2241668,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 821/2020,2241680,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 886/2020,2241784,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 900/2020,2241804,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 1034/2020,2242063,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 1073/2020,2242134,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 1083/2020,2242144,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1134/2020,2242203,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 1225/2020,2242315,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 1232/2020,2242325,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 1239/2020,2242337,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1322/2020,2242513,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1336/2020,2242534,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 1426/2020,2242709,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
-PL 1555/2020,2243073,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1556/2020,2243074,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1557/2020,2243075,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1558/2020,2243076,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1585/2020,2243112,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 2993/2019,2243820,136872,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 2950/2019,2244008,136839,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4107/2019,2244088,137797,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1624/2020,2244117,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1628/2020,2244151,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 1653/2020,2244200,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 1673/2020,2244905,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 1685/2020,2244925,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1695/2020,2244947,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1723/2020,2246545,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1729/2020,2246803,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1734/2020,2246809,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1741/2020,2247050,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1830/2020,2247984,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1842/2020,2248022,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 1858/2020,2248034,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Negativo,Negativo
 PL 1883/2020,2248221,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 1895/2020,2248249,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 1974/2020,2249881,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 2014/2020,2249950,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PDL 155/2020,2249957,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 2044/2020,2249980,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 2089/2020,2250374,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 2122/2020,2250430,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 2193/2020,2250615,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 2234/2020,2250750,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 2235/2020,2250751,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 2239/2020,2250756,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 2257/2020,2250797,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 2265/2020,2250822,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 2361/2020,2251404,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 2397/2020,2251622,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 2427/2020,2251839,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 2428/2020,2251840,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 2429/2020,2251841,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Negativo,Negativo
-PL 2439/2020,2251876,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 2451/2020,2251907,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 2475/2020,2251962,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 2501/2020,2252017,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 2540/2020,2252096,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 206/2020,2252113,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 208/2020,2252159,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
@@ -592,153 +488,88 @@ PL 2601/2020,2252539,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positiv
 PL 2642/2020,2252640,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Negativo,Negativo
 PL 2649/2020,2252659,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 228/2020,2252883,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PDL 229/2020,2252894,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 2776/2020,2253038,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
-PL 2789/2020,2253319,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 2798/2020,2253353,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 2808/2020,2253416,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
-PL 2834/2020,2253561,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 2851/2020,2253603,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 2862/2020,2253619,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 2887/2020,2253689,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 2923/2020,2253793,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 2938/2020,2253870,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 2951/2020,2253938,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
+PL 2938/2020,2253870,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 248/2020,2254013,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3000/2020,2254081,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
 PL 3037/2020,2254207,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 3102/2020,2254432,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 3112/2020,2254467,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 3097/2020,2254494,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 3133/2020,2254542,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
 PL 3149/2020,2254678,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 3157/2020,2254726,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 3166/2020,2254736,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 3170/2020,2254752,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 3220/2020,2254880,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 3250/2020,2254981,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3255/2020,2255001,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
-PL 3292/2020,2255149,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 3299/2020,2255158,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 3300/2020,2255159,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3301/2020,2255160,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 3367/2020,2255391,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 3368/2020,2255393,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,"Positivo, porém convém observar que o autor é do núcleo duro da CNA."
-PL 3452/2020,2255817,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 3463/2020,2255923,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 3487/2020,2256119,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PLP 173/2020,2256376,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
+PL 3368/2020,2255393,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 310/2020,2256399,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Negativo,Negativo
-PL 3576/2020,2256535,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 3614/2020,2256675,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 3617/2020,2256685,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 3663/2020,2256875,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 3715/2020,2257224,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 324/2020,2257248,143356,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 3750/2020,2257470,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 3759/2020,2257498,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
+PL 3750/2020,2257470,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 3764/2020,2257510,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PDL 332/2020,2257619,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PLP 187/2020,2257841,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 3828/2020,2257879,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 3832/2020,2257888,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 3834/2020,2257899,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 3881/2020,2258131,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PDL 345/2020,2258707,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 3961/2020,2258739,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3979/2020,2258841,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3980/2020,2258843,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 3981/2020,2258844,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4019/2020,2259136,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 4032/2020,2259186,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 4055/2020,2259233,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4058/2020,2259292,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 4071/2020,2259355,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 4073/2020,2259357,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 4077/2020,2259362,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 4084/2020,2259402,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PDL 355/2020,2259417,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
+PL 4073/2020,2259357,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 356/2020,2259427,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4102/2020,2259554,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4103/2020,2259555,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 4105/2020,2259643,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PDL 359/2020,2259673,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 360/2020,2259680,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 361/2020,2259684,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4123/2020,2259727,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 4134/2020,2259769,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 363/2020,2259770,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 364/2020,2259776,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 366/2020,2259826,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4162/2020,2259842,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4185/2020,2259964,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 4186/2020,2259965,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4195/2020,2260410,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 4198/2020,2260427,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 4206/2020,2260458,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
+PL 4198/2020,2260427,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,positivo
 PL 4214/2020,2260475,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 371/2020,2260478,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4228/2020,2260507,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 373/2020,2260511,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 4257/2020,2260626,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 4270/2020,2260661,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4334/2020,2260883,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 4369/2020,2261118,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 4370/2020,2261119,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 4371/2020,2261120,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 4386/2020,2261163,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4387/2020,2261166,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4395/2020,2261189,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 4396/2020,2261190,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 4400/2020,2261200,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4402/2020,2261205,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 4429/2020,2261942,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 4437/2020,2261955,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 4438/2020,2261956,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4473/2020,2262087,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
-PL 1543/2020,2262107,141437,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 4478/2020,2262110,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
+PL 4478/2020,2262110,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro - Complexo não da pra dar parecer sem exame mais aprofundado
 PL 4492/2020,2262146,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4520/2020,2262764,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4529/2020,2262777,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 4531/2020,2262784,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PDL 398/2020,2262788,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4534/2020,2262789,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 4541/2020,2262801,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4542/2020,2262802,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4555/2020,2262831,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PDL 399/2020,2262837,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 4583/2020,2262905,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 4593/2020,2262925,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
+PDL 399/2020,2262837,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
+PL 4593/2020,2262925,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4595/2020,2262928,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4614/2020,2262966,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 4619/2020,2263001,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 4624/2020,2263011,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 4648/2020,2263047,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Negativo,Negativo
-PL 4651/2020,2263061,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 4655/2020,2263069,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
 PL 4658/2020,2263079,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4669/2020,2263115,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4670/2020,2263140,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 4690/2020,2263214,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4697/2020,2263264,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4699/2020,2263266,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 4705/2020,2263280,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4714/2020,2263379,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 4730/2020,2263425,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 4734/2020,2263447,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PDL 414/2020,2263448,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4735/2020,2263452,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Negativo,Negativo
 PDL 415/2020,2263453,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 416/2020,2263461,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 417/2020,2263463,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4745/2020,2263491,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 4750/2020,2263522,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 419/2020,2263588,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 420/2020,2263589,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 421/2020,2263619,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 432/2020,2263735,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4803/2020,2263746,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 4804/2020,2263747,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PDL 439/2020,2263777,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4820/2020,2263785,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
@@ -748,18 +579,13 @@ PL 4828/2020,2263835,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativ
 PL 4829/2020,2263836,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
 PL 4839/2020,2264051,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 443/2020,2264071,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 4853/2020,2264132,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 4854/2020,2264134,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4629/2020,2264144,144719,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 4864/2020,2264198,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PDL 444/2020,2264202,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 4871/2020,2264216,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PDL 446/2020,2264242,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 4879/2020,2264249,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 4902/2020,2264296,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4906/2020,2264300,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PLP 246/2020,2264310,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 4926/2020,2264342,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
+PL 4926/2020,2264342,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4927/2020,2264343,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 4928/2020,2264344,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 4930/2020,2264348,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
@@ -767,97 +593,65 @@ PL 4933/2020,2264351,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positiv
 PDL 450/2020,2264352,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 4934/2020,2264354,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 4980/2020,2264536,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4993/2020,2264576,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
+PL 4993/2020,2264576,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5014/2020,2264636,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5015/2020,2264637,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 5020/2020,2264650,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 5048/2020,2264748,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
+PL 5020/2020,2264650,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
+PL 5048/2020,2264748,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5085/2020,2264953,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5086/2020,2264954,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PDL 474/2020,2265025,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 5094/2020,2265026,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
+PDL 474/2020,2265025,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
+PL 5094/2020,2265026,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5118/2020,2265073,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5119/2020,2265074,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PDL 475/2020,2265075,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 5123/2020,2265092,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
+PL 5123/2020,2265092,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5135/2020,2265117,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 5146/2020,2265159,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 5150/2020,2265166,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
+PL 5150/2020,2265166,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5159/2020,2265182,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 5172/2020,2265216,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 5174/2020,2265220,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 5180/2020,2265242,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 5191/2020,2265295,146362,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
+PL 5172/2020,2265216,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
 PL 5196/2020,2265315,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 5212/2020,2265449,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PDL 488/2020,2265572,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5268/2020,2265605,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5269/2020,2265607,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 5291/2020,2265648,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 5292/2020,2265649,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 4528/2020,2265652,144643,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PDL 493/2020,2265667,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5332/2020,2265892,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 5344/2020,2265933,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 5367/2020,2265998,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PDL 519/2020,2266103,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PDL 520/2020,2266108,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PDL 526/2020,2266284,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PDL 528/2020,2266316,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 5426/2020,2266317,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 5452/2020,2266498,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5453/2020,2266510,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5456/2020,2266592,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 5461/2020,2266605,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 5474/2020,2266686,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5481/2020,2266762,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PL 5490/2020,2266845,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
 PL 5491/2020,2266848,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Negativo,Negativo
 PL 5498/2020,2266883,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 5499/2020,2266894,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PDL 547/2020,2267034,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PDL 548/2020,2267038,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 5516/2020,2267065,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 5518/2020,2267073,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 5528/2020,2267105,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
 PDL 554/2020,2267258,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PLP 279/2020,2267318,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 PL 5544/2020,2267350,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Negativo,Negativo
 PL 5560/2020,2267445,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 5570/2020,2267546,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Positivo,Positivo
-PL 368/2019,2190990,,,Estrutura Fundiária,,,,,,Neutro,Neutro
-PL 454/2019,2191138,,,Estrutura Fundiária,,,,,,Neutro,Neutro
+PL 454/2019,2191138,,,Estrutura Fundiária,,,,,,Positivo,Positivo
 PL 807/2019,2192187,,,Estrutura Fundiária,,,,,,Neutro,Neutro
-PL 879/2019,2192347,,,Estrutura Fundiária,,,,,,Neutro,Neutro
-PL 1497/2019,2193987,,,Estrutura Fundiária,,,,,,Neutro,Neutro
 PDL 71/2019,2194820,,,Estrutura Fundiária,,,,,,Negativo,Negativo
-PL 1685/2019,2195043,,,Estrutura Fundiária,,,,,,Positivo,Positivo
-PL 1792/2019,2195635,140311,,Estrutura Fundiária,,,,,,Neutro,Neutro
-PL 2952/2019,2203904,,,Estrutura Fundiária,,,,,,Neutro,Neutro
 PDL 344/2019,2205527,,,Estrutura Fundiária,,,,,,Negativo,Negativo
-MPV 884/2019,2208200,137319,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 4226/2019,2213405,,,Estrutura Fundiária,,,,,,Negativo,Negativo
 PL 4348/2019,2214203,140554,,Estrutura Fundiária,,,,,,Negativo,Negativo
-PL 4882/2019,2218749,,,Estrutura Fundiária,,,,,,Positivo,Positivo
-PL 5308/2019,2222727,,,Estrutura Fundiária,,,,,,Neutro,Neutro
-MPV 897/2019,2222884,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 5364/2019,2223732,,,Estrutura Fundiária,,,,,,NA,Devolvido ao autor
 PL 5505/2019,2225213,,,Estrutura Fundiária,,,,,,Negativo,Negativo
 MPV 900/2019,2225928,139444,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Negativo,Negativo
 MPV 901/2019,2225989,139448,,Estrutura Fundiária,,,,,,Negativo,Negativo
-MPV 903/2019,2229043,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
 MPV 908/2019,2231391,140001,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
 PL 6286/2019,2231918,,,Estrutura Fundiária,,,,,,Positivo,Positivo
 PL 6360/2019,2233209,,,Estrutura Fundiária,,,,,,Neutro,Neutro
 MPV 910/2019,2233488,140116,,Estrutura Fundiária,,,,,,Negativo,Negativo
-MPV 911/2019,2233489,140117,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,NA,perdeu a eficácia
-PL 6425/2019,2233848,,,Estrutura Fundiária,,,,,,NA,Devolvido ao autor.
-MPV 913/2019,2236185,140367,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-MPV 920/2020,2236262,140424,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 102/2020,2236499,,,Estrutura Fundiária,,,,,,Neutro,Neutro
 PL 209/2020,2236837,,,Estrutura Fundiária,,,,,,Neutro,Neutro
 PL 1304/2020,2242488,,,Estrutura Fundiária,,,,,,Negativo,Negativo
-PL 1684/2020,2244924,,,Estrutura Fundiária,,,,,,Neutro,Neutro
 PDL 166/2020,2250646,,,Estrutura Fundiária,,,,,,Positivo,Positivo
 PDL 170/2020,2250701,,,Estrutura Fundiária,,,,,,Positivo,Positivo
 PDL 171/2020,2250702,,,Estrutura Fundiária,,,,,,Positivo,Positivo
@@ -870,25 +664,12 @@ PL 2633/2020,2252589,,,Estrutura Fundiária,,,,,,Negativo,Negativo
 PL 2660/2020,2252692,,,Estrutura Fundiária,,,,,,Neutro,Neutro
 PDL 247/2020,2254012,,,Estrutura Fundiária,,,,,,Positivo,Positivo
 PL 3700/2020,2257022,,,Estrutura Fundiária,,,,,,Negativo,Negativo
-MPV 993/2020,2258964,143654,,Estrutura Fundiária,,,,,,Neutro,Neutro
-PL 4059/2020,2259293,,,Estrutura Fundiária,,,,,,Neutro,Neutro
-PL 4177/2020,2259950,,,Estrutura Fundiária,,,,,,Neutro,Neutro
 MPV 996/2020,2260971,,,Estrutura Fundiária,,,,,,Neutro,Neutro
-PL 4447/2020,2261996,,,Estrutura Fundiária,,,,,,Negativo,Negativo
 PDL 391/2020,2262079,,,Estrutura Fundiária,,,,,,Neutro,Neutro
-PL 4566/2020,2262862,,,Estrutura Fundiária,,,,,,Neutro,Neutro
+PL 4566/2020,2262862,,,Estrutura Fundiária,,,,,,Negativo,Negativo
 PL 5386/2020,2266086,,,Estrutura Fundiária,,,,,,Negativo,Negativo
 PL 5409/2020,2266183,,,Estrutura Fundiária,,,,,,Neutro,Neutro
 PDL 564/2020,2267563,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Positivo,Positivo
-PL 5580/2020,2267589,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PDL 568/2020,2267731,146100,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 5603/2020,2267793,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 5605/2020,2267803,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 5606/2020,2267804,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 5607/2020,2267805,,,"Meio Ambiente e Desenvolvimento Sustentável;Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 5608/2020,2267806,,,Meio Ambiente e Desenvolvimento Sustentável,,,,,,Neutro,Neutro
-PL 5625/2020,2267896,,,"Agricultura, Pecuária, Pesca e Extrativismo",,,,,,Neutro,Neutro
-PL 2963/2019,2268070,136853,,Estrutura Fundiária,,,,,,Neutro,Neutro
 PRS 5/2020,,140760,,Nao especificado,,,,,,Positivo,Positivo
 PRS 12/2020,,141238,,Nao especificado,,,,,,Positivo,Positivo
 PEC 13/2019,,135609,,Meio ambiente,,,,,,Positivo,Positiva: estimula a preservação de vegetação nativa como forma de concessão de benefícios fiscais.
