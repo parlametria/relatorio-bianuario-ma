@@ -114,6 +114,9 @@ votos_c_destaque %>%
   ggplot(aes(x = governismo, y = apoio_ma, size = votos_sim_nao, color = zona_cinza)) + 
   scale_color_manual(values = c("gray", "brown")) + 
   geom_point(alpha = .3) + 
+  scale_y_percent() + 
+  labs(title = "Governismo x Apoio ao MA", 
+       y = "Apoio ao MA em votações") +
   theme(legend.position = "None")
 ```
 

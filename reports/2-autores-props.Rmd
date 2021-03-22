@@ -162,17 +162,17 @@ resumo_autorias_todos %>%
   )
   
 ```
-```{r}
+```{r fig.height=6}
 resumo_autorias_todos %>% 
   filter(!is.na(peso_politico + governismo)) %>% 
   ggplot(aes(y = peso_politico, x = governismo, color = assinou)) + 
   facet_grid(casa ~ .) + 
-  geom_point(alpha = .4) + 
-  scale_color_manual(values = c("brown", "blue")) + 
+  geom_point(alpha = .5) + 
+  scale_color_manual(values = c("deepskyblue4", "darksalmon")) + 
   labs(y = "Peso político no parlametria", 
        x = "Governismo", 
-       title = "Peso político entre autores das PDLs", 
-       subtitle = "Cada ponto é um(a) parlamentar. Maiores autoraram mais.",
+       title = "Governismo e peso político entre autores", 
+       subtitle = "Cada ponto é um(a) parlamentar",
        color = "Apresentou proposta em MA?") 
 ```
 
