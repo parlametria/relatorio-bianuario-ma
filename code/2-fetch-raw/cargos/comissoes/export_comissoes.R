@@ -14,7 +14,7 @@ message("LEIA O README deste diretório")
 message("Use --help para mais informações\n")
 
 option_list = list(
-  make_option(c("-o", "--out"), type="character", default=here::here("data/2-fetch-raw/cargos/comissoes/"), 
+  make_option(c("-o", "--out"), type="character", default=here::here("data/raw/comissoes/"), 
               help="nome do arquivo de saída [default= %default]", metavar="character")
 ) 
 
@@ -28,11 +28,11 @@ comissoes_membros <- fetch_comissoes_e_membros()
 
 comissoes_info <- comissoes_membros[[1]]
 
-comissoes_membros <- comissoes_membros[[2]]
+membros <- comissoes_membros[[2]]
 
 message(paste0("Salvando o resultado no diretório ", saida))
 
 write_csv(comissoes_info, paste0(saida, "comissoes.csv"))
-write_csv(comissoes_membros, paste0(saida, "composicao_comissoes.csv"))
+write_csv(membros, paste0(saida, "composicao_comissoes.csv"))
 
 message("Concluído!")

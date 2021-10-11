@@ -17,19 +17,19 @@ get_autores <- function(id_prop, casa = "camara") {
 fetch_proposicoes_apresentadas_ma_camara <- function() {
   proposicoes_apresentadas_meio_ambiente <-
     fetch_proposicoes_apresentadas_camara(data_inicio = "2019-02-01",
-                                          data_final = "2020-12-31",
+                                          data_final = "2021-12-31",
                                           tema = 48) %>% 
     mutate(tema = 'Meio Ambiente e Desenvolvimento Sustentável')
   
   proposicoes_apresentadas_agricultura <-
     fetch_proposicoes_apresentadas_camara(data_inicio = "2019-02-01",
-                                          data_final = "2020-12-31",
+                                          data_final = "2021-12-31",
                                           tema = 64) %>% 
     mutate(tema = 'Agricultura, Pecuária, Pesca e Extrativismo')
   
   proposicoes_apresentadas_estrutura_fundiaria <-
     fetch_proposicoes_apresentadas_camara(data_inicio = "2019-02-01",
-                                          data_final = "2020-12-31",
+                                          data_final = "2021-12-31",
                                           tema = 51) %>% 
     mutate(tema = 'Estrutura Fundiária')
   
@@ -60,8 +60,12 @@ fetch_proposicoes_votadas_plenario_camara <- function() {
   proposicoes_votadas_2020 <-
     fetch_proposicoes_votadas_camara(ano = 2020)
   
+  proposicoes_votadas_2021 <-
+    fetch_proposicoes_votadas_camara(ano = 2021)
+  
   proposicoes_votadas <- proposicoes_votadas_2019 %>%
     rbind(proposicoes_votadas_2020) %>%
+    rbind(proposicoes_votadas_2021) %>% 
     mutate(votada_plenario = 1) %>%
     distinct(id, votada_plenario)
   

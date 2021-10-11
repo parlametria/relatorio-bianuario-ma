@@ -7,7 +7,6 @@ id,casa,sigla,nome
 2007,camara,CDHM,Comissão De Direitos Humanos E Minorias
 2008,camara,CDEICS,"Comissão De Desenvolvimento Econômico, Indústria, Comércio E Serviços"
 2009,camara,CE,Comissão De Educação
-102375,camara,CE,Secretaria Do Desenvolvimento Agrário Do Estado Do Ceará
 2010,camara,CFT,Comissão De Finanças E Tributação
 2011,camara,CFFC,Comissão De Fiscalização Financeira E Controle
 2012,camara,CME,Comissão De Minas E Energia
@@ -35,7 +34,11 @@ id,casa,sigla,nome
 59,senado,CI,Comissão De Serviços De Infraestrutura
 50,senado,CMA,Comissão De Meio Ambiente
 2309,senado,CPICHAPE,Cpi Sobre A Situação Das Vítimas E Familiares Do Acidente Da Chapecoense
+2441,senado,CPIPANDEMIA,Cpi Da Pandemia
 1307,senado,CRA,Comissão De Agricultura E Reforma Agrária
 54,senado,CRE,Comissão De Relações Exteriores E Defesa Nacional
 1716,senado,CSF,Comissão Senado Do Futuro
+2429,senado,CSP,Comissão De Segurança Pública
+2456,senado,CTECRHE,Comissão Temporária Externa Para Averiguar As Causas E Efeitos Da Crise Hidroenergética.
+2305,senado,CTEOLEO,Comissão Temporária Externa Para Acompanhar As Ações De Enfrentamento Às Manchas De Óleo No Litoral Brasileiro.
 1956,senado,CTFC,"Comissão De Transparência, Governança, Fiscalização E Controle E Defesa Do Consumidor"
