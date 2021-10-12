@@ -80,7 +80,7 @@ processa_proposicoes_senado <- function() {
 
   .TIPOS_PROPOSICOES <- c("PDL", "PEC", "PL", "PLP", "PRS", "MPV")
   proposicoes <- fetch_proposicoes_apresentadas_ma_senado() %>% 
-    filter(ano < 2021)
+    filter(ano >= 2019, ano <= 2021)
   
   proposicoes_filtradas <- proposicoes %>%
     filter(sigla_tipo %in% .TIPOS_PROPOSICOES)

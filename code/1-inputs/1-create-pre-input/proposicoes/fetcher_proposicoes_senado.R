@@ -9,15 +9,13 @@ source(here::here("code/utils/check_packages.R"))
 fetch_proposicoes_apresentadas_ma_senado <- function() {
   datas_inicio <-
     seq(as.Date('2019-02-01'),
-        length.out = 5,
-        by = '6 month') %>%
-    str_remove_all("-")
+        length.out = 6,
+        by = '6 month')
   
   datas_fim <-
     seq(as.Date('2019-08-01'),
-        length.out = 5,
-        by = '6 month') %>%
-    str_remove_all("-")
+        length.out = 6,
+        by = '6 month')
   
   datas <-
     data.frame(inicio = datas_inicio,
@@ -27,7 +25,11 @@ fetch_proposicoes_apresentadas_ma_senado <- function() {
   proposicoes <- purrr::pmap_df(
     list(datas$inicio,
          datas$fim),
-    ~ fetcher_proposicoes_em_intervalo_senado(..1, ..2)
+    function(x, y) {
+      print(str_glue("Baixando proposições entre {x} e {y}..."))
+      df <- fetcher_proposicoes_em_intervalo_senado(x, y)
+      return(df)
+    }
   )
   
   return(proposicoes)
