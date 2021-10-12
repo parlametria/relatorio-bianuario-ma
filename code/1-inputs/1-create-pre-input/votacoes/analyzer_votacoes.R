@@ -229,11 +229,14 @@ processa_votacoes_senado <- function() {
            autor,
            uri_tramitacao)
   
-  votos <- purrr::map_df(
+  votos <- purrr::map2_df(
     votacoes_filtradas$id_proposicao,
     votacoes_filtradas$id_votacao,
-    ~ fetch_votos_por_proposicao_votacao_senado(.x, .y)
-  ) %>%
+    function(x, y) {
+      print(str_glue("Baixando votos da votação {y} da proposição {x}..."))
+      df <- perfilparlamentar::fetch_votos_por_proposicao_votacao_senado(x, y)
+      return(df)
+  }) %>%
     group_by(id_votacao) %>%
     summarise(num_votos = n()) %>%
     filter(num_votos >= 20)
